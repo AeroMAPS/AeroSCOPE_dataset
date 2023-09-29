@@ -1,0 +1,1023 @@
+,airline_link,airline_name,airline_iata,airline_icao
+0,https://en.wikipedia.org/wiki/Air_Canada_Rouge,Air Canada Rouge,RV,ROU[1]
+1,https://en.wikipedia.org/wiki/American_Airlines,American Airlines,AA[1],AAL[1]
+2,https://en.wikipedia.org/wiki/Azores_Airlines,Azores Airlines,S4,RZO
+3,https://en.wikipedia.org/wiki/British_Airways,British Airways,BA,BAW; SHT
+4,https://en.wikipedia.org/wiki/Delta_Air_Lines,Delta Air Lines,DL,DAL
+5,https://en.wikipedia.org/wiki/JetBlue,JetBlue,B6,JBU
+6,https://en.wikipedia.org/wiki/United_Airlines,United Airlines,UA,UAL
+7,https://en.wikipedia.org/wiki/WestJet,WestJet,WS,WJA[1]
+8,https://en.wikipedia.org/wiki/Air_Canada,Air Canada,AC,ACA[1]
+9,https://en.wikipedia.org/wiki/Air_Canada_Express,Air Canada Express,AC,ACA
+10,https://en.wikipedia.org/wiki/Air_North,Air North,4N,ANT[1]
+11,https://en.wikipedia.org/wiki/Air_Transat,Air Transat,TS,TSC[1]
+12,https://en.wikipedia.org/wiki/Alaska_Airlines,Alaska Airlines,AS,ASA
+13,https://en.wikipedia.org/wiki/Canadian_North,Canadian North,5T,AKT[1]
+14,https://en.wikipedia.org/wiki/Delta_Connection,Delta Connection,DL,DAL
+15,https://en.wikipedia.org/wiki/Edelweiss_Air,Edelweiss Air,WK[1],EDW
+16,https://en.wikipedia.org/wiki/Eurowings_Discover,Eurowings Discover,4Y,OCN[1]
+17,https://en.wikipedia.org/wiki/Flair_Airlines,Flair Airlines,F8[1],FLE[2]
+18,https://en.wikipedia.org/wiki/KLM,KLM,KL,KLM
+19,https://en.wikipedia.org/wiki/Lynx_Air,Lynx Air,Y9,DAT[1]
+20,https://en.wikipedia.org/wiki/Porter_Airlines,Porter Airlines,PDP3[1],POE[2]
+21,https://en.wikipedia.org/wiki/Sunwing_Airlines,Sunwing Airlines,WG,SWG[1]
+22,https://en.wikipedia.org/wiki/United_Express,United Express,UA,UAL
+23,https://en.wikipedia.org/wiki/WestJet_Encore,WestJet Encore,WR,WEN[1]
+24,https://en.wikipedia.org/wiki/WestJet_Link,WestJet Link,See Operators,See Operators
+25,https://en.wikipedia.org/wiki/Central_Mountain_Air,Central Mountain Air,9M,GLR[1]
+26,https://en.wikipedia.org/wiki/Condor_(airline),Condor (airline),DE[1],CFG
+27,https://en.wikipedia.org/wiki/Northwestern_Air,Northwestern Air,J3,PLR[1]
+28,https://en.wikipedia.org/wiki/Swoop_(airline),Swoop (airline),WO,WSW[1]
+29,https://en.wikipedia.org/wiki/Northern_Air_(Canada),Northern Air Charter,—,NLI[1]
+30,https://en.wikipedia.org/wiki/Pacific_Coastal_Airlines,Pacific Coastal Airlines,8P,PCO[1]
+31,https://en.wikipedia.org/wiki/North_Cariboo_Air,North Cariboo Air,-,NCB[1]
+32,https://en.wikipedia.org/wiki/Northern_Thunderbird_Air,Northern Thunderbird Air,-,NTA[1]
+33,https://en.wikipedia.org/wiki/R1_Airlines,R1 Airlines,-,TSH[1]
+34,https://en.wikipedia.org/wiki/Summit_Air,Summit Air,-,SUT[1]
+35,https://en.wikipedia.org/wiki/Aerom%C3%A9xico,Aeroméxico,AM,AMX
+36,https://en.wikipedia.org/wiki/Air_China,Air China,CA,CCA
+37,https://en.wikipedia.org/wiki/Air_France,Air France,AF,AFR
+38,https://en.wikipedia.org/wiki/Air_India,Air India,AI[1],AIC[1]
+39,https://en.wikipedia.org/wiki/Air_New_Zealand,Air New Zealand,NZ,ANZ
+40,https://en.wikipedia.org/wiki/All_Nippon_Airways,All Nippon Airways,NH,ANA
+41,https://en.wikipedia.org/wiki/American_Eagle_(airline_brand),American Eagle (airline brand),AA,AAL
+42,https://en.wikipedia.org/wiki/Canada_Jetlines,Canada Jetlines,AU,CJL[1]
+43,https://en.wikipedia.org/wiki/Cathay_Pacific,Cathay Pacific,CX,CPA
+44,https://en.wikipedia.org/wiki/China_Airlines,China Airlines,CI,CAL
+45,https://en.wikipedia.org/wiki/China_Eastern_Airlines,China Eastern Airlines,MU,CES
+46,https://en.wikipedia.org/wiki/EVA_Air,EVA Air,BR,EVA
+47,https://en.wikipedia.org/wiki/Fiji_Airways,Fiji Airways,FJ,FJI
+48,https://en.wikipedia.org/wiki/Hainan_Airlines,Hainan Airlines,HU,CHH
+49,https://en.wikipedia.org/wiki/Harbour_Air_Seaplanes,Harbour Air Seaplanes,YB[1],HR[2]
+50,https://en.wikipedia.org/wiki/Helijet,Helijet,JB,JBA[1]
+51,https://en.wikipedia.org/wiki/Icelandair,Icelandair,FI,ICE
+52,https://en.wikipedia.org/wiki/Japan_Airlines,Japan Airlines,JL,JAL
+53,https://en.wikipedia.org/wiki/Korean_Air,Korean Air,KE,KAL
+54,https://en.wikipedia.org/wiki/Lufthansa,Lufthansa,LH,DLH
+55,https://en.wikipedia.org/wiki/Philippine_Airlines,Philippine Airlines,PR,PAL
+56,https://en.wikipedia.org/wiki/Qantas,Qantas,QF,QFA
+57,https://en.wikipedia.org/wiki/Sichuan_Airlines,Sichuan Airlines,3U,CSC
+58,https://en.wikipedia.org/wiki/Singapore_Airlines,Singapore Airlines,SQ,SIA
+59,https://en.wikipedia.org/wiki/Sun_Country_Airlines,Sun Country Airlines,SY,SCX
+60,https://en.wikipedia.org/wiki/Turkish_Airlines,Turkish Airlines,TK,THY
+61,https://en.wikipedia.org/wiki/XiamenAir,XiamenAir,MF,CXA
+62,https://en.wikipedia.org/wiki/Harbour_Air,Harbour Air Seaplanes,YB[1],HR[2]
+63,https://en.wikipedia.org/wiki/Calm_Air,Calm Air,MO,CAV[1]
+64,https://en.wikipedia.org/wiki/Northway_Aviation,Northway Aviation,—,NAL[2]
+65,https://en.wikipedia.org/wiki/Perimeter_Aviation,Perimeter Aviation,JV[1],PAG[2]
+66,https://en.wikipedia.org/wiki/Bearskin_Airlines,Bearskin Airlines,JV,BLS[1]
+67,https://en.wikipedia.org/wiki/PAL_Airlines,PAL Airlines,PB,PVL[1]
+68,https://en.wikipedia.org/wiki/Air_Borealis,PAL Airlines,PB,PVL[1]
+69,https://en.wikipedia.org/wiki/Air_Saint-Pierre,Air Saint-Pierre,PJ,SPM
+70,https://en.wikipedia.org/wiki/Air_Inuit,Air Inuit,3H[1],AIE[2]
+71,https://en.wikipedia.org/wiki/Pascan_Aviation,Pascan Aviation,P6,PSC[1]
+72,https://en.wikipedia.org/wiki/North-Wright_Airways,North-Wright Airways,HW,NWL[1]
+73,https://en.wikipedia.org/wiki/Aklak_Air,Aklak Air,6L,—
+74,https://en.wikipedia.org/wiki/Air_Tindi,Air Tindi,8T,TIN[1]
+75,https://en.wikipedia.org/wiki/Kivalliq_Air,Keewatin Air,FK,KEW[1]
+76,https://en.wikipedia.org/wiki/Kenn_Borek_Air,Kenn Borek Air,4K,KBA[1]
+77,https://en.wikipedia.org/wiki/Air_Nunavut,Air Nunavut,N/A,BFF[1]
+78,https://en.wikipedia.org/wiki/Chrono_Aviation,Chrono Aviation,MB*,NDL[1]MBK[2]
+79,https://en.wikipedia.org/wiki/Nolinor_Aviation,Nolinor Aviation,N5,NRL[1]
+80,https://en.wikipedia.org/wiki/Air_Creebec,Air Creebec,YN[1],CRQ[2]
+81,https://en.wikipedia.org/wiki/Thunder_Airlines,Thunder Airlines,- [1],THU[2]
+82,https://en.wikipedia.org/wiki/North_Star_Air,North Star Air,—,BF[1]
+83,https://en.wikipedia.org/wiki/Wasaya_Airways,Wasaya Airways,WP,WSG[1]
+84,https://en.wikipedia.org/wiki/Nakina_Air_Service,Nakina Air Service,T2,KN[1]
+85,https://en.wikipedia.org/wiki/Play_(airline),Play (airline),OG[1],FPY[2]
+86,https://en.wikipedia.org/wiki/SkyLink_Express,SkyLink Express,—,SLQ[1]
+87,https://en.wikipedia.org/wiki/Superior_Airways,Superior Airways,N/A,SR[1]
+88,https://en.wikipedia.org/wiki/Aer_Lingus,Aer Lingus,EI,EIN
+89,https://en.wikipedia.org/wiki/Avianca,Avianca,AV,AVA
+90,https://en.wikipedia.org/wiki/Avianca_El_Salvador,Avianca El Salvador,TA,TAI
+91,https://en.wikipedia.org/wiki/Biman_Bangladesh_Airlines,Biman Bangladesh Airlines,BG,BBC
+92,https://en.wikipedia.org/wiki/Caribbean_Airlines,Caribbean Airlines,BW,BWA
+93,https://en.wikipedia.org/wiki/China_Southern_Airlines,China Southern Airlines,CZ,CSN
+94,https://en.wikipedia.org/wiki/Copa_Airlines,Copa Airlines,CM,CMP
+95,https://en.wikipedia.org/wiki/Egyptair,Egyptair,MS,MSR
+96,https://en.wikipedia.org/wiki/Emirates_(airline),Emirates (airline),EK,UAE
+97,https://en.wikipedia.org/wiki/Ethiopian_Airlines,Ethiopian Airlines,ET,ETH
+98,https://en.wikipedia.org/wiki/Etihad_Airways,Etihad Airways,EY,ETD
+99,https://en.wikipedia.org/wiki/LOT_Polish_Airlines,LOT Polish Airlines,LO,LOT
+100,https://en.wikipedia.org/wiki/Neos_(airline),Neos (airline),NO[1],NOS[2]
+101,https://en.wikipedia.org/wiki/OWG,OWG,N5,NRL
+102,https://en.wikipedia.org/wiki/Pakistan_International_Airlines,Pakistan International Airlines,PK,PIA
+103,https://en.wikipedia.org/wiki/Royal_Jordanian,Royal Jordanian,RJ,RJA
+104,https://en.wikipedia.org/wiki/Scandinavian_Airlines,Scandinavian Airlines,SK,SAS
+105,https://en.wikipedia.org/wiki/TAP_Air_Portugal,TAP Air Portugal,TP,TAP
+106,https://en.wikipedia.org/wiki/Ukraine_International_Airlines,Ukraine International Airlines,PS,AUI
+107,https://en.wikipedia.org/wiki/Air_Liaison,Air Liaison,DU,LSJ[1]
+108,https://en.wikipedia.org/wiki/Castle_Aviation,Castle Aviation,CSJA,CSJ
+109,https://en.wikipedia.org/wiki/DHL_Aviation,DHL Aviation,Various,Various
+110,https://en.wikipedia.org/wiki/FedEx_Express,FedEx Express,FX,FDX
+111,https://en.wikipedia.org/wiki/Morningstar_Air_Express,Morningstar Air Express,—,MAL[1]
+112,https://en.wikipedia.org/wiki/Cargojet,Cargojet,W8,CJT[1]
+113,https://en.wikipedia.org/wiki/UPS_Airlines,UPS Airlines,5X,UPS
+114,https://en.wikipedia.org/wiki/Air_Alg%C3%A9rie,Air Algérie,AH[1],DAH
+115,https://en.wikipedia.org/wiki/Austrian_Airlines,Austrian Airlines,OS,AUA
+116,https://en.wikipedia.org/wiki/Corsair_International,Corsair International,SS,CRL
+117,https://en.wikipedia.org/wiki/Pivot_Airlines,Pivot Airlines,—,GGN[1]
+118,https://en.wikipedia.org/wiki/Qatar_Airways,Qatar Airways,QR,QTR
+119,https://en.wikipedia.org/wiki/Royal_Air_Maroc,Royal Air Maroc,AT,RAM
+120,https://en.wikipedia.org/wiki/Swiss_International_Air_Lines,Swiss International Air Lines,LX,SWR
+121,https://en.wikipedia.org/wiki/Tunisair,Tunisair,TU,TAR
+122,https://en.wikipedia.org/wiki/Glencore,Glencore,,
+123,https://en.wikipedia.org/wiki/Hydro-Quebec,Hydro-Québec,,
+124,https://en.wikipedia.org/wiki/Transwest_Air,Transwest Air,4T[1],-
+125,https://en.wikipedia.org/wiki/Air_Greenland,Air Greenland,GL,GRL
+126,https://en.wikipedia.org/wiki/Norlandair,Norlandair,—,FNA
+127,https://en.wikipedia.org/wiki/Aerom%C3%A9xico_Connect,Aeroméxico Connect,5D,SLI
+128,https://en.wikipedia.org/wiki/Magnicharters,Magnicharters,UJ,GMT
+129,https://en.wikipedia.org/wiki/TAR_Aerolineas,TAR Aerolíneas,YQ,LCT
+130,https://en.wikipedia.org/wiki/Volaris,Volaris,Y4,VOI
+131,https://en.wikipedia.org/wiki/Viva_Aerobus,Viva Aerobus,VB,VIV
+132,https://en.wikipedia.org/wiki/Calafia_Airlines,Calafia Airlines,A7,CFV
+133,https://en.wikipedia.org/wiki/VivaAerob%C3%BAs,Viva Aerobus,VB,VIV
+134,https://en.wikipedia.org/wiki/A%C3%A9reo_Servicio_Guerrero,Aéreo Servicio Guerrero,—,GUE
+135,https://en.wikipedia.org/wiki/TAR_Aerol%C3%ADneas,TAR Aerolíneas,YQ,LCT
+136,https://en.wikipedia.org/wiki/VivaAerobus,Viva Aerobus,VB,VIV
+137,https://en.wikipedia.org/wiki/Aero_Pac%C3%ADfico,Aero Pacífico,,
+138,https://en.wikipedia.org/wiki/Frontier_Airlines,Frontier Airlines,F9[1],FFT[2]
+139,https://en.wikipedia.org/wiki/Iberojet_(airline),Iberojet (airline),E9,EVE
+140,https://en.wikipedia.org/wiki/Southwest_Airlines,Southwest Airlines,WN,SWA
+141,https://en.wikipedia.org/wiki/Spirit_Airlines,Spirit Airlines,NK,NKS
+142,https://en.wikipedia.org/wiki/ARM_Aviaci%C3%B3n,ARM Aviación,-,MMG[1]
+143,https://en.wikipedia.org/wiki/Transportes_A%C3%A9reos_Guatemaltecos,Transportes Aéreos Guatemaltecos,5U,TGU
+144,https://en.wikipedia.org/wiki/Aerus_(airline),Aerus (airline),ZV,RFD
+145,https://en.wikipedia.org/wiki/Aeronaves_TSM,Aeronaves TSM,-,VTM
+146,https://en.wikipedia.org/wiki/DHL,DHL,,
+147,https://en.wikipedia.org/wiki/Avianca_Costa_Rica,Avianca Costa Rica,LR,LRC
+148,https://en.wikipedia.org/wiki/Iberia_(airline),Iberia (airline),IB,IBE
+149,https://en.wikipedia.org/wiki/LATAM_Brasil,LATAM Brasil,JJ[1],TAM[1]
+150,https://en.wikipedia.org/wiki/LATAM_Chile,LATAM Chile,LA,LAN
+151,https://en.wikipedia.org/wiki/LATAM_Per%C3%BA,LATAM Perú,LP,LPE
+152,https://en.wikipedia.org/wiki/Volaris_Costa_Rica,Volaris Costa Rica,Q6[1],VOC[1]
+153,https://en.wikipedia.org/wiki/Volaris_El_Salvador,Volaris El Salvador,N3,VOS
+154,https://en.wikipedia.org/wiki/Finnair,Finnair,AY,FIN
+155,https://en.wikipedia.org/wiki/TUI_Airways,TUI Airways,BY[1],TOM
+156,https://en.wikipedia.org/wiki/Aerotuc%C3%A1n,Aerotucán,,
+157,https://en.wikipedia.org/wiki/Aeroflot,Aeroflot,SU,AFL
+158,https://en.wikipedia.org/wiki/Aerol%C3%ADneas_Argentinas,Aerolíneas Argentinas,AR,ARG
+159,https://en.wikipedia.org/wiki/Air_Cara%C3%AFbes,Air Caraïbes,TX,FWI
+160,https://en.wikipedia.org/wiki/Air_Europa,Air Europa,UX,AEA
+161,https://en.wikipedia.org/wiki/Arajet,Arajet,DM,DWI
+162,https://en.wikipedia.org/wiki/Avianca_Ecuador,Avianca Ecuador,2K,GLG
+163,https://en.wikipedia.org/wiki/Azur_Air,Azur Air,ZF,AZV
+164,https://en.wikipedia.org/wiki/Azur_Air_Ukraine,Azur Air Ukraine,QU[1],UTN
+165,https://en.wikipedia.org/wiki/Conviasa,Conviasa,V0,VCV
+166,https://en.wikipedia.org/wiki/MAYAir,MAYAir,7M,MYI
+167,https://en.wikipedia.org/wiki/Nordwind_Airlines,Nordwind Airlines,N4,NWS
+168,https://en.wikipedia.org/wiki/Sky_Airline_Peru,Sky Airline Peru,H8,SKX
+169,https://en.wikipedia.org/wiki/Transportes_Aereos_Guatemaltecos,Transportes Aéreos Guatemaltecos,5U,TGU
+170,https://en.wikipedia.org/wiki/Tropic_Air,Tropic Air,9N[1],TOS
+171,https://en.wikipedia.org/wiki/TUI_fly_Belgium,TUI fly Belgium,TB,JAF
+172,https://en.wikipedia.org/wiki/TUI_fly_Netherlands,TUI fly Netherlands,OR,TFL
+173,https://en.wikipedia.org/wiki/Wamos_Air,Wamos Air,EB,PLM
+174,https://en.wikipedia.org/wiki/Wingo_(airline),Wingo (airline),P5,RPB
+175,https://en.wikipedia.org/wiki/World2Fly,World2Fly,2W,WFL
+176,https://en.wikipedia.org/wiki/Aerodavinci,Aerodavinci,-,DVI
+177,https://en.wikipedia.org/wiki/Breeze_Airways,Breeze Airways,MX,MXY
+178,https://en.wikipedia.org/wiki/Silver_Airways,Silver Airways,3M,SIL
+179,https://en.wikipedia.org/wiki/Grant_Aviation,Grant Aviation,GV,GUN
+180,https://en.wikipedia.org/wiki/Ravn_Alaska,Ravn Alaska,7H,RVF
+181,https://en.wikipedia.org/wiki/Ryan_Air_Services,Ryan Air Services,7S*,RYA
+182,https://en.wikipedia.org/wiki/Wright_Air_Service,Wright Air Service,8V,WRF
+183,https://en.wikipedia.org/wiki/Condor_Flugdienst,Condor (airline),DE[1],CFG
+184,https://en.wikipedia.org/wiki/Bering_Air,Bering Air,8E,BRG
+185,https://en.wikipedia.org/wiki/Allegiant_Air,Allegiant Air,G4,AAY
+186,https://en.wikipedia.org/wiki/Contour_Airlines,Contour Airlines,LF,VTE
+187,https://en.wikipedia.org/wiki/Grand_Canyon_Airlines,Grand Canyon Airlines,YR,CVU
+188,https://en.wikipedia.org/wiki/Advanced_Air,Advanced Air,AN,WSN
+189,https://en.wikipedia.org/wiki/Denver_Air_Connection,Denver Air Connection,KG,LYM
+190,https://en.wikipedia.org/wiki/Hawaiian_Airlines,Hawaiian Airlines,HA,HAL
+191,https://en.wikipedia.org/wiki/JSX_(airline),JSX (airline),XE,JSX
+192,https://en.wikipedia.org/wiki/Southern_Airways_Express,Southern Airways Express,9X,FDY
+193,https://en.wikipedia.org/wiki/Avelo_Airlines,Avelo Airlines,XP[1],VXP[1]
+194,https://en.wikipedia.org/wiki/West_Air_(United_States),West Air (United States),-,PCM
+195,https://en.wikipedia.org/wiki/Air_Premia,Air Premia,YP[1],APZ[1]
+196,https://en.wikipedia.org/wiki/Air_Tahiti_Nui,Air Tahiti Nui,TN,THT
+197,https://en.wikipedia.org/wiki/Asiana_Airlines,Asiana Airlines,OZ,AAR
+198,https://en.wikipedia.org/wiki/Cayman_Airways,Cayman Airways,KX,CAY
+199,https://en.wikipedia.org/wiki/El_Al,El Al,LY,ELY
+200,https://en.wikipedia.org/wiki/French_Bee,French Bee,BF,FBU
+201,https://en.wikipedia.org/wiki/ITA_Airways,ITA Airways,AZ,ITY[1]
+202,https://en.wikipedia.org/wiki/Level_(airline_brand),Level (airline brand),IB,IBE
+203,https://en.wikipedia.org/wiki/Norse_Atlantic_Airways,Norse Atlantic Airways,N0,NBT
+204,https://en.wikipedia.org/wiki/Saudia,Saudia,SV,SVA
+205,https://en.wikipedia.org/wiki/Starlux_Airlines,Starlux Airlines,JX,SJX
+206,https://en.wikipedia.org/wiki/Virgin_Atlantic,Virgin Atlantic,VS,VIR
+207,https://en.wikipedia.org/wiki/Zipair_Tokyo,Zipair Tokyo,ZG,TZP
+208,https://en.wikipedia.org/wiki/Northern_Pacific_Airways,Northern Pacific Airways,7H[1],RVF[2]
+209,https://en.wikipedia.org/wiki/Alpine_Air,Alpine Air Express,5A,AIP
+210,https://en.wikipedia.org/wiki/Ameriflight,Ameriflight,A8,AMF
+211,https://en.wikipedia.org/wiki/Vietnam_Airlines,Vietnam Airlines,VN[1][2],HVN[1][2]
+212,https://en.wikipedia.org/wiki/Azul_Brazilian_Airlines,Azul Brazilian Airlines,AD,AZU
+213,https://en.wikipedia.org/wiki/Bahamasair,Bahamasair,UP[1],BHS
+214,https://en.wikipedia.org/wiki/Western_Air,Western Air,WU,WST
+215,https://en.wikipedia.org/wiki/Boliviana_de_Aviaci%C3%B3n,Boliviana de Aviación,OB,BOV
+216,"https://en.wikipedia.org/wiki/Eastern_Airlines,_LLC","Eastern Airlines, LLC",2D,EAL
+217,https://en.wikipedia.org/wiki/Gol_Transportes_A%C3%A9reos,Gol Linhas Aéreas Inteligentes,G3,GLO
+218,https://en.wikipedia.org/wiki/LATAM_Colombia,LATAM Colombia,4C,ARE
+219,https://en.wikipedia.org/wiki/LATAM_Ecuador,LATAM Ecuador,XL,LNE
+220,https://en.wikipedia.org/wiki/RED_Air,RED Air,L5,REA
+221,https://en.wikipedia.org/wiki/Sky_High_Aviation_Services,Sky High Aviation Services,DO,SHH
+222,https://en.wikipedia.org/wiki/Surinam_Airways,Surinam Airways,PY,SLM
+223,https://en.wikipedia.org/wiki/Mokulele_Airlines,Mokulele Airlines,9X,FDY
+224,https://en.wikipedia.org/wiki/AirAsia_X,AirAsia X,D7,XAX
+225,https://en.wikipedia.org/wiki/Jetstar,Jetstar,JQ,JST
+226,https://en.wikipedia.org/wiki/Air_Serbia,Air Serbia,JU,ASL
+227,https://en.wikipedia.org/wiki/Cape_Air,Cape Air,9K,KAP
+228,https://en.wikipedia.org/wiki/Boutique_Air,Boutique Air,4B,BTQ
+229,https://en.wikipedia.org/wiki/Nantucket_Airlines,Cape Air,9K,KAP
+230,https://en.wikipedia.org/wiki/Tradewind_Aviation,Tradewind Aviation,TJ,GPD
+231,https://en.wikipedia.org/wiki/Swift_Air,iAero Airways,WQ,SWQ
+232,https://en.wikipedia.org/wiki/La_Compagnie,La Compagnie,B0,DJT
+233,https://en.wikipedia.org/wiki/Air_Senegal,Air Senegal,HC,SZN
+234,https://en.wikipedia.org/wiki/Brussels_Airlines,Brussels Airlines,SN[1],BEL
+235,https://en.wikipedia.org/wiki/Kenya_Airways,Kenya Airways,KQ[1],KQA[1]
+236,https://en.wikipedia.org/wiki/Kuwait_Airways,Kuwait Airways,KU,KAC
+237,https://en.wikipedia.org/wiki/Level_(airline),Level (airline brand),IB,IBE
+238,https://en.wikipedia.org/wiki/Uzbekistan_Airways,Uzbekistan Airways,HY,UZB
+239,https://en.wikipedia.org/wiki/Atlantic_Airways,Atlantic Airways,RC[1],FLI
+240,https://en.wikipedia.org/wiki/FedEx_Feeder,FedEx Express,FX,FDX
+241,https://en.wikipedia.org/wiki/New_England_Airlines,New England Airlines,EJ,NEA
+242,https://en.wikipedia.org/wiki/Fedex_Express,FedEx Express,FX,FDX
+243,https://en.wikipedia.org/wiki/San_Juan_Airlines,San Juan Airlines,—,SJN
+244,https://en.wikipedia.org/wiki/Kenmore_Air,Kenmore Air,M5,KEN
+245,https://en.wikipedia.org/wiki/Air_Sunshine,Air Sunshine,YI,RSI
+246,https://en.wikipedia.org/wiki/Coastal_Air,Coastal Air,DQ,TCL
+247,https://en.wikipedia.org/wiki/St_Barth_Commuter,St Barth Commuter,PV,SBU
+248,https://en.wikipedia.org/wiki/Trans_Anguilla_Airways,Trans Anguilla Airways,-,-
+249,https://en.wikipedia.org/wiki/ABM_Air,BMN Air,,
+250,https://en.wikipedia.org/wiki/Air_Antilles,Air Antilles,3S,GUY
+251,https://en.wikipedia.org/wiki/FlyMontserrat,FlyMontserrat,5M,MNT
+252,https://en.wikipedia.org/wiki/InterCaribbean_Airways,InterCaribbean Airways,JY,IWY
+253,https://en.wikipedia.org/wiki/LIAT,LIAT,LI,LIA
+254,https://en.wikipedia.org/wiki/VI_Airlink,VI Airlink,V6,VIL
+255,https://en.wikipedia.org/wiki/Winair,Winair,WM,WIA
+256,https://en.wikipedia.org/wiki/Air_Century,Air Century,Y2,CEY
+257,https://en.wikipedia.org/wiki/Divi_Divi_Air,Divi Divi Air,3R,DVR
+258,https://en.wikipedia.org/wiki/EZAir,EZAir,7Z,EZR
+259,https://en.wikipedia.org/wiki/Sky_Airline,Sky Airline,H2,SKU
+260,https://en.wikipedia.org/wiki/Sunclass_Airlines,Sunclass Airlines,DK,VKG
+261,https://en.wikipedia.org/wiki/Flamingo_Air,Flamingo Air,—,FMR
+262,https://en.wikipedia.org/wiki/Pineapple_Air,Pineapple Air,—,PNP
+263,https://en.wikipedia.org/wiki/Southern_Air_Charter,Southern Air Charter,PL,SOA
+264,https://en.wikipedia.org/wiki/LeAir,LeAir,—,LSL[1]
+265,https://en.wikipedia.org/wiki/WesternAir,Western Air,WU,WST
+266,https://en.wikipedia.org/wiki/Condor,Condor,,
+267,https://en.wikipedia.org/wiki/Fly_All_Ways,Fly All Ways,8W,EDR
+268,https://en.wikipedia.org/wiki/Air_Belgium_(2016),Air Belgium (2016),KF,ABB
+269,https://en.wikipedia.org/wiki/Island_Birds,Island Birds,,
+270,https://en.wikipedia.org/wiki/Island_Air_(Cayman_Islands),Island Air (Cayman Islands),,
+271,https://en.wikipedia.org/wiki/Cayman_Airways_Express,Cayman Airways,KX,CAY
+272,https://en.wikipedia.org/wiki/Aerogaviota,Aerogaviota,KG,GTV
+273,https://en.wikipedia.org/wiki/Aruba_Airlines,Aruba Airlines,AG,ARU
+274,https://en.wikipedia.org/wiki/Sunrise_Airways,Sunrise Airways,S6,KSZ
+275,https://en.wikipedia.org/wiki/Andes_L%C3%ADneas_A%C3%A9reas,Andes Líneas Aéreas,OY,ANS
+276,https://en.wikipedia.org/wiki/Cubana_de_Aviaci%C3%B3n,Cubana de Aviación,CU,CUB
+277,https://en.wikipedia.org/wiki/Havana_Air,Havana Air,,
+278,https://en.wikipedia.org/wiki/TAAG_Angola_Airlines,TAAG Angola Airlines,DT,DTA
+279,https://en.wikipedia.org/wiki/Servicios_A%C3%A9reos_Profesionales,Servicios Aéreos Profesionales,5S,PSV
+280,https://en.wikipedia.org/wiki/Albatros_Airlines,Albatros Airlines,G0,GAL
+281,https://en.wikipedia.org/wiki/LASER_Airlines,LASER Airlines,QL,LER
+282,https://en.wikipedia.org/wiki/Caribbean_Helicopters,Caribbean Helicopters,,
+283,https://en.wikipedia.org/wiki/Fly_Montserrat,FlyMontserrat,5M,MNT
+284,https://en.wikipedia.org/wiki/SVG_Air,SVG Air,-,SVG
+285,https://en.wikipedia.org/wiki/TUI_fly_Nordic,TUI fly Nordic,6B,BLX
+286,https://en.wikipedia.org/wiki/Air_Belgium,Air Belgium (2016),KF,ABB
+287,https://en.wikipedia.org/wiki/Air_Caraibes,Air Caraïbes,TX,FWI
+288,https://en.wikipedia.org/wiki/GullivAir,GullivAir,G2[1],GBG[1]
+289,https://en.wikipedia.org/wiki/Prinair,Prinair,PQ[1],PRU[2]
+290,https://en.wikipedia.org/wiki/RUTACA_Airlines,RUTACA Airlines,5R,RUC
+291,https://en.wikipedia.org/wiki/Turpial_Airlines,Turpial Airlines,T9[1],VTU[1]
+292,https://en.wikipedia.org/wiki/Plus_Ultra_L%C3%ADneas_A%C3%A9reas,Plus Ultra Líneas Aéreas,PU[1],PUE[1]
+293,https://en.wikipedia.org/wiki/Caicos_Express_Airways,Caicos Express Airways,9Q,CXE
+294,https://en.wikipedia.org/wiki/World2fly,World2Fly,2W,WFL
+295,https://en.wikipedia.org/wiki/Avior_Airlines,Avior Airlines,9V,ROI
+296,https://en.wikipedia.org/wiki/Venezolana,Venezolana,VN,VNE
+297,https://en.wikipedia.org/wiki/Mission_Aviation_Fellowship,Mission Aviation Fellowship,,
+298,https://en.wikipedia.org/wiki/Air_Flamenco,Air Flamenco,F4,WAF
+299,https://en.wikipedia.org/wiki/Vieques_Air_Link,Vieques Air Link,V4,VES
+300,https://en.wikipedia.org/wiki/Windward_Express,Windward Express,,
+301,https://en.wikipedia.org/wiki/Grenadine_Airways,Grenadine Airways,-,-
+302,https://en.wikipedia.org/wiki/Mustique_Airways,Mustique Airways,-,MAW
+303,https://en.wikipedia.org/wiki/One_Caribbean,One Caribbean,CO,VCY
+304,https://en.wikipedia.org/wiki/Rutaca,RUTACA Airlines,5R,RUC
+305,https://en.wikipedia.org/wiki/Maya_Island_Air,Maya Island Air,2M,MYD
+306,https://en.wikipedia.org/wiki/Sansa_Airlines,Sansa Airlines,RZ,LRS
+307,https://en.wikipedia.org/wiki/Costa_Rica_Green_Airways,Costa Rica Green Airways,GW,CRG
+308,https://en.wikipedia.org/wiki/Iberia_Airlines,Iberia (airline),IB,IBE
+309,https://en.wikipedia.org/wiki/Evelop_Airlines,Iberojet (airline),E9,EVE
+310,https://en.wikipedia.org/wiki/Avianca_Guatemala,Avianca Guatemala,GU,GUG
+311,https://en.wikipedia.org/wiki/CM_Airlines,CM Airlines,CC,OMT
+312,https://en.wikipedia.org/wiki/Lanhsa,Lanhsa Airlines,—,LNH
+313,https://en.wikipedia.org/wiki/Aerolineas_Sosa,Aerolíneas Sosa,S0,NSO
+314,https://en.wikipedia.org/wiki/Aerol%C3%ADneas_Sosa,Aerolíneas Sosa,S0,NSO
+315,https://en.wikipedia.org/wiki/Lanhsa_Airlines,Lanhsa Airlines,—,LNH
+316,https://en.wikipedia.org/wiki/La_Coste%C3%B1a_(airline),La Costeña (airline),W8,NIS
+317,https://en.wikipedia.org/wiki/Avianca_Nicaragua,La Costeña (airline),W8,NIS
+318,https://en.wikipedia.org/wiki/Air_Panama,Air Panama,7P,PST
+319,https://en.wikipedia.org/wiki/Skyway_Costa_Rica,Skyway Costa Rica,LC,-
+320,https://en.wikipedia.org/wiki/Arrendamientos_A%C3%A9reos,Arrendamientos Aéreos,—,AAD[1]
+321,https://en.wikipedia.org/wiki/Aeroregional,Aeroregional,-,RER
+322,https://en.wikipedia.org/wiki/Copa_Airlines_Colombia,Copa Airlines Colombia,P5,RPB
+323,https://en.wikipedia.org/wiki/Estelar_Airlines,Aerolíneas Estelar,ES[1],ETR[1]
+324,https://en.wikipedia.org/wiki/Flybondi,Flybondi,FO,FBZ
+325,https://en.wikipedia.org/wiki/JetSmart_Argentina,JetSmart Argentina,WJ[1],JES[1]
+326,https://en.wikipedia.org/wiki/LADE,LADE,5U,LDE
+327,https://en.wikipedia.org/wiki/LATAM_Peru,LATAM Perú,LP,LPE
+328,https://en.wikipedia.org/wiki/JetSmart,JetSmart,JA,JAT
+329,https://en.wikipedia.org/wiki/Paranair,Paranair,ZP,AZP
+330,https://en.wikipedia.org/wiki/EcoJet_(airline),EcoJet (airline),8J,ECO
+331,https://en.wikipedia.org/wiki/L%C3%ADnea_A%C3%A9rea_Amaszonas,Línea Aérea Amaszonas,Z8,AZN
+332,https://en.wikipedia.org/wiki/Boliviana_de_Aviacion,Boliviana de Aviación,OB,BOV
+333,https://en.wikipedia.org/wiki/Voepass_Linhas_A%C3%A9reas,Voepass Linhas Aéreas,2Z,PTB
+334,https://en.wikipedia.org/wiki/Azul_Conecta,Azul Conecta,2F,ACN
+335,https://en.wikipedia.org/wiki/LATAM_Paraguay,LATAM Paraguay,PZ,LAP
+336,https://en.wikipedia.org/wiki/Linea_Aerea_Amaszonas,Línea Aérea Amaszonas,Z8,AZN
+337,https://en.wikipedia.org/wiki/Aerov%C3%ADas_DAP,Aerovías DAP,V5,DAP
+338,https://en.wikipedia.org/wiki/EasyFly,EasyFly,VE,EFY
+339,https://en.wikipedia.org/wiki/SATENA,SATENA,9R,NSE
+340,https://en.wikipedia.org/wiki/Avianca_Express,Avianca Express,EX,AVR
+341,https://en.wikipedia.org/wiki/Wingo_(Airline),Wingo (airline),P5,RPB
+342,https://en.wikipedia.org/wiki/Aerol%C3%ADneas_Estelar,Aerolíneas Estelar,ES[1],ETR[1]
+343,https://en.wikipedia.org/wiki/Satena,SATENA,9R,NSE
+344,https://en.wikipedia.org/wiki/Ultra_Air,Ultra Air,U0,ULS
+345,https://en.wikipedia.org/wiki/SARPA,SARPA,,
+346,https://en.wikipedia.org/wiki/Easyfly,EasyFly,VE,EFY
+347,https://en.wikipedia.org/wiki/Searca,Southeast Asian Regional Center for Graduate Study and Research in Agriculture,,
+348,https://en.wikipedia.org/wiki/Aexpa,Aexpa,-,-
+349,https://en.wikipedia.org/wiki/Equair,Equair,HN,EQX
+350,https://en.wikipedia.org/wiki/Amaszonas,Línea Aérea Amaszonas,Z8,AZN
+351,https://en.wikipedia.org/wiki/JetSmart_Per%C3%BA,JetSmart Perú,JZ,JAP
+352,https://en.wikipedia.org/wiki/Star_Per%C3%BA,Star Perú,2I,SRU
+353,https://en.wikipedia.org/wiki/Viva_Air_Per%C3%BA,Viva Air Perú,VV,VPE
+354,https://en.wikipedia.org/wiki/Aerolineas_Estelar,Aerolíneas Estelar,ES[1],ETR[1]
+355,https://en.wikipedia.org/wiki/Aeropostal,Aeropostal Alas de Venezuela,CW,ALV
+356,https://en.wikipedia.org/wiki/Rutaca_Airlines,RUTACA Airlines,5R,RUC
+357,https://en.wikipedia.org/wiki/Air_Dolomiti,Air Dolomiti,EN,DLA
+358,https://en.wikipedia.org/wiki/Avanti_Air,Avanti Air,–,ATV
+359,https://en.wikipedia.org/wiki/Corendon_Airlines,Corendon Airlines,XC,CAI
+360,https://en.wikipedia.org/wiki/Croatia_Airlines,Croatia Airlines,OU,CTN
+361,https://en.wikipedia.org/wiki/European_Air_Charter_(Bulgarian_airline),European Air Charter (Bulgarian airline),H6,BUC
+362,https://en.wikipedia.org/wiki/Eurowings,Eurowings,EW,EWG
+363,https://en.wikipedia.org/wiki/FlyEgypt,FlyEgypt,FT,FEG
+364,https://en.wikipedia.org/wiki/EasyJet,EasyJet,U2,EZY
+365,https://en.wikipedia.org/wiki/Israir_Airlines,Israir Airlines,6H,ISR
+366,https://en.wikipedia.org/wiki/Jet2.com,Jet2.com,LS[1],EXS
+367,https://en.wikipedia.org/wiki/Luxair,Luxair,LG,LGL
+368,https://en.wikipedia.org/wiki/Marathon_Airlines,Marathon Airlines,O8[1],MTO[2]
+369,https://en.wikipedia.org/wiki/Transavia,Transavia,HV,TRA
+370,https://en.wikipedia.org/wiki/Ryanair,Ryanair,FR,RYR
+371,https://en.wikipedia.org/wiki/AirBaltic,airBaltic,BT,BTI
+372,https://en.wikipedia.org/wiki/Air_Corsica,Air Corsica,XK,CCM
+373,https://en.wikipedia.org/wiki/Flydubai,Flydubai,FZ,FDB
+374,https://en.wikipedia.org/wiki/Flynas,Flynas,XY,KNE
+375,https://en.wikipedia.org/wiki/Air_Alsie,Air Alsie,6I[1],MMD
+376,https://en.wikipedia.org/wiki/Norwegian_Air_Shuttle,Norwegian Air Shuttle,DY,NOZ
+377,https://en.wikipedia.org/wiki/Aegean_Airlines,Aegean Airlines,A3[1],AEE[2]
+378,https://en.wikipedia.org/wiki/Air_Algerie,Air Algérie,AH[1],DAH
+379,https://en.wikipedia.org/wiki/Air_Malta,Air Malta,KM,AMC
+380,https://en.wikipedia.org/wiki/Air_Montenegro,Air Montenegro,—,MNE
+381,https://en.wikipedia.org/wiki/AnadoluJet,AnadoluJet,TK,THY
+382,https://en.wikipedia.org/wiki/Arkia,Arkia,IZ,AIZ
+383,https://en.wikipedia.org/wiki/Azerbaijan_Airlines,Azerbaijan Airlines,J2,AHY
+384,https://en.wikipedia.org/wiki/Bulgaria_Air,Bulgaria Air,FB,LZB
+385,https://en.wikipedia.org/wiki/Georgian_Airways,Georgian Airways,A9,TGZ
+386,https://en.wikipedia.org/wiki/Iran_Air,Iran Air,IR[1][2],IRA[3][2]
+387,https://en.wikipedia.org/wiki/Israir,Israir Airlines,6H,ISR
+388,https://en.wikipedia.org/wiki/Jazeera_Airways,Jazeera Airways,J9,JZR
+389,https://en.wikipedia.org/wiki/Pegasus_Airlines,Pegasus Airlines,PC,PGT
+390,https://en.wikipedia.org/wiki/People%27s,People's,PE[1],PEV[2]
+391,https://en.wikipedia.org/wiki/Smartwings,Smartwings,QS[1],TVS
+392,https://en.wikipedia.org/wiki/SunExpress,SunExpress,XQ,SXS
+393,https://en.wikipedia.org/wiki/Transavia_France,Transavia France,TO,TVF
+394,https://en.wikipedia.org/wiki/Volotea,Volotea,V7,VOE
+395,https://en.wikipedia.org/wiki/Vueling,Vueling,VY,VLG
+396,https://en.wikipedia.org/wiki/Wizz_Air,Wizz Air,W6[1],WZZ
+397,https://en.wikipedia.org/wiki/SkyAlps,Sky Alps,BQ,SWU
+398,https://en.wikipedia.org/wiki/AeroItalia,AeroItalia,XZ,AEZ
+399,https://en.wikipedia.org/wiki/Sun_d%27Or,Sun d'Or,LY,ELY
+400,https://en.wikipedia.org/wiki/Trade_Air,Trade Air,C3,TDR
+401,https://en.wikipedia.org/wiki/People%27s_Viennaline,People's,PE[1],PEV[2]
+402,https://en.wikipedia.org/wiki/BRA_Braathens_Regional_Airlines,Braathens Regional Airlines,DCTFTT,BRXSCWBIX
+403,https://en.wikipedia.org/wiki/Jet_Time,Jettime,JO,JTD
+404,https://en.wikipedia.org/wiki/Marabu_(airline),Marabu (airline),—,MBU
+405,https://en.wikipedia.org/wiki/Freebird_Airlines,Freebird Airlines,FH,FHY
+406,https://en.wikipedia.org/wiki/Air_Cairo,Air Cairo,SM,MSC
+407,https://en.wikipedia.org/wiki/Air_Moldova,Air Moldova,9U,MLD
+408,https://en.wikipedia.org/wiki/Bluebird_Airways,Bluebird Airways,BZ[1],BBG[2]
+409,https://en.wikipedia.org/wiki/Cyprus_Airways,Cyprus Airways,CY,CYP
+410,https://en.wikipedia.org/wiki/Czech_Airlines,Czech Airlines,OK,CSA
+411,https://en.wikipedia.org/wiki/FlyErbil,FlyErbil,HW,UBD
+412,https://en.wikipedia.org/wiki/FlyOne,FlyOne,5F[1],FIA[1]
+413,https://en.wikipedia.org/wiki/Nouvelair,Nouvelair,BJ,LBT
+414,https://en.wikipedia.org/wiki/Salam_Air,SalamAir,OV[1],OMS[1]
+415,https://en.wikipedia.org/wiki/TAROM,TAROM,RO,ROT
+416,https://en.wikipedia.org/wiki/Dan_Air_(Romania),Dan Air (Romania),DN[1],JOC[2]
+417,https://en.wikipedia.org/wiki/DAT_(airline),DAT (airline),DX,DTR
+418,https://en.wikipedia.org/wiki/Iraqi_Airways,Iraqi Airways,IA,IAW
+419,https://en.wikipedia.org/wiki/Scoot,Scoot,TR[1],TGW
+420,https://en.wikipedia.org/wiki/SmartLynx_Airlines,SmartLynx Airlines,6Y,ART
+421,https://en.wikipedia.org/wiki/Sundair,Sundair,SR,SDR[1]
+422,https://en.wikipedia.org/wiki/Tailwind_Airlines,Tailwind Airlines,TI,TWI
+423,https://en.wikipedia.org/wiki/Air_Arabia,Air Arabia,G9,ABY
+424,https://en.wikipedia.org/wiki/Sunexpress,SunExpress,XQ,SXS
+425,https://en.wikipedia.org/wiki/Air_Albania,Air Albania,ZB,ABN[1]
+426,https://en.wikipedia.org/wiki/Middle_East_Airlines,Middle East Airlines,ME,MEA
+427,https://en.wikipedia.org/wiki/Nile_Air,Nile Air,NP,NIA
+428,https://en.wikipedia.org/wiki/TUI_fly_Deutschland,TUI fly Deutschland,X3,TUI
+429,https://en.wikipedia.org/wiki/Tus_Airways,Tus Airways,U8[1],CYF
+430,https://en.wikipedia.org/wiki/Air_Astana,Air Astana,KC,KZR
+431,https://en.wikipedia.org/wiki/Bamboo_Airways,Bamboo Airways,QH,BAV
+432,https://en.wikipedia.org/wiki/Gulf_Air,Gulf Air,GF,GFA
+433,https://en.wikipedia.org/wiki/HiSky,HiSky,H4[1],HYS[2]
+434,https://en.wikipedia.org/wiki/MIAT_Mongolian_Airlines,MIAT Mongolian Airlines,OM,MGL
+435,https://en.wikipedia.org/wiki/Oman_Air,Oman Air,WY,OMA
+436,https://en.wikipedia.org/wiki/SriLankan_Airlines,SriLankan Airlines,UL,ALK
+437,https://en.wikipedia.org/wiki/Thai_Airways_International,Thai Airways International,TG,THA
+438,https://en.wikipedia.org/wiki/Turkmenistan_Airlines,Turkmenistan Airlines,T5,TUA
+439,https://en.wikipedia.org/wiki/Vistara,Vistara,UK,VTI
+440,https://en.wikipedia.org/wiki/AlbaStar,AlbaStar,AP[1],LAV[1]
+441,https://en.wikipedia.org/wiki/Sylt_Air,Sylt Air,7E,AWU
+442,https://en.wikipedia.org/wiki/Wider%C3%B8e,Widerøe,WF,WIF
+443,https://en.wikipedia.org/wiki/OFD_Ostfriesischer-Flug-Dienst,OFD Ostfriesischer-Flug-Dienst,,
+444,https://en.wikipedia.org/wiki/Rhein-Neckar_Air,Rhein-Neckar Air,,
+445,https://en.wikipedia.org/wiki/Nesma_Airlines,Nesma Airlines,NE,NMA
+446,https://en.wikipedia.org/wiki/Sky_Express_(Greece),Sky Express (Greece),GQ[1],SEH
+447,https://en.wikipedia.org/wiki/Somon_Air,Somon Air,SZ,SMR
+448,https://en.wikipedia.org/wiki/Southwind_Airlines,Southwind Airlines,2S,STW
+449,https://en.wikipedia.org/wiki/Air_Nostrum,Air Nostrum,YW,ANE
+450,https://en.wikipedia.org/wiki/Freebird_Airlines_Europe,Freebird Airlines Europe,MI,FHM
+451,https://en.wikipedia.org/wiki/Iberia_Express,Iberia Express,I2[1],IBS
+452,https://en.wikipedia.org/wiki/Twin_Jet,Twin Jet,T7,TJT
+453,https://en.wikipedia.org/wiki/Budapest_Aircraft_Service,Budapest Aircraft Service,RP,BPS
+454,https://en.wikipedia.org/wiki/Shanghai_Airlines,Shanghai Airlines,FM,CSH
+455,https://en.wikipedia.org/wiki/Buzz_(Ryanair),Buzz (Ryanair),RR,RYS
+456,https://en.wikipedia.org/wiki/Enter_Air,Enter Air,E4[1],ENT
+457,https://en.wikipedia.org/wiki/Electra_Airways,Electra Airways,-,EAF
+458,https://en.wikipedia.org/wiki/SkyUp,SkyUp Airlines,PQ,SQP
+459,https://en.wikipedia.org/wiki/AirExplore,AirExplore,ED,AXE
+460,https://en.wikipedia.org/wiki/Sky_Alps,Sky Alps,BQ,SWU
+461,https://en.wikipedia.org/wiki/ASL_Airlines_France,ASL Airlines France,5O[1],FPO
+462,https://en.wikipedia.org/wiki/EasyJet_Switzerland,EasyJet Switzerland,DS[1],EZS
+463,https://en.wikipedia.org/wiki/Tassili_Airlines,Tassili Airlines,SF,DTH
+464,https://en.wikipedia.org/wiki/Helvetic_Airways,Helvetic Airways,2L[1],OAW
+465,https://en.wikipedia.org/wiki/Air_Mauritius,Air Mauritius,MK,MAU
+466,https://en.wikipedia.org/wiki/RAF-Avia,RAF-Avia,MT,MTL
+467,https://en.wikipedia.org/wiki/Silver_Air_(Czech_Republic),Silver Air (Czech Republic),-[1],SLD
+468,https://en.wikipedia.org/wiki/Chair_Airlines,Chair Airlines,GM[1],GSW
+469,https://en.wikipedia.org/wiki/Belavia,Belavia,B2,BRU
+470,https://en.wikipedia.org/wiki/Pobeda_(airline),Pobeda (airline),DP,PBD
+471,https://en.wikipedia.org/wiki/Ural_Airlines,Ural Airlines,U6,SVR
+472,https://en.wikipedia.org/wiki/Azimuth_(airline),Azimuth (airline),A4,AZO
+473,https://en.wikipedia.org/wiki/Pegas_Fly,Ikar (airline),EO,KAR
+474,https://en.wikipedia.org/wiki/Nordstar_Airlines,NordStar,Y7,TYA
+475,https://en.wikipedia.org/wiki/Red_Wings_Airlines,Red Wings Airlines,WZ,RWZ
+476,https://en.wikipedia.org/wiki/Rossiya_(airline),Rossiya Airlines,FV,SDM
+477,https://en.wikipedia.org/wiki/RusLine,RusLine,7R,RLU
+478,https://en.wikipedia.org/wiki/S7_Airlines,S7 Airlines,S7,SBI
+479,https://en.wikipedia.org/wiki/Smartavia,Smartavia,5N,AUL
+480,https://en.wikipedia.org/wiki/Utair,Utair,UT[1],UTA[2]
+481,https://en.wikipedia.org/wiki/AlMasria_Universal_Airlines,AlMasria Universal Airlines,UJ,LMU
+482,https://en.wikipedia.org/wiki/Avia_Traffic_Company,Avia Traffic Company,YK,AVJ
+483,https://en.wikipedia.org/wiki/Fly_Arna,Fly Arna,G6,ACY
+484,https://en.wikipedia.org/wiki/IrAero,IrAero,IO,IAE
+485,https://en.wikipedia.org/wiki/Izhavia,Izhavia,I8[1],IZA[1]
+486,https://en.wikipedia.org/wiki/NordStar,NordStar,Y7,TYA
+487,https://en.wikipedia.org/wiki/Severstal_Air_Company,Severstal Air Company,D2,SSF
+488,https://en.wikipedia.org/wiki/UVT_Aero,UVT Aero,RT,UVT
+489,https://en.wikipedia.org/wiki/Yamal_Airlines,Yamal Airlines,YC,LLM
+490,https://en.wikipedia.org/wiki/Aircompany_Armenia,Aircompany Armenia,RM,NGT
+491,https://en.wikipedia.org/wiki/Ariana_Afghan_Airlines,Ariana Afghan Airlines,FG,AFG
+492,https://en.wikipedia.org/wiki/Armenian_Airlines,Armenian Airlines,JI,AAG[1]
+493,https://en.wikipedia.org/wiki/Beijing_Capital_Airlines,Beijing Capital Airlines,JD,CBJ
+494,https://en.wikipedia.org/wiki/Cham_Wings_Airlines,Cham Wings Airlines,6Q,SAW
+495,https://en.wikipedia.org/wiki/Mahan_Air,Mahan Air,W5,IRM
+496,https://en.wikipedia.org/wiki/Pobeda_Airlines,Pobeda (airline),DP,PBD
+497,https://en.wikipedia.org/wiki/Rossiya_Airlines,Rossiya Airlines,FV,SDM
+498,https://en.wikipedia.org/wiki/SCAT_Airlines,SCAT Airlines,DV,VSV
+499,https://en.wikipedia.org/wiki/Shirak_Avia,Shirak Avia,5G,SHS
+500,https://en.wikipedia.org/wiki/Aero_Nomad_Airlines,Aero Nomad Airlines,KA,ANK
+501,https://en.wikipedia.org/wiki/Fly_Baghdad,Fly Baghdad,IF[1],FBA[1]
+502,https://en.wikipedia.org/wiki/Gazpromavia,Gazpromavia,4G,GZP
+503,https://en.wikipedia.org/wiki/I-Fly,I-Fly,F7,RSY
+504,https://en.wikipedia.org/wiki/Syrian_Air,Syrian Air,RB,SYR
+505,https://en.wikipedia.org/wiki/Vologda_Aviation_Enterprise,Vologda Aviation Enterprise,—,VGV
+506,https://en.wikipedia.org/wiki/Yakutia_Airlines,Yakutia Airlines,R3,SYL
+507,https://en.wikipedia.org/wiki/Komiaviatrans,Komiaviatrans,KO,KMA
+508,https://en.wikipedia.org/wiki/NordStar_Airlines,NordStar,Y7,TYA
+509,https://en.wikipedia.org/wiki/Chukotavia,Chukotavia,-,ADZ
+510,https://en.wikipedia.org/wiki/Petropavlovsk-Kamchatsky_Air_Enterprise,Kamchatka Air Enterprise,-,PTK
+511,https://en.wikipedia.org/wiki/Polar_Airlines,Polar Airlines,PI,RKA
+512,https://en.wikipedia.org/wiki/Aurora_(airline),Aurora (airline),HZ,SHU
+513,https://en.wikipedia.org/wiki/KrasAvia,KrasAvia,KI[1],SSJ
+514,https://en.wikipedia.org/wiki/Angara_Airlines,Angara Airlines,2G,AGU
+515,https://en.wikipedia.org/wiki/Alrosa_Mirny_Air_Enterprise,ALROSA (airline),6R,DRU
+516,https://en.wikipedia.org/wiki/ALROSA_(airline),ALROSA (airline),6R,DRU
+517,https://en.wikipedia.org/wiki/Air_Koryo,Air Koryo,JS[1],KOR[1]
+518,https://en.wikipedia.org/wiki/Chengdu_Airlines,Chengdu Airlines,EU,UEA
+519,https://en.wikipedia.org/wiki/China_Express_Airlines,China Express Airlines,G5[1],HXA
+520,https://en.wikipedia.org/wiki/Juneyao_Airlines,Juneyao Air,HO,DKH
+521,https://en.wikipedia.org/wiki/Buta_Airways,Buta Airways,J2,AHY
+522,https://en.wikipedia.org/wiki/2nd_Arkhangelsk_United_Aviation_Division,2nd Arkhangelsk United Aviation Division,-,OAO
+523,https://en.wikipedia.org/wiki/Pskovavia,Pskovavia,—,PSW
+524,https://en.wikipedia.org/wiki/Iran_Aseman_Airlines,Iran Aseman Airlines,EP,IRC
+525,https://en.wikipedia.org/wiki/Lucky_Air,Lucky Air,8L,LKE
+526,https://en.wikipedia.org/wiki/Taban_Air,Taban Air,HH,TBN
+527,https://en.wikipedia.org/wiki/Air_Kyrgyzstan,Air Kyrgyzstan,QH,LYN
+528,https://en.wikipedia.org/wiki/PANH,PANH,PA,PAN
+529,https://en.wikipedia.org/wiki/SiLA_(airlines),Siberian Light Aviation,,
+530,https://en.wikipedia.org/wiki/Turukhan_Airlines,Turukhan Airlines,—,TRH
+531,https://en.wikipedia.org/wiki/Aero_Mongolia,Aero Mongolia,M0,MNG
+532,https://en.wikipedia.org/wiki/Urumqi_Air,Urumqi Air,UQ,CUH
+533,https://en.wikipedia.org/wiki/Qazaq_Air,Qazaq Air,IQ,QAZ
+534,https://en.wikipedia.org/wiki/Tajik_Air,Tajik Air,7J,TJK
+535,https://en.wikipedia.org/wiki/Fly_Arystan,FlyArystan,KC[1],KZR
+536,https://en.wikipedia.org/wiki/Hunnu_Air,Hunnu Air,MR,MML
+537,https://en.wikipedia.org/wiki/Armenia_Airways,Armenia Airways,6A,AMW
+538,https://en.wikipedia.org/wiki/Orenburzhye,Orenburzhye,O7,ORG
+539,https://en.wikipedia.org/wiki/Air_Arabia_Abu_Dhabi,Air Arabia Abu Dhabi,3L,ADY
+540,https://en.wikipedia.org/wiki/Red_Wings_(airline),Red Wings Airlines,WZ,RWZ
+541,https://en.wikipedia.org/wiki/Windrose_Airlines,Windrose Airlines,7W[1],WRC
+542,https://en.wikipedia.org/wiki/Bravo_Airways,Bravo Airways,-,BAY[1]
+543,https://en.wikipedia.org/wiki/Motor_Sich_Airlines,Motor Sich Airlines,M9[1],MSI
+544,https://en.wikipedia.org/wiki/Kosmos_Airlines,Kosmos Airlines,-,KSM
+545,https://en.wikipedia.org/wiki/Alsie_Express,Alsie Express,6I[1],MMD
+546,https://en.wikipedia.org/wiki/AIS_Airlines,AIS Airlines,—,PNX
+547,https://en.wikipedia.org/wiki/Eastern_Airways,Eastern Airways,T3[1],EZE
+548,https://en.wikipedia.org/wiki/Loganair,Loganair,LM[1],LOG
+549,https://en.wikipedia.org/wiki/Copenhagen_Air_Taxi,Copenhagen AirTaxi,–,CAT
+550,https://en.wikipedia.org/wiki/Transaviabaltika,Transaviabaltika,—,KTB
+551,https://en.wikipedia.org/wiki/NyxAir,NyxAir,OJ[1],NYX[1]
+552,https://en.wikipedia.org/wiki/Nordica_(airline),Nordica (airline),EE,EST
+553,https://en.wikipedia.org/wiki/Wideroe,Widerøe,WF,WIF
+554,https://en.wikipedia.org/wiki/Titan_Airways,Titan Airways,ZT[1],AWC
+555,https://en.wikipedia.org/wiki/Avion_Express,Avion Express,X9[1],NVD
+556,https://en.wikipedia.org/wiki/Corendon_Dutch_Airlines,Corendon Dutch Airlines,CD,CND
+557,https://en.wikipedia.org/wiki/Amapola_Flyg,Amapola Flyg,HP[1],APF
+558,https://en.wikipedia.org/wiki/Iberia,Iberian Peninsula,,
+559,https://en.wikipedia.org/wiki/Transavia_Airlines,Transavia,HV,TRA
+560,https://en.wikipedia.org/wiki/Eagle_Air_(Iceland),Eagle Air (Iceland),FEI[1],FEI
+561,https://en.wikipedia.org/wiki/GetJet_Airlines,GetJet Airlines,GW[1],GJT
+562,https://en.wikipedia.org/wiki/Lufttransport,Lufttransport,L5,LTR
+563,https://en.wikipedia.org/wiki/Jonair,Jonair,flights use JON[1],JON
+564,https://en.wikipedia.org/wiki/Braathens_Regional_Airlines,Braathens Regional Airlines,DCTFTT,BRXSCWBIX
+565,https://en.wikipedia.org/wiki/Nyxair,NyxAir,OJ[1],NYX[1]
+566,https://en.wikipedia.org/wiki/Albawings,Albawings,2B,AWT
+567,https://en.wikipedia.org/wiki/Flyadeal,flyadeal,F3,FAD
+568,https://en.wikipedia.org/wiki/SalamAir,SalamAir,OV[1],OMS[1]
+569,https://en.wikipedia.org/wiki/BH_Air,BH Air,8H,BGH
+570,https://en.wikipedia.org/wiki/European_Air_Charter,European Aviation Air Charter,E7,EAF
+571,https://en.wikipedia.org/wiki/Bulgarian_Air_Charter,European Air Charter (Bulgarian airline),H6,BUC
+572,https://en.wikipedia.org/wiki/Corendon_Airlines_Europe,Corendon Airlines Europe,XR,CXI
+573,https://en.wikipedia.org/wiki/Jettime,Jettime,JO,JTD
+574,https://en.wikipedia.org/wiki/Copenhagen_AirTaxi,Copenhagen AirTaxi,–,CAT
+575,https://en.wikipedia.org/wiki/Petroleum_Air_Services,Petroleum Air Services,UF,PER
+576,https://en.wikipedia.org/wiki/Air_Mediterranean,Air Mediterranean,MV,MAR
+577,https://en.wikipedia.org/wiki/Olympic_Air,Olympic Air,OA[1],OAL
+578,https://en.wikipedia.org/wiki/Animawings,Animawings,A2[1],AWG[1]
+579,https://en.wikipedia.org/wiki/Wikipedia:Citation_needed,Citation needed,,
+580,https://en.wikipedia.org/wiki/Charlie_Airlines,Cyprus Airways,CY,CYP
+581,https://en.wikipedia.org/wiki/Aeroitalia,AeroItalia,XZ,AEZ
+582,https://en.wikipedia.org/wiki/AMC_Airlines,AMC Airlines,YJ,AMV
+583,https://en.wikipedia.org/wiki/SmartLynx_Airlines_Estonia,SmartLynx Airlines Estonia,-,MYX
+584,https://en.wikipedia.org/wiki/ATA_Airlines_(Iran),ATA Airlines (Iran),I3,TBZ
+585,https://en.wikipedia.org/wiki/FlyArystan,FlyArystan,KC[1],KZR
+586,https://en.wikipedia.org/wiki/Kam_Air,Kam Air,RQ,KMF
+587,https://en.wikipedia.org/wiki/Qeshm_Air,Qeshm Air,QB,QSM
+588,https://en.wikipedia.org/wiki/UR_Airlines,UR Airlines,UD[1],UBD[2]
+589,https://en.wikipedia.org/wiki/Smartwings_Hungary,Smartwings Hungary,7O[1],TVL
+590,https://en.wikipedia.org/wiki/Smartwings_Poland,Smartwings Poland,3Z,TVP
+591,https://en.wikipedia.org/wiki/Sunday_Airlines,Sunday Airlines,DV,VSV
+592,https://en.wikipedia.org/wiki/Meraj_Airlines,Meraj Airlines,JI[1],MRJ[1]
+593,https://en.wikipedia.org/wiki/Iran_Airtour,Iran Airtour,B9,IRB
+594,https://en.wikipedia.org/wiki/Sepehran_Airlines,Sepehran Airlines,IS,SHI[1]
+595,https://en.wikipedia.org/wiki/Air_Manas,Air Manas,ZM[1],MBB[2]
+596,https://en.wikipedia.org/wiki/SpiceJet,SpiceJet,SG,SEJ
+597,https://en.wikipedia.org/wiki/Poste_Air_Cargo,Poste Air Cargo,M4[1],MSA[2]
+598,https://en.wikipedia.org/wiki/ITA_-_Italia_Trasporto_Aereo,ITA Airways,AZ,ITY[1]
+599,https://en.wikipedia.org/wiki/Binter_Canarias,Binter Canarias,NT,IBB
+600,https://en.wikipedia.org/wiki/Alidaunia,Alidaunia,D4[1],LID[2]
+601,https://en.wikipedia.org/wiki/Air_Horizont,Air Horizont,HT,HAT
+602,https://en.wikipedia.org/wiki/Tunisair_Express,Tunisair Express,UG,TUX
+603,https://en.wikipedia.org/wiki/Albastar,AlbaStar,AP[1],LAV[1]
+604,https://en.wikipedia.org/wiki/Cyprus_Airlines,Cyprus Airways (1947–2015),CY,CYP
+605,https://en.wikipedia.org/wiki/Sevenair_Air_Services,Sevenair Air Services,WV,RVP
+606,https://en.wikipedia.org/wiki/Air_Baltic,airBaltic,BT,BTI
+607,https://en.wikipedia.org/wiki/Cabo_Verde_Airlines,Cabo Verde Airlines,VR,TCV
+608,https://en.wikipedia.org/wiki/EuroAtlantic_Airways,EuroAtlantic Airways,YU,MMZ
+609,https://en.wikipedia.org/wiki/Hi_Fly_(airline),Hi Fly (airline),5K,HFY
+610,https://en.wikipedia.org/wiki/STP_Airways,STP Airways,8F,STP
+611,https://en.wikipedia.org/wiki/SATA_Air_A%C3%A7ores,SATA Air Açores,SP,SAT
+612,https://en.wikipedia.org/wiki/Ceiba_Intercontinental_Airlines,CEIBA Intercontinental,C2[1],CEL[1]
+613,https://en.wikipedia.org/wiki/Aurigny,Aurigny,GR[1],AUR
+614,https://en.wikipedia.org/wiki/Royal_Air_Maroc_Express,Royal Air Maroc Express,FN,RXP
+615,https://en.wikipedia.org/wiki/Blue_Islands,Blue Islands,SI[1],BCI
+616,https://en.wikipedia.org/wiki/Iberojet,Iberojet,,
+617,https://en.wikipedia.org/wiki/CanaryFly,Canaryfly,PM,CNF
+618,https://en.wikipedia.org/wiki/Mauritania_Airlines,Mauritania Airlines,L6,MAI
+619,https://en.wikipedia.org/wiki/Canaryfly,Canaryfly,PM,CNF
+620,https://en.wikipedia.org/wiki/RwandAir,RwandAir,WB,RWD
+621,https://en.wikipedia.org/wiki/Chalair_Aviation,Chalair Aviation,CE,CLG[1]
+622,https://en.wikipedia.org/wiki/Finist%27air,Finist'air,-,FTR
+623,https://en.wikipedia.org/wiki/APG_Airlines,APG Airlines,GP,RIV[1]
+624,https://en.wikipedia.org/wiki/Air_Austral,Air Austral,UU,REU
+625,https://en.wikipedia.org/wiki/Heli_Air_Monaco,Heli Air Monaco,YO,MCM
+626,https://en.wikipedia.org/wiki/Air_Madagascar,Air Madagascar,MD,MDG
+627,https://en.wikipedia.orghttps://fr.wikipedia.org/wiki/Amelia_International,Amelia International,NL,AEH
+628,https://en.wikipedia.org/wiki/Garuda_Indonesia,Garuda Indonesia,GA,GIA
+629,https://en.wikipedia.org/wiki/BAE_Systems,BAE Systems,,
+630,https://en.wikipedia.org/wiki/Isles_of_Scilly_Skybus,Isles of Scilly Skybus,—,IOS
+631,https://en.wikipedia.org/wiki/Badr_Airlines,Badr Airlines,J4,BDR
+632,https://en.wikipedia.org/wiki/Malaysia_Airlines,Malaysia Airlines,MH,MAS
+633,https://en.wikipedia.org/wiki/Royal_Brunei_Airlines,Royal Brunei Airlines,BI,RBA
+634,https://en.wikipedia.org/wiki/Shenzhen_Airlines,Shenzhen Airlines,ZH,CSZ
+635,https://en.wikipedia.org/wiki/Tianjin_Airlines,Tianjin Airlines,GS,GCR
+636,https://en.wikipedia.org/wiki/Directflight,Directflight,None,DCT
+637,https://en.wikipedia.org/wiki/Hebridean_Air_Services,Hebridean Air Services,-,HBR
+638,https://en.wikipedia.org/wiki/Afriqiyah_Airways,Afriqiyah Airways,8U,AAW
+639,https://en.wikipedia.org/wiki/Alexandria_Airlines,Alexandria Airlines,DQ,KHH
+640,https://en.wikipedia.org/wiki/Libyan_Airlines,Libyan Airlines,LN,LAA
+641,https://en.wikipedia.org/wiki/Eritrean_Airlines,Eritrean Airlines,B8,ERT
+642,https://en.wikipedia.org/wiki/FlyBaghdad,Fly Baghdad,IF[1],FBA[1]
+643,https://en.wikipedia.org/wiki/Jordan_Aviation,Jordan Aviation,R5,JAV
+644,https://en.wikipedia.org/wiki/Sudan_Airways,Sudan Airways,SD,SUD
+645,https://en.wikipedia.org/wiki/Tarco_Aviation,Tarco Air,3T,TQQ
+646,https://en.wikipedia.org/wiki/Yemenia,Yemenia,IY,IYE
+647,https://en.wikipedia.org/wiki/Air_Bucharest,Air Bucharest,Not a member,BUR
+648,https://en.wikipedia.org/wiki/FlyArna,Fly Arna,G6,ACY
+649,https://en.wikipedia.org/wiki/Smartlynx_Airlines,SmartLynx Airlines,6Y,ART
+650,https://en.wikipedia.org/wiki/Buraq_Air,Buraq Air,UZ,BRQ
+651,https://en.wikipedia.org/wiki/Global_Aviation_and_Services_Group,Global Aviation and Services Group,5S,GAK
+652,https://en.wikipedia.org/wiki/Libyan_Wings,Libyan Wings,YL[1],LWA[1]
+653,https://en.wikipedia.org/wiki/Air_Libya,Air Libya,7I,TLR
+654,https://en.wikipedia.org/wiki/Ghadames_Air_Transport,Ghadames Air Transport,NJ,GMS[1]
+655,https://en.wikipedia.org/wiki/Medavia,Medavia,5M,MDM
+656,https://en.wikipedia.org/wiki/Air_C%C3%B4te_d%27Ivoire,Air Côte d'Ivoire,HF,VRE
+657,https://en.wikipedia.org/wiki/Iberia_Regional,Air Nostrum,YW,ANE
+658,https://en.wikipedia.org/wiki/Golden_Wings_Aviation,Golden Wings Aviation,n/a,n/a
+659,https://en.wikipedia.org/wiki/African_Express_Airways,African Express Airways,XU,AXK
+660,https://en.wikipedia.org/wiki/Fly540,Fly540,5H,FFV
+661,https://en.wikipedia.org/wiki/Nova_Airways,Nova Airways,O9 (oscar9),NOV
+662,https://en.wikipedia.org/wiki/Sky_Travel_and_Aviation,Sky Travel and Aviation,,
+663,https://en.wikipedia.org/wiki/Uganda_Airlines,Uganda Airlines,UR,UGD
+664,https://en.wikipedia.org/wiki/Eagle_Air_(Uganda),Eagle Air (Uganda),H7,EGU
+665,https://en.wikipedia.org/wiki/Air_Burkina,Air Burkina,2J,VBW
+666,https://en.wikipedia.org/wiki/ASKY_Airlines,Asky Airlines,KP,SKK
+667,https://en.wikipedia.org/wiki/Camair-Co,Camair-Co,QC,CRC
+668,https://en.wikipedia.org/wiki/CEIBA_Intercontinental,CEIBA Intercontinental,C2[1],CEL[1]
+669,https://en.wikipedia.org/wiki/Cronos_Airlines,Cronos Airlines,C8[1],CRA[1]
+670,https://en.wikipedia.org/wiki/Overland_Airways,Overland Airways,OF,OLA
+671,https://en.wikipedia.org/wiki/Trans_Air_Congo,Trans Air Congo,Q8,TSG
+672,https://en.wikipedia.org/wiki/Bestfly_Cabo_Verde,Bestfly Cabo Verde,3B,BCV
+673,https://en.wikipedia.org/wiki/Cabo_Verde_Express,Cabo Verde Express,-,CVE
+674,https://en.wikipedia.org/wiki/Smartwings_Slovakia,Smartwings Slovakia,6D[1],TVQ
+675,https://en.wikipedia.org/wiki/Transair_(Senegal),Transair (Senegal),R2,GTS
+676,https://en.wikipedia.org/wiki/Africa_World_Airlines,Africa World Airlines,AW,AFW
+677,https://en.wikipedia.org/wiki/Rwandair,RwandAir,WB,RWD
+678,https://en.wikipedia.org/wiki/Air_Peace,Air Peace,P4,APK
+679,https://en.wikipedia.org/wiki/Passion_Air,Passion Air,OP,DIG
+680,https://en.wikipedia.org/wiki/South_African_Airways,South African Airways,SA,SAA
+681,https://en.wikipedia.org/wiki/Sky_Mali,Sky Mali,ML,FML
+682,https://en.wikipedia.org/wiki/Air_Cote_d%27Ivoire,Air Côte d'Ivoire,HF,VRE
+683,https://en.wikipedia.org/wiki/Aero_Contractors_(Nigeria),Aero Contractors (Nigeria),N2,NIG
+684,https://en.wikipedia.org/wiki/Arik_Air,Arik Air,W3,ARA
+685,https://en.wikipedia.org/wiki/Azman_Air,Azman Air,?,AZM
+686,https://en.wikipedia.org/wiki/Green_Africa_Airways,Green Africa Airways,Q9,GWG
+687,https://en.wikipedia.org/wiki/Ibom_Air,Ibom Air,QI,IAN
+688,https://en.wikipedia.org/wiki/Max_Air,Max Air,VM[1],NGL[1]
+689,https://en.wikipedia.org/wiki/United_Nigeria_Airlines,United Nigeria Airlines,U5,UNA
+690,https://en.wikipedia.org/wiki/ValueJet_(Nigeria),ValueJet (Nigeria),VK,FVJ
+691,https://en.wikipedia.org/wiki/Africa%27s_Connection_STP,Africa's Connection STP,ACS,STP
+692,https://en.wikipedia.org/wiki/Dornier_Aviation_Nigeria,Dornier Aviation Nigeria,-,DAV
+693,https://en.wikipedia.org/wiki/Emirates_SkyCargo,Emirates SkyCargo,EK,UAE
+694,https://en.wikipedia.org/wiki/Lufthansa_Cargo,Lufthansa Cargo,LH,GEC
+695,https://en.wikipedia.org/wiki/Med_Airlines,Med Airlines,M8,–
+696,https://en.wikipedia.org/wiki/Fly_Angola,Fly Angola,EQ,—
+697,https://en.wikipedia.org/wiki/Airlink,Airlink,4Z,LNK
+698,https://en.wikipedia.org/wiki/Afrijet_Business_Service,AfriJet,J7,ABS
+699,https://en.wikipedia.org/wiki/Congo_Airways,Congo Airways,8Z,CGA
+700,https://en.wikipedia.org/wiki/Karinou_Airlines,Karinou Airlines,U5,KRN [1]
+701,https://en.wikipedia.org/wiki/EgyptAir,Egyptair,MS,MSR
+702,https://en.wikipedia.org/wiki/Canadian_Airways_Congo,Canadian Airways Congo,,
+703,https://en.wikipedia.org/wiki/Equaflight,Equaflight,E7,EKA
+704,https://en.wikipedia.org/wiki/Compagnie_Africaine_d%27Aviation,Compagnie Africaine d'Aviation,BU,FPY
+705,https://en.wikipedia.org/wiki/Air_Kasa%C3%AF,Air Kasaï,-,-
+706,https://en.wikipedia.org/wiki/Jambojet,Jambojet,JM[1],JMA[1]
+707,https://en.wikipedia.org/wiki/Air_Tanzania,Air Tanzania,TC,ATC
+708,https://en.wikipedia.org/wiki/Mahogany_Air,Mahogany Air,KT,HOG
+709,https://en.wikipedia.org/wiki/Guinea_Ecuatorial_Airlines,Guinea Ecuatorial Airlines,-,GEA
+710,https://en.wikipedia.org/wiki/Nationale_Regionale_Transport,La Nationale,-,NRG
+711,https://en.wikipedia.org/wiki/AfriJet,AfriJet,J7,ABS
+712,https://en.wikipedia.org/wiki/Camair-co,Camair-Co,QC,CRC
+713,https://en.wikipedia.org/wiki/Ewa_Air,Ewa Air,ZD,EWR
+714,https://en.wikipedia.org/wiki/Precision_Air,Precision Air,PW,PRF
+715,https://en.wikipedia.org/wiki/Int%27Air_%C3%8Eles,Int'Air Îles,I7[1],IIA[2]
+716,https://en.wikipedia.org/wiki/Air_Djibouti,Air Djibouti,DJ,DJU
+717,https://en.wikipedia.org/wiki/Jubba_Airways,Jubba Airways,3J,JBW
+718,https://en.wikipedia.org/wiki/Airkenya_Express,Airkenya Express,P2,XAK
+719,https://en.wikipedia.org/wiki/Mombasa_Air_Safari,Mombasa Air Safari,–,RRV
+720,https://en.wikipedia.org/wiki/Safarilink_Aviation,Safarilink Aviation,F2,XLK
+721,https://en.wikipedia.org/wiki/Jambo_Jet,Jambojet,JM[1],JMA[1]
+722,https://en.wikipedia.org/wiki/Skyward_Express,Skyward Express,OW,SEW
+723,https://en.wikipedia.org/wiki/748_Air_Services,748 Air Services,FE,IHO
+724,https://en.wikipedia.org/wiki/Aerolink_Uganda,Aerolink Uganda,A8,XAU
+725,https://en.wikipedia.org/wiki/Freedom_Airline_Express,Freedom Airline Express,4F,FDT
+726,https://en.wikipedia.org/wiki/Renegade_Air,Renegade Air,—,RNG
+727,https://en.wikipedia.org/wiki/Fly-SAX,Eastafrican.com,B5 [1],EXZ [1]
+728,https://en.wikipedia.org/wiki/ALS_%E2%80%93_Aircraft_Leasing_Services,ALS – Aircraft Leasing Services,K4,–
+729,https://en.wikipedia.org/wiki/Eastafrican.com,Eastafrican.com,B5 [1],EXZ [1]
+730,https://en.wikipedia.org/wiki/Fly_540,Fly540,5H,FFV
+731,https://en.wikipedia.org/wiki/Daallo_Airlines,Daallo Airlines,D3,DAO
+732,https://en.wikipedia.org/wiki/LAM_Mozambique_Airlines,LAM Mozambique Airlines,TM,LAM
+733,https://en.wikipedia.org/wiki/Malawi_Airlines,Malawi Airlines,3W,MWI
+734,https://en.wikipedia.org/wiki/Tsaradia,Tsaradia,TZ,TDS
+735,https://en.wikipedia.org/wiki/Proflight_Zambia,Proflight Zambia,P0,PFZ
+736,https://en.wikipedia.org/wiki/Ulendo_Airlink,Ulendo Airlink,W4,NYS
+737,https://en.wikipedia.org/wiki/Air_Seychelles,Air Seychelles,HM,SEY
+738,https://en.wikipedia.org/wiki/FlySafair,FlySafair,FA,SFR
+739,https://en.wikipedia.org/wiki/Mo%C3%A7ambique_Expresso,Moçambique Expresso,-,MXE
+740,https://en.wikipedia.org/wiki/Malawian_Airlines,Malawi Airlines,3W,MWI
+741,https://en.wikipedia.org/wiki/Auric_Air,Auric Air,UI,AUK
+742,https://en.wikipedia.org/wiki/Coastal_Aviation,Coastal Aviation,CQ,CSV
+743,https://en.wikipedia.org/wiki/African_Airways_Alliance,African Airways Alliance,,
+744,https://en.wikipedia.org/wiki/As_Salaam_Air,As Salaam Air,,
+745,https://en.wikipedia.org/wiki/Regional_Air,Regional Air,8N,REG
+746,https://en.wikipedia.org/wiki/Tropical_Air,Tropical Air,,
+747,https://en.wikipedia.org/wiki/ZanAir,ZanAir,B4,TAN
+748,https://en.wikipedia.org/wiki/Air_Zimbabwe,Air Zimbabwe,UM,AZW
+749,https://en.wikipedia.org/wiki/Flightlink,Flightlink,YS,FLZ
+750,https://en.wikipedia.org/wiki/Regional_Air_Services_(Tanzania),Regional Air,8N,REG
+751,https://en.wikipedia.org/wiki/Global_Aviation,Global Aviation,GE,GBB
+752,https://en.wikipedia.org/wiki/CemAir,CemAir,5Z,KEM
+753,https://en.wikipedia.org/wiki/Zambia_Airways,Zambia Airways,ZN,AZB
+754,https://en.wikipedia.org/wiki/Royal_Zambian_Airlines,Royal Zambian Airlines,3Q,n/a
+755,https://en.wikipedia.org/wiki/Fastjet_Zimbabwe,Fastjet Zimbabwe,FN,FJW
+756,https://en.wikipedia.org/wiki/Eswatini_Air,Eswatini Air,RN,SZL
+757,https://en.wikipedia.org/wiki/Air_Botswana,Air Botswana,BP,BOT
+758,https://en.wikipedia.org/wiki/FlyNamibia,Westair Aviation,WV,WAA
+759,https://en.wikipedia.org/wiki/Westair_Aviation_(Namibia),Westair Aviation,WV,WAA
+760,https://en.wikipedia.org/wiki/LIFT_(airline),LIFT (airline),GE[1],GBB[1]
+761,https://en.wikipedia.org/wiki/Federal_Air,Federal Air,7V,FDR
+762,https://en.wikipedia.org/wiki/Kish_Air,Kish Air,Y9,KIS
+763,https://en.wikipedia.org/wiki/VietJet_Air,VietJet Air,VJ,VJC
+764,https://en.wikipedia.org/wiki/Zhezkazgan_Air,Zhezkazgan Air,-,KZH
+765,https://en.wikipedia.org/wiki/TezJet_Airlines,TezJet Airlines,-,TEZ
+766,https://en.wikipedia.org/wiki/Loong_Air,Loong Air,GJ,CDC
+767,https://en.wikipedia.org/wiki/T%27way_Air,T'way Air,TW,TWB
+768,https://en.wikipedia.org/wiki/Kyrgyzstan_Air_Company,Air Kyrgyzstan,QH,LYN
+769,https://en.wikipedia.org/wiki/SCAT_(airline),SCAT Airlines,DV,VSV
+770,https://en.wikipedia.org/wiki/Varesh_Airlines,Varesh Airlines,—,VRH
+771,https://en.wikipedia.org/wiki/ATA_Airlines,ATA Airlines,TZ,AMT
+772,https://en.wikipedia.org/wiki/Azimuth,Azimuth,,
+773,https://en.wikipedia.org/wiki/Zagros_Airlines,Zagros Airlines,ZV,IZG
+774,https://en.wikipedia.org/wiki/Okay_Airways,Okay Airways,BK,OKA
+775,https://en.wikipedia.org/wiki/West_Air_(China),West Air (China),PN,CHB
+776,https://en.wikipedia.org/wiki/China_United_Airlines,China United Airlines,KN,CUA
+777,https://en.wikipedia.org/wiki/Juneyao_Air,Juneyao Air,HO,DKH
+778,https://en.wikipedia.org/wiki/GX_Airlines,GX Airlines,GX,CBG
+779,https://en.wikipedia.org/wiki/Spring_Airlines,Spring Airlines,9C,CQH
+780,https://en.wikipedia.org/wiki/9_Air,9 Air,AQ,JYH
+781,https://en.wikipedia.org/wiki/Colorful_Guizhou_Airlines,Colorful Guizhou Airlines,GY,CGZ
+782,https://en.wikipedia.org/wiki/Dalian_Airlines,Dalian Airlines,CA,CCD
+783,https://en.wikipedia.org/wiki/Donghai_Airlines,Donghai Airlines,DZ,EPA
+784,https://en.wikipedia.org/wiki/Lion_Air,Lion Air,JT,LNI
+785,https://en.wikipedia.org/wiki/LJ_Air,LJ Air,LT,SNG
+786,https://en.wikipedia.org/wiki/OTT_Airlines,OTT Airlines,MU[1],OTT[2]
+787,https://en.wikipedia.org/wiki/Qingdao_Airlines,Qingdao Airlines,QW,QDA
+788,https://en.wikipedia.org/wiki/Shandong_Airlines,Shandong Airlines,SC,CDG
+789,https://en.wikipedia.org/wiki/Thai_Lion_Air,Thai Lion Air,SL,TLM
+790,https://en.wikipedia.org/wiki/Air_Macau,Air Macau,NX,AMU
+791,https://en.wikipedia.org/wiki/Cambodia_Angkor_Air,Cambodia Angkor Air,K6,KHV
+792,https://en.wikipedia.org/wiki/Cebu_Pacific,Cebu Pacific,5J,CEB
+793,https://en.wikipedia.org/wiki/Grand_China_Air,Grand China Air,CN,GDC
+794,https://en.wikipedia.org/wiki/Hong_Kong_Airlines,Hong Kong Airlines,HX,CRK
+795,https://en.wikipedia.org/wiki/Jiangxi_Air,Jiangxi Air,RY,CJX
+796,https://en.wikipedia.org/wiki/Sky_Angkor_Airlines,Sky Angkor Airlines,ZA,SWM
+797,https://en.wikipedia.org/wiki/Tibet_Airlines,Tibet Airlines,TV,TBA
+798,https://en.wikipedia.org/wiki/AirAsia,AirAsia,AK,AXM
+799,https://en.wikipedia.org/wiki/Cambodia_Airways,Cambodia Airways,KR,KME
+800,https://en.wikipedia.org/wiki/Chongqing_Airlines,Chongqing Airlines,OQ,CQN
+801,https://en.wikipedia.org/wiki/Hebei_Airlines,Hebei Airlines,NS,HBH
+802,https://en.wikipedia.org/wiki/Himalaya_Airlines,Himalaya Airlines,H9[1],HIM[1]
+803,https://en.wikipedia.org/wiki/Thai_AirAsia,Thai AirAsia,FD,AIQ
+804,https://en.wikipedia.org/wiki/Air_Guilin,Air Guilin,GT[1],CGH[1]
+805,https://en.wikipedia.org/wiki/Bangkok_Airways,Bangkok Airways,PG,BKP
+806,https://en.wikipedia.org/wiki/Fuzhou_Airlines,Fuzhou Airlines,FU,FZA
+807,https://en.wikipedia.org/wiki/Kunming_Airlines,Kunming Airlines,KY,KNA
+808,https://en.wikipedia.org/wiki/Suparna_Airlines,Suparna Airlines,Y8,YZR
+809,https://en.wikipedia.org/wiki/Thai_Smile,Thai Smile,WE,THD
+810,https://en.wikipedia.org/wiki/Uni_Air,Uni Air,B7,UIA
+811,https://en.wikipedia.org/wiki/Air_Chang%27an,Air Changan,9H,CGN
+812,https://en.wikipedia.org/wiki/JC_International_Airlines,JC International Airlines,QD,JCC
+813,https://en.wikipedia.org/wiki/Joy_Air,Joy Air,JR,JOY
+814,https://en.wikipedia.org/wiki/Lanmei_Airlines,Lanmei Airlines,LQ,MKR
+815,https://en.wikipedia.org/wiki/Mandarin_Airlines,Mandarin Airlines,AE,MDA
+816,https://en.wikipedia.org/wiki/Myanmar_Airways_International,Myanmar Airways International,8M,MMA
+817,https://en.wikipedia.org/wiki/Ruili_Airlines,Ruili Airlines,DR[1],RLH[1]
+818,https://en.wikipedia.org/wiki/Sriwijaya_Air,Sriwijaya Air,SJ,SJY
+819,https://en.wikipedia.org/wiki/Citilink,Citilink,QG,CTV
+820,https://en.wikipedia.org/wiki/Air_Travel_(airline),Air Travel (airline),A6,OTC
+821,https://en.wikipedia.org/wiki/Batik_Air_Malaysia,Batik Air Malaysia,OD,MXD
+822,https://en.wikipedia.org/wiki/Lao_Airlines,Lao Airlines,QV,LAO
+823,https://en.wikipedia.org/wiki/Philippines_AirAsia,Philippines AirAsia,Z2,APG
+824,https://en.wikipedia.org/wiki/US-Bangla_Airlines,US-Bangla Airlines,BS,UBG
+825,https://en.wikipedia.org/wiki/Batik_Air,Batik Air,ID,BTK
+826,https://en.wikipedia.org/wiki/Air_Asia,AirAsia,AK,AXM
+827,https://en.wikipedia.org/wiki/Pacific_Airlines,Pacific Airlines,BL,PIC
+828,https://en.wikipedia.org/wiki/Air_Busan,Air Busan,BX,ABL
+829,https://en.wikipedia.org/wiki/Jeju_Air,Jeju Air,7C,JJA
+830,https://en.wikipedia.org/wiki/Jetstar_Asia_Airways,Jetstar Asia Airways,3K,JSA
+831,https://en.wikipedia.org/wiki/Thai_VietJet_Air,Thai VietJet Air,VZ,TVJ
+832,https://en.wikipedia.org/wiki/Spring_Airlines_Japan,Spring Airlines Japan,IJ,SJO
+833,https://en.wikipedia.org/wiki/Jetstar_Pacific,Pacific Airlines,BL,PIC
+834,https://en.wikipedia.org/wiki/Nok_Air,Nok Air,DD,NOK
+835,https://en.wikipedia.org/wiki/Maldivian_(airline),Maldivian (airline),Q2,DQA
+836,https://en.wikipedia.org/wiki/Pacific_Airlines_(Vietnam),Pacific Airlines,BL,PIC
+837,https://en.wikipedia.org/wiki/Royal_Air_Philippines,Royal Air Philippines,RW,RYL
+838,https://en.wikipedia.org/wiki/Okay_Airlines,Okay Airways,BK,OKA
+839,https://en.wikipedia.org/wiki/Jin_Air,Jin Air,LJ,JNA
+840,https://en.wikipedia.org/wiki/Jetstar_Japan,Jetstar Japan,GK,JJP
+841,https://en.wikipedia.org/wiki/Peach_(airline),Peach Aviation,MM,APJ
+842,https://en.wikipedia.org/wiki/Thai_AirAsia_X,Thai AirAsia X,XJ,TAX
+843,https://en.wikipedia.org/wiki/ANA_Wings,ANA Wings,EH,AKX
+844,https://en.wikipedia.org/wiki/Japan_Transocean_Air,Japan Transocean Air,NU,JTA
+845,https://en.wikipedia.org/wiki/Air_Do,Air Do,HD,ADO
+846,https://en.wikipedia.org/wiki/Fuji_Dream_Airlines,Fuji Dream Airlines,JH,FDA
+847,https://en.wikipedia.org/wiki/HK_Express,HK Express,UO,HKE
+848,https://en.wikipedia.org/wiki/Ibex_Airlines,Ibex Airlines,FW,IBX
+849,https://en.wikipedia.org/wiki/Oriental_Air_Bridge,Oriental Air Bridge,OC,ORC
+850,https://en.wikipedia.org/wiki/Skymark_Airlines,Skymark Airlines,BC,SKY
+851,https://en.wikipedia.org/wiki/Solaseed_Air,Solaseed Air,6J,SNJ
+852,https://en.wikipedia.org/wiki/StarFlyer,StarFlyer,7G,SFJ
+853,https://en.wikipedia.org/wiki/Tigerair_Taiwan,Tigerair Taiwan,IT,TTW
+854,https://en.wikipedia.org/wiki/T%27way_Airlines,T'way Air,TW,TWB
+855,https://en.wikipedia.org/wiki/J-Air,J-Air,JL,JALJLJ
+856,https://en.wikipedia.org/wiki/Japan_Air_Commuter,Japan Air Commuter,JC,JAC
+857,https://en.wikipedia.org/wiki/Hokkaido_Air_System,Hokkaido Air System,6L,NTH
+858,https://en.wikipedia.org/wiki/Peach_Aviation,Peach Aviation,MM,APJ
+859,https://en.wikipedia.org/wiki/Toki_Air,Toki Air,-,-
+860,https://en.wikipedia.org/wiki/Amakusa_Airlines,Amakusa Airlines,MZ[1],AHX[2]
+861,https://en.wikipedia.org/wiki/Air_Seoul,Air Seoul,RS,ASV
+862,https://en.wikipedia.org/wiki/Greater_Bay_Airlines,Greater Bay Airlines,HB,HGB
+863,https://en.wikipedia.org/wiki/Toho_Air_Service,Toho Air Service,-,-
+864,https://en.wikipedia.org/wiki/Virgin_Australia,Virgin Australia,VA[N 1],VOZ
+865,https://en.wikipedia.org/wiki/Aircalin,Aircalin,SB,ACI
+866,https://en.wikipedia.org/wiki/Fly_Gangwon,Fly Gangwon,4V,FGW
+867,https://en.wikipedia.org/wiki/Nepal_Airlines,Nepal Airlines,RA,RNA
+868,https://en.wikipedia.org/wiki/Ryukyu_Air_Commuter,Ryukyu Air Commuter,—,RAC
+869,https://en.wikipedia.org/wiki/Aero_K,Aero K,RF[1],EOK[2]
+870,https://en.wikipedia.org/wiki/Eastar_Jet,Eastar Jet,ZE,ESR
+871,https://en.wikipedia.org/wiki/Hi_Air,Hi Air,4H,HGG
+872,https://en.wikipedia.org/wiki/Daily_Air,Daily Air,DA,DAC
+873,https://en.wikipedia.org/wiki/Thai_Summer_Airways,Thai Summer Airways,9T,AST
+874,https://en.wikipedia.org/wiki/Novoair,Novoair,VQ,NVQ
+875,https://en.wikipedia.org/wiki/Air_Astra,Air Astra,2A,AWA
+876,https://en.wikipedia.org/wiki/Drukair,Drukair,KB,DRK[1]
+877,https://en.wikipedia.org/wiki/IndiGo,IndiGo,6E,IGO
+878,https://en.wikipedia.org/wiki/Bhutan_Airlines,Bhutan Airlines,B3,BTN
+879,https://en.wikipedia.org/wiki/Akasa_Air,Akasa Air,QP[1],AKJ
+880,https://en.wikipedia.org/wiki/FlyBig,FlyBig,S9 [1],FLG
+881,https://en.wikipedia.org/wiki/Alliance_Air_(India),Alliance Air (India),9I[1],LLR[1]
+882,https://en.wikipedia.org/wiki/Go_First,Go First,G8,GOW
+883,https://en.wikipedia.org/wiki/Star_Air_(India),Star Air (India),S5,SDG
+884,https://en.wikipedia.org/wiki/Air_India_Express,Air India Express,IX,AXB
+885,https://en.wikipedia.org/wiki/AIX_Connect,AIX Connect,I5[1],IAD[1]
+886,https://en.wikipedia.org/wiki/Go_First_(airline),Go First,G8,GOW
+887,https://en.wikipedia.org/wiki/FitsAir,FitsAir,8D,EXV
+888,https://en.wikipedia.org/wiki/IndiaOne_Air,IndiaOne Air,I7,IOA
+889,https://en.wikipedia.org/wiki/Myanmar_National_Airlines,Myanmar National Airlines,UB[1],UBA[1]
+890,https://en.wikipedia.org/wiki/Air_KBZ,Air KBZ,K7,KBZ
+891,https://en.wikipedia.org/wiki/Buddha_Air,Buddha Air,U4,BHA
+892,https://en.wikipedia.org/wiki/Flyme_(Villa_Air),Flyme (Villa Air),VP,VQI
+893,https://en.wikipedia.org/wiki/Manta_Air,Manta Air,NR,MAV
+894,https://en.wikipedia.org/wiki/Guna_Airlines,Guna Airlines,—,GUA
+895,https://en.wikipedia.org/wiki/Saurya_Airlines,Saurya Airlines,S1,SAU
+896,https://en.wikipedia.org/wiki/Shree_Airlines,Shree Airlines,N9[1],SHA
+897,https://en.wikipedia.org/wiki/Sita_Air,Sita Air,ST,STA[a]
+898,https://en.wikipedia.org/wiki/Yeti_Airlines,Yeti Airlines,YT,NYT
+899,https://en.wikipedia.org/wiki/Summit_Air_(Nepal),Summit Air (Nepal),-,SMA[a]
+900,https://en.wikipedia.org/wiki/Tara_Air,Tara Air,TB[1],TRA[a]
+901,https://en.wikipedia.org/wiki/Air_Blue,Airblue,PA,ABQ
+902,https://en.wikipedia.org/wiki/AirSial,AirSial,PF,SIF
+903,https://en.wikipedia.org/wiki/Fly_Jinnah,Fly Jinnah,9P,FJL
+904,https://en.wikipedia.org/wiki/Serene_Air,SereneAir,ER[1],SEP[1]
+905,https://en.wikipedia.org/wiki/Airblue,Airblue,PA,ABQ
+906,https://en.wikipedia.org/wiki/SaudiGulf_Airlines,SaudiGulf Airlines,6S[1],SGQ[1]
+907,https://en.wikipedia.org/wiki/Cinnamon_Air,Cinnamon Air,C7,CIN
+908,https://en.wikipedia.org/wiki/Air_Senok,Air Senok,—,MVS
+909,https://en.wikipedia.org/wiki/Helitours,Helitours,—,HLT
+910,https://en.wikipedia.org/wiki/Millennium_Airlines,Simplifly,—,DLK
+911,https://en.wikipedia.org/wiki/Indonesia_AirAsia,Indonesia AirAsia,QZ,AWQ
+912,https://en.wikipedia.org/wiki/Jetstar_Asia,Jetstar Asia Airways,3K,JSA
+913,https://en.wikipedia.org/wiki/Air_Niugini,Air Niugini,PX,ANG
+914,https://en.wikipedia.org/wiki/Airfast_Indonesia,Airfast Indonesia,FS,AFE
+915,https://en.wikipedia.org/wiki/Wings_Air,Wings Air,IW,WON
+916,https://en.wikipedia.org/wiki/Pelita_Air,Pelita Air,IP,PAS
+917,https://en.wikipedia.org/wiki/Super_Air_Jet,Super Air Jet,IU,SJV
+918,https://en.wikipedia.org/wiki/Firefly_(airline),Firefly (airline),FY,FFM
+919,https://en.wikipedia.org/wiki/Nam_Air,NAM Air,IN,LKN
+920,https://en.wikipedia.org/wiki/NAM_Air,NAM Air,IN,LKN
+921,https://en.wikipedia.org/wiki/TransNusa,TransNusa,8B[a],TNU
+922,https://en.wikipedia.org/wiki/Aviastar_(Indonesia),Aviastar (Indonesia),MV,VIT
+923,https://en.wikipedia.org/wiki/PNG_Air,PNG Air,CG,TOK
+924,https://en.wikipedia.org/wiki/Susi_Air,Susi Air,SI,SQS
+925,https://en.wikipedia.org/wiki/Aviastar,Aviastar-TU,4B,TUP
+926,https://en.wikipedia.org/wiki/Kaltim_Airlines,Kaltim Airlines,—,—
+927,https://en.wikipedia.org/wiki/Xpressair,Xpress Air,XN,XAR
+928,https://en.wikipedia.org/wiki/Kalstar_Aviation,Kalstar Aviation,KD,KLS
+929,https://en.wikipedia.org/wiki/Lao_Skyway,Lao Skyway,LK[1],LLL[1]
+930,https://en.wikipedia.org/wiki/MASwings,MASwings,MY,MWG
+931,https://en.wikipedia.org/wiki/MYAirline,MYAirline,Z9,MYM
+932,https://en.wikipedia.org/wiki/Berjaya_Air,Berjaya Air,J8,BVT
+933,https://en.wikipedia.org/wiki/SKS_Airways,SKS Airways,KI,SJB
+934,https://en.wikipedia.org/wiki/Firefly_Airline,Firefly (airline),FY,FFM
+935,https://en.wikipedia.org/wiki/Air_Thanlwin,Air Thanlwin,ST,RTL[1]
+936,https://en.wikipedia.org/wiki/Mann_Yadanarpon_Airlines,Mann Yadanarpon Airlines,7Y,MYP
+937,https://en.wikipedia.org/wiki/Mann_Yatanarpon_Airlines,Mann Yadanarpon Airlines,7Y,MYP
+938,https://en.wikipedia.org/wiki/Air_Juan,Air Juan,,
+939,https://en.wikipedia.org/wiki/AirSWIFT,AirSWIFT,T6,ATX
+940,https://en.wikipedia.org/wiki/Cebgo,Cebgo,DG[1],SRQ[1]
+941,https://en.wikipedia.org/wiki/PAL_Express,PAL Express,2P,GAP
+942,https://en.wikipedia.org/wiki/SkyJet_Airlines,SkyJet Airlines,M8,MSJ
+943,https://en.wikipedia.org/wiki/Sunlight_Air,Sunlight Air,2R,RLB
+944,https://en.wikipedia.org/wiki/Platinum_Skies,List of airlines of the Philippines,,
+945,https://en.wikipedia.org/wiki/Sky_Pasada,Sky Pasada,SP,WCC
+946,https://en.wikipedia.org/wiki/Air_Timor,Air Timor,6C [1],—
+947,https://en.wikipedia.org/wiki/Vietravel_Airlines,Vietravel Airlines,VU,VAG
+948,https://en.wikipedia.org/wiki/Airnorth,Airnorth,TL,ANO
+949,https://en.wikipedia.org/wiki/QantasLink,QantasLink,QF,QLKQJENWK
+950,https://en.wikipedia.org/wiki/Vietnam_Air_Services_Company,Vietnam Air Services Company,0V,VFC
+951,https://en.wikipedia.org/wiki/Vietnam_Air_Service_Company,Vietnam Air Services Company,0V,VFC
+952,https://en.wikipedia.org/wiki/Xiamen_Air,XiamenAir,MF,CXA
+953,https://en.wikipedia.org/wiki/FlyOne_Armenia,FlyOne Armenia,3F[1],FIE
+954,https://en.wikipedia.org/wiki/Air_Arabia_Egypt,Air Arabia Egypt,E5,RBG
+955,https://en.wikipedia.org/wiki/Vanilla_Sky_Airlines,Vanilla Sky (airline),,
+956,https://en.wikipedia.org/wiki/Yanair,Yanair,YE,ANR
+957,https://en.wikipedia.org/wiki/Caspian_Airlines,Caspian Airlines,—,CPN
+958,https://en.wikipedia.org/wiki/Chabahar_Airlines,Chabahar Airlines,-,IRU
+959,https://en.wikipedia.org/wiki/FlyPersia,FlyPersia,FP,FPI
+960,https://en.wikipedia.org/wiki/Karun_Airlines,Karun Airlines,NV,IRG
+961,https://en.wikipedia.org/wiki/Pouya_Air,Pouya Air,PY,PYA
+962,https://en.wikipedia.org/wiki/Saha_Airlines,Saha Airlines,-,IRZ
+963,https://en.wikipedia.org/wiki/Georgian_Airlines,Georgian Airways,A9,TGZ
+964,https://en.wikipedia.org/wiki/SereneAir,SereneAir,ER[1],SEP[1]
+965,https://en.wikipedia.org/wiki/FLYONE_Armenia,FlyOne Armenia,3F[1],FIE
+966,https://en.wikipedia.org/wiki/FlyPelican,FlyPelican,FP,FRE
+967,https://en.wikipedia.org/wiki/Link_Airways,Link Airways,FC,-
+968,https://en.wikipedia.org/wiki/Rex_Airlines,Rex Airlines,ZL,RXA
+969,https://en.wikipedia.org/wiki/Bonza_(airline),Bonza (airline),AB,BNZ
+970,https://en.wikipedia.org/wiki/Jetstar_Airways,Jetstar,JQ,JST
+971,https://en.wikipedia.org/wiki/Air_Link,Air Link,LZ,-
+972,https://en.wikipedia.org/wiki/Eastern_Air_Services,Eastern Air Services,,
+973,https://en.wikipedia.org/wiki/Air_Vanuatu,Air Vanuatu,NF,AVN
+974,https://en.wikipedia.org/wiki/Alliance_Airlines,Alliance Airlines,QQ,UTY
+975,https://en.wikipedia.org/wiki/Fly_Tiwi,Fly Tiwi,FT,-
+976,https://en.wikipedia.org/wiki/Virgin_Australia_Regional_Airlines,Virgin Australia Regional Airlines,VA,VOZ
+977,https://en.wikipedia.org/wiki/Skytrans_Airlines,Skytrans,QN,SKP
+978,https://en.wikipedia.org/wiki/Nauru_Airlines,Nauru Airlines,ON,RON
+979,https://en.wikipedia.org/wiki/Solomon_Airlines,Solomon Airlines,IE,SOL
+980,https://en.wikipedia.org/wiki/Asia_Pacific_Airlines_(PNG),Asia Pacific Airlines (PNG),,
+981,https://en.wikipedia.org/wiki/Hinterland_Aviation,Hinterland Aviation,OI,HND
+982,https://en.wikipedia.org/wiki/Skytrans,Skytrans,QN,SKP
+983,https://en.wikipedia.org/wiki/West_Wing_Aviation,West Wing Aviation,-,-
+984,https://en.wikipedia.org/wiki/National_Jet_Express,National Jet Express,NC,JTE
+985,https://en.wikipedia.org/wiki/Sharp_Airlines,Sharp Airlines,SH,-
+986,https://en.wikipedia.org/wiki/Airlines_of_Tasmania,Airlines of Tasmania,FO,ATM
+987,https://en.wikipedia.org/wiki/King_Island_Airlines,King Island Airlines,,
+988,https://en.wikipedia.org/wiki/Southern_Airlines,Southern Airways,SO,SOU
+989,https://en.wikipedia.org/wiki/Aviair,Aviair,GD,-
+990,https://en.wikipedia.org/wiki/Skippers_Aviation,Skippers Aviation,HK,PY
+991,https://en.wikipedia.org/wiki/Maroomba_Airlines,Maroomba Airlines,KN,-
+992,https://en.wikipedia.org/wiki/Toll_Global_Express,Toll Group,,
+993,https://en.wikipedia.org/wiki/Air_Chathams,Air Chathams,3C,CVA[1]
+994,https://en.wikipedia.org/wiki/Barrier_Air,Barrier Air,—,GBA[1]
+995,https://en.wikipedia.org/wiki/Air_Napier,List of airlines of New Zealand,,
+996,https://en.wikipedia.org/wiki/Originair,Originair,OG[1],OGN[2]
+997,https://en.wikipedia.org/wiki/Sunair,Sunair,ZU,SAV
+998,https://en.wikipedia.org/wiki/Sounds_Air,Sounds Air,S8,SDA[1]
+999,https://en.wikipedia.org/wiki/Samoa_Airways,Samoa Airways,OL,PAO
+1000,https://en.wikipedia.org/wiki/Talofa_Airways,Talofa Airways,TA,TAL
+1001,https://en.wikipedia.org/wiki/Air_Rarotonga,Air Rarotonga,GZ [1],RAR [2]
+1002,https://en.wikipedia.org/wiki/Air_Tahiti,Air Tahiti,VT,VTA
+1003,https://en.wikipedia.org/wiki/Fiji_Link,Fiji Link,FJ,FJA
+1004,https://en.wikipedia.org/wiki/Northern_Air_(Fiji),Northern Air,—,FJN
+1005,https://en.wikipedia.org/wiki/Pacific_Island_Air,Pacific Island Air,,
+1006,https://en.wikipedia.org/wiki/Air_Moana,Air Moana,,
+1007,https://en.wikipedia.org/wiki/Star_Marianas_Air,Star Marianas Air,,
+1008,https://en.wikipedia.org/wiki/Air_Kiribati,Air Kiribati,IK,AKL
+1009,https://en.wikipedia.org/wiki/Air_Marshall_Islands,Air Marshall Islands,—,MRS
+1010,https://en.wikipedia.org/wiki/Caroline_Islands_Air,Caroline Islands Air,,
+1011,https://en.wikipedia.org/wiki/Pacific_Missionary_Aviation,Edmund Kalau,,
+1012,https://en.wikipedia.org/wiki/Air_Caledonie,Air Calédonie,TY,TPC
+1013,https://en.wikipedia.org/wiki/Air_Cal%C3%A9donie,Air Calédonie,TY,TPC
+1014,https://en.wikipedia.org/wiki/Belau_Air,Belau Air,,
+1015,https://en.wikipedia.org/wiki/Pacific_Mission_Aviation,Edmund Kalau,,
+1016,https://en.wikipedia.org/wiki/Urumqi_Airlines,Urumqi Air,UQ,CUH
+1017,https://en.wikipedia.org/wiki/Vietjet_Air,VietJet Air,VJ,VJC
+1018,https://en.wikipedia.org/wiki/Air_Mandalay,Air Mandalay,6T,AMY
+1019,https://en.wikipedia.org/wiki/Air_Transport_International,Air Transport International,8C,ATN
+1020,https://en.wikipedia.org/wiki/Air_Excel,Air Excel,—,XLL
+1021,https://en.wikipedia.org/wiki/Safari_Plus,Safari Plus,,

@@ -1,0 +1,13 @@
+.ipynb_checkpoints/
+
+/TrafficEstimator/03_routes_schedule/data/grouped_oag.csv
+/TrafficEstimator/03_routes_schedule/data/planespotters_fleet.xlsx
+/TrafficEstimator/03_routes_schedule/data/open_sky/zenodo_flightlist_1000ft.csv
+/TrafficEstimator/03_routes_schedule/data/Eurocontrol/Flights_20190301_20190331.csv
+/TrafficEstimator/03_routes_schedule/data/Eurocontrol/Flights_20190601_20190630.csv
+/TrafficEstimator/03_routes_schedule/data/Eurocontrol/Flights_20190901_20190930.csv
+/TrafficEstimator/03_routes_schedule/data/Eurocontrol/Flights_20191201_20191231.csv
+/TrafficEstimator/03_routes_schedule/data/BTS/T_T100_SEGMENT_ALL_CARRIER_2019.csv
+/TrafficEstimator/02_airport_features/data/kontur_population.gpkg
+/TrafficEstimator/02_airport_features/data/kontour_400.csv
+/TrafficEstimator/03_routes_schedule/data/ectrl_to_prod_ipynb.csv
