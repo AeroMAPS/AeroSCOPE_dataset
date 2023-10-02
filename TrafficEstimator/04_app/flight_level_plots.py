@@ -45,7 +45,7 @@ def flights_map_plot(flights_gpb_df, value_watched_flights):
             line=dict(width=0.5, color='white'),
         ),
         customdata=airport_df['iata_arrival'],
-        hovertemplate="Flights to " + "%{customdata}<br>" +
+        hovertemplate="Flights to: " + "%{customdata}<br>" +
                       value_watched_flights + ": %{text:.0f}<br>" +
                       "<extra></extra>",
 
@@ -86,6 +86,7 @@ def distance_histogramm_plot_flights(flights_df, value_watched_flights):
         x="distance_km",
         y=value_watched_flights,
         histfunc="sum",
+        color_discrete_sequence=px.colors.qualitative.T10,
         title='Repartition of {} by flight distance'.format(value_watched_flights),
 
     )
@@ -122,6 +123,7 @@ def aircraft_pie_flights(flights_df, value_watched_flights):
     fig = px.pie(
         values=top_aircraft,
         names=top_aircraft.index,
+        color_discrete_sequence=px.colors.qualitative.T10,
         labels={'names': 'Aircraft', 'values': value_watched_flights},
     )
     fig.update_traces(textposition='inside')
@@ -142,6 +144,7 @@ def aircraft_user_pie_flights(flights_df, value_watched_flights):
     fig = px.pie(
         values=top_airlines,
         names=top_airlines.index,
+        color_discrete_sequence=px.colors.qualitative.T10,
         labels={'names': 'Airline', 'values': value_watched_flights},
     )
     fig.update_traces(textposition='inside')

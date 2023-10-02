@@ -15,8 +15,8 @@ def countries_map_plot(country_flows, value_watched_ctry):
     for i in range(len(country_flows)):
         fig.add_trace(
             go.Scattergeo(
-                locations=[country_flows['departure_ISO3'][i], country_flows['arrival_ISO3'][i]],
-                locationmode="ISO-3",
+                lon=[country_flows['departure_lon'][i], country_flows['arrival_lon'][i]],
+                lat=[country_flows['departure_lat'][i], country_flows['arrival_lat'][i]],
                 mode='lines',
                 line=dict(width=country_flows[value_watched_ctry][i] / (.05 * max(country_flows[value_watched_ctry])),
                           color='#EE9B00'),
@@ -25,8 +25,8 @@ def countries_map_plot(country_flows, value_watched_ctry):
         )
 
     fig.add_trace(go.Scattergeo(
-        locations=country_flows['arrival_ISO3'],
-        locationmode="ISO-3",
+        lon=country_flows['arrival_lon'],
+        lat=country_flows['arrival_lat'],
         hoverinfo='text',
         text=country_flows[value_watched_ctry],
         mode='markers',
@@ -36,7 +36,7 @@ def countries_map_plot(country_flows, value_watched_ctry):
             line=dict(width=0.5, color='white'), opacity=1
         ),
         customdata=country_flows[['departure_country_name', 'arrival_country_name']],
-        hovertemplate="%{customdata[0]}" + " TO " + "%{customdata[1]}<br>" +
+        hovertemplate="Flights from: %{customdata[0]}" + " to: " + "%{customdata[1]}<br>" +
                       value_watched_ctry + ": %{text:.0f}<br>" +
                       "<extra></extra>",
     ))
@@ -50,8 +50,8 @@ def countries_map_plot(country_flows, value_watched_ctry):
 def countries_global_plot(country_fixed, value_watched_ctry):
     fig = go.Figure()
     fig.add_trace(go.Scattergeo(
-        locations=country_fixed['departure_ISO3'],
-        locationmode="ISO-3",
+        lon=country_fixed['departure_lon'],
+        lat=country_fixed['departure_lat'],
         hoverinfo='text',
         text=country_fixed[value_watched_ctry],
         mode='markers',
@@ -61,7 +61,7 @@ def countries_global_plot(country_fixed, value_watched_ctry):
             line=dict(width=0.5, color='white'), opacity=1
         ),
         customdata=country_fixed[['departure_country_name']],
-        hovertemplate="%{customdata[0]}<br>" +
+        hovertemplate="Total departures from: %{customdata[0]}<br>" +
                       value_watched_ctry + ": %{text:.0f}<br>" +
                       "<extra></extra>",
 
@@ -102,6 +102,7 @@ def distance_histogramm_plot_country(flights_df, value_watched_ctry):
         x="distance_km",
         y=value_watched_ctry,
         histfunc="sum",
+        color_discrete_sequence=px.colors.qualitative.T10,
         title='Repartition of {} by flight distance'.format(value_watched_ctry),
 
     )
@@ -138,6 +139,7 @@ def aircraft_pie(flights_df, value_watched_ctry):
     fig = px.pie(
         values=top_aircraft,
         names=top_aircraft.index,
+        color_discrete_sequence=px.colors.qualitative.T10,
         labels={'names': 'Aircraft', 'values': value_watched_ctry},
     )
     fig.update_traces(textposition='inside')
@@ -158,6 +160,7 @@ def aircraft_user_pie(flights_df, value_watched_ctry):
     fig = px.pie(
         values=top_airlines,
         names=top_airlines.index,
+        color_discrete_sequence=px.colors.qualitative.T10,
         labels={'names': 'Airline', 'values': value_watched_ctry},
     )
     fig.update_traces(textposition='inside')

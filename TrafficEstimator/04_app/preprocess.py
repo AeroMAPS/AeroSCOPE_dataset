@@ -108,17 +108,35 @@ def preprocess():
         ['seats', 'ask', 'fuel_burn', 'co2', 'CO2 (Mt)', 'ASK (Bn)', 'Seats (Mn)']].sum().reset_index()
 
 
+    ## ADD country coordinates for better plots -> source:
+    # https: // gist.github.com / metal3d / 5
+    # b925077e66194551df949de64e910f6
+    country_coord = pd.read_csv('data/country-coord.csv', keep_default_na=False, na_values=['', 'NaN'], index_col=0)
+    country_coord = country_coord[['Alpha-3 code','Latitude (average)','Longitude (average)']]
+
+    country_flows = country_flows.merge(country_coord, left_on='departure_ISO3', right_on='Alpha-3 code', how='left')
+    country_flows.rename(columns={'Latitude (average)':'departure_lat','Longitude (average)':'departure_lon'}, inplace=True)
+    country_flows.drop(columns={'Alpha-3 code'}, inplace=True)
+
+    country_flows = country_flows.merge(country_coord, left_on='arrival_ISO3', right_on='Alpha-3 code', how='left')
+    country_flows.rename(columns={'Latitude (average)': 'arrival_lat', 'Longitude (average)': 'arrival_lon'}, inplace=True)
+    country_flows.drop(columns={'Alpha-3 code'}, inplace=True)
+
+    country_fixed = country_fixed.merge(country_coord, left_on='departure_ISO3', right_on='Alpha-3 code', how='left')
+    country_fixed.rename(columns={'Latitude (average)': 'departure_lat', 'Longitude (average)': 'departure_lon'}, inplace=True)
+    country_fixed.drop(columns={'Alpha-3 code'}, inplace=True)
+
 
     #save continental level data
     continental_flows.to_csv('./plot_files/continental_flows.csv')
     continental_flows_non_dir.to_csv('./plot_files/continental_flows_non_dir.csv')
     conti_scatter.to_csv('./plot_files/conti_scatter.csv')
-    flights_df_conti.to_csv('./plot_files/flights_df_conti.csv')
+    flights_df_conti.to_csv('./plot_files/flights_df_conti.zip',compression='zip')
 
     #save country level data
     country_flows.to_csv('./plot_files/country_flows.csv')
     country_fixed.to_csv('./plot_files/country_fixed.csv')
 
     #save flight_level_data
-    flights_df.to_csv('./plot_files/flights_df.csv')
+    flights_df.to_csv('./plot_files/flights_df.zip',compression='zip')
 
