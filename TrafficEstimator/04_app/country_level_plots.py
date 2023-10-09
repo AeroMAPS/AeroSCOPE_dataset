@@ -42,7 +42,7 @@ def countries_map_plot(country_flows, value_watched_ctry):
     ))
 
     fig.update_geos(showcountries=True)
-    fig.update_layout(showlegend=False, height=800, title='Coutry pair flows of {}'.format(value_watched_ctry))
+    fig.update_layout(showlegend=False, height=800, title='Country pair flows of {}'.format(value_watched_ctry))
     fig.update_layout(margin=dict(l=5, r=5, t=60, b=5))  # Adjust layout margins and padding
     return fig
 
@@ -67,7 +67,7 @@ def countries_global_plot(country_fixed, value_watched_ctry):
 
     ))
     fig.update_geos(showcountries=True)
-    fig.update_layout(showlegend=False, height=800, title='Coutry values for {}'.format(value_watched_ctry))
+    fig.update_layout(showlegend=False, height=800, title='Country values for {}'.format(value_watched_ctry))
     fig.update_layout(margin=dict(l=5, r=5, t=60, b=5))  # Adjust layout margins and padding
     return fig
 
