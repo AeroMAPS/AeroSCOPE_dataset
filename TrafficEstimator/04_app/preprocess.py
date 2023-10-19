@@ -3,6 +3,7 @@
 # @File : preprocess.py
 # @Software: PyCharm
 import pandas as pd
+import random
 
 def preprocess():
 
@@ -121,6 +122,17 @@ def preprocess():
     country_flows = country_flows.merge(country_coord, left_on='arrival_ISO3', right_on='Alpha-3 code', how='left')
     country_flows.rename(columns={'Latitude (average)': 'arrival_lat', 'Longitude (average)': 'arrival_lon'}, inplace=True)
     country_flows.drop(columns={'Alpha-3 code'}, inplace=True)
+    
+    
+    # Create a set of unique departure countries
+    unique_ctry = set(country_flows['departure_country'])
+
+    # Create a random color mapping for each unique departure country
+    color_mapping = {ctry: f'#{random.randint(0, 0xFFFFFF):06x}' for ctry in unique_ctry}
+
+    # Add a new column 'color' to the DataFrame with the random colors
+    country_flows['color'] = country_flows['departure_country'].map(color_mapping)
+    
 
     country_fixed = country_fixed.merge(country_coord, left_on='departure_ISO3', right_on='Alpha-3 code', how='left')
     country_fixed.rename(columns={'Latitude (average)': 'departure_lat', 'Longitude (average)': 'departure_lon'}, inplace=True)

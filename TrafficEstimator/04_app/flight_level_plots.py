@@ -6,12 +6,13 @@
 
 import plotly.express as px
 import plotly.graph_objects as go
+import random
 
 def flights_map_plot(flights_gpb_df, value_watched_flights):
     # Create the scattergeo figure
     fig = go.Figure()
 
-    maxwidth = .05 * max(flights_gpb_df[value_watched_flights])
+    meanwidth = flights_gpb_df[value_watched_flights].mean()
 
     for i in range(len(flights_gpb_df)):
         fig.add_trace(
@@ -19,8 +20,8 @@ def flights_map_plot(flights_gpb_df, value_watched_flights):
                 lon=[flights_gpb_df['departure_lon'][i], flights_gpb_df['arrival_lon'][i]],
                 lat=[flights_gpb_df['departure_lat'][i], flights_gpb_df['arrival_lat'][i]],
                 mode='lines',
-                line=dict(width=flights_gpb_df[value_watched_flights][i] / maxwidth, color='#EE9B00'),
-                opacity=0.6
+                line=dict(width=flights_gpb_df[value_watched_flights][i] / (1.5*meanwidth), color="#023047"),
+                opacity=0.8
             )
         )
 
@@ -40,9 +41,11 @@ def flights_map_plot(flights_gpb_df, value_watched_flights):
         text=airport_df[value_watched_flights],
         mode='markers',
         marker=dict(
-            size=airport_df[value_watched_flights] / (.01 * max(airport_df[value_watched_flights])),
+            size=airport_df[value_watched_flights] / (.01 * airport_df[value_watched_flights].mean()),
+            color='#ffb703',
+            sizemode='area',
             opacity=0.8,
-            line=dict(width=0.5, color='white'),
+            line=dict(width=0.5, color='black'),
         ),
         customdata=airport_df['iata_arrival'],
         hovertemplate="Flights to: " + "%{customdata}<br>" +
@@ -138,6 +141,10 @@ def aircraft_pie_flights(flights_df, value_watched_flights):
 
 
 def aircraft_user_pie_flights(flights_df, value_watched_flights):
+    
+    
+    
+    
     top_airlines = flights_df.groupby('airline_iata')[value_watched_flights].sum().nlargest(10)
     other_total = flights_df[value_watched_flights].sum() - top_airlines.sum()
     top_airlines.loc['Other'] = other_total
