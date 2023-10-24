@@ -29,16 +29,28 @@ def continental_treemap_plot(continental_flows, value_watched_conti):
                          )
 
         fig.update_layout(margin=dict(l=5, r=5, t=60, b=5))
-        fig.update_traces(
-            marker=dict(cornerradius=5),
-        )
 
         if value_watched_conti == 'CO2 (Mt)':
             fig.update_traces(hovertemplate='Flow=%{id}<br>CO<sub>2</sub>=%{value:.2f} (Mt)')
+            fig.update_traces(
+                marker=dict(cornerradius=5),
+                textinfo="label+value+percent entry",
+                texttemplate='%{label}<br>%{value:.0f} Mt<br>%{percentEntry}'
+            )
         elif value_watched_conti == 'ASK (Bn)':
             fig.update_traces(hovertemplate='Flow=%{id}<br>ASK=%{value:.2f} (Bn)')
+            fig.update_traces(
+                marker=dict(cornerradius=5),
+                textinfo="label+value+percent entry",
+                texttemplate='%{label}<br>%{value:.1f} Bn<br>%{percentEntry}'
+            )
         elif value_watched_conti == 'Seats (Mn)':
             fig.update_traces(hovertemplate='Flow=%{id}<br>Seats=%{value:.2f} (Mn)')
+            fig.update_traces(
+                marker=dict(cornerradius=5),
+                textinfo="label+value+percent entry",
+                texttemplate='%{label}<br>%{value:.1f} Mn<br>%{percentEntry}'
+            )
 
         return fig
     else:
