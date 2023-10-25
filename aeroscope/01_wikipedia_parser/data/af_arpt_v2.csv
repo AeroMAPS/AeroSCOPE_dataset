@@ -1,0 +1,466 @@
+,QID,itemLabel,icao,iata,max_population,lon,lat,alt_in_m,max_rwy_lenght_m,max_passengers19,maxpax,traffic_source_url,wdpa_link,wpda_iata,wpda_icao,wpda_passengers,wpda_movements,wpda_year_data
+0,Q2875746,Touat-Cheikh Sidi Mohamed Belkebir Airport,DAUA,AZR,68276,-0.18636111111111,27.837833333333,280,,,,,https://en.wikipedia.org/wiki/Touat-Cheikh_Sidi_Mohamed_Belkebir_Airport,AZR,DAUA,"92,197","2,047",(2013)
+1,Q623452,Algiers Houari Boumediene Airport,DAAG,ALG,3415811,3.2169444444444,36.694444444444,25,,,7975412,,https://en.wikipedia.org/wiki/Houari_Boumediene_Airport,ALG,DAAG,"7,500,000",?,(2016)
+2,Q979270,Annaba Rabah Bitat Airport,DABB,AAE,464740,7.809444,36.822222,5,3000,515481,553349,http://www.egsa-constantine.dz/index.php/exploitation/statistiques-du-trafic,https://en.wikipedia.org/wiki/Rabah_Bitat_Airport,AAE,DABB,"105,229",,(2020[1])
+3,Q2265566,Mostépha Ben Boulaid Airport,DABT,BLJ,290645,6.30925,35.751805555556,823,,78285,83160,http://www.egsa-constantine.dz/index.php/exploitation/statistiques-du-trafic,https://en.wikipedia.org/wiki/Most%C3%A9pha_Ben_Boulaid_Airport,BLJ,DABT,"13,692",,(2020[1])
+4,Q2875808,Boudghene Ben Ali Lotfi Airport,DAOR,CBH,165627,-2.2611944444444,31.654666666667,811,,,,,https://en.wikipedia.org/wiki/Boudghene_Ben_Ali_Lotfi_Airport,CBH,DAOR,"59,165","1,820",(2013)
+5,Q2875809,Soummam – Abane Ramdane Airport,DAAE,BJA,176139,5.0694722222222,36.711972222222,6,,,318186,https://www.egsa-alger.dz/,https://en.wikipedia.org/wiki/Abane_Ramdane_Airport,BJA,DAAE,"294,933","3,664",(2013)
+6,Q598215,Biskra Mohamed Khider Airport,DAUB,BSK,204661,5.7383055555556,34.793361111111,88,2900,136718,136718,http://www.egsa-constantine.dz/images/statistiques/statistiques-passagers.pdf,https://en.wikipedia.org/wiki/Biskra_Airport,BSK,DAUB,"29,154",,(2020[1])
+7,Q2875797,Bordj Mokhtar Airport,DATM,BMW,20930,0.927,21.377833333333,397,,,,,https://en.wikipedia.org/wiki/Bordj_Badji_Mokhtar_Airport,BMW,DATM,,,
+8,Q2228220,Chlef International Airport,DAOI,CFK,155134,1.3356388888889,36.214805555556,153,2800,,,,https://en.wikipedia.org/wiki/Chlef_International_Airport,CFK,DAOI,,,
+9,Q2510194,Mohamed Boudiaf International Airport,DABC,CZL,448374,6.617056,36.282417,706,3000,1092491,1116415,http://www.egsa-constantine.dz/images/statistiques/statistiques-passagers.pdf,https://en.wikipedia.org/wiki/Mohamed_Boudiaf_International_Airport,CZL,DABC,"236,848",,(2020[1])
+10,Q2365220,Djanet Inedbirene Airport,DAAJ,DJG,14655,9.4521111111111,24.292861111111,966,,,,,https://en.wikipedia.org/wiki/Djanet_Inedbirene_Airport,DJG,DAAJ,,,
+11,Q4263825,Tsletsi Airport,DAFI,QDJ,,3.349,34.6671,1144,,,,,https://en.wikipedia.org/wiki/Tsletsi_Airport,,DAFI,,,
+12,Q2875767,El Bayadh Airport,DAOY,EBH,85577,1.09139,33.7208,1366,,,,,https://en.wikipedia.org/wiki/El_Bayadh_Airport,EBH,DAOY,,,
+13,Q5351317,El Golea Airport,DAUE,ELG,40195,2.8642222222222,30.577388888889,398,,,,,https://en.wikipedia.org/wiki/El_Golea_Airport,ELG,DAUE,,,
+14,Q2875773,Guemar Airport,DAUO,ELU,134699,6.7825833333333,33.512888888889,62,,,,,https://en.wikipedia.org/wiki/Guemar_Airport,ELU,DAUO,,,
+15,Q1432199,Noumérat – Moufdi Zakaria Airport,DAUG,GHA,120000,3.7946666666667,32.384277777778,461,3100,,,,https://en.wikipedia.org/wiki/Noum%C3%A9rat_%E2%80%93_Moufdi_Zakaria_Airport,GHA,DAUG,"45,794","2,436",(2010)
+16,Q2875824,Ghriss Airport,DAOV,MUW,108587,0.14714166666667,35.207725,514,,,,,https://en.wikipedia.org/wiki/Ghriss_Airport,MUW,DAOV,,,
+17,Q25060,Oued Irara–Krim Belkacem Airport,DAUH,HME,45147,6.140556,31.673889,140,3000,,481371,https://www.air-journal.fr/wp-content/uploads/classement-aeroports_info.jpg,https://en.wikipedia.org/wiki/Oued_Irara%E2%80%93Krim_Belkacem_Airport,HME,DAUH,"450,929","24,174",(2010)
+18,Q3886186,Hassi R'Mel Airport,DAFH,HRM,,3.3103888888889,32.931472222222,774,,,,,https://en.wikipedia.org/wiki/Hassi_R%27Mel_Airport,HRM,DAFH,,,
+19,Q2875776,Takhamalt Airport,DAAP,VVZ,17252,8.6224722222222,26.723611111111,542,,,,,https://en.wikipedia.org/wiki/Takhamalt_Airport,VVZ,DAAP,,,
+20,Q2876003,In Aménas Airport,DAUZ,IAM,9225,9.6427777777778,28.051444444444,563,3000,,,,https://en.wikipedia.org/wiki/In_Amenas_Airport,IAM,DAUZ,"145,070","3,627",(2007)
+21,Q3018067,In Salah Airport,DAUI,INZ,32518,2.5114166666667,27.250527777778,273,,,,,https://en.wikipedia.org/wiki/In_Salah_Airport,INZ,DAUI,,,
+22,Q2875839,Jijel Ferhat Abbas Airport,DAAV,GJL,131513,5.8736083333333,36.795136111111,11,2400,85157,85312,http://www.egsa-constantine.dz/images/statistiques/statistiques-passagers.pdf,https://en.wikipedia.org/wiki/Jijel_Ferhat_Abbas_Airport,GJL,DAAV,"16,379",,(2020[1])
+23,Q637028,Oran Ahmed Ben Bella Airport,DAOO,ORN,852000,-0.611389,35.627222,91,3060,,1938373,,https://en.wikipedia.org/wiki/Ahmed_Ben_Bella_Airport,ORN,DAOO,"1,085,753","15,323",(2010)
+24,Q4264562,Ain Beida Airport,DAUU,OGX,133024,5.4066666666667,31.931388888889,152,,,,,https://en.wikipedia.org/wiki/Ain_Beida_Airport,OGX,DAUU,,,
+25,Q2875946,Ain Arnat Airport,DAAS,QSF,288461,5.288611,36.176667,1015,2895,200578,248225,http://www.egsa-constantine.dz/images/statistiques/statistiques-passagers.pdf,https://en.wikipedia.org/wiki/Ain_Arnat_Airport,QSF,DAAS,"25,964",,(2020[1])
+26,Q1951782,Aguenar–Hadj Bey Akhamok Airport,DAAT,TMR,,5.450833,22.811111,1377,,,,,https://en.wikipedia.org/wiki/Aguenar_%E2%80%93_Hadj_Bey_Akhamok_Airport,TMR,"DAAT,[1][2]","70,515","2,402",(2010)
+27,Q1708790,Cheikh Larbi Tébessi Airport,DABS,TEE,194461,8.1225,35.431972222222,814,,48845,48845,http://www.egsa-constantine.dz/images/statistiques/statistiques-passagers.pdf,https://en.wikipedia.org/wiki/Cheikh_Larbi_T%C3%A9bessa_Airport,TEE,DABS,"12,607",,(2020[1])
+28,Q2875951,Tiaret - Abdelhafid Boussouf Bou Chekif Airport,DAOB,TID,178915,1.4629722222222,35.341027777778,989,,,,,https://en.wikipedia.org/wiki/Abdelhafid_Boussouf_Bou_Chekif_Airport,TID,DAOB,,,
+29,Q2875952,Timimoun Airport,DAUT,TMX,33060,0.27611111111111,29.236694444444,313,,,,,https://en.wikipedia.org/wiki/Timimoun_Airport,TMX,DAUT,"27,961",973,(2010)
+30,Q979632,Tindouf Airport,DAOF,TIN,45610,-8.16667,27.7,443,,,,,https://en.wikipedia.org/wiki/Commandant_Ferradj_Airport,TIN,DAOF,"50,976","1,650",(2010)
+31,Q2875969,Zenata – Messali El Hadj Airport,DAON,TLM,173531,-1.4575277777778,35.013361111111,248,,,137907,,https://en.wikipedia.org/wiki/Zenata_%E2%80%93_Messali_El_Hadj_Airport,TLM,DAON,"137,907","2,206",(2010)
+32,Q2875965,Sidi Mahdi Airport,DAUK,TGR,143270,6.0895277777778,33.073555555556,85,,,,,https://en.wikipedia.org/wiki/Sidi_Mahdi_Airport,TGR,DAUK,,,
+33,Q774216,Abu Simbel Airport,HEBL,ABS,2535,31.611667,22.375833,188,,,1238585,http://www.ehcaan.com/statistics.aspx#day,https://en.wikipedia.org/wiki/Abu_Simbel_Airport,ABS,HEBL,"499,172",,(2006)
+34,Q201626,El Arish International Airport,HEAR,AAC,164830,33.835833,31.073333,36.8808726,3019,,33010,http://www.ehcaan.com/statistics.aspx#day,https://en.wikipedia.org/wiki/El_Arish_International_Airport,AAC,HEAR,"5,991",,(2011)
+35,Q1194015,Borg El Arab Airport,HEBA,HBE,5163750,29.699194444444,30.930055555556,53,,,2796911,http://www.ehcaan.com/statistics.aspx#day,https://en.wikipedia.org/wiki/Borg_El_Arab_International_Airport,HBE,HEBA,,,
+36,Q269633,El Nouzha Airport,HEAX,ALY,4870000,29.948889,31.183889,-1,,,1162987,http://www.ehcaan.com/statistics.aspx#day,https://en.wikipedia.org/wiki/El_Nouzha_Airport,ALY,HEAX,,,
+37,Q2107478,Assiut Airport,HEAT,ATZ,389307,31.011944,27.046389,235,,,396939,http://www.ehcaan.com/statistics.aspx#day,https://en.wikipedia.org/wiki/Assiut_Airport,ATZ,HEAT,,,
+38,Q752537,Aswan International Airport,HESN,ASW,267913,32.819722,23.964167,201,,,2355531,https://centreforaviation.com/analysis/reports/egypt-air-travels-sensitivity-to-geopolitical-events-shows-in-falling-international-seat-numbers-274771,https://en.wikipedia.org/wiki/Aswan_International_Airport,ASW,HESN,,,
+39,Q461793,Cairo International Airport,HECA,CAI,9606916,31.405555555556,30.121944444444,116,4000,,17546221,http://www.ehcaan.com/statistics.aspx#day,https://en.wikipedia.org/wiki/Cairo_International_Airport,CAI,HECA,"14,711,500",,(2012)
+40,Q385191,Hurghada International Airport,HEGN,HRG,160901,33.799167,27.178056,15,4000,,8062652,http://www.ehcaan.com/statistics.aspx#day,https://en.wikipedia.org/wiki/Hurghada_International_Airport,HRG,HEGN,,,
+41,Q1347322,Luxor International Airport,HELX,LXR,202232,32.706389,25.670833,89,,,2313339,http://www.ehcaan.com/statistics.aspx#day,https://en.wikipedia.org/wiki/Luxor_International_Airport,LXR,HELX,,,
+42,Q123222,Marsa Alam International Airport,HEMA,RMF,1918,34.583611,25.556944,61,3000,,1491793,http://www.ehcaan.com/statistics.aspx#day,https://en.wikipedia.org/wiki/Marsa_Alam_International_Airport,RMF,HEMA,"1,089,000",,(2012)
+43,Q651557,Marsa Matruh International Airport,HEMM,MUH,108774,27.221667,31.325278,28,3000,,115297,http://www.ehcaan.com/statistics.aspx#day,https://en.wikipedia.org/wiki/Marsa_Matruh_International_Airport,MUH,HEMM,,,
+44,Q326268,Sharm el-Sheikh International Airport,HESH,SSH,73000,34.394722,27.977222,43,3081,,8693990,http://www.ehcaan.com/statistics.aspx#day,https://en.wikipedia.org/wiki/Sharm_El_Sheikh_International_Airport,SSH,HESH,"8,693,990[1]",,(2010)
+45,Q7490460,Sharq Al-Owainat Airport,HEOW,GSQ,,28.7207,22.5806,258,,,46332,http://www.ehcaan.com/statistics.aspx#day,https://en.wikipedia.org/wiki/Sharq_El_Owainat_Airport,GSQ,HEOW,,,
+46,Q4115512,Sohag International Airport,HEMK,HMB,193931,31.739330555556,26.339919444444,98,,,715605,http://www.ehcaan.com/statistics.aspx#day,https://en.wikipedia.org/wiki/Sohag_International_Airport,HMB,HESG,311000,,(2012)
+47,Q690636,Taba International Airport,HETB,TCP,800,34.778056,29.587778,736,,,452710,http://www.ehcaan.com/statistics.aspx#day,https://en.wikipedia.org/wiki/Taba_International_Airport,TCP,HETB,,,
+48,Q36171,Al Abraq International Airport,HLLQ,LAQ,250000,21.964166666667,32.788611111111,657,3600,,,,https://en.wikipedia.org/wiki/Al_Abraq_International_Airport,LAQ,HLLQ,,,
+49,Q44553,Benina International Airport,HLLB,BEN,,20.270833,32.0975,132,3576,,,,https://en.wikipedia.org/wiki/Benina_International_Airport,BEN,HLLB,,,
+50,Q25741,Ghadames Airport,HLTD,LTD,,9.715333,30.151667,341,,,,,https://en.wikipedia.org/wiki/Ghadames_Airport,LTD,HLTD,,,
+51,Q25744,Ghat Airport,HLGT,GHT,22000,10.1425,25.1456,700,,,,,https://en.wikipedia.org/wiki/Ghat_Airport,GHT,HLGT,,,
+52,Q30542,Kufra Airport,HLKF,AKF,,23.3133,24.1767,417,3660,,,,https://en.wikipedia.org/wiki/Kufra_Airport,AKF,HLKF,,,
+53,Q41292,Misrata Airport,HLMS,MRA,3601853,15.059722222222,32.325555555556,18,3400,,,,https://en.wikipedia.org/wiki/Misrata_Airport,MRA,HLMS,,,
+54,Q41293,Sabha Airport,HLLS,SEB,2,14.472525,26.986963888889,424,,,,,https://en.wikipedia.org/wiki/Sabha_Airport,SEB,HLLS,,,
+55,Q25783,Tobruk Airport,HLTQ,TOB,1613749,23.906111,31.86,,,,,,https://en.wikipedia.org/wiki/Tobruk_Airport,TOB,HLTQ,,,
+56,Q45000,Mitiga International Airport,HLLM,MJI,1293016,13.277778,32.894445,11,3376,,,,https://en.wikipedia.org/wiki/Mitiga_International_Airport,MJI,HLLM,,,
+57,Q44588,Tripoli International Airport,HLLT,TIP,1293016,13.156666666667,32.669444444444,80.1625578,3600,,,,https://en.wikipedia.org/wiki/Tripoli_International_Airport,TIP,HLLT,"3,070,200",,(2008)
+58,Q30524,Ubari Airport,HLUB,QUB,,12.8231,26.5672,465.7353168,,,,,https://en.wikipedia.org/wiki/Ubari_Airport,QUB,HLUB,,,
+59,Q1416280,Agadir–Al Massira Airport,GMAD,AGA,421844,-9.4113888888889,30.3225,68.8849356,3200,2009040,2009040,https://www.onda.ma/content/download/12764/171595/version/1/fichier/CP+trafic+ann%C3%A9e+2021+VF.pdf,https://en.wikipedia.org/wiki/Agadir%E2%80%93Al_Massira_Airport,AGA,GMAD,"2,008,465[1]",,(2019)
+60,Q1370928,Cherif Al Idrissi Airport,GMTA,AHU,56716,-3.8394444444444,35.176944444444,27.1272534,2500,92121,92121,https://www.onda.ma/content/download/13540/176818/version/28/fichier/Les+statistiques+du+trafic+a%C3%A9rien+du+mois+de+d%C3%A9cembre+2022.xlsx,https://en.wikipedia.org/wiki/Cherif_Al_Idrissi_Airport,AHU,GMTA,,,
+61,Q12691880,Beni Mellal Airport,GMMD,BEM,192676,-6.3161111111111,32.401944444444,518.16102,,764,23628,http://www.onda.ma/content/download/10568/97346/version/31/fichier/Communiqu%C3%A9+stat+2019.pdf,https://en.wikipedia.org/wiki/Beni_Mellal_Airport,BEM,GMMD,,,
+62,Q955433,Mohammed V International Airport,GMMN,CMN,3499000,-7.581667,33.364167,475.7937366,3720,10313365,10313365,https://www.onda.ma/content/download/13540/176818/version/28/fichier/Les+statistiques+du+trafic+a%C3%A9rien+du+mois+de+d%C3%A9cembre+2022.xlsx,https://en.wikipedia.org/wiki/Mohammed_V_International_Airport,CMN,GMMN,"7,637,643[1]","67,074",
+63,Q1432091,Moulay Ali Cherif Airport,GMFK,ERH,92374,-4.3983333333333,31.948178,1045,,53371,54226,http://www.onda.ma/content/download/10568/97346/version/31/fichier/Communiqu%C3%A9+stat+2019.pdf,https://en.wikipedia.org/wiki/Moulay_Ali_Cherif_Airport,ERH,GMFK,,,
+64,Q1432053,Mogador Airport,GMMI,ESU,77966,-9.6816666666667,31.3975,117,,120443,120443,http://www.onda.ma/content/download/10568/97346/version/31/fichier/Communiqu%C3%A9+stat+2019.pdf,https://en.wikipedia.org/wiki/Essaouira-Mogador_Airport,ESU,GMMI,,,
+65,Q1431302,Fes-Saïss Airport,GMFF,FEZ,1112072,-4.9777777777778,33.927222222222,579.12114,,1418950,1418950,http://www.onda.ma/content/download/10568/97346/version/31/fichier/Communiqu%C3%A9+stat+2019.pdf,https://en.wikipedia.org/wiki/F%C3%A8s%E2%80%93Sa%C3%AFs_Airport,FEZ,GMFF,"1,417,881[1]",,(2019)
+66,Q3084356,Ifrane Airport,GMFI,,14659,-5.15278,33.50528,1663.9064754,,,,,https://en.wikipedia.org/wiki/Ifrane_Airport,,GMFI,,,
+67,Q429304,Marrakesh Menara Airport,GMMX,RAK,928850,-8.0408333333333,31.608611111111,467.868921,3100,6399145,6399145,http://www.onda.ma/content/download/10568/97346/version/31/fichier/Communiqu%C3%A9+stat+2019.pdf,https://en.wikipedia.org/wiki/Marrakesh_Menara_Airport,RAK,GMMX,"4,903,681","~36,750",
+68,Q1432126,Nador International Airport,GMMW,NDR,161726,-3.0282055555556,34.988780555556,175,,773472,836742,https://www.onda.ma/content/download/13540/176818/version/28/fichier/Les+statistiques+du+trafic+a%C3%A9rien+du+mois+de+d%C3%A9cembre+2022.xlsx,https://en.wikipedia.org/wiki/Nador_International_Airport,NDR,GMMW,"772,371[1]",,(2019)
+69,Q1432275,Ouarzazate Airport,GMMZ,OZZ,71067,-6.9094444444444,30.939166666667,1153,3100,136007,136007,https://www.onda.ma/content/download/13540/176818/version/28/fichier/Les+statistiques+du+trafic+a%C3%A9rien+du+mois+de+d%C3%A9cembre+2022.xlsx,https://en.wikipedia.org/wiki/Ouarzazate_Airport,OZZ,GMMZ,"136,007[1]",,(2019)
+70,Q1382309,Angads Airport,GMFO,OUD,494252,-1.9238888888889,34.787222222222,467.868921,3000,702004,855911,http://www.onda.ma/content/download/12062/143825/version/6/fichier/Communiqu%C3%A9_trafic++decembre+2020+v+fr.pdf,https://en.wikipedia.org/wiki/Angads_Airport,OUD,GMFO,"701,913[1]",,(2019)
+71,Q1432573,Rabat-Salé Airport,GMME,RBA,850403,-6.75138889,34.05138889,84.1249656,3500,1101117,1101117,http://www.onda.ma/content/download/10568/97346/version/31/fichier/Communiqu%C3%A9+stat+2019.pdf,https://en.wikipedia.org/wiki/Rabat%E2%80%93Sal%C3%A9_Airport,RBA,GMME,1,,(2019)
+72,Q7508744,Sidi Ifni Airport,GMMF,SII,,-10.180277777778,29.368888888889,58,,,,,https://en.wikipedia.org/wiki/Sidi_Ifni_Airport,SII,GMMF,,,
+73,Q2486800,Tan Tan Airport,GMAT,TTA,73209,-11.161388888889,28.448333333333,199,,13009,13009,http://www.onda.ma/content/download/10568/97346/version/31/fichier/Communiqu%C3%A9+stat+2019.pdf,https://en.wikipedia.org/wiki/Tan_Tan_Airport,TTA,GMAT,,,
+74,Q1433022,Tangier Ibn Battouta Airport,GMTT,TNG,947952,-5.9168888888889,35.726916666667,21,,1356664,1432175,https://www.onda.ma/content/download/13540/176818/version/28/fichier/Les+statistiques+du+trafic+a%C3%A9rien+du+mois+de+d%C3%A9cembre+2022.xlsx,https://en.wikipedia.org/wiki/Tangier_Ibn_Battouta_Airport,TNG,GMTT,"1,353,860[1]",,(2019)
+75,Q1433058,Sania Ramel Airport,GMTN,TTU,380787,-5.319975,35.594363,3.3528066,2300,39982,187777,http://www.onda.ma/content/download/10568/97346/version/31/fichier/Communiqu%C3%A9+stat+2019.pdf,https://en.wikipedia.org/wiki/Sania_Ramel_Airport,TTU,GMTN,"15,039","1,147",(2008)
+76,Q12695647,Zagora Airport,GMAZ,OZG,40067,-5.85722,30.320278,736.093449,,17156,17156,http://www.onda.ma/content/download/10568/97346/version/31/fichier/Communiqu%C3%A9+stat+2019.pdf,https://en.wikipedia.org/wiki/Zagora_Airport,OZG,GMAZ,,,
+77,Q2903017,Aweil Airport,HSAW,,40054,27.4,8.77,418,,,,,https://en.wikipedia.org/wiki/Aweil_Airport,n/a,HSAW,,,
+78,Q1122958,Juba International Airport,HSSJ,JUB,525953,31.60111667,4.87200556,461,3100,,,,https://en.wikipedia.org/wiki/Juba_International_Airport,JUB,HJJJ,,,
+79,Q1432004,Malakal Airport,HSSM,MAK,147450,31.652222222222,9.5588888888889,393,,,,,https://en.wikipedia.org/wiki/Malakal_Airport,MAK,HJMK,,,
+80,Q1031812,Wau Airport,HSWW,WUU,,27.97500038,7.72583008,469,,,,,https://en.wikipedia.org/wiki/Wau_Airport,WUU,HSWW,,,
+81,Q1911404,Yei Airport,HSYE,,,30.721388888889,4.1325,849,,,,,https://en.wikipedia.org/wiki/Yei_Airport,n/a,HSYE,,,
+82,Q1433286,El Fasher Airport,HSFS,ELF,286277,25.324444444444,13.614722222222,729.3878358,,,,,https://en.wikipedia.org/wiki/El_Fasher_Airport,ELF,HSFS,,,
+83,Q1433287,El Obeid Airport,HSOB,EBD,,30.2325,13.153055555556,587.3507562,,,,,https://en.wikipedia.org/wiki/El_Obeid_Airport,EBD,HSOB,,,
+84,Q1301933,Atbara Airport,HSAT,ATB,139768,34.056944444444,17.709722222222,347,,,,,https://en.wikipedia.org/wiki/Atbara_Airport,ATB,HSAT,,,
+85,Q1431231,Dongola Airport,HSDN,DOG,,30.43,19.153611111111,235.6108638,,,,,https://en.wikipedia.org/wiki/Dongola_Airport,DOG,HSDN,,,
+86,Q3276033,Geneina Airport,HSGN,EGN,200000,22.472512,13.483478,808,,,,,https://en.wikipedia.org/wiki/Geneina_Airport,EGN,HSGN,,,
+87,Q739260,Kassala Airport,HSKA,KSL,536009,36.328611111111,15.387222222222,509.3218026,,,,,https://en.wikipedia.org/wiki/Kassala_Airport,KSL,HSKA,,,
+88,Q1050244,Khartoum International Airport,HSSS,KRT,5345000,32.553161111111,15.589497222222,385.572759,2980,,3501512,,https://en.wikipedia.org/wiki/Khartoum_International_Airport,KRT,HSSS,"3,600,121",,(2017)
+89,Q953831,Nyala Airport,HSNN,UYL,492984,24.956125,12.066667,642,,,,,https://en.wikipedia.org/wiki/Nyala_Airport,UYL,HSNN,,,
+90,Q1431022,Port Sudan New International Airport,HSPN,PZU,579942,37.234075,19.433638888889,43,2500,,,,https://en.wikipedia.org/wiki/Port_Sudan_New_International_Airport,PZU,HSSP,,,
+91,Q7959222,Wadi Halfa Airport,HSSW,WHF,,31.5148123,21.8017705,292.9133766,,,,,https://en.wikipedia.org/wiki/Wadi_Halfa_Airport,WHF,HSSW,,,
+92,Q1425537,Djerba–Zarzis International Airport,DTTJ,DJE,175820,10.775277777778,33.875,6,,,1969043,https://www.air-journal.fr/wp-content/uploads/classement-aeroports_info.jpg,https://en.wikipedia.org/wiki/Djerba%E2%80%93Zarzis_International_Airport,DJE,DTTJ,"1,781,000","24,392[1]","(2006,"
+93,Q1431260,Enfidha–Hammamet International Airport,DTNH,NBE,,10.43861111,36.07583333,6.4008126,,1453863,2272074,http://www.enfidhahammametairport.com/en-EN/business-airlines/page/stats,https://en.wikipedia.org/wiki/Enfidha%E2%80%93Hammamet_International_Airport,NBE,DTNH,"1,453,863[1]",,(2019)
+94,Q732214,Gabès – Matmata International Airport,DTTG,GAE,116323,9.92005,33.73426,7.9248156,,,,,https://en.wikipedia.org/wiki/Gab%C3%A8s_%E2%80%93_Matmata_International_Airport,GAE,DTTG,,,
+95,Q2876067,Gafsa – Ksar International Airport,DTTF,GAF,111170,8.8225,34.421944444444,323,,,,,https://en.wikipedia.org/wiki/Gafsa_%E2%80%93_Ksar_International_Airport,GAF,DTTF,,,
+96,Q666704,Monastir Habib Bourguiba International Airport,DTMB,MIR,104535,10.754722222222,35.758055555556,1,2903,1586860,3462157,http://habibbourguibaairport.com/en-EN/business-airlines/page/stats,https://en.wikipedia.org/wiki/Monastir_Habib_Bourguiba_International_Airport,MIR,DTMB,"1,560,000",,(2018)
+97,Q2876084,Sfax–Thyna International Airport,DTTX,SFA,272801,10.690833333333,34.717777777778,26,,,,,https://en.wikipedia.org/wiki/Sfax%E2%80%93Thyna_International_Airport,SFA,DTTX,,,
+98,Q1432975,Tabarka-Ain Draham International Airport,DTKA,TBJ,17425,8.8769444444444,36.98,70,,,,,https://en.wikipedia.org/wiki/Tabarka%E2%80%93A%C3%AFn_Draham_International_Airport,TBJ,DTKA,,,
+99,Q656500,Tozeur–Nefta International Airport,DTTZ,TOE,21654,8.1105555555556,33.939722222222,87,,,,,https://en.wikipedia.org/wiki/Tozeur%E2%80%93Nefta_International_Airport,TOE,DTTZ,,,
+100,Q1141214,Tunis–Carthage International Airport,DTTA,TUN,602560,10.227222222222,36.851111111111,6.7056132,3200,6441886,6441886,http://www.oaca.nat.tn/fileadmin/docs/DCRP.Doc/images/statistiques_2019/decembre2019/1decembre2019.jpg,https://en.wikipedia.org/wiki/Tunis%E2%80%93Carthage_International_Airport,TUN,DTTA,"6,441,886[1]",,(2019)
+101,Q1431176,Dakhla Airport,GMMH,VIL,106277,-15.931944444444,23.718055555556,10.9728216,,256975,256975,https://www.onda.ma/content/download/13540/176818/version/28/fichier/Les+statistiques+du+trafic+a%C3%A9rien+du+mois+de+d%C3%A9cembre+2022.xlsx,https://en.wikipedia.org/wiki/Dakhla_Airport,VIL,GMMH/GSVO,"154,451","1,574","(2008,"
+102,Q1431242,Hassan I Airport,GMML,EUN,217732,-13.219166666667,27.151666666667,63,,255640,255640,https://www.onda.ma/content/download/12764/171595/version/1/fichier/CP+trafic+ann%C3%A9e+2021+VF.pdf,https://en.wikipedia.org/wiki/Hassan_I_Airport,EUN,GMML,"255,610[1]",,(2019)
+103,Q10850030,Smara Airport,GMMA,SMW,57035,-11.68444444,26.73166667,107,,,,,https://en.wikipedia.org/wiki/Smara_Airport,SMW,GMMA/GSMA,,,
+104,Q856939,Cadjehoun Airport,DBBB,COO,679012,2.385,6.3558333333333,5.7912114,,471288,503633,https://aeroport-de-cotonou.bj/wp-content/uploads/2021/02/Stat-mensuel-Dec-2020.pdf,https://en.wikipedia.org/wiki/Cadjehoun_Airport,COO,DBBB,,,
+105,Q1432313,Parakou Airport,DBBP,PKO,,2.609167,9.357222,385,,,,,https://en.wikipedia.org/wiki/Parakou_Airport,PKO,DBBP,,,
+106,Q598661,Bobo Dioulasso Airport,DFOO,BOY,903887,-4.330833,11.16,460,,49200,49200,http://www.insd.bf/contenu/pub_periodiques/annuaires_stat/Annuaires_stat_nationaux_BF/Annuaire_Statistique_National_2019.pdf,https://en.wikipedia.org/wiki/Bobo_Dioulasso_Airport,BOY,DFOO,"18,220",,(2020)
+107,Q773547,Ouagadougou Airport,DFFD,OUA,2453496,-1.512222,12.353056,96.3169896,3028,619370,619370,http://www.insd.bf/contenu/pub_periodiques/annuaires_stat/Annuaires_stat_nationaux_BF/Annuaire_Statistique_National_2019.pdf,https://en.wikipedia.org/wiki/Thomas_Sankara_International_Airport_Ouagadougou,OUA,DFFD,"245,280",,(2020)
+108,Q1430965,Aristides Pereira International Airport,GVBA,BVC,12000,-22.888611111111,16.137222222222,27.73,2100,574882,574882,https://www.asa.cv/wp-content/uploads/2020/02/ASA_Boletim-de-Tr%C3%A1fego-Ano-2019-1.pdf,https://en.wikipedia.org/wiki/Aristides_Pereira_International_Airport,BVC,GVBA,"512,778","5,008",(2017[1])
+109,Q2408225,São Filipe Airport,GVSF,SFL,8122,-24.48,14.885,173,1350,66464,74408,https://www.asa.cv/wp-content/uploads/2020/02/ASA_Boletim-de-Tr%C3%A1fego-Ano-2019-1.pdf,https://en.wikipedia.org/wiki/S%C3%A3o_Filipe_Airport,SFL,GVSF,72949,1418,(2017)
+110,Q2011846,Maio Airport,GVMA,MMO,3056,-23.213611111111,15.155833333333,11,1200,13733,19209,https://www.asa.cv/wp-content/uploads/2020/02/ASA_Boletim-de-Tr%C3%A1fego-Ano-2019-1.pdf,https://en.wikipedia.org/wiki/Maio_Airport,MMO,GVMA,15100,351,(2017[1])
+111,Q1191196,Praia International Airport,GVNP,RAI,159050,-23.484722222222,14.941111111111,95,2103,648970,662356,https://www.asa.cv/wp-content/uploads/2020/02/ASA_Boletim-de-Tr%C3%A1fego-Ano-2019-1.pdf,https://en.wikipedia.org/wiki/Nelson_Mandela_International_Airport,RAI,GVNP,"662,356[1]",11236[1],(2017)
+112,Q482315,Amílcar Cabral International Airport,GVAC,SID,35267,-22.950016666667,16.737588888889,56,3000,1192828,1192828,https://www.asa.cv/wp-content/uploads/2020/02/ASA_Boletim-de-Tr%C3%A1fego-Ano-2019-1.pdf,https://en.wikipedia.org/wiki/Am%C3%ADlcar_Cabral_International_Airport,SID,GVAC,"1,192,828",14.576,(2019)
+113,Q1953794,Preguiça Airport,GVSN,SNE,12700,-24.283888888889,16.588055555556,204,1400,21977,27038,https://www.asa.cv/wp-content/uploads/2020/02/ASA_Boletim-de-Tr%C3%A1fego-Ano-2019-1.pdf,https://en.wikipedia.org/wiki/S%C3%A3o_Nicolau_Airport,SNE,GVSN,"27,038",574,(2017[1])
+114,Q674514,Cesária Évora Airport,GVSV,VXE,83467,-25.054722222222,16.833611111111,20,2000,253077,266221,https://www.asa.cv/wp-content/uploads/2020/02/ASA_Boletim-de-Tr%C3%A1fego-Ano-2019-1.pdf,https://en.wikipedia.org/wiki/Ces%C3%A1ria_%C3%89vora_Airport,VXE,GVSV,"253,077","3,788",(2019)
+115,Q1165280,Port Bouet Airport,DIAP,ABJ,4980000,-3.9257777777778,5.2614166666667,6.4008126,3000,2271700,2271700,http://apanews.net/fr/news/aeroport-dabidjan-226-millions-de-passagers-enregistres-en-2019-officiel/,https://en.wikipedia.org/wiki/F%C3%A9lix-Houphou%C3%ABt-Boigny_International_Airport,ABJ,DIAP,"2,070,000",,(2017)
+116,Q753531,Banjul International Airport,GBYD,BJL,31356,-16.652205555556,13.337961111111,29,,,,,https://en.wikipedia.org/wiki/Banjul_International_Airport,BJL,GBYD,,,
+117,Q177689,Kotoka International Airport,DGAA,ACC,2388000,-0.16738888888889,5.6046666666667,62,3403,3019000,3019000,https://www.gacl.com.gh/traffic-statistics-2019/,https://en.wikipedia.org/wiki/Kotoka_International_Airport,ACC,DGAA,"2,805,347",,(2022)
+118,Q1877066,Kumasi Airport,DGSI,KMS,2069350,-1.5905555555556,6.7144444444444,287,,376823,476266,http://www.gcaa.com.gh/web/wp-content/uploads/2020/ER/Domestic%20Passenger%20Distribution%20(per%20Airport)%202019.pdf,https://en.wikipedia.org/wiki/Kumasi_Airport,KMS,DGSI,"476,266[1]",,(2022)
+119,Q2576085,Takoradi Airport,DGTK,TKD,539548,-1.7747222222222,4.8958333333333,6,,,,,https://en.wikipedia.org/wiki/Takoradi_Airport,TKD,DGTK,,,
+120,Q6768637,Sunyani Airport,DGSN,NYI,,-2.3286111111111,7.3616666666667,309,,,,,https://en.wikipedia.org/wiki/Sunyani_Airport,NYI,DGSN,,,
+121,Q2195432,Tamale International Airport,DGLE,TML,2310939,-0.86305555555556,9.5569444444444,169,,196600,217958,,https://en.wikipedia.org/wiki/Tamale_Airport,TML,DGLE,"217,958",,(2022)
+122,Q644978,Ahmed Sékou Touré International Airport,GUCY,CKY,1667864,-13.611944,9.576889,21.9456432,3300,573600,573600,https://www.stat-guinee.org/images/Documents/Publications/INS/annuelles/annuaire/Annuaire_INS_2019_opt.pdf,https://en.wikipedia.org/wiki/Ahmed_S%C3%A9kou_Tour%C3%A9_International_Airport,CKY,GUCY,"360,007",,(2012)
+123,Q1432281,Osvaldo Vieira International Airport,GGOV,OXB,492004,-15.653611111111,11.895,39.3192774,3200,,83616,https://asecnaonline.asecna.aero/images/icagenda/files/rapport_2016.pdf,https://en.wikipedia.org/wiki/Osvaldo_Vieira_International_Airport,OXB,GGOV,,,
+124,Q721497,Roberts International Airport,GLRB,ROB,1021762,-10.362222,6.233889,2.7432054,,,133656,,https://en.wikipedia.org/wiki/Roberts_International_Airport,ROB,GLRB,"133,656",,(2009)
+125,Q676718,Spriggs Payne Airport,GLMR,MLW,1021762,-10.758611,6.289167,8,,,,,https://en.wikipedia.org/wiki/Spriggs_Payne_Airport,MLW,GLMR,,,
+126,Q721258,Bamako-Sénou International Airport,GABS,BKO,2009109,-7.9430555555556,12.537777777778,380.0863482,3180,,686431,,https://en.wikipedia.org/wiki/Modibo_Keita_International_Airport,BKO,GABS,,,
+127,Q2636796,Kayes Airport,GAKY,KYS,,-11.404444444444,14.481667,49.9872984,,,,,https://en.wikipedia.org/wiki/Kayes_Airport,KYS,GAKD,,,
+128,Q241370,Mopti Airport,GAMB,MZI,,-4.0794444444444,14.512777777778,276.1493436,2542,,,,https://en.wikipedia.org/wiki/Mopti_Airport,MZI,GAMB,,,
+129,Q764032,Timbuktu Airport,GATB,TOM,35330,-3.0075,16.730555555556,263.0429178,2110,,,,https://en.wikipedia.org/wiki/Timbuktu_Airport,TOM,GATB,,,
+130,Q2671152,Nouadhibou International Airport,GQPP,NDB,118000,-17.031142,20.928445,3,2425,,,,https://en.wikipedia.org/wiki/Nouadhibou_International_Airport,NDB,GQPP,,,
+131,Q25337089,Nouakchott–Oumtounsy International Airport,GQNO,NKC,1077169,-15.969722222222,18.31,2.1336042,3400,,350373,https://asecnaonline.asecna.aero/images/icagenda/files/rapportannuel-asecna2017.pdf,https://en.wikipedia.org/wiki/Nouakchott%E2%80%93Oumtounsy_International_Airport,NKC,GQNO,,,
+132,Q6587931,Tazadit Airport,GQPZ,OUZ,,-12.468612,22.758055,344.1198774,,,,,https://en.wikipedia.org/wiki/Tazadit_Airport,OUZ,GQPZ,,,
+133,Q905933,Diori Hamani International Airport,DRRN,NIM,1026848,2.1702777777778,13.481666666667,223.1140392,3000,363093,363093,https://www.niameyetles2jours.com/l-uemoa/transports/1812-6326-niger-entre-2011-et-2019-le-trafic-aerien-de-passagers-a-double,https://en.wikipedia.org/wiki/Diori_Hamani_International_Airport,NIM,DRRN,"165,000",,(2013)
+134,Q525030,Nnamdi Azikiwe International Airport,DNAA,ABV,1568853,7.2631944444444,9.0068055555556,342,3609,5554302,5554302,https://nigerianstat.gov.ng/elibrary/read/1241160,https://en.wikipedia.org/wiki/Nnamdi_Azikiwe_International_Airport,ABV,DNAA,"5,323,905",,(2017)
+135,Q2902763,Asaba International Airport,DNAS,ABB,,6.65888889,6.20305556,92.964183,,,,,https://en.wikipedia.org/wiki/Asaba_International_Airport,ABB,DNAS,,,
+136,Q18205425,Bauchi State Airport,DNBC,BCU,693700,9.74444,10.4833,603.505188,,,,,https://en.wikipedia.org/wiki/Bauchi_State_Airport,BCU,DNBC,,,
+137,Q619881,Benin Airport,DNBE,BNI,1147188,5.5994444444444,6.3169444444444,79,2400,320199,350324,https://faan.gov.ng/wp-content/uploads/2022/07/2019-ANNUAL-REPORT-COMBINE-update.pdf,https://en.wikipedia.org/wiki/Benin_Airport,BNI,DNBE,,,
+138,Q1030578,Margaret Ekpo International Airport,DNCA,CBQ,,8.3469444444444,4.9758333333333,64,2451,,202780,https://www.faan.gov.ng/wp-content/uploads/2017/05/Passenger-and-Aircraft-2016.pdf,https://en.wikipedia.org/wiki/Margaret_Ekpo_International_Airport,CBQ,DNCA,"189,908",,(2015)
+139,Q3497354,Akanu Ibiam International Airport,DNEN,ENU,715774,7.5619444444444,6.4741666666667,142.0370796,2402,,524859,,https://en.wikipedia.org/wiki/Akanu_Ibiam_International_Airport,ENU,DNEN,"352,820",,(2015)
+140,Q3914644,Gombe Lawanti International Airport,DNGO,GMO,,10.9,10.298888888889,,,,,,https://en.wikipedia.org/wiki/Gombe_Lawanti_International_Airport,GMO,DNGO,,,
+141,Q3360329,Ibadan Airport,DNIB,IBA,2550593,3.9783333333333,7.3622222222222,220.980435,,,80712,https://www.faan.gov.ng/wp-content/uploads/2017/05/Passenger-and-Aircraft-2016.pdf,https://en.wikipedia.org/wiki/Ibadan_Airport,IBA,DNIB,,,
+142,Q3086140,Ilorin International Airport,DNIL,ILR,847582,4.4944444444444,8.4405555555556,343.2054756,,,99892,https://www.faan.gov.ng/wp-content/uploads/2017/05/Passenger-and-Aircraft-2016.pdf,https://en.wikipedia.org/wiki/Ilorin_International_Airport,ILR,DNIL,,,
+143,Q8047227,Yakubu Gowon Airport,DNJO,JOS,622802,8.8688888888889,9.6397222222222,1289.9161392,,,62570,https://www.faan.gov.ng/wp-content/uploads/2019/05/PAX-HARM.pdf,https://en.wikipedia.org/wiki/Yakubu_Gowon_Airport,JOS,DNJO,,,
+144,Q5672567,Kaduna Airport,DNKA,KAD,760084,7.32,10.695833333333,631.8516438,,191083,400921,https://faan.gov.ng/wp-content/uploads/2022/07/2019-ANNUAL-REPORT-COMBINE-update.pdf,https://en.wikipedia.org/wiki/Kaduna_International_Airport,KAD,DNKA,,,
+145,Q1431654,Mallam Aminu Kano International Airport,DNKN,KAN,3848885,8.5244444444444,12.0475,476.0985372,,,606221,https://en.wikipedia.org/wiki/Mallam_Aminu_Kano_International_Airport#Statistics,https://en.wikipedia.org/wiki/Mallam_Aminu_Kano_International_Airport,KAN,DNKN,"389,530",,(2015)
+146,Q1043631,Murtala Muhammed International Airport,DNMM,LOS,15070000,3.3211111111111,6.5772222222222,41,3900,7496318,7496318,https://nigerianstat.gov.ng/elibrary/read/1241160,https://en.wikipedia.org/wiki/Murtala_Muhammed_International_Airport,LOS,DNMM,"5,689,234",,(2021)
+147,Q3497345,Maiduguri International Airport,DNMA,MIU,1197497,13.080833333333,11.855277777778,335,,,213458,https://faan.gov.ng/wp-content/uploads/2022/07/2021-ANNUAL-REPORT-update.pdf,https://en.wikipedia.org/wiki/Maiduguri_International_Airport,MIU,DNMA,,,
+148,Q6740484,Makurdi Airport,DNMK,MDI,170925,8.6138888888889,7.7036111111111,113.0810226,,,2132,https://www.faan.gov.ng/wp-content/uploads/2017/05/Passenger-and-Aircraft-2016.pdf,https://en.wikipedia.org/wiki/Makurdi_Airport,MDI,DNMK,,,
+149,Q1936787,Sam Mbakwe Airport,DNIM,QOW,908109,7.2058333333333,5.4269444444444,113.6906238,,,547295,https://faan.gov.ng/wp-content/uploads/2022/07/2021-ANNUAL-REPORT-update.pdf,https://en.wikipedia.org/wiki/Sam_Mbakwe_Airport,QOW,DNIM,"313,343",,(2015)
+150,Q1432453,Port Harcourt International Airport,DNPO,PHC,1005904,6.9494444444444,5.0152777777778,27,,1163170,1337477,https://faan.gov.ng/wp-content/uploads/2022/07/2019-ANNUAL-REPORT-COMBINE-update.pdf,https://en.wikipedia.org/wiki/Port_Harcourt_International_Airport,PHC,DNPO,"1,223,807",,(2015)
+151,Q922675,Sadiq Abubakar III International Airport,DNSO,SKO,427760,5.2069444444444,12.916111111111,307.848606,,108693,156134,https://faan.gov.ng/wp-content/uploads/2022/07/2019-ANNUAL-REPORT-COMBINE-update.pdf,https://en.wikipedia.org/wiki/Sadiq_Abubakar_III_International_Airport,SKO,DNSO,,,
+152,Q426795,Akwa Ibom Airport,DNAI,QUO,429900,8.09888889,4.87583333,51.816102,3600,,,,https://en.wikipedia.org/wiki/Akwa_Ibom_Airport,QUO,DNAI,,,
+153,Q7970685,Warri City Airport,DNSU,QRW,,5.8194444444444,5.5972222222222,114,,,210773,https://www.faan.gov.ng/wp-content/uploads/2017/05/Passenger-and-Aircraft-2016.pdf,https://en.wikipedia.org/wiki/Warri_Airport,QRW,DNSU,"187,630",,(2015)
+154,Q8190895,Yola Airport,DNYO,YOL,392854,12.430277777778,9.2575,182.5755594,,190063,228326,https://faan.gov.ng/wp-content/uploads/2022/07/2019-ANNUAL-REPORT-COMBINE-update.pdf,https://en.wikipedia.org/wiki/Yola_Airport,YOL,DNYO,"158,896",,(2015)
+155,Q2455361,Cap Skirring Airport,GOGS,CSK,,-16.741583,12.41,15.8496312,,,,,https://en.wikipedia.org/wiki/Cap_Skirring_Airport,CSK,GOGS,,,
+156,Q513689,Léopold Sédar Senghor International Airport,GOOY,DKR,1438725,-17.479305,14.743833,25.908051,3490,,1965223,,https://en.wikipedia.org/wiki/L%C3%A9opold_S%C3%A9dar_Senghor_International_Airport,DKR,GOOY,"2,200,000",,(2013)
+157,Q2721096,Ziguinchor Airport,GOGG,ZIG,205294,-16.281666666667,12.555555555556,22.860045,1545,,,,https://en.wikipedia.org/wiki/Ziguinchor_Airport,ZIG,GOGG,,,
+158,Q598296,Bo Airport,GFBO,KBS,233684,-11.761666666667,7.9438888888889,93,1220,,,,https://en.wikipedia.org/wiki/Bo_Airport,KBS,GFBO,,,
+159,Q1305145,Hastings Airport,GFHA,HGS,951000,-13.129,8.397137,18.288036,,,,,https://en.wikipedia.org/wiki/Hastings_Airport_(Sierra_Leone),HGS,GFHA,,,
+160,Q1453722,Lungi International Airport,GFLL,FNA,951000,-13.195488888889,8.6164444444444,26,,,,,https://en.wikipedia.org/wiki/Freetown_International_Airport,FNA,GFLL,"93,619","1,314",(2020[1])
+161,Q3274741,Gbangbatoke Airport,GFGK,GBK,,-12.383,7.767,22.860045,,,,,https://en.wikipedia.org/wiki/Gbangbatoke_Airport,GBK,GFGK,,,
+162,Q6389144,Kenema Airport,GFKE,KEN,188463,-11.175,7.89277778,147.828291,,,,,https://en.wikipedia.org/wiki/Kenema_Airport,KEN,GFKE,,,
+163,Q8052242,Yengema Airport,GFYE,WYE,,-11.045445,8.6153083333333,396,,,,,https://en.wikipedia.org/wiki/Yengema_Airport,WYE,GFYE,,,
+164,Q1431925,Lomé-Tokoin Airport,DXXX,LFW,837437,1.2541666666667,6.1658333333333,21.6408426,3000,916659,960000,https://www.republiquetogolaise.com/transports/1408-5866-baisse-du-trafic-passager-a-l-aeroport-de-lome-sous-l-effet-du-covid-19,https://en.wikipedia.org/wiki/Lom%C3%A9%E2%80%93Tokoin_International_Airport,LFW,DXXX,"616,800",,(2014)
+165,Q3315730,Cabinda Airport,FNCA,CAB,739182,12.188083333333,-5.5971111111111,20,,,,,https://en.wikipedia.org/wiki/Cabinda_Airport,CAB,FNCA,,,
+166,Q1962689,Catoca Airport,http://www.wikidata.org/.well-known/genid/1ef174672e58464291e938d47b3f4dfc,,,20.311111111111,-9.4294722222222,1066.1924988,,,,,https://en.wikipedia.org/wiki/Catoca_Airport,CTV,,,,
+167,Q81569,Catumbela Airport,FNCT,CBT,175805,13.487278,-12.479528,7.0104138,,,,,https://en.wikipedia.org/wiki/Catumbela_Airport,CBT,FNCT,,,
+168,Q3497613,Dundo Airport,FNDU,DUE,177604,20.818527777778,-7.4006388888889,747.0662706,,,,,https://en.wikipedia.org/wiki/Dundo_Airport,DUE,FNDU,,,
+169,Q2231318,Albano Machado Airport,FNHU,NOV,844000,15.760556,-12.808889,1355,,,,,https://en.wikipedia.org/wiki/Albano_Machado_Airport,NOV,FNHU,,,
+170,Q81573,Kapanda Airport,FNCP,KNP,,15.4565,-9.77078,1025.9588196,,,,,https://en.wikipedia.org/wiki/Kapanda_Airport,KNP,FNCP,,,
+171,Q3315937,Joaquim Kapango Airport,FNKU,SVP,114000,16.947361111111,-12.404861111111,1712.3697708,,,,,https://en.wikipedia.org/wiki/Joaquim_Kapango_Airport,SVP,FNKU,,,
+172,Q598002,Quatro de Fevereiro Airport,FNLU,LAD,2487444,13.231194444444,-8.8580833333333,74.0665458,3716,,2430794,,https://en.wikipedia.org/wiki/Quatro_de_Fevereiro_Airport,LAD,FNLU,"5,600,000","65,843",(2018)
+173,Q2089913,Lubango Airport,FNUB,SDD,903564,13.57675,-14.92675,1761,3150,,,,https://en.wikipedia.org/wiki/Lubango_Airport,SDD,FNUB,,,
+174,Q6696032,Lucapa Airport,FNLK,LBZ,,20.732833333333,-8.4415277777778,926.8986246,,,,,https://en.wikipedia.org/wiki/Lucapa_Airport,LBZ,FNLK,,,
+175,Q3316786,Luena Airport,FNUE,LUO,357413,19.897416666667,-11.768222222222,1328.930616,,,,,https://en.wikipedia.org/wiki/Luena_Airport,LUO,FNUE,,,
+176,Q6741284,Malanje Airport,FNMA,MEG,,16.312361111111,-9.5249166666667,1178.9687208,,,,,https://en.wikipedia.org/wiki/Malanje_Airport,MEG,FNMA,,,
+177,Q652459,Mbanza Congo Airport,FNBC,SSY,,14.247055555556,-6.2698611111111,566.929116,,,,,https://en.wikipedia.org/wiki/Mbanza_Congo_Airport,SSY,FNBC,,,
+178,Q651595,Menongue Airport,FNME,SPP,372500,17.719583333333,-14.657638888889,1362.1538814,,,,,https://en.wikipedia.org/wiki/Menongue_Airport,SPP,FNME,,,
+179,Q3319255,Welwitschia Mirabilis International Airport,FNMO,MSZ,255000,12.1466667,-15.2611111,64,,,,,https://en.wikipedia.org/wiki/Welwitschia_Mirabilis_Airport,MSZ,FNMO,,,
+180,Q3017144,Negage Airport,FNNG,GXG,137559,15.3,-7.75,1251.206463,,,,,https://en.wikipedia.org/wiki/Negage_Airport,GXG,FNNG,,,
+181,Q7092208,Ondjiva Pereira Airport,FNGI,VPE,121537,15.683861111111,-17.043416666667,1086.9189396,,,,,https://en.wikipedia.org/wiki/Ondjiva_Pereira_Airport,VPE,FNGI,,,
+182,Q81575,Saurimo Airport,FNSA,VHC,393000,20.431555555556,-9.6889444444444,1092.4053504,,,,,https://en.wikipedia.org/wiki/Saurimo_Airport,VHC,FNSA,,,
+183,Q4251536,Soyo Airport,FNSO,SZA,200920,12.371833333333,-6.1410555555556,4.572009,,,,,https://en.wikipedia.org/wiki/Soyo_Airport,SZA,FNSO,,,
+184,Q898928,Douala International Airport,FKKD,DLA,2768436,9.7194444444444,4.0058333333333,7.3152144,,,1062570,https://www.ccaa.aero/images/pdf/Evolution_du_trafic_de_2011_a_20131.pdf,https://en.wikipedia.org/wiki/Douala_International_Airport,DLA,FKKD,"1,500,000",,
+185,Q2161272,Garoua International Airport,FKKR,GOU,1750000,13.37,9.3358333333333,242.0116764,3363,,57070,https://www.ccaa.aero/images/pdf/Evolution_du_trafic_de_2011_a_20131.pdf,https://en.wikipedia.org/wiki/Garoua_International_Airport,GOU,FKKR,,,
+186,Q2449054,Salak Airport,FKKL,MVR,,14.257222222222,10.454722,423.672834,,,62541,https://ccaa.aero/index.php/fr/component/attachments/download/107,https://en.wikipedia.org/wiki/Maroua_Salak_Airport,MVR,FKKL,,,
+187,Q221351,Yaoundé Nsimalen International Airport,FKYS,NSI,2440462,11.553333,3.7225,694.3357668,3400,,706868,https://ccaa.aero/index.php/fr/component/attachments/download/107,https://en.wikipedia.org/wiki/Yaound%C3%A9_Nsimalen_International_Airport,NSI,FKYS,"208,973",,(2009)
+188,Q790043,Bangui M'Poko International Airport,FEFF,BGF,889231,18.519723,4.3985,410,,,156995,,https://en.wikipedia.org/wiki/Bangui_M%27Poko_International_Airport,BGF,FEFF,"11,600",,(2014)
+189,Q3495936,Abéché Airport,FTTC,AEH,76492,20.844166666667,13.846944444444,545,2800,,,,https://en.wikipedia.org/wiki/Ab%C3%A9ch%C3%A9_Airport,AEH,FTTC,,,
+190,Q889889,Moundou Airport,FTTD,MQQ,142462,16.071388888889,8.6241666666667,429,,,,,https://en.wikipedia.org/wiki/Moundou_Airport,MQQ,FTTD,,,
+191,Q979272,N'Djamena International Airport,FTTJ,NDJ,1092066,15.024722222222,12.125,295.0469808,2800,,233957,https://asecnaonline.asecna.aero/images/icagenda/files/rapport_2016.pdf,https://en.wikipedia.org/wiki/N%27Djamena_International_Airport,NDJ,FTTJ,,,
+192,Q3495920,Sarh Airport,FTTA,SRH,108061,18.379444444444,9.1511111111111,365,1800,,,,https://en.wikipedia.org/wiki/Sarh_Airport,SRH,FTTA,,,
+193,Q644963,Maya-Maya Airport,FCBB,BZV,1827000,15.253030555556,-4.2517,319,3300,,1232905,https://www.air-journal.fr/wp-content/uploads/classement-aeroports_info.jpg,https://en.wikipedia.org/wiki/Maya-Maya_Airport,BZV,FCBB,,,
+194,Q251707,Dolisie Airport,FCPD,DIS,,12.65972222,-4.20611111,326.136642,,,,,https://en.wikipedia.org/wiki/Dolisie_Airport,DIS,FCPD,,,
+195,Q6007117,Impfondo Airport,FCOI,ION,,18.05,1.58944444,334.9758594,,,,,https://en.wikipedia.org/wiki/Impfondo_Airport,ION,FCOI,,,
+196,Q2875882,Ouésso Airport,FCOU,OUE,28179,16.037777777778,1.6158333333333,354,,,,,https://en.wikipedia.org/wiki/Ou%C3%A9sso_Airport,OUE,FCOU,,,
+197,Q15264912,Oyo Ollombo Airport,FCOD,OLL,,15.91416667,-1.21861111,323,,,,,https://en.wikipedia.org/wiki/Oyo_Ollombo_Airport,OLL,FCOD,,,
+198,Q1432398,Agostinho-Neto Airport,FCPP,PNR,829134,11.885833333333,-4.8133333333333,17,,,987179,https://asecnaonline.asecna.aero/images/icagenda/files/rapportannuel-asecna2017.pdf,https://en.wikipedia.org/wiki/Agostinho-Neto_International_Airport,PNR,FCPP,,,
+199,Q2785810,Bandundu Airport,FZBO,FDU,,17.383333,-3.3,320.9550318,,,,,https://en.wikipedia.org/wiki/Bandundu_Airport,FDU,FZBO,,,
+200,Q2788303,Basankusu Airport,FZEN,BSU,,19.8,1.2247222222222,370.9423302,,,,,https://en.wikipedia.org/wiki/Basankusu_Airport,BSU,FZEN,,,
+201,Q4887888,Beni Mavivi Airport,FZNP,BNC,,29.473889,0.583333,1065,,,,,https://en.wikipedia.org/wiki/Beni_Airport,BNC,FZNP,,,
+202,Q3080337,Boende Airport,FZGN,BNB,,20.88333333,-0.233333,356,,,,,https://en.wikipedia.org/wiki/Boende_Airport,BNB,FZGN,,,
+203,Q3813669,Boma Airport,FZAJ,BOA,,13.066667,-5.8541666666667,8,,,,,https://en.wikipedia.org/wiki/Boma_Airport,BOA,FZAJ,,,
+204,Q6379368,Kavumu Airport,FZMA,BKY,,28.816667,-2.3,1720,,,,,https://en.wikipedia.org/wiki/Kavumu_Airport,BKY,FZMA,,,
+205,Q15054039,Bumba Airport,FZFU,BMB,103328,22.55,2.183333,360.8839104,,,,,https://en.wikipedia.org/wiki/Bumba_Airport,BMB,FZFU,,,
+206,Q3206848,Bunia Airport,FZKA,BUX,,30.220833333333,1.566667,1233,,,,,https://en.wikipedia.org/wiki/Bunia_Airport,BUX,FZKA,,,
+207,Q5529305,Gbadolite Airport,FZFD,BDT,,20.975277777778,4.2533333333333,460,,,,,https://en.wikipedia.org/wiki/Gbadolite_Airport,BDT,FZFD,,,
+208,Q3275195,Gemena Airport,FZFK,GMA,,19.771111111111,3.266667,420,,,,,https://en.wikipedia.org/wiki/Gemena_Airport,GMA,FZFK,,,
+209,Q2564541,Goma International Airport,FZNA,GOM,249862,29.23861,-1.66835,1551.1302534,,,,,https://en.wikipedia.org/wiki/Goma_International_Airport,GOM,FZNA,,,
+210,Q3084949,Ilebo Airport,FZVS,PFR,,20.605833333333,-4.316667,442,,,,,https://en.wikipedia.org/wiki/Ilebo_Airport,PFR,FZVS,,,
+211,Q3015536,Inongo Airport,FZBA,INO,,18.285833333333,-1.9472222222222,317,,,,,https://en.wikipedia.org/wiki/Inongo_Airport,INO,FZBA,,,
+212,Q652383,Matari Airport,FZJH,IRP,,27.588333,2.8275,743,,,,,https://en.wikipedia.org/wiki/Matari_Airport,IRP,FZJH,,,
+213,Q6352071,Kalemie Airport,FZRF,FMI,146974,29.25,-5.8755555555556,783.0327414,,,,,https://en.wikipedia.org/wiki/Kalemie_Airport,FMI,FZRF,,,
+214,Q2924877,Kamina Airport,FZSB,KMN,,24.991389,-8.728611,1125,,,,,https://en.wikipedia.org/wiki/Kamina_Airport,KMN,FZSB,,,
+215,Q2443546,Kananga Airport,FZUA,KGA,1971704,22.469167,-5.9,652,,,,,https://en.wikipedia.org/wiki/Kananga_Airport,KGA,FZUA,,,
+216,Q6406465,Kikwit Airport,FZCA,KKW,,18.785555555556,-5.033333,479,,,,,https://en.wikipedia.org/wiki/Kikwit_Airport,KKW,FZCA,,,
+217,Q617351,Kindu Airport,FZOA,KND,,25.915277777778,-2.9191666666667,497.1297786,,,,,https://en.wikipedia.org/wiki/Kindu_Airport,KND,FZOA,,,
+218,Q645492,N'Djili International Airport,FZAA,FIH,11855000,15.444569444444,-4.38575,313.0302162,4000,,,,https://en.wikipedia.org/wiki/N%27djili_Airport,FIH,FZAA,"773,338",,(2014)
+219,Q1432212,N'Dolo Airport,FZAB,NLO,11855000,15.327222222222,-4.3266666666667,278.892549,,,,,https://en.wikipedia.org/wiki/N%27Dolo_Airport,NLO,FZAB,,,
+220,Q27596,Bangoka International Airport,FZIC,FKI,935977,25.338056,0.481667,431.9024502,3500,,,,https://en.wikipedia.org/wiki/Kisangani_Bangoka_International_Airport,FKI,FZIC,,,
+221,Q6427966,Kolwezi Airport,FZQM,KWZ,,25.505833333333,-10.765833333333,1526,,,,,https://en.wikipedia.org/wiki/Kolwezi_Airport,KWZ,FZQM,,,
+222,Q12693405,Kongolo Airport,FZRQ,KOO,,27.0,-5.39444444,564,,,,,https://en.wikipedia.org/wiki/Kongolo_Airport,KOO,FZRQ,,,
+223,Q10853338,Lisala Airport,FZGA,LIQ,,21.496666666667,2.1705555555556,460,,,,,https://en.wikipedia.org/wiki/Lisala_Airport,LIQ,FZGA,,,
+224,Q11824540,Lodja Airport,FZVA,LJA,,23.449773,-3.39722222,502,,,,,https://en.wikipedia.org/wiki/Lodja_Airport,LJA,FZVA,,,
+225,Q738866,Lubumbashi International Airport,FZQA,FBM,1786397,27.530977777778,-11.591333333333,1309.118577,3203,,,,https://en.wikipedia.org/wiki/Lubumbashi_International_Airport,FBM,FZQA,,,
+226,Q2875963,Tshimpi Airport,FZAM,MAT,306053,13.4417,-5.79833,339.852669,,,,,https://en.wikipedia.org/wiki/Matadi_Tshimpi_Airport,MAT,FZAM,,,
+227,Q649376,Mbandaka Airport,FZEA,MDK,,18.288611111111,0.0225,316.992624,,,,,https://en.wikipedia.org/wiki/Mbandaka_Airport,MDK,FZEA,,,
+228,Q652872,Mbuji Mayi Airport,FZWA,MJM,1559073,23.568888888889,-6.1211111111111,677,,,,,https://en.wikipedia.org/wiki/Mbuji_Mayi_Airport,MJM,FZWA,,,
+229,Q6930702,Muanda Airport,FZAG,MNB,,12.351666666667,-5.9308333333333,27,,,,,https://en.wikipedia.org/wiki/Muanda_Airport,MNB,FZAG,,,
+230,Q7039363,Nioki Airport,FZBI,NIO,,17.684722222222,-2.7175,318,,,,,https://en.wikipedia.org/wiki/Nioki_Airport,NIO,FZBI,,,
+231,Q6588422,Tshikapa Airport,FZUK,TSH,,20.794722222222,-6.4383333333333,486,,,,,https://en.wikipedia.org/wiki/Tshikapa_Airport,TSH,FZUK,,,
+232,Q6588416,Tshumbe Airport,FZVJ,,,24.4,-4.1,571,,,,,https://en.wikipedia.org/wiki/Tshumbe_Airport,,FZVJ,,,
+233,Q5659005,Annobón Airport,FGAB,NBN,5008,5.62194444,-1.41027778,25,,,,,https://en.wikipedia.org/wiki/Annob%C3%B3n_Airport,NBN,FGAN,,,
+234,Q2707180,Bata Airport,FGBT,BSG,,9.8056805555556,1.9054694444444,4,,,403420,https://asecnaonline.asecna.aero/images/icagenda/files/rapport_2016.pdf,https://en.wikipedia.org/wiki/Bata_Airport,BSG,FGBT,,,
+235,Q655320,Malabo International Airport,FGSL,SSG,297000,8.7086111111111,3.755,23,2940,,886559,https://asecnaonline.asecna.aero/images/icagenda/files/rapportannuel-asecna2017.pdf,https://en.wikipedia.org/wiki/Malabo_International_Airport,SSG,FGSL,"283,991",,(2009)
+236,Q19931170,President Obiang Nguema International Airport,FGMY,GEM,7251,11.023889,1.69,660,,,,,https://en.wikipedia.org/wiki/President_Obiang_Nguema_International_Airport,GEM[1],FGMY,,,
+237,Q1528953,M'Vengue El Hadj Omar Bongo Ondimba International Airport,FOON,MVB,,13.438055555556,-1.651945,442,,,,,https://en.wikipedia.org/wiki/M%27Vengue_El_Hadj_Omar_Bongo_Ondimba_International_Airport,MVB,FOON,,,
+238,Q1862823,Gamba Airport,FOGX,GAX,,9.995833,-2.765833,9.144018,,,,,https://en.wikipedia.org/wiki/Gamba_Airport,GAX,FOGX,,,
+239,Q6434558,Koulamoutou Airport,FOGK,KOU,,12.441111111111,-1.1844444444444,326,,,,,https://en.wikipedia.org/wiki/Koulamoutou_Airport,KOU,FOGK,,,
+240,Q420847,Libreville International Airport,FOOL,LBV,797003,9.412222,0.458611,11.8872234,3000,,839571,https://asecnaonline.asecna.aero/images/icagenda/files/rapportannuel-asecna2017.pdf,https://en.wikipedia.org/wiki/L%C3%A9on-Mba_International_Airport,LBV,FOOL,"721,411",,(2009)
+241,Q4968061,Makokou Airport,FOOK,MKU,,12.916667,0.583333,526,,,,,https://en.wikipedia.org/wiki/Makokou_Airport,MKU,FOOK,,,
+242,Q11824584,Mayumba Airport,FOOY,MYB,,10.683333,-3.41667,3.9624078,,,,,https://en.wikipedia.org/wiki/Mayumba_Airport,MYB,FOOY,,,
+243,Q2229859,Mouila Airport,FOGM,MJL,22469,11.066667,-1.84514,89.916177,,,,,https://en.wikipedia.org/wiki/Mouila_Airport,MJL,FOGM,,,
+244,Q2522379,Oyem Airport,FOGO,OYE,,11.5814,1.54311,657.7596948,,,,,https://en.wikipedia.org/wiki/Oyem_Airport,OYE,FOGO,,,
+245,Q1807680,Port-Gentil International Airport,FOOG,POG,,8.7544444444444,-0.71166666666667,4,,,239720,https://asecnaonline.asecna.aero/images/icagenda/files/rapport_2016.pdf,https://en.wikipedia.org/wiki/Port-Gentil_International_Airport,POG,FOOG,,,
+246,Q2250873,Tchibanga Airport,FOOT,TCH,,11.017,-2.85,81.9913614,,,,,https://en.wikipedia.org/wiki/Tchibanga_Airport,TCH,FOOT,,,
+247,Q1432498,Príncipe Airport,FPPR,PCP,7344,7.411667,1.663056,180.1371546,,,,,https://en.wikipedia.org/wiki/Pr%C3%ADncipe_Airport,PCP,FPPR,,,
+248,Q1418267,São Tomé International Airport,FPST,TMS,71868,6.712222,0.378056,11.8872234,,,10516,,https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_International_Airport,TMS,FPST,,,
+249,Q681134,Bujumbura International Airport,HBBA,BJM,658859,29.318519444444,-3.3240194444444,786.9951492,3600,257806,261010,https://www.taa.go.tz/storage/pages/August2020/Passenger%20Statistics%20-%20East%20African%20Countries.png,https://en.wikipedia.org/wiki/Bujumbura_International_Airport,BJM,HBBA,"131,",,(2017)
+250,Q1432262,Ouani Airport,FMCV,AJN,10000,44.430277777778,-12.130962,19,,,,,https://en.wikipedia.org/wiki/Ouani_Airport,AJN,FMCV,,,
+251,Q371500,Mohéli Bandar Es Eslam Airport,FMCI,NWA,,43.766388888889,-12.298055555556,14,,,,,https://en.wikipedia.org/wiki/Moh%C3%A9li_Bandar_Es_Eslam_Airport,NWA,FMCI,,,
+252,Q653299,Prince Said Ibrahim International Airport,FMCH,HAH,74749,43.271388888889,-11.536666666667,28,2900,,446789,,https://en.wikipedia.org/wiki/Prince_Said_Ibrahim_International_Airport,HAH,FMCH,,,
+253,Q620706,Djibouti-Ambouli International Airport,HDAM,JIB,603900,43.159255,11.547337,14.9352294,,426854,426854,http://www.insd.dj/assets/doc/Annuaire_Statistique_2020.pdf,https://en.wikipedia.org/wiki/Djibouti%E2%80%93Ambouli_International_Airport,JIB,HDAM,"258,877",,(2009)
+254,Q522898,Asmara International Airport,HHAS,ASM,963000,38.901667,15.285,2335.0773966,3000,,136526,,https://en.wikipedia.org/wiki/Asmara_International_Airport,ASM,HHAS,,,
+255,Q607789,Assab International Airport,HHSB,ASA,74405,42.645,13.071666666667,14,3515,,,,https://en.wikipedia.org/wiki/Assab_International_Airport,ASA,HHSB,,,
+256,Q651210,Massawa International Airport,HHMS,MSW,39758,39.368,15.671138,63,3500,,,,https://en.wikipedia.org/wiki/Massawa_International_Airport,MSW,HHMS,,,
+257,Q11824780,Teseney Airport,HHTS,TES,3753,36.6833,15.1028,615,,,,,https://en.wikipedia.org/wiki/Teseney_Airport,TES,HHTS,,,
+258,Q44923,Addis Ababa Bole International Airport,HAAB,ADD,3041002,38.799444444444,8.9777777777778,2333.5533936,3800,,12143938,https://businessday.ng/aviation/article/mma2-abuja-airport-rank-among-top-10-in-africa/,https://en.wikipedia.org/wiki/Addis_Ababa_Bole_International_Airport,ADD,HAAB,"12,143,938[1]",,(2018)
+259,Q2234460,Arba Minch Airport,HAAM,AMH,,37.590277777778,6.0397222222222,1187.198337,,,,,https://en.wikipedia.org/wiki/Arba_Minch_Airport,AMH,HAAM,,,
+260,Q2875772,Asosa Airport,HASO,ASO,20226,34.586111111111,10.018333333333,1560.579072,,,,,https://en.wikipedia.org/wiki/Asosa_Airport,ASO,HASO,,,
+261,Q2469695,Axum Airport,HAAX,AXU,66800,38.776111111111,14.136944444444,2107.696149,,,,,https://en.wikipedia.org/wiki/Axum_Airport,AXU,HAAX,,,
+262,Q2671159,Bahir Dar Airport,HABD,BJR,243300,37.321388888889,11.608055555556,1821.4883856,,,,,https://en.wikipedia.org/wiki/Bahir_Dar_Airport,BJR,HABD,,,
+263,Q2875791,Beica Airport,HABE,BEI,,34.5192,9.39194,1648.971246,,,,,https://en.wikipedia.org/wiki/Beica_Airport,,,,,
+264,Q2875819,Debre Marqos Airport,HADM,DBM,,37.7333,10.3167,2480,,,,,https://en.wikipedia.org/wiki/Debre_Marqos_Airport,DBM,HADM,,,
+265,Q1323310,Dembidolo Airport,HADD,DEM,29448,34.85,8.55,1584.96312,,,,,https://en.wikipedia.org/wiki/Dembidolo_Airport,DEM,HADD,,,
+266,Q5150939,Combolcha Airport,HADC,DSE,85367,39.7114,11.0825,1865.379672,,,,,https://en.wikipedia.org/wiki/Kombolcha_Airport,DSE,HADC,,,
+267,Q2507539,Aba Tenna Dejazmach Yilma International Airport,HADR,DIR,277000,41.854167,9.623611,1158.8518812,,,,,https://en.wikipedia.org/wiki/Dire_Dawa_Airport,DIR,HADR,,,
+268,Q2875829,Gambela Airport,HAGM,GMB,,34.563055555556,8.1286111111111,540,,,,,https://en.wikipedia.org/wiki/Gambela_Airport,GMB,HAGM,,,
+269,Q7341112,Robe Airport,HAGB,GOB,,40.045,7.11889,2405.4863352,,,,,https://en.wikipedia.org/wiki/Robe_Airport,GOB,HAGB,,,
+270,Q3274690,Gode Airport,HAGO,GDE,,43.578611,5.935278,254,,,,,https://en.wikipedia.org/wiki/Gode_Airport,GDE,HAGO,,,
+271,Q608306,Gondar Airport,HAGN,GDQ,323900,37.433888888889,12.519722222222,1994,,,,,https://en.wikipedia.org/wiki/Gondar_Airport,GDQ,HAGN,,,
+272,Q5586096,Gore Airport,HAGR,GOR,,35.5525,8.16167,2005.587948,,,,,https://en.wikipedia.org/wiki/Gore_Airport,GOR,HAGR,,,
+273,Q5940673,Humera Airport,HAHU,HUE,,36.88166667,13.83027778,,,,,,https://en.wikipedia.org/wiki/Humera_Airport,HUE,HAHU,,,
+274,Q11824359,Jijiga Airport,HAJJ,JIJ,159300,42.91194444,9.33222222,1649.8856478,,,,,https://en.wikipedia.org/wiki/Jijiga_Airport,JIJ,HAJJ,,,
+275,Q1981182,Aba Segud Airport,HAJM,JIM,177900,36.814983,7.662013,1703,,,,,https://en.wikipedia.org/wiki/Aba_Segud_Airport,JIM,HAJM,,,
+276,Q1706780,Kabri Dar Airport,HAKD,ABK,,44.241555555556,6.7328055555556,259,,,,,https://en.wikipedia.org/wiki/Kabri_Dar_Airport,ABK,HAKD,,,
+277,Q2466458,Lalibela Airport,HALL,LLI,,38.991111111111,11.973888888889,1957.7342538,,,,,https://en.wikipedia.org/wiki/Lalibela_Airport,LLI,HALL,,,
+278,Q4737322,Alula Aba Nega Airport,HAMK,MQX,323700,39.533333333333,13.467222222222,2257,,,,,https://en.wikipedia.org/wiki/Alula_Aba_Nega_Airport,MQX,HAMK,"112,060",,
+279,Q2784112,Mizan Teferi Airport,HAMT,MTF,,35.533333333333,6.9666666666667,1340,,,,,https://en.wikipedia.org/wiki/Mizan_Teferi_Airport,MTF,HAMT,,,
+280,Q18356829,Semera Airport,HASM,SZE,3687,40.9917,11.7875,423.672834,,,,,https://en.wikipedia.org/wiki/Semera_Airport,SZE,HASM,,,
+281,Q7496634,Shilavo Airport,HASL,HIL,,44.7639,6.07778,,,,,,https://en.wikipedia.org/wiki/Shilavo_Airport,,,,,
+282,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Shire_Airport,SHC,HASC[1],,,
+283,Q1936290,Tippi Airport,HATP,TIE,,35.415,7.2025,1240,,,,,https://en.wikipedia.org/wiki/Tippi_Airport,TIE,HATP,,,
+284,Q2277725,Amboseli Airport,HKAM,ASV,,37.250833,-2.635833,1145,,,,,https://en.wikipedia.org/wiki/Amboseli_Airport,ASV,HKAM,,,
+285,Q1392310,Bamburi Airport,HKBM,BMQ,1200000,39.7312,-3.98005,14.9352294,,,,,https://en.wikipedia.org/wiki/Bamburi_Airport,BMQ,,,,
+286,Q1258402,Eldoret International Airport,HKEL,EDL,193830,35.238889,0.404444,2150,,,111250,,https://en.wikipedia.org/wiki/Eldoret_International_Airport,EDL,HKEL,"111,250[1]",,(2013)
+287,Q6349197,Kakamega Airport,HKKG,GGM,,34.784112,0.57639,1530,,,,,https://en.wikipedia.org/wiki/Kakamega_Airport,GGM,HKKG,,,
+288,Q6382717,Keekorok Airport,HKKE,KEU,,35.251667,-1.585832,1768,,,,,https://en.wikipedia.org/wiki/Keekorok_Airport,KEU[1],HKKE,,,
+289,Q6406503,Kilaguni Airport,HKKL,ILU,,38.0739,-2.9,840,,,,,https://en.wikipedia.org/wiki/Kilaguni_Airport,ILU,HKKL,,,
+290,Q1431734,Kisumu International Airport,HKKI,KIS,409928,34.728889,-0.086111,1157.0230776,,,,,https://en.wikipedia.org/wiki/Kisumu_International_Airport,KIS,HKKI,"401,300[1]",,(2013)
+291,Q6417785,Kitale Airport,HKKT,KTL,,34.96,0.975,1850,,,,,https://en.wikipedia.org/wiki/Kitale_Airport,KTL,HKKT,,,
+292,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Kiwayu_Airport,KWY,,,,
+293,Q2415471,Manda Airport,HKLU,LAU,18382,40.913108,-2.252222,6.096012,,,,,https://en.wikipedia.org/wiki/Manda_Airport,LAU,HKLU,,,
+294,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Lewa_Airport,n/a,n/a,,,
+295,Q6666523,Lodwar Airport,HKLO,LOK,82970,35.61,3.124672,523,,,,,https://en.wikipedia.org/wiki/Lodwar_Airport,LOK,HKLO,,,
+296,Q2289515,Lokichogio Airport,HKLK,LKG,,34.34723,4.205,645,,,,,https://en.wikipedia.org/wiki/Lokichogio_Airport,LKG,HKLK,,,
+297,Q1029984,Mara Serena Airport,HKMS,MRE,,35.008056,-1.406111,1707,,,,,https://en.wikipedia.org/wiki/Mara_Serena_Airport,MRE,HKMS,,,
+298,Q2614363,Malindi Airport,HKML,MYD,54000,40.101667,-3.223245,24,,,,,https://en.wikipedia.org/wiki/Malindi_Airport,MYD,HKML,,,
+299,Q1257194,Mulika Lodge Airport,HKMK,JJM,,38.184222,0.230612,680,,,,,https://en.wikipedia.org/wiki/Mulika_Lodge_Airport,JJM,HKMK,,,
+300,Q392784,Moi International Airport,HKMO,MBA,1200000,39.594167,-4.034722,60.96012,3350,1485000,1516000,https://www.knbs.or.ke/?wpdmpro=statistical-abstract-2020&wpdmdl=6215&ind=NMXDdNTSbgTcvz-yUwwsJQ5oqxAEJSebn50fbEo_4JWdCxxUoxQMquMozjoWTSXtneGqmVzNNzVirgagQ1nxMQ,https://en.wikipedia.org/wiki/Moi_International_Airport,MBA,HKMO,"1,313,168[1]",,(2013)
+301,Q206349,Jomo Kenyatta International Airport,HKJK,NBO,5545000,36.9275,-1.319167,1623.6727962,4117,9149147,9150000,https://www.taa.go.tz/storage/pages/August2020/Passenger%20Statistics%20-%20East%20African%20Countries.png,https://en.wikipedia.org/wiki/Jomo_Kenyatta_International_Airport,NBO,HKJK,"984,769[citation","2,000",(2020)
+302,Q1049288,Wilson Airport,HKNW,WIL,5545000,36.814833333333,-1.3217194444444,1690.4241276,,854000,854000,https://www.knbs.or.ke/?wpdmpro=statistical-abstract-2020&wpdmdl=6215&ind=NMXDdNTSbgTcvz-yUwwsJQ5oqxAEJSebn50fbEo_4JWdCxxUoxQMquMozjoWTSXtneGqmVzNNzVirgagQ1nxMQ,https://en.wikipedia.org/wiki/Wilson_Airport,WIL,HKNW,"528,000[1]",,(2017)
+303,Q1528862,Naivasha Airport,HKNV,,,36.434167,0.785,1936,,,,,https://en.wikipedia.org/wiki/Naivasha_Airport,,HKNV,,,
+304,Q3565634,Nakuru Airport,HKNK,NUU,307990,36.1622,-0.29972222,1900,,,,,https://en.wikipedia.org/wiki/Nakuru_Airport,NUU,HKNK,,,
+305,Q2877625,Nanyuki Airport,HKNY,NYK,,37.034195,-0.069362,1905,,,,,https://en.wikipedia.org/wiki/Nanyuki_Airport,NYK,HKNY,,,
+306,Q3544688,Samburu Airport,HKSB,UAS,,37.534195,0.530583,1004,,,,,https://en.wikipedia.org/wiki/Samburu_Airport,UAS,HKSB,,,
+307,Q10845636,Ukunda Airport,HKUK,UKA,,39.571388888889,-4.2969444444444,30,,,,,https://en.wikipedia.org/wiki/Ukunda_Airport,UKA,HKUK,,,
+308,Q7960718,Wajir Airport,HKWJ,WJR,,40.091522,1.733163,235,,,,,https://en.wikipedia.org/wiki/Wajir_Airport,WJR,HKWJ,"123,000",,(2013)
+309,Q1657708,Ampapamena Airport,FMNZ,IVA,,48.63277778,-13.485,15,,,,,https://en.wikipedia.org/wiki/Ampampamena_Airport,IVA,FMNZ,,,
+310,Q4741166,Ambatomainty Airport,FMMB,AMY,,45.625,-17.68638889,320,,,,,https://en.wikipedia.org/wiki/Ambatomainty_Airport,AMY,FMMB[1],,,
+311,Q4741169,Ambatondrazaka Airport,FMMZ,WAM,,48.4434,-17.79583333,766,,,,,https://en.wikipedia.org/wiki/Ambatondrazaka_Airport,WAM,FMMZ,,,
+312,Q12691527,Ampanihy Airport,FMSY,AMP,,44.733333,-24.69916667,231,,,,,https://en.wikipedia.org/wiki/Ampanihy_Airport,AMP,FMSY,,,
+313,Q4751013,Analalava Airport,FMNL,HVA,,47.766667,-14.6297,105,,,,,https://en.wikipedia.org/wiki/Analalava_Airport,HVA,FMNL,,,
+314,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Andavadoaka_Airport,DVD,,,,
+315,Q4766002,Ankavandra Airport,FMMK,JVA,,45.283333333333,-18.8,130,,,,,https://en.wikipedia.org/wiki/Ankavandra_Airport,JVA,FMMK,,,
+316,Q4777396,Antsirabato Airport,FMNH,ANM,32496,50.3202,-14.99888889,6,,,,,https://en.wikipedia.org/wiki/Antsirabato_Airport,ANM,FMNH,,,
+317,Q670038,Ivato Airport,FMMI,TNR,2610000,47.47611111,-18.79638889,1279.5529188,,,890632,,https://en.wikipedia.org/wiki/Ivato_International_Airport,TNR,FMMI,"611,175",,(2009)
+318,Q4777392,Antsalova Airport,FMMG,WAQ,,44.617,-18.7,168,,,,,https://en.wikipedia.org/wiki/Antsalova_Airport,WAQ,FMMG,,,
+319,Q2902969,Arrachart Airport,FMNA,DIE,,49.29416667,-12.35111111,114,1500,,68505,https://adema.mg/wp-content/uploads/2019/06/Fiche-opportunité-daffaire-VF.pdf,https://en.wikipedia.org/wiki/Arrachart_Airport,DIE,FMNA,,,
+320,Q4740961,Ambalabe Airport,FMNW,WAI,24417,47.99361111,-14.90305556,28,,,,,https://en.wikipedia.org/wiki/Ambalabe_Airport,WAI,FMNW,,,
+321,Q1654849,Belo sur Tsiribihina Airport,FMML,BMD,,44.54222222,-19.683333,47,,,,,https://en.wikipedia.org/wiki/Belo_sur_Tsiribihina_Airport,BMD,FMML,,,
+322,Q4896170,Besalampy Airport,FMNQ,BPY,,44.484,-16.7441,38,,,,,https://en.wikipedia.org/wiki/Besalampy_Airport,BPY,FMNQ,,,
+323,Q7230506,Port Bergé Airport,FMNG,WPB,,47.61666667,-15.58333333,65,,,,,https://en.wikipedia.org/wiki/Port_Berg%C3%A9_Airport,WPB,FMNG,,,
+324,Q934242,Farafangana Airport,FMSG,RVA,,47.833333,-22.8,8,,,,,https://en.wikipedia.org/wiki/Farafangana_Airport,RVA,FMSG,,,
+325,Q2582157,Fianarantsoa Airport,FMSF,WFI,,47.11083333,-21.44222222,1115,1250,,,,https://en.wikipedia.org/wiki/Fianarantsoa_Airport,WFI,FMSF,,,
+326,Q6736832,Maintirano Airport,FMMO,MXT,,44.03222222,-18.0506,29,,,,,https://en.wikipedia.org/wiki/Maintirano_Airport,MXT,FMMO,,,
+327,Q1657683,Amborovy Airport,FMNM,MJN,166384,46.351666666667,-15.666575,27,,,39450,https://adema.mg/wp-content/uploads/2019/06/Fiche-opportunité-daffaire-VF.pdf,https://en.wikipedia.org/wiki/Amborovy_Airport,MJN,FMNM,,,
+328,Q11824568,Mampikony Airport,FMNP,WMP,,47.616666666667,-16.05,29,,,,,https://en.wikipedia.org/wiki/Mampikony_Airport,WMP,FMNP,,,
+329,Q6746795,Manakara Airport,FMSK,WVK,,48.0217,-22.116667,10,,,,,https://en.wikipedia.org/wiki/Manakara_Airport,WVK,FMSK,,,
+330,Q6746891,Mananara Nord Airport,FMNC,WMR,,49.769722222222,-16.16361111,3,,,,,https://en.wikipedia.org/wiki/Mananara_Nord_Airport,WMR,FMNC,,,
+331,Q6746910,Mananjary Airport,FMSM,MNJ,35900,48.3583,-21.2018,6,,,,,https://en.wikipedia.org/wiki/Mananjary_Airport,MNJ,FMSM,,,
+332,Q6748206,Mandritsara Airport,FMNX,WMA,,48.83555556,-15.817,307,,,,,https://en.wikipedia.org/wiki/Mandritsara_Airport,WMA,FMNX,,,
+333,Q1443376,Manja Airport,FMSJ,MJA,,44.31583333,-21.42638889,240,,,,,https://en.wikipedia.org/wiki/Manja_Airport,MJA,FMSJ,,,
+334,Q6772274,Maroantsetra Airport,FMNR,WMN,,49.69,-15.433333,4,,,,,https://en.wikipedia.org/wiki/Maroantsetra_Airport,WMN,FMNR,,,
+335,Q3565428,Miandrivazo Airport,FMMN,ZVA,,45.450833333333,-19.562777777778,62,,,,,https://en.wikipedia.org/wiki/Miandrivazo_Airport,ZVA,FMMN,,,
+336,Q15256065,Morafenobe Airport,FMMR,TVA,,44.92083333,-17.85,228,,,,,https://en.wikipedia.org/wiki/Morafenobe_Airport,TVA,FMMR,,,
+337,Q6913226,Morombe Airport,FMSR,MXM,,43.37638889,-21.75,5,,,,,https://en.wikipedia.org/wiki/Morombe_Airport,MXM,FMSR,,,
+338,Q3606079,Morondava Airport,FMMV,MOQ,53510,44.31777778,-20.28472222,6,,,14755,https://adema.mg/wp-content/uploads/2019/06/Fiche-opportunité-daffaire-VF.pdf,https://en.wikipedia.org/wiki/Morondava_Airport,MOQ,FMMV,,,
+339,Q613657,Fascene Airport,FMNN,NOS,,48.30916667,-13.31805556,10.9728216,2190,,,,https://en.wikipedia.org/wiki/Fascene_Airport,NOS,FMNN,,,
+340,Q2058359,Sainte Marie Airport,FMMS,SMS,16325,49.81673889,-17.090225,2,1745,,25334,https://adema.mg/wp-content/uploads/2019/06/Fiche-opportunité-daffaire-VF.pdf,https://en.wikipedia.org/wiki/Sainte_Marie_Airport,SMS,FMMS,,,
+341,Q7409017,Sambava Airport,FMNS,SVB,35150,50.17472222,-14.2786,6,,,80170,https://adema.mg/wp-content/uploads/2019/06/Fiche-opportunité-daffaire-VF.pdf,https://en.wikipedia.org/wiki/Sambava_Airport,SVB,FMNS,,,
+342,Q7549760,Soalala Airport,FMNO,DWB,,45.36666667,-16.1,43,,,,,https://en.wikipedia.org/wiki/Soalala_Airport,DWB,FMNO,,,
+343,Q7681047,Tambohorano Airport,FMMU,WTA,,43.973055555556,-17.476111111111,7,,,,,https://en.wikipedia.org/wiki/Tambohorano_Airport,WTA,FMMU,,,
+344,Q2006710,Toamasina Airport,FMMT,TMM,225116,49.39368611,-18.109516666667,7,,,80781,https://adema.mg/wp-content/uploads/2019/06/Fiche-opportunité-daffaire-VF.pdf,https://en.wikipedia.org/wiki/Toamasina_Ambalamanasy_Airport,TMM,FMMT,,,
+345,Q939516,Tôlanaro Airport,FMSD,FTU,67284,46.95611111,-25.03805556,6,1800,,62740,https://adema.mg/wp-content/uploads/2019/06/Fiche-opportunité-daffaire-VF.pdf,https://en.wikipedia.org/wiki/Tolagnaro_Airport,FTU,FMSD,,,
+346,Q3606099,Toliara Airport,FMST,TLE,,43.72555556,-23.38944444,6,2000,,77547,https://adema.mg/wp-content/uploads/2019/06/Fiche-opportunité-daffaire-VF.pdf,https://en.wikipedia.org/wiki/Toliara_Airport,TLE,FMST,,,
+347,Q7849413,Tsaratanana Airport,FMNT,TTS,,47.617,-16.75,372,,,,,https://en.wikipedia.org/wiki/Tsaratanana_Airport,TTS,FMNT,,,
+348,Q7849775,Tsiroanomandidy Airport,FMMX,WTS,,46.05222222,-18.75,846,,,,,https://en.wikipedia.org/wiki/Tsiroanomandidy_Airport,WTS,FMMX,,,
+349,Q7939430,Vohemar Airport,FMNV,VOH,15000,50.0,-13.37277778,6,,,,,https://en.wikipedia.org/wiki/Vohemar_Airport,VOH,FMNV,,,
+350,Q2670307,Chileka International Airport,FWCL,BLZ,1895973,34.973888888889,-15.678888888889,778.765533,,,,,https://en.wikipedia.org/wiki/Chileka_International_Airport,BLZ,FWCL,,,
+351,Q6373238,Karonga Airport,FWKA,KGJ,42555,33.895942,-9.95333333,537,,,,,https://en.wikipedia.org/wiki/Karonga_Airport,KGJ,FWKA,,,
+352,Q721780,Lilongwe International Airport,FWKI,LLW,989318,33.780833333333,-13.783442,1230,,,296190,,https://en.wikipedia.org/wiki/Kamuzu_International_Airport,LLW,FWKI,"296,190",,(2009)
+353,Q1164118,Mzuzu Airport,FWUU,ZZU,150100,34.014312,-11.444722222222,1254,,,,,https://en.wikipedia.org/wiki/Mzuzu_Airport,ZZU,FWUU,,,
+354,Q36460,Sir Seewoosagur Ramgoolam International Airport,FIMP,MRU,,57.683022222222,-20.430027777778,56.6929116,3370,3884056,3884056,https://aml.mru.aero/index.php/ssr-international/facts-figures,https://en.wikipedia.org/wiki/Sir_Seewoosagur_Ramgoolam_International_Airport,MRU,FIMP,"3,884,056[1]",,(2019)
+355,Q2875887,Sir Gaëtan Duval Airport,FIMR,RRG,,63.360833333333,-19.7575,28.956057,,,,,https://en.wikipedia.org/wiki/Sir_Ga%C3%ABtan_Duval_Airport,RRG,FIMR,,,
+356,Q642313,Dzaoudzi Pamandzi International Airport,FMCZ,DZA,17831,45.280555,-12.806667,7.0104138,1929,387869,400866,https://www.aeroport.fr/view-statistiques/mayotte-dzaoudzi-pamandzi,https://en.wikipedia.org/wiki/Dzaoudzi%E2%80%93Pamandzi_International_Airport,DZA,FMCZ,"386,097",,(2018)
+357,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Bazaruto_Island_Airport,BZB,,,,
+358,Q381643,Beira Airport,FQBR,BEW,530604,34.9075,-19.796388888889,8,2362,261000,283000,http://www.ine.gov.mz/estatisticas/estatisticas-sectoriais/transporte-e-comunicacao/transportes-e-comunicacoes-2019-vfinal-2020.pdf/view,https://en.wikipedia.org/wiki/Beira_Airport,BEW,FQBR,,,
+359,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Benguerra_Island_Airport,BCW,,,,
+360,Q5099431,Chimoio Airport,FQCH,VPY,238976,33.429583,-19.148583,697.0789722,,,,,https://en.wikipedia.org/wiki/Chimoio_Airport,VPY,FQCH,,,
+361,Q890555,Inhaca Airport,FQIA,IHC,,32.92916667,-25.99777778,2,,,,,https://en.wikipedia.org/wiki/Inhaca_Airport,IHC[1],FQIA,,,
+362,Q3015312,Inhambane Airport,FQIN,INH,63837,35.408544444444,-23.876430555556,9,,,,,https://en.wikipedia.org/wiki/Inhambane_Airport,INH,FQIN,,,
+363,Q11824536,Lichinga Airport,FQLC,VXC,142253,35.26444444,-13.27416667,1373.126703,,,,,https://en.wikipedia.org/wiki/Lichinga_Airport,VXC,FQLC,,,
+364,Q1022397,Maputo International Airport,FQMA,MPM,1191613,32.5725,-25.920833333333,44.196087,3660,1103000,1103000,http://www.ine.gov.mz/estatisticas/estatisticas-sectoriais/transporte-e-comunicacao/transportes-e-comunicacoes-2019-vfinal-2020.pdf/at_download/file,https://en.wikipedia.org/wiki/Maputo_International_Airport,MPM,FQMA,"668,706",,(2009)
+365,Q1526611,Nampula Airport,FQNP,APL,743000,39.2818,-15.105611111111,440,,236000,261000,http://www.ine.gov.mz/estatisticas/estatisticas-sectoriais/transporte-e-comunicacao/transportes-e-comunicacoes-2019-vfinal-2020.pdf/view,https://en.wikipedia.org/wiki/Nampula_Airport,APL,FQNP,,,
+366,Q1392430,Pemba Airport,FQPB,POL,141316,40.522491666667,-12.986752777778,96,,149000,153000,http://www.ine.gov.mz/estatisticas/estatisticas-sectoriais/transporte-e-comunicacao/transportes-e-comunicacoes-2021final.pdf/at_download/file,https://en.wikipedia.org/wiki/Pemba_Airport_(Mozambique),POL,FQPB,,,
+367,Q1526745,Quelimane Airport,FQQL,UEL,192876,36.887222222222,-17.85,11,,77000,77000,http://www.ine.gov.mz/estatisticas/estatisticas-sectoriais/transporte-e-comunicacao/transportes-e-comunicacoes-2021final.pdf/at_download/file,https://en.wikipedia.org/wiki/Quelimane_Airport,UEL,FQQL,,,
+368,Q3275527,Chingozi Airport,FQTT,TET,152909,33.640277777778,-16.108055555556,160,,144000,153600,http://www.ine.gov.mz/estatisticas/estatisticas-sectoriais/transporte-e-comunicacao/transportes-e-comunicacoes-2021final.pdf/at_download/file,https://en.wikipedia.org/wiki/Chingozi_Airport,TET,FQTT,,,
+369,Q7930082,Vilankulo Airport,FQVL,VNX,,35.316667,-22.016667,12,,,,,https://en.wikipedia.org/wiki/Vilankulo_Airport,VNX,FQVL,,,
+370,Q17430,Roland Garros Airport,FMEE,RUN,153810,55.516388888889,-20.89,20.1168396,3200,2488014,2488014,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Roland_Garros_Airport,RUN,FMEE,"2,473,843",,(2018)
+371,Q17431,Pierrefonds Airport,FMEP,ZSE,84982,55.425555555556,-21.321666666667,17.9832354,,99120,127733,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Pierrefonds_Airport,ZSE,FMEP,"98,194","1,990",(2018)
+372,Q821267,Kamembe Airport,HRZA,KME,27416,28.90843,-2.459313,1491,,,,,https://en.wikipedia.org/wiki/Kamembe_Airport,KME,HRZA,,,
+373,Q3275540,Gisenyi Airport,HRYG,GYI,136830,29.258334,-1.68,1549,,,,,https://en.wikipedia.org/wiki/Gisenyi_Airport,GYI,HRYG,,,
+374,Q1322696,Kigali International Airport,HRYR,KGL,1156663,30.133056111111,-1.9663888888889,1481,3500,1144144,1144144,https://www.taa.go.tz/storage/pages/August2020/Passenger%20Statistics%20-%20East%20African%20Countries.png,https://en.wikipedia.org/wiki/Kigali_International_Airport,KGL,HRYR,"710,000[1]",,(2016)
+375,Q2579901,Alphonse Airport,FSAL,,,52.727778,-7.004722,3,,,,,https://en.wikipedia.org/wiki/Alphonse_Airport,,FSAL,,,
+376,Q597926,Bird Island Airport,FSSB,BDI,,55.20869722,-3.72146944,5,,,,,https://en.wikipedia.org/wiki/Bird_Island_Airport,BDI,FSSB,,,
+377,Q1653962,Denis Island Airport,FSSD,DEI,,55.6669,-3.800325,3.048006,,,,,https://en.wikipedia.org/wiki/Denis_Island_Airport,DEI,FSSD,,,
+378,Q1432843,Seychelles International Airport,FSIA,SEZ,26450,55.521852777778,-4.6743444444444,10,,1200000,1200000,https://www.scaa.sc/files/SCAA%20(eCopy)%20Annual%20Report%202019%20.pdf,https://en.wikipedia.org/wiki/Seychelles_International_Airport,SEZ,FSIA,"736,558",,(2013)
+379,Q4073707,Praslin Island Airport,FSPP,PRI,7000,55.691605555556,-4.3192416666667,3,,,,,https://en.wikipedia.org/wiki/Praslin_Island_Airport,PRI,FSPP,,,
+380,Q15548,Berbera Airport,HCMI,BBO,,44.941105555556,10.389166666667,7,4140,,,,https://en.wikipedia.org/wiki/Berbera_Airport,BBO,HCMI,,,
+381,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Borama_Airport,BXX,,,,
+382,Q1355062,Bender Qassim International Airport,HCMF,BSA,1067000,49.15,11.275555555556,1,2400,,,,https://en.wikipedia.org/wiki/Bosaso_Airport,BSA,HCMF,,,
+383,Q15552,Burao Airport,HCMV,BUO,350211,45.558344444444,9.5321222222222,1100,,,,,https://en.wikipedia.org/wiki/Burao_Airport,BUO,HCMV,,,
+384,Q2011096,Abdullahi Yusuf International Airport,HCMR,GLK,,47.454413888889,6.7808777777778,297,,,,,https://en.wikipedia.org/wiki/Abdullahi_Yusuf_Airport,GLK,HCMR,,,
+385,Q15564,Hargeisa International Airport,HCMH,HGA,760000,44.088758333333,9.5181666666667,1348,2438,,85800,http://www.eeas.europa.eu/archives/delegations/somalia/documents/more_info/berbera_corridor_pre_feasibilitystudy_executivesummary_en.pdf,https://en.wikipedia.org/wiki/Hargeisa_Airport,HGA,HCMH,,,
+386,Q10853735,Kismayo Airport,HCMK,KMU,166667,42.8417,0.583333,45,,,,,https://en.wikipedia.org/wiki/Kismayo_Airport,KMU,HCMK,58,10,(2013)
+387,Q1119032,Aden Adde International Airport,HCMM,MGQ,2120000,45.304722222222,2.0136111111111,9,,,,,https://en.wikipedia.org/wiki/Aden_Adde_International_Airport,MGQ,HCMM,,,
+388,Q1430871,Arusha Airport,HTAR,ARK,416442,36.621944444444,-3.3666666666667,1386.84273,,,164419,http://taa.go.tz/index.php/download/statisticts/44-traffic-statistics-1/file,https://en.wikipedia.org/wiki/Arusha_Airport,ARK,HTAR,"142,224","20,692",(2015)
+389,Q3362557,Bukoba Airport,HTBU,BKZ,,31.821111111111,-1.3322222222222,1147.8790596,,45450,45450,https://allafrica.com/stories/202202030099.html,https://en.wikipedia.org/wiki/Bukoba_Airport,BKZ,HTBU,"25,943","1,946",(2013)
+390,Q1411192,Julius Nyerere International Airport,HTDA,DAR,4715000,39.202777777778,-6.8780555555556,59.7409176,,2472885,2496394,https://www.taa.go.tz/storage/pages/August2020/Passenger%20Statistics%20-%20East%20African%20Countries.png,https://en.wikipedia.org/wiki/Julius_Nyerere_International_Airport,DAR,HTDA,"2,488,282","72,564",(2020)
+391,Q1392965,Dodoma Airport,HTDO,DOD,213636,35.74944444,-6.17027778,1109,,,11868,http://taa.go.tz/index.php/download/statisticts/44-traffic-statistics-1/file,https://en.wikipedia.org/wiki/Dodoma_Airport,DOD,HTDO,"14,287","2,919",(2015)
+392,Q6070002,Iringa Airport,HTIR,IRI,,35.7522,-7.66861,1425.8572068,,,10642,http://taa.go.tz/index.php/download/statisticts/44-traffic-statistics-1/file,https://en.wikipedia.org/wiki/Iringa_Airport,IRI,HTIR,,,
+393,Q3366020,Kigoma Airport,HTKA,TKQ,135234,29.670277777778,-4.885,822.96162,,,29781,http://taa.go.tz/index.php/download/statisticts/44-traffic-statistics-1/file,https://en.wikipedia.org/wiki/Kigoma_Airport,TKQ,HTKA,"28,454","1,725",(2015)
+394,Q1365099,Kilimanjaro International Airport,HTKJ,JRO,416442,37.074444444444,-3.4294444444444,893.6753592,,,665149,https://www.air-journal.fr/wp-content/uploads/classement-aeroports_info.jpg,https://en.wikipedia.org/wiki/Kilimanjaro_International_Airport,JRO,HTKJ,"780,800[1]","19,758",(2015)
+395,Q6408285,Kilwa Masoko Airport,HTKI,KIY,,39.50861111,-8.91,17.9832354,,,492,http://taa.go.tz/index.php/download/statisticts/44-traffic-statistics-1/file,https://en.wikipedia.org/wiki/Kilwa_Masoko_Airport,KIY,HTKI,,,
+396,Q3612951,Lindi Airport,HTLI,LDI,41549,39.758611111111,-9.85,30.48006,,,178,http://taa.go.tz/index.php/download/statisticts/44-traffic-statistics-1/file,https://en.wikipedia.org/wiki/Lindi_Airport,LDI,HTLI,,,
+397,Q6729478,Mafia Airport,HTMA,MFA,,39.67777778,-7.91388889,24.0792474,,,23665,http://taa.go.tz/index.php/download/statisticts/44-traffic-statistics-1/file,https://en.wikipedia.org/wiki/Mafia_Airport,MFA,HTMA,"21,522",,(2009)
+398,Q6799680,Mbeya Airport,HTMB,MBI,,33.4667,-8.91667,1706.88336,,,,,https://en.wikipedia.org/wiki/Mbeya_Airport,MBI,HTMB,,,
+399,Q7561639,Songwe Airport,HTGW,,,33.27388889,-8.92,1344.7802472,,,117177,http://taa.go.tz/index.php/download/statisticts/44-traffic-statistics-1/file,https://en.wikipedia.org/wiki/Songwe_Airport,,HTGW,"133,774","1,913",(2015)
+400,Q7220495,Mpanda Airport,HTMP,NPY,,31.08252222,-6.35532778,1086.614139,,,673,http://taa.go.tz/index.php/download/statisticts/44-traffic-statistics-1/file,https://en.wikipedia.org/wiki/Mpanda_Airport,NPY,HTMP,,,
+401,Q7220312,Lake Manyara Airport,HTLM,LKY,,35.81833333,-3.37583333,1264.92249,,,30400,http://taa.go.tz/index.php/download/statisticts/44-traffic-statistics-1/file,https://en.wikipedia.org/wiki/Lake_Manyara_Airport,LKY,HTLM,,,
+402,Q1432100,Mtwara Airport,HTMT,MYW,92602,40.181944444444,-10.336111111111,113.0810226,,,22681,http://taa.go.tz/index.php/download/statisticts/44-traffic-statistics-1/file,https://en.wikipedia.org/wiki/Mtwara_Airport,MYW,HTMT,"33,330","1,538",(2015)
+403,Q6943042,Musoma Airport,HTMU,MUZ,,33.802222222222,-1.5027777777778,1153.0606698,,,12009,http://taa.go.tz/index.php/download/statisticts/44-traffic-statistics-1/file,https://en.wikipedia.org/wiki/Musoma_Airport,MUZ,HTMU,"7,867",,
+404,Q392790,Mwanza Airport,HTMW,MWZ,385810,32.9325,-2.4444444444444,1146.9646578,,,400457,http://taa.go.tz/index.php/download/statisticts/44-traffic-statistics-1/file,https://en.wikipedia.org/wiki/Mwanza_Airport,MWZ,HTMW,"444,215","13,404",(2015)
+405,Q1393222,Pemba Airport,HTPE,PMA,,39.811388888889,-5.2572222222222,24.384048,1517,,,,https://en.wikipedia.org/wiki/Pemba_Airport_(Tanzania),PMA,HTPE,,,
+406,Q3360229,Shinyanga Airport,HTSY,SHY,107362,33.5,-3.61,1158.24228,,,40,http://taa.go.tz/index.php/download/statisticts/44-traffic-statistics-1/file,https://en.wikipedia.org/wiki/Shinyanga_Airport,SHY,HTSY,"12,437",,
+407,Q7220771,Tabora Airport,HTTB,TBO,,32.830555555556,-5.0761111111111,1178.9687208,,,16505,http://taa.go.tz/index.php/download/statisticts/44-traffic-statistics-1/file,https://en.wikipedia.org/wiki/Tabora_Airport,TBO,HTTB,"24,757",,(2009)
+408,Q4189775,Tanga Airport,HTTG,TGT,243580,39.071666666667,-5.0920888888889,39,,,30967,http://taa.go.tz/index.php/download/statisticts/44-traffic-statistics-1/file,https://en.wikipedia.org/wiki/Tanga_Airport,TGT,HTTG,"21,271","3,444",(2013)
+409,Q1393401,Abeid Amani Karume International Airport,HTZA,ZNZ,205870,39.225,-6.21757,16.4592324,,,934337,https://web.archive.org/web/20160305153917/http://www.taa.go.tz/index.php/download/statisticts/9-taa-annual-statistics-report-2014/file,https://en.wikipedia.org/wiki/Abeid_Amani_Karume_International_Airport,ZNZ,HTZA,"934,337","50,672",(2014)
+410,Q2902777,Arua Airport,HUAR,RUA,,30.91222222,3.04722222,1204.2671706,,,,,https://en.wikipedia.org/wiki/Arua_Airport,RUA,HUAR,,,
+411,Q586065,Entebbe International Airport,HUEN,EBB,1680600,32.443055555556,0.044722222222222,1152.7558692,3657.6,2008230,2008230,https://www.taa.go.tz/storage/pages/August2020/Passenger%20Statistics%20-%20East%20African%20Countries.png,https://en.wikipedia.org/wiki/Entebbe_International_Airport,EBB,HUEN,"1,510,000","26,886",(2014/15)
+412,Q5617915,Gulu Airport,HUGU,ULU,152276,32.275,2.8,1069.850106,,,,,https://en.wikipedia.org/wiki/Gulu_Airport,ULU,HUGU,,,
+413,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Moyo_Airport,OYG,,,,
+414,Q3275114,Chipata Airport,FLCP,CIP,98416,32.586944444444,-13.556944444444,992,,,,,https://en.wikipedia.org/wiki/Chipata_Airport,CIP,FLCP,,,
+415,Q1431890,Harry Mwanga Nkumbula International Airport,FLHN,LVI,136897,25.822777777778,-17.821666666667,991,2293,,,,https://en.wikipedia.org/wiki/Harry_Mwanga_Nkumbula_International_Airport,LVI,FLHN,,,
+416,Q332302,Kenneth Kaunda International Airport,FLKK,LUN,2467563,28.4525,-15.330555555556,1151.8414674,3962.4,,925077,https://www.air-journal.fr/wp-content/uploads/classement-aeroports_info.jpg,https://en.wikipedia.org/wiki/Kenneth_Kaunda_International_Airport,LUN,FLKK,"1,352,278",,(2018)
+417,Q3566281,Mfuwe Airport,FLMF,MFU,,31.936388888889,-13.258611111111,573,,,,,https://en.wikipedia.org/wiki/Mfuwe_Airport,MFU,FLMF,,,
+418,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Simon_Mwansa_Kapwepwe_International_Airport,NLA,FLSK,,,
+419,Q7559061,Solwezi Airport,FLSW,SLI,,26.366667,-12.166667,1386,,,,,https://en.wikipedia.org/wiki/Solwezi_Airport,SLI,FLSW,,,
+420,Q556056,Joshua Mqabuko Nkomo International Airport,FVBU,BUQ,,28.617869444444,-20.017430555556,1328,,,,,https://en.wikipedia.org/wiki/Joshua_Mqabuko_Nkomo_International_Airport,BUQ,FVJN[1],,,
+421,Q760897,Harare International Airport,FVHA,HRE,2150000,31.092847222222,-17.931805555556,1489.5605322,,,1657622,,https://en.wikipedia.org/wiki/Robert_Gabriel_Mugabe_International_Airport,HRE,FVRG[1],1,,(2016)
+422,Q1433189,Victoria Falls Airport,FVFA,VFA,33060,25.839005555556,-18.095880555556,1063.754094,,,,,https://en.wikipedia.org/wiki/Victoria_Falls_Airport,VFA,FVFA,,,
+423,Q1657700,Francistown Airport,FBFT,FRW,,27.474444444444,-21.159444444444,1001,,,37486,http://www.statsbots.org.bw/sites/default/files/Q4%202018%20Transport%20%20%26%20%20Infrastructure%20Stats%20Brief.pdf,https://en.wikipedia.org/wiki/Phillip_Gaonwe_Matante_International_Airport,FRW,FBFT,,,
+424,Q1327949,Sir Seretse Khama International Airport,FBSK,GBE,246325,25.92306,-24.55583,1011,4000,,444473,http://www.statsbots.org.bw/sites/default/files/Q4%202018%20Transport%20%20%26%20%20Infrastructure%20Stats%20Brief.pdf,https://en.wikipedia.org/wiki/Sir_Seretse_Khama_International_Airport,GBE,FBSK,1462162,"7,852",(2020[2])
+425,Q5555644,Ghanzi Airport,FBGZ,GNZ,,21.666667,-21.69361111,1136.6014374,,,214,http://www.statsbots.org.bw/sites/default/files/Q4%202018%20Transport%20%20%26%20%20Infrastructure%20Stats%20Brief.pdf,https://en.wikipedia.org/wiki/Ghanzi_Airport,GNZ,FBGZ,,,
+426,Q6319287,Jwaneng Airport,FBJW,JWA,,24.698888888889,-24.598333333333,1188,,,,,https://en.wikipedia.org/wiki/Jwaneng_Airport,JWA,FBJW,,,
+427,Q1431675,Kasane Airport,FBKE,BBK,,25.163055555556,-17.829722222222,1002,3000,,107078,http://www.statsbots.org.bw/sites/default/files/Q4%202018%20Transport%20%20%26%20%20Infrastructure%20Stats%20Brief.pdf,https://en.wikipedia.org/wiki/Kasane_Airport,BBK,FBKE,,,
+428,Q121760,Maun Airport,FBMN,MUB,57067,23.431111111111,-19.9725,943,3700,,271414,http://www.statsbots.org.bw/sites/default/files/Q4%202018%20Transport%20%20%26%20%20Infrastructure%20Stats%20Brief.pdf,https://en.wikipedia.org/wiki/Maun_Airport,MUB,FBMN,,,
+429,Q7099899,Orapa Airport,FBOR,ORP,,25.317777777778,-21.267222222222,944,,,,,https://en.wikipedia.org/wiki/Orapa_Airport,ORP,FBOR,,,
+430,Q8213916,Selebi-Phikwe Airport,FBSP,PKW,49724,27.826944444444,-22.0566,891,,,310,http://www.statsbots.org.bw/sites/default/files/Q4%202018%20Transport%20%20%26%20%20Infrastructure%20Stats%20Brief.pdf,https://en.wikipedia.org/wiki/Selebi-Phikwe_Airport,PKW,FBSP,,,
+431,Q1343495,Shakawe Airport,FBSW,SWX,,21.831111111111,-18.366667,1032,,,,,https://en.wikipedia.org/wiki/Shakawe_Airport,SWX,FBSW,,,
+432,Q2285574,King Mswati III International Airport,FDSK,SHO,110508,31.716944444444,-26.358611111111,324,,,,,https://en.wikipedia.org/wiki/King_Mswati_III_International_Airport,SHO,FDSK,,,
+433,Q645462,Moshoeshoe I International Airport,FXMM,MSU,519186,27.5525,-29.462222,1630.0736088,,,,,https://en.wikipedia.org/wiki/Moshoeshoe_I_International_Airport,MSU,FXMM,,,
+434,Q219287,Katima Mulilo Airport,FYKM,MPA,28699,24.176388888889,-17.634166666667,958.2930864,,12614,14999,https://de.wikipedia.org/wiki/Flughafen_Katima_Mulilo,https://en.wikipedia.org/wiki/Katima_Mulilo_Airport,MPA,FYKM,,,
+435,Q1431966,Lüderitz Airport,FYLZ,LUD,12537,15.242777777778,-26.6875,139.2938742,,5103,9538,https://de.wikipedia.org/wiki/Flughafen_L%C3%BCderitz#Statistiken,https://en.wikipedia.org/wiki/L%C3%BCderitz_Airport,LUD,FYLZ,"15,694","3,804",(2006)
+436,Q847788,Ondangwa Airport,FYOA,OND,,15.9525,-17.877222,1096.9773594,,50407,56449,https://de.wikipedia.org/wiki/Flughafen_Ondangwa#Statistiken,https://en.wikipedia.org/wiki/Andimba_Toivo_ya_Toivo_Airport,OND,FYOA,,,
+437,Q1432245,Oranjemund Airport,FYOG,OMD,3900,16.45,-28.584722,4.2672084,,,,,https://en.wikipedia.org/wiki/Oranjemund_Airport,OMD,FYOG,,,
+438,Q851733,Rundu Airport,FYRU,NDU,63431,19.720555,-17.956112,1105.5117762,,7643,8684,https://de.wikipedia.org/wiki/Flughafen_Rundu,https://en.wikipedia.org/wiki/Rundu_Airport,NDU,FYRU,,,
+439,Q661852,Swakopmund Airport,FYSM,SWP,,14.566666666667,-22.658333333333,51.816102,,,,,https://en.wikipedia.org/wiki/Swakopmund_Airport,SWP,FYSM,,,
+440,Q960708,Walvis Bay Airport,FYWB,WVB,85000,14.645278,-22.979722222222,91.1353794,,124122,124122,https://de.wikipedia.org/wiki/Walvis_Bay_International_Airport#Statistiken,https://en.wikipedia.org/wiki/Walvis_Bay_Airport,WVB,FYWB,"74,356","17,620",(2016)
+441,Q1321635,Eros Airport,FYWE,ERS,431000,17.080555555556,-22.612222222222,1699,2250,99658,99658,https://de.wikipedia.org/wiki/Flughafen_Eros#Statistiken,https://en.wikipedia.org/wiki/Eros_Airport,ERS,FYWE,"74,356","17,620",(2016)
+442,Q667326,Windhoek Hosea Kutako International Airport,FYWH,WDH,431000,17.470833,-22.48,1719.075384,4352,940284,1037794,https://de.wikipedia.org/w/index.php?title=Hosea_Kutako_International_Airport&r=0.48596357309951754#Statistiken,https://en.wikipedia.org/wiki/Hosea_Kutako_International_Airport,WDH,FYWH,"1,557,279",,(2018)
+443,Q598282,Bloemfontein Airport,FABL,BFN,256185,26.303888888889,-29.093888888889,1358,,,,,https://en.wikipedia.org/wiki/Bram_Fischer_International_Airport,BFN,FABL,"365,189",,(jan-dec
+444,Q854130,Cape Town International Airport,FACT,CPT,433688,18.597222222222,-33.969444444444,46,3201,,10693063,https://www.air-journal.fr/wp-content/uploads/classement-aeroports_info.jpg,https://en.wikipedia.org/wiki/Cape_Town_International_Airport,CPT,FACT,"5,705,901","94,027",(april–march
+445,Q392728,King Shaka International Airport,FALE,DUR,595061,31.116388888889,-29.614444444444,94,,,5527890,https://www.air-journal.fr/wp-content/uploads/classement-aeroports_info.jpg,https://en.wikipedia.org/wiki/King_Shaka_International_Airport,DUR,FALE,"3,215,925","50,753",(april
+446,Q3496971,East London Airport,FAEL,ELS,,27.821667,-33.035,128,,,681695,https://www.air-journal.fr/wp-content/uploads/classement-aeroports_info.jpg,https://en.wikipedia.org/wiki/King_Phalo_Airport,ELS,FAEL,"930,929",,(jan-dec
+447,Q1431367,George Airport,FAGG,GRJ,157394,22.380833333333,-34.006666666667,194.7675834,,,564370,https://www.air-journal.fr/wp-content/uploads/classement-aeroports_info.jpg,https://en.wikipedia.org/wiki/George_Airport,GRJ,FAGG,"840,804",,(jan-dec
+448,Q2163819,Lanseria International Airport,FALA,HLA,,27.926111,-25.938611,1376,,,1900000,https://lanseria.co.za/pages/history-of-the-airport,https://en.wikipedia.org/wiki/Lanseria_International_Airport,HLA,FALA,,,
+449,Q821750,OR Tambo International Airport,FAOR,JNB,4434827,28.246111,-26.139167,1694.0817348,4421,,21237208,https://www.air-journal.fr/wp-content/uploads/classement-aeroports_info.jpg,https://en.wikipedia.org/wiki/O._R._Tambo_International_Airport,JNB,FAOR,"9,633,154","139,105",(april-march
+450,Q3270757,Rand Airport,FAGM,QRA,,28.151667,-26.241667,1670,,,,,https://en.wikipedia.org/wiki/Rand_Airport,QRA,FAGM,,,
+451,Q1141523,Kimberley Airport,FAKM,KIM,,24.763611111111,-28.801666666667,1203,,,,,https://en.wikipedia.org/wiki/Kimberley_Airport,KIM,FAKM,,,
+452,Q2875865,Mala Mala Airport,FAMD,AAM,,31.544722222222,-24.818055555556,342.5958744,,,,,https://en.wikipedia.org/wiki/Mala_Mala_Airport,AAM,FAMD,,,
+453,Q1031474,Margate Airport,FAMG,MGH,,30.346215,-30.85767,150,,,,,https://en.wikipedia.org/wiki/Margate_Airport,MGH,FAMG,,,
+454,Q1027520,Mafikeng Airport,FAMM,MBD,15117,25.616666666667,-25.807447,1281,,,,,https://en.wikipedia.org/wiki/Mahikeng_Airport,MBD,FAMM,,,
+455,Q8214380,Mthatha Airport,FAUT,UTT,96114,28.675277777778,-31.545833,731,,,,,https://en.wikipedia.org/wiki/Mthatha_Airport,UTT,FAUT,,,
+456,Q1431784,Kruger Mpumalanga International Airport,FAKN,MQP,58670,31.105555555556,-25.383333333333,864,,,,,https://en.wikipedia.org/wiki/Kruger_Mpumalanga_International_Airport,MQP,FAKN,,,
+457,Q1028335,Hendrik Van Eck Airport,FAPH,PHW,13108,31.15539,-23.936666666667,436,,,,,https://en.wikipedia.org/wiki/Hendrik_Van_Eck_Airport,PHW,FAPH,,,
+458,Q764703,Pietermaritzburg Airport,FAPM,PZB,,30.398333333333,-29.646666666667,738,,,,,https://en.wikipedia.org/wiki/Pietermaritzburg_Airport,PZB,FAPM,,,
+459,Q2233103,Polokwane International Airport,FAPP,PTG,,29.458611111111,-23.845277777778,1240,,,,,https://en.wikipedia.org/wiki/Polokwane_International_Airport,PTG,FAPP,,,
+460,Q1432442,Chief Dawid Stuurman International Airport,FAPE,PLZ,312392,25.610278,-33.99,68,,,1368334,https://www.air-journal.fr/wp-content/uploads/classement-aeroports_info.jpg,https://en.wikipedia.org/wiki/Chief_Dawid_Stuurman_International_Airport,PLZ,FAPE,"1,735,654",,(jan-dec
+461,Q7330281,Richards Bay Airport,FARB,RCB,,32.093383,-28.74018,33,,,,,https://en.wikipedia.org/wiki/Richards_Bay_Airport,RCB,FARB,,,
+462,Q15278121,Skukuza Airport,FASZ,SZK,,31.588732,-24.96083333,311,,,,,https://en.wikipedia.org/wiki/Skukuza_Airport,SZK,FASZ,,,
+463,Q12694532,Prince M. Buthelezi Airport,FAUL,ULD,,31.4164,-28.31887,524,,,,,https://en.wikipedia.org/wiki/Ulundi_Airport,ULD,FAUL,,,
+464,Q1027555,Upington Airport,FAUP,UTN,121189,21.259722222222,-28.401022,847,,,,,https://en.wikipedia.org/wiki/Upington_Airport,UTN,FAUP,,,

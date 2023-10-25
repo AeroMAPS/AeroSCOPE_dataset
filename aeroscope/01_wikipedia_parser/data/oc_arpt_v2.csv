@@ -1,0 +1,379 @@
+,QID,itemLabel,icao,iata,max_population,lon,lat,alt_in_m,max_rwy_lenght_m,max_passengers19,maxpax,traffic_source_url,wdpa_link,wpda_iata,wpda_icao,wpda_passengers,wpda_movements,wpda_year_data
+0,Q14300,Canberra International Airport,YSCB,CBR,381488,149.195,-35.306944444444,575.4635328,3283,3238112,3304010,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Canberra_Airport,CBR,YSCB,,"40,050",(2018/19)
+1,Q17440,Albury Airport,YMAY,ABX,4955,146.96027777778,-36.066666666667,164,,252501,291799,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Albury_Airport,ABX,YMAY,"107,934","36,376",(fy
+2,Q17441,Armidale Airport,YARM,ARM,28967,151.6177778,-30.531666666667,1084,,132521,132521,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Armidale_Airport,ARM,YARM,"107,470","3,141",(fy
+3,Q17443,Ballina Byron Gateway Airport,YBNA,BNK,8655,153.56166666667,-28.833333333333,2,,533279,538180,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Ballina_Byron_Gateway_Airport,BNK,YBNA,"291,322","3,784",(fy
+4,Q2264901,Bathurst Airport,YBTH,BHS,35020,149.6547222,-33.413611111111,733,,19809,26999,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Bathurst_Airport_(New_South_Wales),BHS,YBTH,"26,815","1,976",(fy
+5,Q17526,Bourke Airport,YBKE,BRK,1909,145.95166666667,-30.038333333333,108,,,,,https://en.wikipedia.org/wiki/Bourke_Airport,BRK,YBKE,,,
+6,Q17528,Broken Hill Airport,YBHI,BHQ,17706,141.4677778,-32.006666666667,292,,60962,70078,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Broken_Hill_Airport,BHQ,YBHI,"63,098","2,846",(2010-11[1])
+7,Q17531,Cobar Airport,YCBA,CAZ,3990,145.79333333333,-31.538333333333,218,,,,,https://en.wikipedia.org/wiki/Cobar_Airport,CAZ,YCBA,,,
+8,Q17532,Coffs Harbour Airport,YCFS,CFS,27089,153.11666666667,-30.32,5,,395471,415768,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Coffs_Harbour_Airport,CFS,YCFS,"178,514","17,662",(2021-22)
+9,Q17536,Coonamble Airport,YCNM,CNB,,148.375,-30.983333333333,182,,,,,https://en.wikipedia.org/wiki/Coonamble_Airport,CNB,YCNM,,,
+10,Q17542,Dubbo City Regional Airport,YSDU,DBO,43516,148.57472222222,-32.216666666667,284.988561,1708,198461,224623,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Dubbo_City_Regional_Airport,DBO,YSDU,"176,821","6,899",(2010–11[1])
+11,Q17547,Griffith Airport,YGTH,GFF,27086,146.0677778,-34.248333333333,131,,76715,76715,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Griffith_Airport,GFF,YGTH,,,
+12,Q17553,Lightning Ridge Airport,YLRD,LHG,,147.985,-29.456666666667,161,,,,,https://en.wikipedia.org/wiki/Lightning_Ridge_Airport,LHG,YLRD,,,
+13,Q17555,Lismore Airport,YLIS,LSY,3656,153.26,-28.828055555556,5,,12074,69204,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Lismore_Airport,LSY,YLIS,,,
+14,Q17559,Lord Howe Island Airport,YLHI,LDH,445,159.07722222222,-31.538333333333,3,,33480,35472,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Lord_Howe_Island_Airport,LDH,YLHI,,,
+15,Q17560,Merimbula Airport,YMER,MIM,3821,149.90138888889,-36.908611111111,2,,60276,66086,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Merimbula_Airport,MIM,YMER,,,
+16,Q17561,Moree Airport,YMOR,MRZ,9311,149.84472222222,-29.498888888889,211,,31522,36461,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Moree_Airport,MRZ,YMOR,"18,073",874*,(2021-22[1])
+17,Q17562,Moruya Airport,YMRY,MYA,4295,150.14444444444,-35.897777777778,7,,21619,22858,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Moruya_Airport,MYA,YMRY,,,
+18,Q17566,Narrabri Airport,YNBR,NAA,7606,149.82722222222,-30.319166666667,221,,7439,29720,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Narrabri_Airport,NAA,YNBR,,,
+19,Q17568,Narrandera Airport,YNAR,NRA,4375,146.5177778,-34.698333333333,141,,13819,34582,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Narrandera_Airport,NRA,YNAR,,,
+20,Q17570,Newcastle Airport,YWLM,NTL,620530,151.834,-32.795,8,,1278058,1278058,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Newcastle_Airport_(New_South_Wales),NTL,YWLM,"1,257,210","14,125",(2016–17
+21,Q17574,Parkes Regional Airport,YPKS,PKE,11408,148.2344444,-33.131666666667,320,1684,35952,35952,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Parkes_Airport,PKE,,"32,311","1,790",(2010–11[1])
+22,Q17576,Port Macquarie Airport,YPMQ,PQQ,44830,152.86333333333,-31.435833333333,3,,218504,232314,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Port_Macquarie_Airport,PQQ,YPMQ,"222,534","4,821",(2017-18[1])
+23,Q17581,Sydney Airport,YSSY,SYD,4840600,151.1761111,-33.948333333333,6.4008126,3962,44428845,44429758,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Sydney_Airport,SYD,YSSY,"44,443,927[1]","327,190[3]",
+24,Q17584,Tamworth Regional Airport,YSTW,TMW,189,150.8511111,-31.081666666667,406,,188914,195962,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Tamworth_Regional_Airport,TMW,YSTW,"189,628","77,426",(2016-17)
+25,Q17595,Wagga Wagga Airport,YSWG,WGA,67364,147.46638888889,-35.165277777778,220.6756344,,207417,224366,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Wagga_Wagga_Airport,WGA,YSWG,"206,912","6,692",(2018-19[1])
+26,Q17603,West Wyalong Airport,YWWL,WWY,,147.19166666667,-33.936666666667,261,,,,,https://en.wikipedia.org/wiki/West_Wyalong_Airport,WWY,YWWL,,,
+27,Q17604,Shellharbour Airport,YWOL,WOL,,150.7844444,-34.565,10,,22348,22348,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Shellharbour_Airport,WOL,YSHL,,,
+28,Q17606,Alice Springs Airport,YBAS,ASP,31120,133.90222222222,-23.806944444444,545.2882734,,554544,933049,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Alice_Springs_Airport,ASP,YBAS,,"7,195",(2016/17)
+29,Q17609,Darwin International Airport,YPDN,DRW,136828,130.87666666667,-12.414722222222,31.3944618,,1950683,2079209,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Darwin_International_Airport,DRW,YPDN,"1,925,039","26,259",(2012)
+30,Q17610,Elcho Island Airport,YELD,ELC,2200,135.57065,-12.019338,30,,8137,17437,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Elcho_Island_Airport,ELC,YELD,,,
+31,Q17612,Groote Eylandt Airport,YGTE,GTE,1539,136.46,-13.975,13,,26460,46270,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Groote_Eylandt_Airport,GTE,YGTE,,,
+32,Q17614,Hooker Creek Airport,YHOO,HOK,,130.64333333333,-18.336666666667,316,,,,,https://en.wikipedia.org/wiki/Hooker_Creek_Airport,HOK,YHOO,,,
+33,Q17613,Kalkgurung Airport,YKKG,KFG,242,130.80805555556,-17.431944444444,197,,,,,https://en.wikipedia.org/wiki/Kalkgurung_Airport,KFG,YKKG,,,
+34,Q17611,Lake Evella Airport,YLEV,LEL,,135.805,-12.498333333333,88,,,,,https://en.wikipedia.org/wiki/Lake_Evella_Airport,LEL,YLEV,,,
+35,Q17615,Maningrida Airport,YMGD,MNG,2518,134.23416666667,-12.056111111111,29,,12621,24341,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Maningrida_Airport,MNG,YMGD,,,
+36,Q4275516,McArthur River Mine Airport,YMHU,MCV,,136.075,-16.445,43,,,,,https://en.wikipedia.org/wiki/McArthur_River_Mine_Airport,MCV,YMHU,,,
+37,Q17617,Milingimbi Airport,YMGB,MGT,1225,134.89361111111,-12.094444444444,18,,,,,https://en.wikipedia.org/wiki/Milingimbi_Airport,MGT,YMGB,,,
+38,Q17618,Gove Airport,YPGV,GOV,3350,136.81833333333,-12.27,52,,58098,181712,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Gove_Airport,GOV,YPGV,"108,067","2,702",(2010–11[1])
+39,Q17621,Ramingining Airport,YRNG,RAM,,134.89833333333,-12.356666666667,66,,,,,https://en.wikipedia.org/wiki/Ramingining_Airport,RAM,YRNG,,,
+40,Q17623,Tennant Creek Airport,YTNK,TCA,,134.18333333333,-19.634444444444,375,,,25724,https://www.bitre.gov.au/publications/ongoing/files/WebAirport_CY_1985-2018.xlsx,https://en.wikipedia.org/wiki/Tennant_Creek_Airport,TCA,YTNK,,,
+41,Q17624,Ayers Rock Airport,YAYE,AYQ,1099,130.97555555556,-25.186111111111,495,,489588,489588,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Ayers_Rock_Airport,AYQ,YAYE,"309,089","4,017",(2010–11[2])
+42,Q17625,Victoria River Downs Airport,YVRD,VCD,,131.00333333333,-16.403333333333,89,,,,,https://en.wikipedia.org/wiki/Victoria_River_Downs_Airport,VCD,YVRD,,,
+43,Q4841158,Badu Island Airport,YBAU,BDD,,142.175,-10.15,10,,,,,https://en.wikipedia.org/wiki/Badu_Island_Airport,BDD,YBAU,,,
+44,Q7058852,Northern Peninsula Airport,YNPE,ABM,1186,142.45944444444,-10.950833333333,6,,20831,21321,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Northern_Peninsula_Airport,ABM,YNPE,,,
+45,Q2786807,Barcaldine Airport,YBAR,BCI,,145.306712,-23.565138,271,,,,,https://en.wikipedia.org/wiki/Barcaldine_Airport,BCI,YBAR,,,
+46,Q1655770,Bedourie Airport,YBIE,BEU,,139.460278,-24.346111111111,91,,,,,https://en.wikipedia.org/wiki/Bedourie_Airport,BEU,YBIE,,,
+47,Q6588490,Thangool Airport,YTNG,THG,5758,150.57888888889,-24.493888888889,196,,,,,https://en.wikipedia.org/wiki/Thangool_Airport,THG,YTNG,,,
+48,Q597496,Birdsville Airport,YBDV,BVI,140,139.3475,-25.8975,49,,,,,https://en.wikipedia.org/wiki/Birdsville_Airport,BVI,YBDV,,,
+49,Q598324,Blackall Airport,YBCK,BKQ,1416,145.42861111111,-24.427777777778,282,,,,,https://en.wikipedia.org/wiki/Blackall_Airport,BKQ,YBCK,,,
+50,Q597828,Blackwater Airport,YBTR,BLT,,148.80694444444,-23.603055555556,193,,,,,https://en.wikipedia.org/wiki/Blackwater_Airport,BLT,YBTR,,,
+51,Q3885398,Boigu Island Airport,YBOI,GIC,271,142.218333,-9.233333,6,,,,,https://en.wikipedia.org/wiki/Boigu_Island_Airport,GIC,YBOI,,,
+52,Q2875793,Boulia Airport,YBOU,BQL,,139.89972222222,-22.913333333333,164,,,,,https://en.wikipedia.org/wiki/Boulia_Airport,BQL,YBOU,,,
+53,Q45523,Brisbane Airport,YBBN,BNE,2360241,153.11833333333,-27.383333333333,3.9624078,3560,24006025,24006025,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Brisbane_Airport,BNE,YBBN,"23,205,702[1]","215,930[1]",(2017)
+54,Q3887266,Bundaberg Airport,YBUD,BDB,70540,152.31861111111,-24.903888888889,32.6136642,2000,153671,173892,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Bundaberg_Airport,BDB,YBUD,"132,731","2,832",(2010–2011[1])
+55,Q4998976,Burketown Airport,YBKT,BUC,,139.53444444444,-17.748611111111,6,,,,,https://en.wikipedia.org/wiki/Burketown_Airport,BUC,YBKT,,,
+56,Q474632,Cairns Airport,YBCS,CNS,146778,145.75527777778,-16.885833333333,3.048006,3196,4778181,4945798,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Cairns_Airport,CNS,YBCS,,"56,526",(2016/17)
+57,Q1837716,Charleville Airport,YBCV,CTL,3335,146.2625,-26.413333,305,,16527,17550,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Charleville_Airport,CTL,YBCV,,,
+58,Q1655997,Cloncurry Airport,YCCY,CNJ,3167,140.505,-20.668333,191,,27283,50357,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Cloncurry_Airport,CNJ,YCCY,,,
+59,Q5139833,Coconut Island Airport,YCCT,CNC,,143.07,-10.05,6,,,,,https://en.wikipedia.org/wiki/Coconut_Island_Airport,CNC,YCCT,,,
+60,Q5140709,Coen Airport,YCOE,CUQ,364,143.11666666667,-13.760833,163,,,,,https://en.wikipedia.org/wiki/Coen_Airport,CUQ,YCOE,,,
+61,Q1655144,Cooktown Airport,YCKN,CTN,2746,145.18444444444,-15.444722222222,11,,14263,16400,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Cooktown_Airport,CTN,YCKN,,,
+62,Q1655426,Cunnamulla Airport,YCMU,CMA,,145.62222222222,-28.03,194,,,,,https://en.wikipedia.org/wiki/Cunnamulla_Airport,CMA,YCMU,,,
+63,Q13633554,Darnley Island Airport,YDNI,NLF,,143.78,-9.57833333,45,,,,,https://en.wikipedia.org/wiki/Darnley_Island_Airport,NLF,YDNI,,,
+64,Q5297074,Doomadgee Airport,YDMG,DMD,1405,138.821667,-17.94,32,,,7547,https://www.bitre.gov.au/sites/default/files/documents/webairport_cy_1985-2021.xlsx,https://en.wikipedia.org/wiki/Doomadgee_Airport,DMD,YDMG,,,
+65,Q5345064,Edward River Airport,YPMP,EDR,,141.60944444444,-14.896666666667,6,,8915,8915,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Edward_River_Airport,EDR,YPMP,,,
+66,Q5370408,Emerald Airport,YEML,EMD,14904,148.17916666667,-23.5675,193,,201523,283233,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Emerald_Airport,EMD,YEML,"246,074","5,700",(2014)
+67,Q3275488,Gladstone Airport,YGLA,GLT,,151.22277777778,-23.869722222222,20,,247835,494782,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Gladstone_Airport,GLT,YGLA,"240,275","5,717",(2010–2011[1])
+68,Q1175431,Gold Coast Airport,YBCG,OOL,638090,153.5011111,-28.165,6.4008126,2492,6486006,6486382,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Gold_Coast_Airport,OOL,YBCG,,"42,570",(2016/17)
+69,Q1431430,Great Barrier Reef Airport,YBHM,HTI,2269,148.95166666667,-20.358055555556,4,1764,452546,549822,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Great_Barrier_Reef_Airport,HTI,YBHM,"457,641","4,145",(2010–2011[1])
+70,Q3274335,Hervey Bay Airport,YHBA,HVB,,152.88027777778,-25.318333,18,,166839,217952,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Hervey_Bay_Airport,HVB,YHBA,"170,052","3,496",(2016–2017[1])
+71,Q11824429,Hughenden Airport,YHUG,HGD,1136,144.225197,-20.814925,319,,,,,https://en.wikipedia.org/wiki/Hughenden_Airport,HGD,YHUG,,,
+72,Q6306328,Julia Creek Airport,YJLC,JCK,,141.7225,-20.668333,126,,,,,https://en.wikipedia.org/wiki/Julia_Creek_Airport,JCK,YJLC,,,
+73,Q6373643,Karumba Airport,YKMB,KRB,,140.83166666667,-17.455,4,,,,,https://en.wikipedia.org/wiki/Karumba_Airport,KRB,YKMB,,,
+74,Q6435008,Kowanyama Airport,YKOW,KWM,,141.75138888889,-15.485555555556,11,,12835,12835,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Kowanyama_Airport,KWM,YKOW,,,
+75,Q6441261,Kubin Airport,YKUB,KUG,,142.218333,-10.225,6,,7296,8163,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Kubin_Airport,KUG,YKUB,,,
+76,Q6665505,Lockhart River Airport,YLHR,IRG,724,143.30472222222,-12.786944444444,27,,13120,14308,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Lockhart_River_Airport,IRG,YLHR,,,
+77,Q10853042,Longreach Airport,YLRE,LRE,3660,144.28027777778,-23.434166666667,192,,33968,34946,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Longreach_Airport,LRE,YLRE,,,
+78,Q6721657,Mabuiag Island Airport,YMAA,UBB,,142.19666666667,-9.9516666666667,76,,,,,https://en.wikipedia.org/wiki/Mabuiag_Island_Airport,UBB,YMAA,,,
+79,Q2501139,Mackay Airport,YBMK,MKY,72900,149.17972222222,-21.171666666667,5,,840650,1126243,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Mackay_Airport,MKY,YBMK,"1,049,172","14,945",(2010–11[1])
+80,Q650388,Maryborough Airport,YMYB,MBH,15406,152.715,-25.5133,12,,,,,https://en.wikipedia.org/wiki/Maryborough_Airport_(Queensland),MBH,YMYB,,,
+81,Q3612569,Moranbah Airport,YMRB,MOV,9425,148.0775,-22.057777777778,231,,109824,174892,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Moranbah_Airport,MOV,YMRB,,,
+82,Q6913022,Mornington Island Airport,YMTI,ONG,1007,139.17805555556,-16.6625,8,,11620,11620,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Mornington_Island_Airport,ONG,YMTI,,,
+83,Q3885354,Mount Isa Airport,YBMA,ISA,172,139.48861111111,-20.663888888889,341,,220345,254206,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Mount_Isa_Airport,ISA,YBMA,"217,525","5,376",(2010-2011[1])
+84,Q1528678,Murray Island Airport,YMUI,MYI,,144.055,-9.9147222222222,88,,,,,https://en.wikipedia.org/wiki/Murray_Island_Airport,MYI,YMAE,,,
+85,Q7053104,Normanton Airport,YNTN,NTN,,141.07,-17.685,15,,,,,https://en.wikipedia.org/wiki/Normanton_Airport,NTN,YNTN,,,
+86,Q2903084,Oakey Army Aviation Centre,YBOK,OKY,,151.73527777778,-27.411388888889,406,,,,,https://en.wikipedia.org/wiki/Oakey_Army_Aviation_Centre,OKY,YBOK,,,
+87,Q7128049,Palm Island Airport,YPAM,PMK,2455,146.58138888889,-18.755277777778,13,,28818,41468,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Palm_Island_Airport,PMK,YPAM,,,
+88,Q2567209,Whitsunday Coast Airport,YBPN,PPP,3614,148.55166666667,-20.495,24,,433414,448575,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Whitsunday_Coast_Airport,PPP,YBPN,,,
+89,Q7272021,Quilpie Airport,YQLP,ULP,595,144.25722222222,-26.608611111111,201,,,,,https://en.wikipedia.org/wiki/Quilpie_Airport,ULP,YQLP,,,
+90,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Richmond_Airport,,,,,
+91,Q2501155,Rockhampton Airport,YBRK,ROK,63151,150.475,-23.381666666667,10,,571543,777212,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Rockhampton_Airport,ROK,YBRK,,"10,002",(2016/2017)
+92,Q8215768,Roma Airport,YROM,RMA,6848,148.77472222222,-26.545,315,,86207,239765,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Roma_Airport,RMA,YROM,"243,901","6,377",(fy
+93,Q7399853,Saibai Island Airport,YSII,SBR,340,142.625,-9.3783333333333,3,,,,,https://en.wikipedia.org/wiki/Saibai_Island_Airport,SBR,YSII,,,
+94,,,,,,,,,,,,,https://en.wikipedia.org/wiki/St._George_Airport,,,,,
+95,Q7969913,Warraber Island Airport,YWBS,SYU,,142.825,-10.206666666667,6,,,,,https://en.wikipedia.org/wiki/Warraber_Island_Airport,SYU,YWBS,,,
+96,Q903231,Sunshine Coast Airport,YBSU,MCY,353281,153.09166666667,-26.603333333333,4.572009,2450,1283036,1283036,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Sunshine_Coast_Airport,MCY,YBSU,"816,873","51,204",(2021-22)
+97,Q6587924,Thargomindah Airport,YTGM,XTG,,143.81083333333,-27.986388888889,134,,,,,https://en.wikipedia.org/wiki/Thargomindah_Airport,XTG,YTGM,,,
+98,Q3206977,Horn Island Airport,YHID,HID,,142.29,-10.586388888889,8,,,100743,https://www.bitre.gov.au/publications/ongoing/files/WebAirport_CY_1985-2018.xlsx,https://en.wikipedia.org/wiki/Horn_Island_Airport,HID,YHID,,,
+99,Q2298657,Townsville Airport,YBTL,TSV,178649,146.765,-19.253333333333,5,,1610740,1616883,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Townsville_Airport,TSV,YBTL,"1,644,089",,(2010)
+100,Q7980274,Weipa Airport,YBWP,WEI,3291,141.92527777778,-12.678611111111,19,,72181,80407,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Weipa_Airport,WEI,YBWP,"58,888","1,144",(2010-11[1])
+101,Q8026613,Winton Airport,YWTN,WIN,875,143.085,-22.363333333333,193,,,,,https://en.wikipedia.org/wiki/Winton_Airport,WIN,YWTN,,,
+102,Q8047555,Yam Island Airport,YYMI,XMY,,142.775,-9.8858333333333,4.572009,,,,,https://en.wikipedia.org/wiki/Yam_Island_Airport,XMY,YYMI,,,
+103,Q8055625,Yorke Island Airport,YYKI,OKR,,143.40444444444,-9.7533333333333,3.048006,,,,,https://en.wikipedia.org/wiki/Yorke_Island_Airport,OKR,YYKI,,,
+104,Q14302,Adelaide Airport,YPAD,ADL,1295714,138.53055555556,-34.945,6.096012,3100,8516171,8516171,https://www.bitre.gov.au/sites/default/files/documents/webairport_cy_1985-2019.xlsx,https://en.wikipedia.org/wiki/Adelaide_Airport,ADL,YPAD,"4,042,686","75,233",(2021/22)
+105,Q14312,Ceduna Airport,YCDU,CED,1955,133.70972222222,-32.130555555556,23,,27044,27044,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Ceduna_Airport,CED,YCDU,"22,000",,(2016)
+106,Q14316,Coober Pedy Airport,YCBP,CPD,1762,134.72166666667,-29.04,225,,10289,11705,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Coober_Pedy_Airport,CPD,YCBP,,,
+107,Q14324,Kingscote Airport,YKSC,KGC,4250,137.52166666667,-35.713888888889,7,,43043,91962,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Kingscote_Airport,KGC,YKSC,"51,021","2,398",(2010/11[2])
+108,Q14331,Mount Gambier Airport,YMTG,MGB,,140.78527777778,-37.745555555556,64,,85330,114888,https://www.bitre.gov.au/sites/default/files/documents/webairport_cy_1985-2019.xlsx,https://en.wikipedia.org/wiki/Mount_Gambier_Airport,MGB,YMTG,"92,261","4,149",(2010/11[1])
+109,Q7089070,Olympic Dam Airport,YOLD,OLP,,136.877,-30.485,102,,75852,93056,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Olympic_Dam_Airport,OLP,YOLD,"72,215","1,875",(2010/11[1])
+110,Q15101,Port Augusta Airport,YPAG,PUG,6562,137.71666666667,-32.506944444444,16,,,,,https://en.wikipedia.org/wiki/Port_Augusta_Airport,PUG,YPAG,,,
+111,Q15102,Port Lincoln Airport,YPLC,PLO,14458,135.88027777778,-34.605277777778,4,,172234,197494,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Port_Lincoln_Airport,PLO,YPLC,"199,546","7,316",(2010/11[1])
+112,Q15109,Whyalla Airport,YWHA,WYA,21751,137.51444444444,-33.058888888889,13,,78787,79166,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Whyalla_Airport,WYA,YWHA,"66,539","2,845",(2010/11[2])
+113,Q15540,Burnie Airport,YWYY,BWT,,145.73111111111,-40.998888888889,16,,72472,150433,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Burnie_Airport,BWT,YWYY,"59,861","3,929",(2016/17[2])
+114,Q15496,Devonport Airport,YDPO,DPO,23046,146.43027777778,-41.169722222222,8,,148332,293734,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Devonport_Airport,DPO,YDPO,"139,019","4,416",(2010/11[1])
+115,Q15497,Flinders Island Airport,YFLI,FLS,776,147.99277777778,-40.091388888889,10,,22068,23233,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Flinders_Island_Airport,FLS,YFLI,"19,821",,(2013–2014)
+116,Q15498,Hobart Airport,YMHB,HBA,222356,147.510278,-42.836112,4,2251,2781739,2781739,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Hobart_Airport,HBA,YMHB,"2,440,792","27,120",(2016–2017)
+117,Q15514,King Island Airport,YKII,KNS,1570,143.87833333333,-39.8775,37,,45936,45936,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/King_Island_Airport,KNS,YKII,,,
+118,Q15520,Launceston Airport,YMLT,LST,106153,147.215,-41.545,171,1981,1395304,1395304,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Launceston_Airport,LST,YMLT,"756,684",,(2021-22)
+119,Q15533,Strahan Airport,YSRN,SRN,,145.29138888889,-42.155555555556,22,,,,,https://en.wikipedia.org/wiki/Strahan_Airport,SRN,YSRN,,,
+120,Q17896,Avalon Airport,YMAV,AVV,4529500,144.469444,-38.039444,10,,,,,https://en.wikipedia.org/wiki/Avalon_Airport,AVV,YMAV,Estimated,,(2019)
+121,Q733738,Melbourne Airport,YMML,MEL,4529500,144.84333333333,-37.673333333333,132,3657,37134291,37134291,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Melbourne_Airport,MEL,YMML,"12,936,947[2]","123,313[3]",(2021–2022)
+122,Q3566390,Mildura Airport,YMIA,MQL,34565,142.08555555556,-34.229166666667,50,,241056,241576,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Mildura_Airport,MQL,YMIA,"98,327","4,427",(2021/22[2])
+123,Q1232433,Moorabbin Airport,YMMB,MBW,4529500,145.10222222222,-37.975833333333,15,,9108,39432,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Moorabbin_Airport,MBW,YMMB,"9,766","274,082",(2010/11[1])
+124,Q3886175,Mount Hotham Airport,YHOT,MHU,,147.33416666667,-37.0475,1294,,,,,https://en.wikipedia.org/wiki/Mount_Hotham_Airport,MHU,YHOT,,,
+125,Q2613681,"Portland Airport, Australia",YPOD,PTJ,5926624,141.47111111111,-38.318055555556,79,,,,,https://en.wikipedia.org/wiki/Portland_Airport_(Victoria),PTJ,YPOD,"7,405","1,142",(2014)
+126,Q2345777,Albany Airport,YABA,ALH,29373,117.809,-34.9433,66,,62241,62241,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Albany_Airport_(Western_Australia),ALH,YABA,"56,002","1,810",(2010–11[1])
+127,Q4068770,Argyle Airport,YARG,GYL,,128.45138888889,-16.636944444444,158,,,,,https://en.wikipedia.org/wiki/Argyle_Airport,GYL,YARG,,,
+128,Q1431002,Broome International Airport,YBRM,BME,14660,122.23166666667,-17.944722222222,17.0688336,,403800,415892,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Broome_International_Airport,BME,YBRM,"409,663","5,828",(2010/11[1])
+129,Q4215518,Carnarvon Airport,YCAR,CVQ,281,113.672222,-24.880555,5,,22299,35666,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Carnarvon_Airport_(Western_Australia),CVQ,YCAR,,,
+130,Q2339306,Esperance Airport,YESP,EPR,2144,121.82277777778,-33.684444444444,136,,51336,54069,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Esperance_Airport,EPR,YESP,,,
+131,Q3274505,Geraldton Airport,YGEL,GET,,114.7075,-28.796111111111,37,,106693,138066,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Geraldton_Airport,GET,YGEL,"115,701","2,409",(2016/17[1])
+132,Q4209186,Kalbarri Airport,YKBR,KAX,1557,114.26,-27.691666666667,156,,,,,https://en.wikipedia.org/wiki/Kalbarri_Airport,KAX,YKBR,,,
+133,Q2339960,Kalgoorlie-Boulder Airport,YPKG,KGI,30841,121.46166666667,-30.789444444444,366,,289736,289736,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Kalgoorlie-Boulder_Airport,KGI,YPKG,"299,055",,(2021–22)
+134,Q2339975,Karratha Airport,YPKA,KTA,,116.77333333333,-20.712222222222,9,,467898,818415,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Karratha_Airport,KTA,YPKA,,"6,679",(2016/17)
+135,Q1431805,Kununurra Airport,YPKU,KNX,5494,128.7075,-15.778055555556,44,,79930,131111,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/East_Kimberley_Regional_Airport,KNX,YPKU,"86,955","2,779",(2010/11[1])
+136,Q6502629,Laverton Airport,YLTN,LVO,,122.42388888889,-28.613333,466,,,10169,https://data.gov.au/dataset/airport-traffic-data/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2,https://en.wikipedia.org/wiki/Laverton_Airport,LVO,YLTN,,,
+137,Q4258606,Leinster Airport,YLST,LER,,120.70333333333,-27.843333333333,500,,,,,https://en.wikipedia.org/wiki/Leinster_Airport,LER,YLST,,,
+138,Q6526684,Leonora Airport,YLEO,LNO,657,121.31555555556,-28.878055,369,,,20059,https://data.gov.au/dataset/airport-traffic-data/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2,https://en.wikipedia.org/wiki/Leonora_Airport,LNO,YLEO,,,
+139,Q652405,Meekatharra Airport,YMEK,MKR,,118.54777777778,-26.611666666667,522,,,,,https://en.wikipedia.org/wiki/Meekatharra_Airport,MKR,YMEK,,,
+140,Q7489785,Shark Bay Airport,YSHK,MJK,,113.57666666667,-25.893333333333,39,,,,,https://en.wikipedia.org/wiki/Shark_Bay_Airport,MJK,YSHK,,,
+141,Q851170,Mount Magnet Airport,YMOG,MMG,,117.84166666667,-28.116111111111,408,,,11461,https://data.gov.au/dataset/airport-traffic-data/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2,https://en.wikipedia.org/wiki/Mount_Magnet_Airport,MMG,YMOG,,,
+142,Q8215732,Newman Airport,YNWN,ZNE,7238,119.80277777778,-23.417777777778,526,,348641,450190,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Newman_Airport,ZNE,YNWN,"431,683","4,479",(2012/13[1])
+143,Q7133766,Paraburdoo Airport,YPBO,PBO,1380,117.74555555556,-23.171388888889,442,,190856,301183,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Paraburdoo_Airport,PBO,YPBO,"205,219","2,748",(2010/11[1])
+144,Q45935,Perth Airport,YPPH,PER,2141834,115.96694444444,-31.940277777778,20.4216402,3444,12513516,12938926,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Perth_Airport,PER,YPPH,"13,759,170[1]","135,238[1]",(ye
+145,Q1188577,Port Hedland International Airport,YPPD,PHE,4180,118.62638888889,-20.377777777778,10,,396064,533163,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Port_Hedland_International_Airport,PHE,YPPD,"470,741","5,518",(2014/15)
+146,Q8023466,Wiluna Airport,YWLU,WUN,,120.22,-26.63,504,,,,,https://en.wikipedia.org/wiki/Wiluna_Airport,WUN,YWLU,,,
+147,Q1035011,Christmas Island Airport,YPXM,XCH,1843,105.69027777778,-10.450555555556,279,2103,18469,39559,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Christmas_Island_Airport,XCH,YPXM,,347,(2017/18)
+148,Q1105469,Cocos (Keeling) Islands Airport,YPCC,CCK,147,96.83388889,-12.18833333,3,2441,14673,17872,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Cocos_(Keeling)_Islands_Airport,CCK,YPCC,"15,712",303,(2010/11[a
+149,Q1708719,Chatham Islands / Tuuta Airport,NZCI,CHT,663,-176.45722222222,-43.81,13.1064258,1360.0176,,,,https://en.wikipedia.org/wiki/Chatham_Islands_/_Tuuta_Airport,CHT,NZCI,,,
+150,Q45938,Auckland Airport,NZAA,AKL,1470100,174.79166666667,-37.008055555556,7.0104138,3635,21111613,21111613,https://corporate.aucklandairport.co.nz/news/publications/monthly-traffic-updates,https://en.wikipedia.org/wiki/Auckland_Airport,AKL,NZAA,"21,021,062[1]","178,775[2]",(2018/2019)
+151,Q3275613,Gisborne Airport,NZGS,GIS,37000,177.97833333333,-38.663333333333,5,,191651,196500,https://www.eastland.nz/wp-content/uploads/2019/06/ELG_Annual-Report_2019.pdf,https://en.wikipedia.org/wiki/Gisborne_Airport,GIS,NZGS,,,
+152,Q1431444,John C. Munro Hamilton International Airport,CYHM,YHM,536917,-79.935,43.173611111111,237.744468,,955373,1041204,https://www150.statcan.gc.ca/n1/tbl/csv/23100253-eng.zip,https://en.wikipedia.org/wiki/John_C._Munro_Hamilton_International_Airport,YHM,CYHM,"250,019","31,077",(2021)
+153,Q6348587,Kaitaia Airport,NZKT,KAT,,173.28527777778,-35.07,82,,,,,https://en.wikipedia.org/wiki/Kaitaia_Airport,KAT,NZKT,,,
+154,Q6393897,Kerikeri Airport,NZKK,KKE,,173.91194444444,-35.262777777778,150,,,,,https://en.wikipedia.org/wiki/Kerikeri_Airport,KKE,NZKK,,,
+155,Q3888583,Hawke's Bay Airport,NZNR,NPE,66300,176.87,-39.465833,2,,750357,750357,https://www.hawkesbay-airport.co.nz/our-business/about-us/statistics/,https://en.wikipedia.org/wiki/Hawke%27s_Bay_Airport,NPE,NZNR,"697,143[1]",,(july
+156,Q7010999,New Plymouth Airport,NZNP,NPL,57600,174.17916666667,-39.008611111111,30,,455000,455000,https://www.nplairport.co.nz/media/1058/prip-statement-of-intent-fy2019-draft.pdf,https://en.wikipedia.org/wiki/New_Plymouth_Airport,NPL,NZNP,"411,661",,(2016[2])
+157,Q1432305,Palmerston North International Airport,NZPM,PMR,81500,175.61694444444,-40.320555555556,46,,687142,687142,https://pnairport.co.nz/wp-content/uploads/2016/06/PNA-2019-Annual-Report-WEB.pdf,https://en.wikipedia.org/wiki/Palmerston_North_Airport,PMR,NZPM,"652,000[1]","55,960",
+158,Q1134679,Rotorua International Airport,NZRO,ROT,58500,176.31722222222,-38.109166666667,285,,265443,265443,https://www.rotorua-airport.co.nz/site_files/21129/upload_files/RotoruaAirport_FY19Q4ReporttoRLC.pdf?dl=1,https://en.wikipedia.org/wiki/Rotorua_Airport,ROT,NZRO,"215,276",,(2014)
+159,Q6587859,Tauranga Airport,NZTG,TRG,151300,176.19611111111,-37.671944444444,4,,475000,475000,https://www.nzherald.co.nz/premium/news/article.cfm?c_id=1504669&objectid=12249605,https://en.wikipedia.org/wiki/Tauranga_Airport,TRG,NZTG,"350,085","58,448",(2017)
+160,Q8762408,Taupo Airport,NZAP,TUO,,176.08444444444,-38.739722222222,407,,,,,https://en.wikipedia.org/wiki/Taupo_Airport,TUO,NZAP,,,
+161,Q7967807,Wanganui Airport,NZWU,WAG,,175.02527777778,-39.962222222222,8,,,,,https://en.wikipedia.org/wiki/Whanganui_Airport,WAG,NZWU,,,
+162,Q1150574,Wellington Airport,NZWN,WLG,418500,174.811682,-41.328969,13,2081,6441935,6441935,https://www.wellingtonairport.co.nz/documents/3002/03_June_2019.pdf,https://en.wikipedia.org/wiki/Wellington_Airport,WLG,NZWN,"6,441,935[2]","100,696[3]",(year
+163,Q7990475,Whakatane Airport,NZWK,WHK,16700,176.91416666667,-37.920555555556,6,,,,,https://en.wikipedia.org/wiki/Whakat%C4%81ne_Airport,WHK,NZWK,,,
+164,Q7990621,Whangarei Airport,NZWR,WRE,,174.365,-35.768333333333,40.5,,,,,https://en.wikipedia.org/wiki/Whangarei_Airport,WRE,NZWR,,"18,770[1]",(2009)
+165,Q4381557,Woodbourne Airport,NZWB,BHE,28200,173.87027777778,-41.518333333333,33,,317000,322139,https://www.marlboroughairport.co.nz/repository/libraries/id:22rdemoq517q9s7ih79z/hierarchy/Documents/Annual_Reports/MAL_Audited_2019%20Annual%20Report.pdf,https://en.wikipedia.org/wiki/Woodbourne_Airport,BHE,NZWB,"241,173","22,829",(2014[1][2])
+166,Q1061330,Christchurch International Airport,NZCH,CHC,383200,172.53222222222,-43.489444444444,37.4904738,3288,6931441,6931441,https://www.christchurchairport.co.nz/media/941665/cial_our_place_2019_v01_04_fa_web.pdf,https://en.wikipedia.org/wiki/Christchurch_Airport,CHC,NZCH,"6,930,000[3]","94,955",(year
+167,Q1364375,Dunedin International Airport,NZDN,DUD,106200,170.19833333333,-45.928055555556,1.2,1900,1077475,1077475,https://www.dunedinairport.co.nz/assets/Uploads/DIAL-Annual-Report-2019.pdf,https://en.wikipedia.org/wiki/Dunedin_Airport,DUD,NZDN,"1,035,645[1]","29,229[2]",(2018)
+168,Q3274848,Hokitika Airport,NZHK,HKK,3090,170.98527777778,-42.713611111111,46.6344918,1176,,,,https://en.wikipedia.org/wiki/Hokitika_Airport,HKK,NZHK,,,
+169,Q752694,Invercargill Airport,NZNV,IVC,50200,168.31277777778,-46.412222222222,2,,321000,321000,https://invercargillairport.co.nz/wp-content/uploads/2019/09/IAL-2019-Annual-Report.pdf,https://en.wikipedia.org/wiki/Invercargill_Airport,IVC,NZNV,"270,924[1]",,(2013)
+170,Q1432151,Nelson Airport,NZNS,NSN,51100,173.221,-41.2983,5,,1076686,1076686,https://www.nelsonairport.co.nz/airport-news/july2019,https://en.wikipedia.org/wiki/Nelson_Airport_(New_Zealand),NSN,NZNS,"1,000,373",,(2017)
+171,Q2902745,Oamaru Airport,NZOU,OAM,,171.08166666667,-44.97,30,,,,,https://en.wikipedia.org/wiki/Oamaru_Airport,OAM,NZOU,,,
+172,Q1204970,Queenstown Airport,NZQN,ZQN,16000,168.73916666667,-45.021111111111,357,,2321347,2321347,https://www.queenstownairport.co.nz/corporate/airport-statistics/passengers/monthly-pax,https://en.wikipedia.org/wiki/Queenstown_Airport,ZQN,NZQN,"1,460,034[1]","10,101[2]",(2022)
+173,Q1433050,Richard Pearse Airport,NZTU,TIU,,171.22527777778,-44.302777777778,27,,,,,https://en.wikipedia.org/wiki/Richard_Pearse_Airport,TIU,NZTU,,,
+174,Q7967043,Wanaka Airport,NZWF,WKA,,169.24583333333,-44.7225,348,,,,,https://en.wikipedia.org/wiki/W%C4%81naka_Airport,WKA,NZWF,,,
+175,Q2791588,"Westport Airport, New Zealand",NZWS,WSZ,,171.581,-41.7381,4,,,,,https://en.wikipedia.org/wiki/Westport_Airport_(New_Zealand),WSZ,NZWS,,,
+176,Q2732089,Norfolk Island Airport,YSNF,NLK,2188,167.93805555556,-29.0425,113,,61504,83792,https://data.gov.au/data/dataset/cc5d888f-5850-47f3-815d-08289b22f5a8/resource/f0fbdc3d-1a82-4671-956f-7fee3bf9d7f2/download/yed_pax_web.csv,https://en.wikipedia.org/wiki/Norfolk_Island_Airport,NLK,YSNF,"57,758[1]",872[1],(2010/11)
+177,Q939904,Pago Pago International Airport,NSTU,PPG,3656,-170.71138888889,-14.331666666667,10,3048,118492,148990,https://www.faa.gov/airports/planning_capacity/passenger_allcargo_stats/passenger/media/cy19-all-enplanements.xlsx,https://en.wikipedia.org/wiki/Pago_Pago_International_Airport,PPG,NSTU,"68,300","6,841",(2010)
+178,Q4699354,Aitutaki Airport,NCAI,AIT,,-159.76416666667,-18.830833333333,4,,,,,https://en.wikipedia.org/wiki/Aitutaki_Airport,AIT,NCAI,,,
+179,Q6748632,Mangaia Airport,NCMG,MGS,,-157.90666666667,-21.895833333333,14,,,,,https://en.wikipedia.org/wiki/Mangaia_Airport,MGS,NCMG,,,
+180,Q10576434,Manihiki Island Airport,NCMH,MHX,,-160.99972222222,-10.380555555556,6,,,,,https://en.wikipedia.org/wiki/Manihiki_Island_Airport,MHX,NCMH,,,
+181,Q6881746,Mitiaro Airport,NCMR,MOI,,-157.70333333333,-19.842666666667,14,,,,,https://en.wikipedia.org/wiki/Mitiaro_Airport,MOI,NCMR,,,
+182,Q954472,Rarotonga International Airport,NCRG,RAR,4009,-159.80555555556,-21.202777777778,5,,,,,https://en.wikipedia.org/wiki/Rarotonga_International_Airport,RAR,NCRG,,,
+183,Q3274715,Cicia Airport,NFCI,ICI,,-179.34194444444,-17.743055555556,4,,,,,https://en.wikipedia.org/wiki/Cicia_Airport,ICI,NFCI,,,
+184,Q1288635,Vunisea Airport,NFKD,KDV,,178.15694444444,-19.058055555556,2,,,,,https://en.wikipedia.org/wiki/Vunisea_Airport,KDV,NFKD,,,
+185,Q6387085,Labasa Airport,NFNL,LBS,27949,179.33972222222,-16.466666666667,13,,,,,https://en.wikipedia.org/wiki/Labasa_Airport,LBS,NFNL,,,
+186,Q1957542,Lakeba Airport,NFNK,LKB,2100,-178.81694444444,-18.199166666667,85,,,,,https://en.wikipedia.org/wiki/Lakeba_Airport,LKB,NFNK,,,
+187,Q6387047,Mana Island Airport,NFMA,MNF,,177.09833333333,-17.673055555556,2,,,,,https://en.wikipedia.org/wiki/Mana_Island_Airport,MNF,NFMA,,,
+188,Q3566257,Moala Airport,NFMO,MFJ,3000,179.95111111111,-18.566944444444,4,,,,,https://en.wikipedia.org/wiki/Moala_Airport,MFJ,NFMO,,,
+189,Q1150557,Nadi International Airport,NFFN,NAN,71048,177.44333333333,-17.755277777778,17.9832354,,,,,https://en.wikipedia.org/wiki/Nadi_International_Airport,NAN,NFFN,"318,735",,(2019)
+190,Q7022162,Ngau Airport,NFNG,NGI,8000,179.33972222222,-18.115555555556,15,,,,,https://en.wikipedia.org/wiki/Gau_Airport,NGI,NFNG,,,
+191,Q6331537,Rotuma Airport,NFNR,RTA,,177.07111111111,-12.4825,7,,,,,https://en.wikipedia.org/wiki/Rotuma_Airport,RTA,NFNR,,,
+192,Q6379205,Savusavu Airport,NFNS,SVU,,179.34055555556,-16.802777777778,5,,,,,https://en.wikipedia.org/wiki/Savusavu_Airport,SVU,NFNS,,,
+193,Q1188985,Nausori International Airport,NFNA,SUV,88271,178.55916666667,-18.043333333333,5,1868,,,,https://en.wikipedia.org/wiki/Nausori_International_Airport,SUV,NFNA,"329,112",,(2019)
+194,Q651562,Matei Airport,NFNM,TVU,,-179.87694444444,-16.690555555556,2,,,,,https://en.wikipedia.org/wiki/Matei_Airport,TVU,NFNM,,,
+195,Q3545296,Vanuabalavu Airport,NFVB,VBV,1200,-178.98333333333,-17.266666666667,4,,,,,https://en.wikipedia.org/wiki/Vanuabalavu_Airport,VBV,NFVB,,,
+196,Q3501121,Rurutu Airport,NTAR,RUR,2322,-151.3678,-22.4335,3,,24207,29714,https://www.aeroport.fr/view-statistiques/rurutu,https://en.wikipedia.org/wiki/Rurutu_Airport,RUR,NTAR,,,
+197,Q4264448,Tubuai – Mataura Airport,NTAT,TUB,2217,-149.529,-23.371,5,,23864,28574,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Tubuai_%E2%80%93_Mataura_Airport,TUB,NTAT,,,
+198,Q2395300,Totegegie Airport,NTGJ,GMR,1337,-134.88333333333,-23.083333333333,2.1336042,,9653,9653,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Totegegie_Airport,GMR,NTGJ,,,
+199,Q2901339,Atuona Airport,NTMN,AUQ,,-139.01305555556,-9.7686111111111,451.4096886,,35605,38726,https://www.aeroport.fr/view-statistiques/hiva-oa,https://en.wikipedia.org/wiki/Atuona_Airport,AUQ,NTMN,,,
+200,Q4264144,Nuku Hiva Airport,NTMD,NHV,,-140.2223,-8.7951,68,,46196,46196,https://www.aeroport.fr/view-statistiques/nuku-hiva,https://en.wikipedia.org/wiki/Nuku_Hiva_Airport,NHV,NTMD,,,
+201,Q4264098,Ua Huka Airport,NTMU,UAH,,-139.5551,-8.9352,48.768096,,4040,6688,,https://en.wikipedia.org/wiki/Ua_Huka_Airport,UAH,NTMU,,,
+202,Q4263773,Ua Pou Airport,NTMP,UAP,,-140.0778,-9.3522,40,,6841,10392,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Ua_Pou_Airport,UAP,NTMP,,,
+203,Q550989,Bora Bora Airport,NTTB,BOB,10605,-151.7525,-16.443611111111,9.4488186,1505,338326,338326,https://www.aeroport.fr/uploads/documents/statistiques-oct-nov-dec-2019.pdf,https://en.wikipedia.org/wiki/Bora_Bora_Airport,BOB,NTTB,"182,555","4,935",(2021[1])
+204,Q3545228,Fakarava Airport,NTGF,FAV,,-145.65694444444,-16.054166666667,4,,35948,41907,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Fakarava_Airport,FAV,NTGF,"2,477",n/a,(2011)
+205,Q652443,Maupiti Airport,NTTP,MAU,1234,-152.24333333333,-16.426388888889,4.572009,,29494,32294,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Maupiti_Airport,MAU,NTTP,,,
+206,Q120326,Moorea Airport,NTTM,MOZ,17816,-149.76222222222,-17.489444444444,2.7432054,,86112,306582,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Moorea_Airport,MOZ,NTTM,,,
+207,Q1049719,Faa'a International Airport,NTAA,PPT,178133,-149.61138888889,-17.556666666667,1.524003,,1476075,1564270,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Faa%27a_International_Airport,PPT,NTAA,"1,464,998","40,368",(2019)
+208,Q1432553,Raiatea Airport,NTTR,RFP,12245,-151.466,-16.723,2.1336042,,264752,264752,https://www.aeroport.fr/uploads/documents/statistiques-oct-nov-dec-2019.pdf,https://en.wikipedia.org/wiki/Raiatea_Airport,RFP,NTTR,"245,302",,(2018)
+209,Q1977535,Ahe Airport,NTHE,AHE,,-146.25694444444,-14.428055555556,3,,9727,10318,https://www.aeroport.fr/view-statistiques/ahe,https://en.wikipedia.org/wiki/Ahe_Airport,AHE,NTHE,,,
+210,Q1430785,Anaa Airport,NTGA,AAA,811,-145.51222222222,-17.348888888889,3,1502,5087,5087,https://www.aeroport.fr/view-statistiques/anaa,https://en.wikipedia.org/wiki/Anaa_Airport,AAA,NTGA,"3,797",120,(2021[1])
+211,Q4779218,Apataki Airport,NTGD,APK,,-146.414,-15.5726,3,,1024,2744,https://www.aeroport.fr/view-statistiques/apataki,https://en.wikipedia.org/wiki/Apataki_Airport,APK,NTGD,,,
+212,Q4263739,Arutua Airport,NTGU,AXR,1664,-146.62027777778,-15.246388888889,8,,11244,11409,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Arutua_Airport,AXR,NTGU,,,
+213,Q2875495,Hao Airport,NTTO,HOI,,-140.94583333333,-18.074722222222,2.1336042,,17024,17172,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Hao_Airport,HOI,NTTO,,,
+214,Q1431508,Huahine – Fare Airport,NTTH,HUH,6075,-151.02166666667,-16.687222222222,2.1336042,,150723,221477,https://www.aeroport.fr/view-statistiques/huahine,https://en.wikipedia.org/wiki/Huahine_%E2%80%93_Fare_Airport,HUH,NTTH,"144,120",,(2018)
+215,Q284240,Kaukura Airport,NTGK,KKR,,-146.8857,-15.6677,3,,3886,6845,https://www.aeroport.fr/view-statistiques/kaukura,https://en.wikipedia.org/wiki/Kaukura_Airport,KKR,NTGK,,,
+216,Q4263787,Makemo Airport,NTGM,MKP,,-143.6546,-16.588,5,,10225,12034,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Makemo_Airport,MKP,NTGM,,,
+217,Q3267068,Manihi Airport,NTGI,XMH,,-146.07083333333,-14.4375,4,,9601,23258,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Manihi_Airport,XMH,NTGI,,,
+218,Q4264101,Mataiva Airport,NTGV,MVT,,-148.7112,-14.87,1,,9826,10039,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Mataiva_Airport,MVT,NTGV,,,
+219,Q963568,Rangiroa Airport,NTTG,RGI,2567,-147.6591,-14.9564,2.1336042,,99537,112407,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Rangiroa_Airport,RGI,NTTG,,,
+220,Q4264128,Takapoto Airport,NTGT,TKP,472,-145.24638888889,-14.71,8,,3366,4012,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Takapoto_Airport,TKP,NTGT,,,
+221,Q7677281,Takaroa Airport,NTKR,TKX,,-145.0266,-14.4577,3,,6885,13869,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Takaroa_Airport,TKX,NTKR,,,
+222,Q4272426,Tikehau Airport,NTGC,TIH,,-148.23361111111,-15.119722222222,3,,49081,49913,https://www.aeroport.fr/view-statistiques/tikehau,https://en.wikipedia.org/wiki/Tikehau_Airport,TIH,NTGC,,,
+223,Q1136355,Antonio B. Won Pat International Airport,PGUM,GUM,153836,144.79722222222,13.483888888889,91,3662.172,3701842,3701842,https://www.faa.gov/airports/planning_capacity/passenger_allcargo_stats/passenger/media/cy19-all-enplanements.xlsx,https://en.wikipedia.org/wiki/Antonio_B._Won_Pat_International_Airport,GUM,PGUM,"3,800,000[3]","24,804",(2022)
+224,Q1433447,Abaiang Atoll Airport,NGAB,ABF,5872,173.04027777778,1.7963888888889,3.048006,,,,,https://en.wikipedia.org/wiki/Abaiang_Airport,ABF,NGAB,,,
+225,Q1433441,Abemama Airport,NGTB,AEA,3257,173.82861111111,0.49083333333333,2,,,,,https://en.wikipedia.org/wiki/Abemama_Airport,AEA,NGTB,,,
+226,Q1433483,Aranuka Airport,NGUK,AAK,1223,173.63638888889,0.18527777777778,1.8288036,,,,,https://en.wikipedia.org/wiki/Aranuka_Airport,AAK,NGUK,,,
+227,Q751889,Arorae Island Airport,NGTR,AIS,983,176.8021,-2.6162611111111,1.83,,,,,https://en.wikipedia.org/wiki/Arorae_Airport,AIS,NGTR,,,
+228,Q620043,Beru Island Airport,NGBR,BEZ,2220,176.00722222222,-1.3547222222222,,,,,,https://en.wikipedia.org/wiki/Beru_Airport,BEZ,NGBR,,,
+229,Q1134254,Butaritari Atoll Airport,NGTU,BBG,,172.81146388889,3.0865222222222,2,,,,,https://en.wikipedia.org/wiki/Butaritari_Airport,BBG,NGTU,,,
+230,Q1431055,Cassidy International Airport,PLCH,CXI,6447,-157.34972222222,1.9861111111111,2,,,,,https://en.wikipedia.org/wiki/Cassidy_International_Airport,CXI,PLCH,,,
+231,Q1433717,Makin Airfield,NGMN,MTK,,172.99175262,3.37411239,2,,,,,https://en.wikipedia.org/wiki/Makin_Airport,MTK,NGMN,,,
+232,Q751894,Marakei Airport,NGMK,MZK,2872,173.26666666667,2.0502777777778,3.05,,,,,https://en.wikipedia.org/wiki/Marakei_Airport,MZK,NGMK,,,
+233,Q1107646,Nikunau Airport,NGNU,NIG,2061,176.40928611,-1.31508889,2.17,,,,,https://en.wikipedia.org/wiki/Nikunau_Airport,NIG,NGNU,,,
+234,Q1433780,Onotoa Airport,NGON,OOT,1423,175.52589167,-1.79639167,2,,,,,https://en.wikipedia.org/wiki/Onotoa_Airport,OOT,NGON,,,
+235,Q522496,Bonriki International Airport,NGTA,TRW,70090,173.14694444444,1.3816666666667,3,2011,,,,https://en.wikipedia.org/wiki/Bonriki_International_Airport,TRW,NGTA,,,
+236,Q281305,Tabiteuea Nord Aerodrome,NGTE,TBF,,174.77608056,-1.22381944,2,,,,,https://en.wikipedia.org/wiki/Tabiteuea_North_Airport,TBF,NGTE,,,
+237,Q1433892,Tamana Airport,NGTM,TMN,1054,175.97021944,-2.48624444,2,,,,,https://en.wikipedia.org/wiki/Tamana_Airport,TMN,NGTM,,,
+238,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Ailuk_Airport,AIM,,,,
+239,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Ailinglaplap_Airok_Airport,AIC,,,,
+240,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Aur_Airport,AUL,,,,
+241,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Ebon_Airport,EBO,,,,
+242,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Jabot_Airport,JAT,,,,
+243,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Jaluit_Airport,UIT,,,,
+244,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Jeh_Airport,JEJ,,,,
+245,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Kaben#Airport,,,,,
+246,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Kili_Airport,KIO,,,,
+247,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Likiep_Airport,LIK,,,,
+248,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Majkin_Airport,MJE,,,,
+249,Q650373,Marshall Islands International Airport,PKMJ,MAJ,30000,171.282754,7.068847,2,2407,,,,https://en.wikipedia.org/wiki/Marshall_Islands_International_Airport,MAJ,PKMJ,,,
+250,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Maloelap_Airport,MAV,,,,
+251,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Mejit_Airport,MJB,,,,
+252,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Mili_Airport,MIJ,,,,
+253,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Namorik_Airport,NDK,,,,
+254,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Rongelap_Airport,RNP,,,,
+255,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Ujae_Airport,UJE,,,,
+256,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Utirik_Airport,UTK,,,,
+257,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Woja_Airport,WJA,,,,
+258,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Wotho_Airport,WTO,,,,
+259,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Wotje_Airport,WTE,,,,
+260,Q166512,Chuuk International Airport,PTKK,TKK,,151.84305555556,7.4619444444444,3,1831,,,,https://en.wikipedia.org/wiki/Chuuk_International_Airport,TKK,PTKK,,,
+261,Q598642,Kosrae International Airport,PTSA,KSA,,162.95833333333,5.3569444444444,3,1753,,,,https://en.wikipedia.org/wiki/Kosrae_International_Airport,KSA,PTSA,,,
+262,Q741262,Pohnpei International Airport,PTPN,PNI,,158.20888888889,6.985,3,,,,,https://en.wikipedia.org/wiki/Pohnpei_International_Airport,PNI,PTPN,,,
+263,Q1152202,Yap International Airport,PTYA,YAP,,138.0825,9.4988888888889,28,1829,,,,https://en.wikipedia.org/wiki/Yap_International_Airport,YAP,PTYA,,,
+264,Q534251,Nauru International Airport,ANYN,INU,747,166.9191,-0.54745833333333,7,2150,,,,https://en.wikipedia.org/wiki/Nauru_International_Airport,INU,ANYN,,,
+265,Q6430471,Koné Airport,NWWD,KNQ,8144,164.83777777778,-21.053333333333,7.0104138,,9289,9289,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Kon%C3%A9_Airport,KNQ,NWWD,,,
+266,Q6434590,Koumac Airport,NWWK,KOC,4252,164.25944444,-20.5425,42,,2601,5229,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Koumac_Airport,KOC,NWWK,,,
+267,Q144278,Lifou Airport,NWWL,LIF,9195,167.23986389,-20.7748,28.6512564,,191284,191284,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Ouanaham_Airport,LIF[1],NWWL,"178,425",,(2018)
+268,Q892783,Nouméa - La Tontouta,NWWW,NOU,96082,166.21611111111,-22.016388888889,15.8496312,3250,569901,569901,https://www.aeroports.cci.nc/fr/tontouta/le-trafic-aerien-en-chiffres,https://en.wikipedia.org/wiki/La_Tontouta_International_Airport,NOU,NWWW,"538,791",,(2018)
+269,Q656777,Nouméa Magenta Airport,NWWM,GEA,96082,166.47277777778,-22.258333333333,3.048006,,472719,472719,https://www.aeroport.fr/uploads/documents/statistiques-oct-nov-dec-2019.pdf,https://en.wikipedia.org/wiki/Noum%C3%A9a_Magenta_Airport,GEA,NWWM,"454,540",,(2018)
+270,Q7801311,Tiga Airport,NWWA,TGJ,169,167.80388888889,-21.095833333333,39,,3256,3256,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Tiga_Airport,TGJ,NWWA,,,
+271,Q7828842,Touho Airport,NWWU,TOU,2087,165.259445,-20.79,3,,,5040,https://www.ecologique-solidaire.gouv.fr/sites/default/files/bulletin_statistique_trafic_aerien_commercial_1997_2017.zip,https://en.wikipedia.org/wiki/Touho_Airport,TOU,NWWU,,,
+272,Q1150665,Niue International Airport,NIUE,IUE,597,-169.92555555556,-19.08,63.7033254,,,,,https://en.wikipedia.org/wiki/Niue_International_Airport,IUE,NIUE,,,
+273,Q1187633,Rota International Airport,PGRO,ROP,,145.2425,14.174444444444,185,2133.6,22744,42428,https://www.faa.gov/airports/planning_capacity/passenger_allcargo_stats/passenger/media/cy19-all-enplanements.xlsx,https://en.wikipedia.org/wiki/Rota_International_Airport,ROP,PGRO,,"6,550",(2006)
+274,Q1257667,Saipan International Airport,PGSN,SPN,,145.72944444444,15.118888888889,65.532129,2651.76,1139024,1371284,https://www.faa.gov/airports/planning_capacity/passenger_allcargo_stats/passenger/media/cy19-all-enplanements.xlsx,https://en.wikipedia.org/wiki/Saipan_International_Airport,SPN,PGSN,,"27,875",(2022)
+275,Q1137513,Tinian International Airport,PGWT,TIQ,,145.61944444444,14.999166666667,83,2621.28,82508,82508,https://www.faa.gov/airports/planning_capacity/passenger_allcargo_stats/passenger/media/cy19-all-enplanements.xlsx,https://en.wikipedia.org/wiki/Tinian_International_Airport,TIQ,PGWT,,"17,829",(2006)
+276,Q1147092,Roman Tmetuchl International Airport,PTRO,ROR,920,134.54416666667,7.3672222222222,53.6449056,,207996,366286,https://www.palaugov.pw/wp-content/uploads/2020/07/2019-Statistical-Yearbook.pdf,https://en.wikipedia.org/wiki/Roman_Tmetuchl_International_Airport,ROR,PTRO,,,
+277,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Angaur_Airstrip,,,,,
+278,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Peleliu_Airfield,,,,,
+279,Q6588203,Tadji Airport,AYTJ,TAJ,,142.42833333333,-3.199,5,,,,,https://en.wikipedia.org/wiki/Tadji_Airport,TAJ,,,,
+280,Q1069088,Gurney Airport,AYGN,GUR,,150.33361111111,-10.311388888889,27,1690,,,,https://en.wikipedia.org/wiki/Gurney_Airport,GUR,AYGN,,,
+281,Q2901247,Awaba Airport,AYAW,AWB,,142.751,-8.0143333333333,18,,,,,https://en.wikipedia.org/wiki/Awaba_Airport,AWB,AYAW,,,
+282,Q2901903,Baimuru Airport,AYBA,VMU,,144.82266666667,-7.4948333333333,3,,,,,https://en.wikipedia.org/wiki/Baimuru_Airport,VMU,AYBA,,,
+283,Q4850921,Balimo Airport,AYBM,OPU,,142.94033333333,-8.0511666666667,30,,,,,https://en.wikipedia.org/wiki/Balimo_Airport,OPU,AYBM,,,
+284,Q4986799,Buka Airport,AYBK,BUA,53986,154.6725,-5.4222222222222,3,,,,,https://en.wikipedia.org/wiki/Buka_Airport,BUA,AYBK,,,
+285,Q1708714,Daru Airport,AYDU,DAU,12879,143.20777777778,-9.0866666666667,6,1400,,,,https://en.wikipedia.org/wiki/Daru_Airport,DAU,AYDU,,,
+286,Q3274196,Gasmata Airport,AYGT,GMI,,150.33333333333,-6.275,3,,,,,https://en.wikipedia.org/wiki/Gasmata_Airport,GMI,AYGT,,,
+287,Q1067405,Goroka Airport,AYGA,GKA,,145.39188055556,-6.0816888888889,1610,,,,,https://en.wikipedia.org/wiki/Goroka_Airport,GKA,AYGA,,,
+288,Q3207123,Hoskins Airport,AYHK,HKN,,150.40494444444,-5.4621694444444,20,1589,,,,https://en.wikipedia.org/wiki/Hoskins_Airport,HKN,AYHK,,,
+289,Q3085046,Ihu Airport,AYIH,IHU,,145.40016667,-7.90016667,12,,,,,https://en.wikipedia.org/wiki/Ihu_Airport,IHU,AYIH,,,
+290,Q2900707,Jacquinot Bay Airport,AYJB,JAQ,,151.50694444444,-5.6525,64,,,,,https://en.wikipedia.org/wiki/Jacquinot_Bay_Airport,JAQ,AYJB,,,
+291,Q15045846,Kamusi Airport,AYKS,KUY,,143.1222,-7.4196,,,,,,https://en.wikipedia.org/wiki/Kamusi_Airport,KUY,AYKS,,,
+292,Q6361619,Kandrian Airport,AYKC,KDR,,149.54166666667,-6.2083333333333,91,,,,,https://en.wikipedia.org/wiki/Kandrian_Airport,KDR,AYKC,,,
+293,Q593237,Kavieng Airport,AYKV,KVG,,150.80777777778,-2.5791666666667,4,,,,,https://en.wikipedia.org/wiki/Kavieng_Airport,KVG,AYKV,,,
+294,Q8214450,Kerema Airport,AYKM,KMA,,145.77138888889,-7.9636111111111,3,,,,,https://en.wikipedia.org/wiki/Kerema_Airport,KMA,AYKM,,,
+295,Q6406362,Kikori Airport,AYKK,KRI,,144.24972222222,-7.4247222222222,12,,,,,https://en.wikipedia.org/wiki/Kikori_Airport,KRI,AYKK,,,
+296,Q10930307,Kiunga Airport,AYKI,UNG,,141.282,-6.1256666666667,4,,,,,https://en.wikipedia.org/wiki/Kiunga_Airport,UNG,AYKI,,,
+297,Q1431744,Kokoda Airport,AYKO,KKD,,147.73333333,-8.88305556,3,,,,,https://en.wikipedia.org/wiki/Kokoda_Airport,KKD,AYKP,,,
+298,Q3274813,Chimbu Airport,AYCH,CMU,,144.97027777778,-6.0241666666667,1516,,,,,https://en.wikipedia.org/wiki/Chimbu_Airport,CMU,AYCH,,,
+299,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Lae_Airport,LML,,,,
+300,Q6477035,Lake Murray Airport,AYLM,LMY,,141.4934,-7.0094,,,,,,https://en.wikipedia.org/wiki/Lake_Murray_Airport,LMY,AYLM,,,
+301,Q577790,Lihir Island Airport,AYKY,LNV,,152.6279,-3.0424,3,,,,,https://en.wikipedia.org/wiki/Lihir_Island_Airport,LNV,AYKY,,,
+302,Q6684534,Losuia Airport,AYKA,LSA,,151.08,-8.5051,4,,,,,https://en.wikipedia.org/wiki/Losuia_Airport,LSA,AYKA,,,
+303,Q830601,Madang Airport,AYMD,MAG,,145.78333333333,-5.2083333333333,1577,,,,,https://en.wikipedia.org/wiki/Madang_Airport,MAG,AYMD,,,
+304,Q3566026,Momote Airport,AYMO,MAS,,147.42416666667,-2.0619444444444,4,,,,,https://en.wikipedia.org/wiki/Momote_Airport,MAS,AYMO,,,
+305,Q651735,Mendi Airport,AYMN,MDU,,143.65716388889,-6.1477388888889,1731,,,,,https://en.wikipedia.org/wiki/Mendi_Airport,MDU,AYMN,,,
+306,Q11824597,Misima Airport,AYMS,MIS,14756,152.8377,-10.6891,27,,,,,https://en.wikipedia.org/wiki/Misima_Island_Airport,MIS,AYMS,,,
+307,Q3885357,Moro Airport,AYMR,MXH,,143.23805555556,-6.3633333333333,835,,,,,https://en.wikipedia.org/wiki/Moro_Airport,MXH,AYMR,,,
+308,Q3887427,Mount Hagen Airport,AYMH,HGU,,144.29586111111,-5.8267888888889,1642,,,,,https://en.wikipedia.org/wiki/Mount_Hagen_Airport,HGU,AYMH,,,
+309,Q3564986,Namatanai Airport,AYNX,ATN,,152.44166666667,-3.6666666666667,42,,,,,https://en.wikipedia.org/wiki/Namatanai_Airport,ATN,AYNX,,,
+310,Q7040985,Nissan Island Airport,AYIA,IIS,,154.2266,-4.5,30,,,,,https://en.wikipedia.org/wiki/Nissan_Island_Airport,IIS,AYIA,,,
+311,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Obo_Airport,,,,,
+312,Q3275038,Girua Airport,AYGR,PNP,,148.30888888889,-8.8044444444444,95,,,,,https://en.wikipedia.org/wiki/Girua_Airport,PNP,AYGR,,,
+313,Q1088438,Jacksons International Airport,AYPY,POM,317374,147.22,-9.4433333333333,38,2750,,,,https://en.wikipedia.org/wiki/Port_Moresby_International_Airport,POM,AYPY,,,(2015)
+314,Q7278511,Rabaul Airport,AYRB,RAB,7024,152.37944444444,-4.3402777777778,10,1720,,,,https://en.wikipedia.org/wiki/Rabaul_Airport,RAB,AYTK,,,
+315,Q7635846,Suki Airport,AYSU,SKC,,141.8,-8.0833333333333,,,,,,https://en.wikipedia.org/wiki/Suki_Airport,SKC,AYSU,,,
+316,Q7673600,Tabubil Airport,AYTB,TBG,,141.22583333333,-5.2786111111111,457.2009,,,,,https://en.wikipedia.org/wiki/Tabubil_Airport,TBG,AYTB,,,
+317,Q7686000,Tari Airport,AYTA,TIZ,,142.948,-5.845,,,,,,https://en.wikipedia.org/wiki/Tari_Airport,TIZ,AYTA,,,
+318,Q7851501,Tufi Airport,AYTU,TFI,,149.3201,-9.076,,,,,,https://en.wikipedia.org/wiki/Tufi_Airport,TFI,AYTU,,,
+319,Q7914943,Vanimo Airport,AYVN,VAI,,141.30228611111,-2.6971666666667,3,,,,,https://en.wikipedia.org/wiki/Vanimo_Airport,VAI,AYVN,,,
+320,Q7967941,Wanigela Airport,AYWG,AGL,,149.15555555556,-9.3375,,,,,,https://en.wikipedia.org/wiki/Wanigela_Airport,AGL,AYWG,,,
+321,Q10853582,Wapenamanda Airport,AYWD,WBM,,143.89541111111,-5.6433027777778,1795,,,,,https://en.wikipedia.org/wiki/Wapenamanda_Airport,WBM,AYWD,,,
+322,Q1433221,Wewak Airport,AYWK,WWK,,143.66918611111,-3.5838277777778,6,,,,,https://en.wikipedia.org/wiki/Wewak_Airport,WWK,AYWK,,,
+323,Q8026709,Wipim Airport,AYXP,WPM,,142.883,-8.788,,,,,,https://en.wikipedia.org/wiki/Wipim_Airport,WPM,AYXP,,,
+324,Q197933,Faleolo International Airport,NSFA,APW,37708,-172.00833333333,-13.829722222222,18,3000,,,,https://en.wikipedia.org/wiki/Faleolo_International_Airport,APW,NSFA,,,
+325,Q1030546,Maota Airport,NSMA,MXS,,-172.25833333333,-13.742222222222,33,,,,,https://en.wikipedia.org/wiki/Maota_Airport,MXS,NSMA,,,
+326,Q3502455,Afutara Airport,AGAF,AFT,,160.94833333333,-9.1913888888889,9,,,,,https://en.wikipedia.org/wiki/Afutara_Airport,AFT,AGAF,,,
+327,Q7901377,Uru Harbour Airport,AGAT,ATD,,161.011,-8.87333,7,,,,,https://en.wikipedia.org/wiki/Uru_Harbour_Airport,ATD,AGAT,,,
+328,Q2902032,Auki Gwaunaru'u Airport,AGGA,AKS,,160.68083333333,-8.6977777777778,9,,,,,https://en.wikipedia.org/wiki/Auki_Gwaunaru%27u_Airport,AKS,AGGA,,,
+329,Q2902141,Balalae Airport,AGGE,BAS,,155.88833333333,-6.9925,9,,,,,https://en.wikipedia.org/wiki/Balalae_Airport,BAS,AGGE,,,
+330,Q1657917,Bellona/Anua Airport,AGGB,BNY,,159.79805555556,-11.301666666667,15,,,,,https://en.wikipedia.org/wiki/Anua_Airport,BNY,AGGB,,,
+331,Q3275512,Choiseul Bay Airport,AGGC,CHY,,156.39611111111,-6.7119444444444,9,,,,,https://en.wikipedia.org/wiki/Choiseul_Bay_Airport,CHY,AGGC,,,
+332,Q859876,Honiara International Airport,AGGH,HIR,84520,160.054789,-9.428,9,,,,,https://en.wikipedia.org/wiki/Honiara_International_Airport,HIR,AGGH,,,
+333,Q3436178,Kirakira Airport,AGGK,IRA,,161.89833333333,-10.449444444444,9,,,,,https://en.wikipedia.org/wiki/Kirakira_Airport,IRA,AGGK,,,
+334,Q1030716,Marau Airport,AGGU,RUS,,160.825,-9.8616666666667,2,,,,,https://en.wikipedia.org/wiki/Marau_Airport,RUS,AGGU,,,
+335,Q651156,Mbambanakira Airport,AGGD,MBU,,159.83888888889,-9.7475,2,,,,,https://en.wikipedia.org/wiki/Mbambanakira_Airport,MBU,AGGD,,,
+336,Q3436141,Mono Airport,AGGO,MNY,,155.56527777778,-7.4161111111111,2,,,,,https://en.wikipedia.org/wiki/Mono_Airport,MNY,AGGO,,,
+337,Q1528772,Munda Airport,AGGM,MUA,,157.26309166667,-8.3279694444444,3,,,,,https://en.wikipedia.org/wiki/Munda_Airport,MUA,AGGM,,,
+338,Q3437167,Ramata Airport,AGRM,RBV,,157.6425,-8.1680555555556,2,,,,,https://en.wikipedia.org/wiki/Ramata_Airport,RBV,AGRM,,,
+339,Q3436133,Rennell/Tingoa Airport,AGGR,RNL,,160.07063888889,-11.558333333333,20,,,,,https://en.wikipedia.org/wiki/Tingoa_Airport,RNL,AGGR,,,
+340,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Santa_Ana_Airport,,,,,
+341,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Santa_Cruz_Airport,,,,,
+342,Q3232076,Suavanao Airport,AGGV,VAO,,158.73138888889,-7.5858333333333,2,,,,,https://en.wikipedia.org/wiki/Suavanao_Airport,VAO,AGGV,,,
+343,Q3277532,Niuatoputapu Airport,NFTP,NTT,,-173.791875,-15.97685,72,,,,,https://en.wikipedia.org/wiki/Niuatoputapu_Airport,NTT,NFTP,,,
+344,Q3272015,Lifuka Island Airport,NFTL,HPA,,-174.34111111111,-19.776666666667,9,,,,,https://en.wikipedia.org/wiki/Lifuka_Island_Airport,HPA,NFTL,,,
+345,Q651525,Niuafoʻou Airport,NFTO,NFO,,-175.63083333333,-15.571111111111,72,,,,,https://en.wikipedia.org/wiki/Niuafo%CA%BBou_Airport,NFO,NFTO,,,
+346,Q975696,Fuaʻamotu International Airport,NFTF,TBU,23221,-175.14944444444,-21.241111111111,38.4048756,,,,,https://en.wikipedia.org/wiki/Fua%CA%BBamotu_International_Airport,TBU,NFTF,,,
+347,Q2980547,Vavaʻu International Airport,NFTV,VAV,,-173.96166666667,-18.585277777778,72,,,,,https://en.wikipedia.org/wiki/Vava%CA%BBu_International_Airport,VAV,NFTV,,,
+348,Q1327938,Funafuti International Airport,NGFU,FUN,6025,179.19638888889,-8.525,3,,,,,https://en.wikipedia.org/wiki/Funafuti_International_Airport,FUN,NGFU,,,
+349,Q3886807,Mota Lava Airport,NVSA,MTV,1451,167.71111111111,-13.665833333333,29,,,,,https://en.wikipedia.org/wiki/Mota_Lava_Airport,MTV,NVSA,,,
+350,Q4752245,Anatom Airport,NVVA,AUY,915,169.77138888889,-20.249166666667,6,,,,,https://en.wikipedia.org/wiki/Anatom_Airport,AUY,NVVA,,,
+351,Q4765685,Aniwa Airport,NVVB,AWD,341,169.60055555556,-19.234444444444,33,,,,,https://en.wikipedia.org/wiki/Aniwa_Airport,AWD,NVVB,,,
+352,Q1655171,Craig Cove Airport,NVSF,CCV,,167.92444444444,-16.265,26,,,,,https://en.wikipedia.org/wiki/Craig_Cove_Airport,CCV,NVSF,,,
+353,Q1655882,Dillon's Bay Airport,NVVD,DLY,1950,169.00138888889,-18.769444444444,190,,,,,https://en.wikipedia.org/wiki/Dillon%27s_Bay_Airport,DLY,NVVD,,,
+354,Q2580525,Santo-Pekoa International Airport,NVSS,SON,13156,167.21974167,-15.50503333,56,,,,,https://en.wikipedia.org/wiki/Santo_International_Airport,SON,NVSS,,,
+355,Q3275547,Futuna Airport,NVVF,FTA,535,170.23194444444,-19.516388888889,40,,,,,https://en.wikipedia.org/wiki/Futuna_Airport,FTA,NVVF,,,
+356,Q3274812,Gaua Airport,NVSQ,ZGU,2491,167.58722222222,-14.218055555556,28,,,,,https://en.wikipedia.org/wiki/Gaua_Airport,ZGU,NVSQ,,,
+357,Q3016621,Ipota Airport,NVVI,IPA,1950,169.28333333333,-18.856388888889,14,,,,,https://en.wikipedia.org/wiki/Ipota_Airport,IPA,NVVI,,,
+358,Q6743067,Malekoula Airport,NVSL,LPM,20000,167.81666666667,-16.45,26,,,,,https://en.wikipedia.org/wiki/Malekoula_Airport,LPM,NVSL,,,
+359,Q6481732,Lamen Bay Airport,NVSM,LNB,,168.1595,-16.585,7,,,,,https://en.wikipedia.org/wiki/Lamen_Bay_Airport,LNB,NVSM,,,
+360,Q6673589,Longana Airport,NVSG,LOD,,167.96777777778,-15.305833333333,51,,,,,https://en.wikipedia.org/wiki/Longana_Airport,LOD,NVSG,,,
+361,Q6674803,Lonorore Airport,NVSO,LNE,,168.172,-15.8647,13,,,,,https://en.wikipedia.org/wiki/Lonorore_Airport,LNE,NVSO,,,
+362,Q11824556,Maewo-Naone Airport,NVSN,MWF,,168.07916666667,-14.994444444444,146,,,,,https://en.wikipedia.org/wiki/Maewo-Naone_Airport,MWF,NVSN,,,
+363,Q7053491,Norsup Airport,NVSP,NUS,705,167.40055555556,-16.079722222222,7,,,,,https://en.wikipedia.org/wiki/Norsup_Airport,NUS,NVSP,,,
+364,Q7088540,Olpoi Airport,NVSZ,OLJ,,166.55777777778,-14.881666666667,15,,,,,https://en.wikipedia.org/wiki/Olpoi_Airport,OLJ,NVSZ,,,
+365,Q811239,Bauerfield International Airport,NVVV,VLI,51437,168.319722,-17.699167,20.7264408,,,,,https://en.wikipedia.org/wiki/Bauerfield_International_Airport,VLI,NVVV,,,
+366,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Redcliffe_Airport,,,,,
+367,Q11824750,Siwo Airport,NVSE,EAE,,168.34166666667,-17.089166666667,2.1336042,,,,,https://en.wikipedia.org/wiki/Siwo_Airport,EAE,NVSE,,,
+368,Q7421546,Sara Airport,NVSH,SSR,,168.15277777778,-15.4715,144,,,,,https://en.wikipedia.org/wiki/Sara_Airport,SSR,NVSH,,,
+369,,,,,,,,,,,,,https://en.wikipedia.org/wiki/Sola_Airport,,,,,
+370,Q7568834,South West Bay Airport,NVSX,SWJ,,167.438,-16.495,16,,,,,https://en.wikipedia.org/wiki/South_West_Bay_Airport,SWJ,NVSX,,,
+371,Q7995942,Whitegrass Airport,NVVW,TAH,28799,169.22388888889,-19.455,6,,,,,https://en.wikipedia.org/wiki/Whitegrass_Airport,TAH,NVVW,,,
+372,Q7121428,Paama Airport,NVSI,PBJ,2000,168.23555555556,-16.431944444444,22,,,,,https://en.wikipedia.org/wiki/Paama_Airport,PBJ,NVSI,,,
+373,Q7821131,Tongoa Airport,NVST,TGH,,168.55111111111,-16.891111111111,153,,,,,https://en.wikipedia.org/wiki/Tongoa_Airport,TGH,NVST,,,
+374,Q7878832,Ulei Airport,NVSU,ULB,,168.283,-16.333,52,,,,,https://en.wikipedia.org/wiki/Ulei_Airport,ULB,NVSU,,,
+375,Q7911513,Valesdir Airport,NVSV,VLS,,168.177,-16.7961,13,,,,,https://en.wikipedia.org/wiki/Valesdir_Airport,VLS,NVSV,,,
+376,Q182132,Pointe Vele Airport,NLWF,FUT,303,-178.06611111111,-14.311388888889,4.8768096,,12959,15020,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Pointe_Vele_Airport,FUT,NLWF,,,
+377,Q182259,Hihifo Airport,NLWW,WLS,504,-176.19922777778,-13.238280555556,24.0792474,,44386,45093,https://www.ecologie.gouv.fr/sites/default/files/bulletin_stat_trafic_aerien_2019.pdf,https://en.wikipedia.org/wiki/Hihifo_Airport,WLS,NLWW,,,
