@@ -127,8 +127,17 @@ def preprocess():
     # Create a set of unique departure countries
     unique_ctry = set(country_flows['departure_country'])
 
+    colors_discrete_ctry = [
+    "#A5D6A7", "#D1E5E0", "#99D8BD", "#C8E6C9", "#86D1BC", "#B6E3B7", "#73CCAE", "#A4E0A5",
+    "#60C79F", "#92DE93", "#4DB29A", "#80DD81", "#3AAE95", "#6EDA6F", "#28A290", "#5CC95D",
+    "#16968B", "#4AC64D", "#048A86", "#3AA33B", "#007E7B", "#289F29", "#007277", "#169A17",
+    "#00666D", "#008E00", "#005A63", "#007C00", "#004E59", "#006A00", "#004255", "#005600",
+    "#00364B", "#004200", "#002A41", "#003600", "#002037", "#002A00", "#001633", "#002000",
+    "#000C2F", "#001600", "#00002B", "#001000", "#000021", "#000600"
+        ]
+
     # Create a random color mapping for each unique departure country
-    color_mapping = {ctry: f'#{random.randint(0, 0xFFFFFF):06x}' for ctry in unique_ctry}
+    color_mapping = {ctry: random.choice(colors_discrete_ctry) for ctry in unique_ctry}
 
     # Add a new column 'color' to the DataFrame with the random colors
     country_flows['color'] = country_flows['departure_country'].map(color_mapping)
