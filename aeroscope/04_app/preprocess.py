@@ -128,13 +128,10 @@ def preprocess():
     unique_ctry = set(country_flows['departure_country'])
 
     colors_discrete_ctry = [
-    "#A5D6A7", "#D1E5E0", "#99D8BD", "#C8E6C9", "#86D1BC", "#B6E3B7", "#73CCAE", "#A4E0A5",
-    "#60C79F", "#92DE93", "#4DB29A", "#80DD81", "#3AAE95", "#6EDA6F", "#28A290", "#5CC95D",
-    "#16968B", "#4AC64D", "#048A86", "#3AA33B", "#007E7B", "#289F29", "#007277", "#169A17",
-    "#00666D", "#008E00", "#005A63", "#007C00", "#004E59", "#006A00", "#004255", "#005600",
-    "#00364B", "#004200", "#002A41", "#003600", "#002037", "#002A00", "#001633", "#002000",
-    "#000C2F", "#001600", "#00002B", "#001000", "#000021", "#000600"
-        ]
+        "#FF0000", "#FF00FF", "#00FF00", "#0000FF", "#FFFF00", "#FF7D00", "#FF7D7D", "#7DFF7D",
+        "#00FFFF", "#7D00FF", "#7D7DFF", "#007DFF", "#007D00", "#7D0000", "#7D007D", "#00007D",
+        "#99FFFF", "#FF99FF", "#99FF99", "#9999FF"
+                    ]
 
     # Create a random color mapping for each unique departure country
     color_mapping = {ctry: random.choice(colors_discrete_ctry) for ctry in unique_ctry}
