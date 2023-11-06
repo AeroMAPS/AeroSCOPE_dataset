@@ -6,6 +6,8 @@
 
 import plotly.express as px
 import plotly.graph_objects as go
+import seaborn as sns 
+import matplotlib;pyplot as plt
 import random
 
 def flights_map_plot(flights_gpb_df, value_watched_flights):
@@ -117,6 +119,75 @@ def distance_histogramm_plot_flights(flights_df, value_watched_flights):
     elif value_watched_flights == 'seats':
         fig.update_traces(hovertemplate='Distance group (km)=%{x}<br>Seats=%{y:.0f}<extra></extra>')
     return fig
+
+
+def distance_ecdf_plot_flights(flights_df):
+    sns.set_style("darkgrid")
+    # Create a new figure with a single subplot
+    fig, ax = plt.subplots(figsize=(5,5))
+    sns.ecdfplot(flights_df, x='distance_km', weights='seats', label='Seats',stat='percent', ax=ax)
+    sns.ecdfplot(flights_df, x='distance_km', weights='ask', label= 'ASK', stat='percent',ax=ax)
+    sns.ecdfplot(flights_df, x='distance_km', weights='co2', label= '$\mathregular{CO_2}$',stat='percent', ax=ax)
+    
+    ax.legend()
+
+    # Set the title, x-axis label, and y-axis label
+    ax.set_title("Metrics cumulative distribution vs flight distance")
+    ax.set_xlabel("Distance (km)")
+    ax.set_ylabel("Cumulative distribution (%)")
+
+    return fig
+
+def distance_kdeplot_flight(flights_df):
+    sns.set_style("darkgrid")
+    
+    # Create a new figure with a single subplot
+    fig, ax = plt.subplots(figsize=(5,5))
+    # sns.histplot(flights_df, x='distance_km', weights='seats',bins=30, hue='acft_class', multiple='fill', edgecolor='None',ax=ax)
+    sns.kdeplot(flights_df, 
+                x='distance_km', 
+                weights='seats', 
+                hue='acft_class', 
+                multiple='fill', 
+                bw_adjust=1.5, 
+                clip=(0, None), 
+                edgecolor='None', 
+                ax=ax)
+
+    def formatter(x, pos):
+        del pos
+        return str(round(x*100))
+    ax.yaxis.set_major_formatter(formatter)
+    ax.set_title("Aircraft class used vs flight distance")
+    ax.set_xlabel("Distance (km)")
+    ax.set_ylabel("Aircraft class distribution (%)")
+    
+def distance_kdeplot_dom_int_flight(flights_df):
+    # Create a new figure with a single subplot
+    fig, ax = plt.subplots(figsize=(5,5))
+    # sns.histplot(flights_df, x='distance_km', weights='seats',bins=30, hue='acft_class', multiple='fill', edgecolor='None',ax=ax)
+    sns.kdeplot(flights_df, 
+                x='distance_km', 
+                weights='seats', 
+                hue='domestic', 
+                multiple='fill', 
+                bw_adjust=1, 
+                clip=(0, None), 
+                edgecolor='None', 
+                ax=ax)
+
+    def formatter(x, pos):
+        del pos
+        return str(round(x*100))
+    ax.yaxis.set_major_formatter(formatter)
+    # Set the title, x-axis label, and y-axis label
+
+    ax.legend(title='Flight Type', labels=['Domestic', 'International'])
+    ax.set_title("Flight type vs flight distance")
+    ax.set_xlabel("Distance (km)")
+    ax.set_ylabel("Flight type distribution (%)")
+    return fig
+
 
 
 def aircraft_pie_flights(flights_df, value_watched_flights):
