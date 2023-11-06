@@ -5,7 +5,7 @@
 
 # Welcome 
 AeroSCOPE is a project that aims to bring together various open data sources on air transport in order to better understand the geographical distribution of air transport.
-More details on data collection and compilation can be found in the article accompanying this work: XXXX (TODO)
+More details on data collection and compilation can be found in the article accompanying this work: https://journals.open.tudelft.nl/joas/article/view/7201. It was presented during the 11th OpenSky Symposium, on 30/10/2023. 
 
 AeroSCOPE is licensed under the [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
 

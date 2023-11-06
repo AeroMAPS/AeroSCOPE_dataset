@@ -5,8 +5,9 @@
 
 import plotly.express as px
 import plotly.graph_objects as go
+import seaborn as sns 
 import random
-
+import matplotlib.pyplot as plt
 
 def countries_map_plot(country_flows, value_watched_ctry):
     # Create the scattergeo figure
@@ -70,6 +71,25 @@ def countries_map_plot(country_flows, value_watched_ctry):
                               x=0.9,
                               bgcolor='rgba(220, 220, 220, 0.7)'
                           ))  # Adjust layout margins and padding
+    return fig
+
+
+
+def distance_ecdf_plot_country(flights_df):
+    sns.set_style("darkgrid")
+    # Create a new figure with a single subplot
+    fig, ax = plt.subplots(figsize=(5,5))
+    sns.ecdfplot(flights_df, x='distance_km', weights='seats', label='Seats',stat='percent', ax=ax)
+    sns.ecdfplot(flights_df, x='distance_km', weights='ask', label= 'ASK', stat='percent',ax=ax)
+    sns.ecdfplot(flights_df, x='distance_km', weights='co2', label= '$\mathregular{CO_2}$',stat='percent', ax=ax)
+    
+    ax.legend()
+
+    # Set the title, x-axis label, and y-axis label
+    ax.set_title("Metrics cumulative distribution vs flight distance")
+    ax.set_xlabel("Distance (km)")
+    ax.set_ylabel("Cumulative distribution (%)")
+
     return fig
 
 
@@ -157,6 +177,9 @@ def distance_histogramm_plot_country(flights_df, value_watched_ctry):
     elif value_watched_ctry == 'seats':
         fig.update_traces(hovertemplate='Distance group (km)=%{x}<br>Seats=%{y:.0f}<extra></extra>')
     return fig
+
+
+
 
 
 def aircraft_pie(flights_df, value_watched_ctry):
