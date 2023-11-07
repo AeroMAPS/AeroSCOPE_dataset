@@ -7,7 +7,7 @@
 import plotly.express as px
 import plotly.graph_objects as go
 import seaborn as sns 
-import matplotlib;pyplot as plt
+import matplotlib.pyplot as plt
 import random
 
 def flights_map_plot(flights_gpb_df, value_watched_flights):
