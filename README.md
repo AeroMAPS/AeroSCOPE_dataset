@@ -17,7 +17,6 @@ Python 3.10 is recommended, altough older versions may work.
 
 In the new virtual environment, navigate to the project folder. Most installations are done using poetry, except for poetry itself, which can be installed using pip or conda.
 
-*voi
 
 ```bash
 pip install poetry 
