@@ -101,7 +101,7 @@ def formatter(x, pos):
 def distance_cumul_plot_country(flights_df):
     sns.set_style("darkgrid")
     # Create a new figure with a single subplot
-    fig, ax = plt.subplots(figsize=(10,5))
+    fig, ax = plt.subplots(figsize=(10,6))
     sns.histplot(flights_df, x='distance_km', weights='seats', label='Seats', element='poly',fill=False, cumulative = True, stat='percent', ax=ax,bins=range(0, int(flights_df["distance_km"].max()) + 50, 50),)
     sns.histplot(flights_df, x='distance_km', weights='ask', label= 'ASK', element='poly',fill=False, cumulative = True, stat='percent',ax=ax,bins=range(0, int(flights_df["distance_km"].max()) + 50, 50),)
     sns.histplot(flights_df, x='distance_km', weights='co2', label= '$\mathregular{CO_2}$', element='poly',fill=False, cumulative = True, stat='percent', ax=ax,bins=range(0, int(flights_df["distance_km"].max()) + 50, 50),)
@@ -119,7 +119,7 @@ def distance_cumul_plot_country(flights_df):
 def distance_share_country(flights_df, value_watched_ctry):
     sns.set_style("darkgrid")
     
-    fig, ax = plt.subplots(figsize=(10,5))
+    fig, ax = plt.subplots(figsize=(10,6))
     sns.histplot(
         data=flights_df,
         x="distance_km",
@@ -141,7 +141,7 @@ def distance_share_country(flights_df, value_watched_ctry):
 def distance_share_dom_int_country(flights_df, value_watched_ctry):
     sns.set_style("darkgrid")
     
-    fig, ax = plt.subplots(figsize=(10,5))
+    fig, ax = plt.subplots(figsize=(10,6))
     sns.histplot(
         data=flights_df,
         x="distance_km",
@@ -253,16 +253,17 @@ def countries_treemap_plot(country_flows, value_watched_ctry):
 def distance_histogramm_plot_country(flights_df, value_watched_ctry):
     sns.set_style("darkgrid")
     
-    fig, ax = plt.subplots(figsize=(10,5))
+    fig, ax = plt.subplots(figsize=(10,6))
     sns.histplot(
         data=flights_df,
         x="distance_km",
         weights=value_watched_ctry,
         common_norm=False,
-        element="bars",
+        element="step",
         color='#EE9B00',
         bins=range(0, int(flights_df["distance_km"].max()) + 500, 500),
-        ax=ax
+        ax=ax, 
+        alpha=0.5
     )
     ax.set_title('Repartition of {} by flight distance'.format(value_watched_ctry))
     ax.set_xlabel("Distance (km)")
