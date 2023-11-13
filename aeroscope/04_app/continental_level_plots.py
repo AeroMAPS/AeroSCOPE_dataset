@@ -116,9 +116,9 @@ def continental_treemap_plot(continental_flows, value_watched_conti):
     
     
 def distance_histogramm_plot_continent(flights_df_conti, value_watched_conti):
+    plt.ioff()
     if len(flights_df_conti) > 0:
         sns.set_style("darkgrid")
-        # Create a new figure with a single subplot
         fig, ax = plt.subplots(figsize=(10,6.5))
         sns.histplot(
             data=flights_df_conti,
@@ -133,13 +133,13 @@ def distance_histogramm_plot_continent(flights_df_conti, value_watched_conti):
             alpha=1,
             ax=ax
         )
-
         ax.set_title('Repartition of {} by flight distance'.format(value_watched_conti))
         ax.set_xlabel("Distance (km)")
         ax.set_ylabel(value_watched_conti)
         return fig
     else:
         print('Please select at least one continent!')
+        return
 
 
 def continental_map_plot(conti_scatter, continental_flows_non_dir, value_watched_conti):
