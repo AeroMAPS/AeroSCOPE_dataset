@@ -74,14 +74,37 @@ def countries_map_plot(country_flows, value_watched_ctry):
     return fig
 
 
+### Deprecated, too slow
 
-def distance_ecdf_plot_country(flights_df):
+# def distance_ecdf_plot_country(flights_df):
+#     sns.set_style("darkgrid")
+#     # Create a new figure with a single subplot
+#     fig, ax = plt.subplots(figsize=(5,5))
+#     sns.ecdfplot(flights_df, x='distance_km', weights='seats', label='Seats',stat='percent', ax=ax)
+#     sns.ecdfplot(flights_df, x='distance_km', weights='ask', label= 'ASK', stat='percent',ax=ax)
+#     sns.ecdfplot(flights_df, x='distance_km', weights='co2', label= '$\mathregular{CO_2}$',stat='percent', ax=ax)
+    
+#     ax.legend()
+
+#     # Set the title, x-axis label, and y-axis label
+#     ax.set_title("Metrics cumulative distribution vs flight distance")
+#     ax.set_xlabel("Distance (km)")
+#     ax.set_ylabel("Cumulative distribution (%)")
+
+#     return fig
+
+def formatter(x, pos):
+    del pos
+    return str(round(x*100))
+
+
+def distance_cumul_plot_country(flights_df):
     sns.set_style("darkgrid")
     # Create a new figure with a single subplot
     fig, ax = plt.subplots(figsize=(5,5))
-    sns.ecdfplot(flights_df, x='distance_km', weights='seats', label='Seats',stat='percent', ax=ax)
-    sns.ecdfplot(flights_df, x='distance_km', weights='ask', label= 'ASK', stat='percent',ax=ax)
-    sns.ecdfplot(flights_df, x='distance_km', weights='co2', label= '$\mathregular{CO_2}$',stat='percent', ax=ax)
+    sns.histplot(flights_df, x='distance_km', weights='seats', label='Seats', element='poly',fill=False, cumulative = True, stat='percent', ax=ax,bins=range(0, int(flights_df["distance_km"].max()) + 50, 50),)
+    sns.histplot(flights_df, x='distance_km', weights='ask', label= 'ASK', element='poly',fill=False, cumulative = True, stat='percent',ax=ax,bins=range(0, int(flights_df["distance_km"].max()) + 50, 50),)
+    sns.histplot(flights_df, x='distance_km', weights='co2', label= '$\mathregular{CO_2}$', element='poly',fill=False, cumulative = True, stat='percent', ax=ax,bins=range(0, int(flights_df["distance_km"].max()) + 50, 50),)
     
     ax.legend()
 
@@ -92,53 +115,48 @@ def distance_ecdf_plot_country(flights_df):
 
     return fig
 
-def distance_kdeplot_country(flights_df):
+
+def distance_share_country(flights_df, value_watched_ctry):
     sns.set_style("darkgrid")
     
-    # Create a new figure with a single subplot
     fig, ax = plt.subplots(figsize=(5,5))
-    # sns.histplot(flights_df, x='distance_km', weights='seats',bins=30, hue='acft_class', multiple='fill', edgecolor='None',ax=ax)
-    sns.kdeplot(flights_df, 
-                x='distance_km', 
-                weights='seats', 
-                hue='acft_class', 
-                multiple='fill', 
-                bw_adjust=1.5, 
-                clip=(0, None), 
-                edgecolor='None', 
-                ax=ax)
-
-    def formatter(x, pos):
-        del pos
-        return str(round(x*100))
+    sns.histplot(
+        data=flights_df,
+        x="distance_km",
+        weights=value_watched_ctry,
+        common_norm=False,
+        element="step",
+        multiple='fill',
+        hue='acft_class',
+        bins=range(0, int(flights_df["distance_km"].max()) + 500, 500),
+        alpha=0.6,
+        ax=ax
+    )
     ax.yaxis.set_major_formatter(formatter)
-    ax.set_title("Aircraft class used vs flight distance")
+    ax.set_title("Aircraft class used vs flight distance\nWeighting on:{}".format(value_watched_ctry))
     ax.set_xlabel("Distance (km)")
     ax.set_ylabel("Aircraft class distribution (%)")
     return fig
 
-def distance_kdeplot_dom_int_country(flights_df):
-    # Create a new figure with a single subplot
+def distance_share_dom_int_country(flights_df, value_watched_ctry):
+    sns.set_style("darkgrid")
+    
     fig, ax = plt.subplots(figsize=(5,5))
-    # sns.histplot(flights_df, x='distance_km', weights='seats',bins=30, hue='acft_class', multiple='fill', edgecolor='None',ax=ax)
-    sns.kdeplot(flights_df, 
-                x='distance_km', 
-                weights='seats', 
-                hue='domestic', 
-                multiple='fill', 
-                bw_adjust=1, 
-                clip=(0, None), 
-                edgecolor='None', 
-                ax=ax)
-
-    def formatter(x, pos):
-        del pos
-        return str(round(x*100))
+    sns.histplot(
+        data=flights_df,
+        x="distance_km",
+        weights=value_watched_ctry,
+        common_norm=False,
+        element="step",
+        multiple='fill',
+        hue='domestic',
+        bins=range(0, int(flights_df["distance_km"].max()) + 500, 500),
+        alpha=0.6,
+        ax=ax
+    )
     ax.yaxis.set_major_formatter(formatter)
-    # Set the title, x-axis label, and y-axis label
-
     ax.legend(title='Flight Type', labels=['Domestic', 'International'])
-    ax.set_title("Flight type vs flight distance")
+    ax.set_title("Flight type vs flight distance\nWeighting on :{}".format(value_watched_ctry))
     ax.set_xlabel("Distance (km)")
     ax.set_ylabel("Flight type distribution (%)")
     return fig
@@ -195,42 +213,61 @@ def countries_treemap_plot(country_flows, value_watched_ctry):
     return fig
 
 
+
+#### Deprecated version, too slow
+# def distance_histogramm_plot_country(flights_df, value_watched_ctry):
+#     fig = px.histogram(
+#         flights_df,
+#         x="distance_km",
+#         y=value_watched_ctry,
+#         histfunc="sum",
+#         color_discrete_sequence=px.colors.qualitative.T10,
+#         title='Repartition of {} by flight distance'.format(value_watched_ctry),
+
+#     )
+
+#     fig.update_traces(xbins=dict(
+#         start=0.0,
+#         end=flights_df.distance_km.max(),
+#         size=500))
+
+#     fig.update_layout(
+#         # title="Histogram of CO2 Emissions by Distance and Arrival Continent",
+#         xaxis_title="Distance (km)",
+#         yaxis_title=value_watched_ctry,
+#         showlegend=False,
+#     )
+
+#     fig.update_layout(
+#         margin=dict(l=5, r=5, t=60, b=5),
+#     )
+
+#     if value_watched_ctry == 'co2':
+#         fig.update_traces(hovertemplate='Distance group (km)=%{x}<br>CO2 (kg)=%{y:.0f}<extra></extra>')
+#     elif value_watched_ctry == 'ask':
+#         fig.update_traces(hovertemplate='Distance group (km)=%{x}<br>ASK=%{y:.0f}<extra></extra>')
+#     elif value_watched_ctry == 'seats':
+#         fig.update_traces(hovertemplate='Distance group (km)=%{x}<br>Seats=%{y:.0f}<extra></extra>')
+#     return fig
+
 def distance_histogramm_plot_country(flights_df, value_watched_ctry):
-    fig = px.histogram(
-        flights_df,
+    sns.set_style("darkgrid")
+    
+    fig, ax = plt.subplots(figsize=(5,5))
+    sns.histplot(
+        data=flights_df,
         x="distance_km",
-        y=value_watched_ctry,
-        histfunc="sum",
-        color_discrete_sequence=px.colors.qualitative.T10,
-        title='Repartition of {} by flight distance'.format(value_watched_ctry),
-
+        weights=value_watched_ctry,
+        common_norm=False,
+        element="bars",
+        color='#EE9B00',
+        bins=range(0, int(flights_df["distance_km"].max()) + 500, 500),
+        ax=ax
     )
-
-    fig.update_traces(xbins=dict(
-        start=0.0,
-        end=flights_df.distance_km.max(),
-        size=500))
-
-    fig.update_layout(
-        # title="Histogram of CO2 Emissions by Distance and Arrival Continent",
-        xaxis_title="Distance (km)",
-        yaxis_title=value_watched_ctry,
-        showlegend=False,
-    )
-
-    fig.update_layout(
-        margin=dict(l=5, r=5, t=60, b=5),
-    )
-
-    if value_watched_ctry == 'co2':
-        fig.update_traces(hovertemplate='Distance group (km)=%{x}<br>CO2 (kg)=%{y:.0f}<extra></extra>')
-    elif value_watched_ctry == 'ask':
-        fig.update_traces(hovertemplate='Distance group (km)=%{x}<br>ASK=%{y:.0f}<extra></extra>')
-    elif value_watched_ctry == 'seats':
-        fig.update_traces(hovertemplate='Distance group (km)=%{x}<br>Seats=%{y:.0f}<extra></extra>')
+    ax.set_title('Repartition of {} by flight distance'.format(value_watched_ctry))
+    ax.set_xlabel("Distance (km)")
+    ax.set_ylabel(value_watched_ctry)
     return fig
-
-
 
 
 
@@ -255,6 +292,26 @@ def aircraft_pie(flights_df, value_watched_ctry):
     return fig
 
 
+def aircraft_class_pie(flights_df, value_watched_ctry):
+    aircraft_class = flights_df.groupby('acft_class')[value_watched_ctry].sum()
+    fig = px.pie(
+        values=aircraft_class,
+        names=aircraft_class.index,
+        color_discrete_sequence=px.colors.qualitative.T10,
+        labels={'names': 'Class', 'values': value_watched_ctry},
+    )
+    fig.update_traces(textposition='inside')
+    fig.update_layout(
+        margin=dict(l=60, r=60, t=60, b=60),
+        title="{} by aircraft class".format(value_watched_ctry),
+        legend=dict(
+            title='Aircraft class:',
+        )
+    )
+    return fig
+
+
+
 def aircraft_user_pie(flights_df, value_watched_ctry):
     top_airlines = flights_df.groupby('airline_iata')[value_watched_ctry].sum().nlargest(10)
     other_total = flights_df[value_watched_ctry].sum() - top_airlines.sum()
@@ -271,6 +328,23 @@ def aircraft_user_pie(flights_df, value_watched_ctry):
         title="{} by airline".format(value_watched_ctry),
         legend=dict(
             title='Airline IATA code:',
+        )
+    )
+    return fig
+
+def dom_share_pie(flights_df, value_watched_ctry):
+    df_group = flights_df.groupby('domestic')[value_watched_ctry].sum()
+    fig = px.pie(
+        values=df_group,
+        names=df_group.index,
+        color_discrete_sequence=px.colors.qualitative.T10,
+    )
+    fig.update_traces(textposition='inside')
+    fig.update_layout(
+        margin=dict(l=60, r=60, t=60, b=60),
+        title="{} by type".format(value_watched_ctry),
+        legend=dict(
+            title='Flight type:',
         )
     )
     return fig
