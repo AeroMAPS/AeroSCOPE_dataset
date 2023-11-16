@@ -7,7 +7,7 @@ import random
 
 def preprocess():
 
-    flights_df = pd.read_csv('../03_routes_schedule/data/final_26_09.csv', keep_default_na=False, na_values=['', 'NaN'],
+    flights_df = pd.read_csv('../03_routes_schedule/data/final_16_11.csv', keep_default_na=False, na_values=['', 'NaN'],
                              index_col=0).dropna(subset=['departure_lon', 'arrival_lon'])
     flights_df['acft_icao'] = flights_df['acft_icao'].fillna('Unknown Aircraft')
     flights_df['airline_iata'] = flights_df['airline_iata'].fillna('Unknown Airline')
