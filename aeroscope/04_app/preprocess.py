@@ -6,7 +6,8 @@ import pandas as pd
 import random
 
 def preprocess():
-
+    
+    load_factor=0.83
     flights_df = pd.read_csv('../03_routes_schedule/data/final_16_11.csv', keep_default_na=False, na_values=['', 'NaN'],
                              index_col=0).dropna(subset=['departure_lon', 'arrival_lon'])
     flights_df['acft_icao'] = flights_df['acft_icao'].fillna('Unknown Aircraft')
@@ -14,6 +15,7 @@ def preprocess():
     flights_df['CO2 (Mt)'] = flights_df['co2'] / 1e9
     flights_df['ASK (Bn)'] = flights_df['ask'] / 1e9
     flights_df['Seats (Mn)'] = flights_df['seats'] / 1e6
+    flights_df['CO2 Ppax'] = flights_df['co2']/(flights_df['seats']*load_factor)
 
     ### Aestethics
     continent_codes = {
