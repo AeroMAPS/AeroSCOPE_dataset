@@ -337,7 +337,7 @@ def dom_share_pie(flights_df, value_watched_ctry):
     df_group = flights_df.groupby('domestic')[value_watched_ctry].sum().reset_index()
     df_group['domestic'] = df_group['domestic'].replace(0,'International').replace(1,'Domestic')
     fig = px.pie(
-        values=df_group.co2,
+        values=df_group.value_watched_ctry,
         names=df_group.domestic,
         color_discrete_sequence=px.colors.qualitative.T10,
     )
