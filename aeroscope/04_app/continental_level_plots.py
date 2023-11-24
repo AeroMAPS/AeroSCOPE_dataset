@@ -6,6 +6,8 @@
 
 import plotly.express as px
 import plotly.graph_objects as go
+import seaborn as sns 
+import matplotlib.pyplot as plt
 
 
 
@@ -56,58 +58,88 @@ def continental_treemap_plot(continental_flows, value_watched_conti):
     else:
         return('Please select at least one continent!')
 
+    
+### plotly histogramm deprecated, too slow
 
+# def distance_histogramm_plot_continent(flights_df_conti, value_watched_conti):
+#     if len(flights_df_conti)>0:
+#         fig = px.histogram(
+#             flights_df_conti,
+#             x="distance_km",
+#             y=value_watched_conti,
+#             color="arrival_continent",
+#             color_discrete_map=color_discrete_map,
+#             title='Repartition of {} by flight distance'.format(value_watched_conti),
+#             histfunc="sum",
+#         )
+
+#         fig.update_traces(xbins=dict(
+#             start=0.0,
+#             end=flights_df_conti.distance_km.max(),
+#             size=500))
+
+#         fig.update_layout(
+#             # title="Histogram of CO2 Emissions by Distance and Arrival Continent",
+#             xaxis_title="Distance (km)",
+#             yaxis_title=value_watched_conti,
+#             legend_title="Arrival Continent",
+#             showlegend=True,
+#         )
+#         fig.update_layout(
+#             margin=dict(l=5, r=5, t=60, b=5),
+#             legend=dict(
+#                 yanchor="top",
+#                 xanchor="right",
+#                 x=0.9,
+#                 bgcolor='rgba(220, 220, 220, 0.7)'
+#             )
+#         )
+
+#         fig.update_layout()
+#         if value_watched_conti == 'CO2 (Mt)':
+#             fig.update_traces(
+#                 hovertemplate='Arrival Continent=%{customdata}<br>Distance group (km)=%{x}<br>CO2 (Mt)=%{y:.2f}<extra></extra>',
+#                 customdata=flights_df_conti['arrival_continent_name'])
+#         elif value_watched_conti == 'ASK (Bn)':
+#             fig.update_traces(
+#                 hovertemplate='Arrival Continent=%{customdata}<br>Distance group (km)=%{x}<br>ASK (Bn)=%{y:.2f}<extra></extra>',
+#                 customdata=flights_df_conti['arrival_continent_name'])
+#         elif value_watched_conti == 'Seats (Mn)':
+#             fig.update_traces(
+#                 hovertemplate='Arrival Continent=%{customdata}<br>Distance group (km)=%{x}<br>Seats (Mn)=%{y:.2f}<extra></extra>',
+#                 customdata=flights_df_conti['arrival_continent_name'])
+
+#         return fig
+#     else:
+#         return('Please select at least one continent!')
+    
+    
+    
 def distance_histogramm_plot_continent(flights_df_conti, value_watched_conti):
-    if len(flights_df_conti)>0:
-        fig = px.histogram(
-            flights_df_conti,
+    plt.ioff()
+    if len(flights_df_conti) > 0:
+        sns.set_style("darkgrid")
+        fig, ax = plt.subplots(figsize=(10,6.5))
+        sns.histplot(
+            data=flights_df_conti,
             x="distance_km",
-            y=value_watched_conti,
-            color="arrival_continent",
-            color_discrete_map=color_discrete_map,
-            title='Repartition of {} by flight distance'.format(value_watched_conti),
-            histfunc="sum",
+            weights=value_watched_conti,
+            hue="arrival_continent",
+            element="step",
+            multiple='stack',
+            palette=color_discrete_map,
+            common_norm=False,
+            bins=range(0, int(flights_df_conti["distance_km"].max()) + 500, 500),
+            alpha=1,
+            ax=ax
         )
-
-        fig.update_traces(xbins=dict(
-            start=0.0,
-            end=flights_df_conti.distance_km.max(),
-            size=500))
-
-        fig.update_layout(
-            # title="Histogram of CO2 Emissions by Distance and Arrival Continent",
-            xaxis_title="Distance (km)",
-            yaxis_title=value_watched_conti,
-            legend_title="Arrival Continent",
-            showlegend=True,
-        )
-        fig.update_layout(
-            margin=dict(l=5, r=5, t=60, b=5),
-            legend=dict(
-                yanchor="top",
-                xanchor="right",
-                x=0.9,
-                bgcolor='rgba(220, 220, 220, 0.7)'
-            )
-        )
-
-        fig.update_layout()
-        if value_watched_conti == 'CO2 (Mt)':
-            fig.update_traces(
-                hovertemplate='Arrival Continent=%{customdata}<br>Distance group (km)=%{x}<br>CO2 (Mt)=%{y:.2f}<extra></extra>',
-                customdata=flights_df_conti['arrival_continent_name'])
-        elif value_watched_conti == 'ASK (Bn)':
-            fig.update_traces(
-                hovertemplate='Arrival Continent=%{customdata}<br>Distance group (km)=%{x}<br>ASK (Bn)=%{y:.2f}<extra></extra>',
-                customdata=flights_df_conti['arrival_continent_name'])
-        elif value_watched_conti == 'Seats (Mn)':
-            fig.update_traces(
-                hovertemplate='Arrival Continent=%{customdata}<br>Distance group (km)=%{x}<br>Seats (Mn)=%{y:.2f}<extra></extra>',
-                customdata=flights_df_conti['arrival_continent_name'])
-
+        ax.set_title('Repartition of {} by flight distance'.format(value_watched_conti))
+        ax.set_xlabel("Distance (km)")
+        ax.set_ylabel(value_watched_conti)
         return fig
     else:
-        return('Please select at least one continent!')
+        print('Please select at least one continent!')
+        return
 
 
 def continental_map_plot(conti_scatter, continental_flows_non_dir, value_watched_conti):

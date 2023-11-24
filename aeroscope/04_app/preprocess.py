@@ -6,14 +6,16 @@ import pandas as pd
 import random
 
 def preprocess():
-
-    flights_df = pd.read_csv('../03_routes_schedule/data/final_26_09.csv', keep_default_na=False, na_values=['', 'NaN'],
+    
+    load_factor=0.83
+    flights_df = pd.read_csv('../03_routes_schedule/data/final_16_11.csv', keep_default_na=False, na_values=['', 'NaN'],
                              index_col=0).dropna(subset=['departure_lon', 'arrival_lon'])
     flights_df['acft_icao'] = flights_df['acft_icao'].fillna('Unknown Aircraft')
     flights_df['airline_iata'] = flights_df['airline_iata'].fillna('Unknown Airline')
     flights_df['CO2 (Mt)'] = flights_df['co2'] / 1e9
     flights_df['ASK (Bn)'] = flights_df['ask'] / 1e9
     flights_df['Seats (Mn)'] = flights_df['seats'] / 1e6
+    flights_df['CO2 Ppax'] = flights_df['co2']/(flights_df['seats']*load_factor)
 
     ### Aestethics
     continent_codes = {
@@ -105,8 +107,18 @@ def preprocess():
     country_flows = flights_df.groupby(
         ['departure_country', 'arrival_country', 'departure_country_name', 'arrival_country_name', 'departure_ISO3',
          'arrival_ISO3'])[['seats', 'ask', 'fuel_burn', 'co2', 'CO2 (Mt)', 'ASK (Bn)', 'Seats (Mn)']].sum().reset_index()
-    country_fixed = flights_df.groupby(['departure_country', 'departure_country_name', 'departure_ISO3'])[
-        ['seats', 'ask', 'fuel_burn', 'co2', 'CO2 (Mt)', 'ASK (Bn)', 'Seats (Mn)']].sum().reset_index()
+   
+    
+    country_fixed = flights_df.groupby(['departure_country', 'departure_country_name', 'departure_ISO3']).agg({
+    'seats': 'sum',
+    'ask': 'sum',
+    'fuel_burn': 'sum',
+    'co2': 'sum',
+    'CO2 (Mt)': 'sum',
+    'ASK (Bn)': 'sum',
+    'Seats (Mn)': 'sum',
+    'domestic': 'mean'  # Calculate the share of 'domestic'
+        }).reset_index()
 
 
     ## ADD country coordinates for better plots -> source:
@@ -143,6 +155,9 @@ def preprocess():
     country_fixed = country_fixed.merge(country_coord, left_on='departure_ISO3', right_on='Alpha-3 code', how='left')
     country_fixed.rename(columns={'Latitude (average)': 'departure_lat', 'Longitude (average)': 'departure_lon'}, inplace=True)
     country_fixed.drop(columns={'Alpha-3 code'}, inplace=True)
+    
+    # ### Add country socioeco data 
+    # world_bank_data= pd.read_csv('../02_airport_features/data/world_bank_data.csv')
 
 
     #save continental level data
