@@ -33,6 +33,8 @@ def flights_map_plot(flights_gpb_df, value_watched_flights):
         'co2': 'sum',
         'ask': 'sum',
         'seats': 'sum',
+        #For OS mode
+        'n_flights': 'sum',
         'arrival_lon': 'first',
         'arrival_lat': 'first'}).reset_index()
 
@@ -81,6 +83,8 @@ def flights_treemap_plot(flights_df, value_watched_flights):
         fig.update_traces(hovertemplate='Flow=%{id}<br>ASK=%{value:.2f}')
     elif value_watched_flights == 'seats':
         fig.update_traces(hovertemplate='Flow=%{id}<br>Seats=%{value:.2f}')
+    elif value_watched_flights == 'n_flights':
+        fig.update_traces(hovertemplate='Flow=%{id}<br>Flights=%{value:.2f}')
 
     return fig
 

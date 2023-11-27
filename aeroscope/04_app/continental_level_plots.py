@@ -53,6 +53,13 @@ def continental_treemap_plot(continental_flows, value_watched_conti):
                 textinfo="label+value+percent entry",
                 texttemplate='%{label}<br>%{value:.1f} Mn<br>%{percentEntry}'
             )
+        elif value_watched_conti == 'n_flights':
+            fig.update_traces(hovertemplate='Flow=%{id}<br>Flights=%{value:.2f} (Mn)')
+            fig.update_traces(
+                marker=dict(cornerradius=5),
+                textinfo="label+value+percent entry",
+                texttemplate='%{label}<br>%{value:.1f} Mn<br>%{percentEntry}'
+            )
 
         return fig
     else:

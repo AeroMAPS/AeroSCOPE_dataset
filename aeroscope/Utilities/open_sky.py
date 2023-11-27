@@ -41,9 +41,6 @@ class FlightOpenSky(FlightData):
             '{}% of flights deleted after removing '
             'flights with no origin and destination. {} Flights in the dataset'.format(
                 (size_before_drops - size_after_drops) / size_before_drops * 100, size_after_drops))
-        # Converting dates to a suitable format
-        self.df['year'] = self.df.apply(lambda x: get_month_year(x['day'])[0], axis=1)
-        self.df['month'] = self.df.apply(lambda x: get_month_year(x['day'])[1], axis=1)
 
         # Opensky only gets aircraft transponder code, not its registration.
         # Hopefully, it can be merged with an aircraft database, for example opensky aircraft database
@@ -66,6 +63,10 @@ class FlightOpenSky(FlightData):
 
         # # Counting flight per aircraft type /route/airline each month
         if keep_time:
+            # Converting dates to a suitable format
+            self.df['year'] = self.df.apply(lambda x: get_month_year(x['day'])[0], axis=1)
+            self.df['month'] = self.df.apply(lambda x: get_month_year(x['day'])[1], axis=1)
+            
             self.df = self.df.groupby(
                 ['airline_iata', 'origin', 'destination', 'aircraft_type', 'month', 'year'],
                 as_index=False, dropna=False).size()
@@ -125,11 +126,12 @@ class FlightOpenSky(FlightData):
             'Size of df after arpt info: {}, number of flights: {}'.format(len(self.df.index), self.df.n_flights.sum()))
 
         # compute great circle distance in km if airports coordinates are known
-        self.df.loc[:, "distance_km"] = self.df.apply(
-            lambda x: distance.distance((float(x.origin_lat), float(x.origin_lon)),
-                                        (float(x.dest_lat), float(x.dest_lon))).km if not (
-                        pd.isna(x.origin_lat) or pd.isna(x.origin_lon)
-                        or pd.isna(x.dest_lon) or pd.isna(x.dest_lat)) else 0, axis=1)
+        ### COMENTED FOR OS APP ###
+        # self.df.loc[:, "distance_km"] = self.df.apply(
+        #     lambda x: distance.distance((float(x.origin_lat), float(x.origin_lon)),
+        #                                 (float(x.dest_lat), float(x.dest_lon))).km if not (
+        #                 pd.isna(x.origin_lat) or pd.isna(x.origin_lon)
+        #                 or pd.isna(x.dest_lon) or pd.isna(x.dest_lat)) else 0, axis=1)
 
         # Keeping track of how many aircraft-miles with no aircraft known/with aircraft not handeld by seymour/with
         # no proxi affected

@@ -98,7 +98,7 @@ def formatter(x, pos):
     return str(round(x*100))
 
 
-def distance_cumul_plot_country(flights_df):
+def distance_cumul_plot_country(flights_df, value_watched_ctry):
     sns.set_style("darkgrid")
     # Create a new figure with a single subplot
     fig, ax = plt.subplots(figsize=(10,6))
@@ -109,7 +109,7 @@ def distance_cumul_plot_country(flights_df):
     ax.legend()
 
     # Set the title, x-axis label, and y-axis label
-    ax.set_title("Metrics cumulative distribution vs flight distance")
+    ax.set_title("Metrics cumulative distribution vs flight distance.")
     ax.set_xlabel("Distance (km)")
     ax.set_ylabel("Cumulative distribution (%)")
 
@@ -209,6 +209,8 @@ def countries_treemap_plot(country_flows, value_watched_ctry):
         fig.update_traces(hovertemplate='Flow=%{id}<br>ASK=%{value:.2f}')
     elif value_watched_ctry == 'seats':
         fig.update_traces(hovertemplate='Flow=%{id}<br>Seats=%{value:.2f}')
+    elif value_watched_ctry == 'n_flights':
+        fig.update_traces(hovertemplate='Flow=%{id}<br>Flights=%{value:.2f}')
 
     return fig
 
@@ -337,7 +339,7 @@ def dom_share_pie(flights_df, value_watched_ctry):
     df_group = flights_df.groupby('domestic')[value_watched_ctry].sum().reset_index()
     df_group['domestic'] = df_group['domestic'].replace(0,'International').replace(1,'Domestic')
     fig = px.pie(
-        values=df_group.value_watched_ctry,
+        values=df_group[value_watched_ctry],
         names=df_group.domestic,
         color_discrete_sequence=px.colors.qualitative.T10,
     )
