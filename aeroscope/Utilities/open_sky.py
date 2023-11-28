@@ -44,8 +44,8 @@ class FlightOpenSky(FlightData):
 
         # Opensky only gets aircraft transponder code, not its registration.
         # Hopefully, it can be merged with an aircraft database, for example opensky aircraft database
-        data_path = os.path.join(root_path, '03_routes_schedule', 'data/open_sky/aircraftdata.csv')
-        ac_ref = pd.read_csv(data_path, sep=',')
+        data_path = os.path.join(root_path, '03_routes_schedule', 'data/open_sky/aircraft-database-complete-2022-05.csv')
+        ac_ref = pd.read_csv(data_path, sep=';')
         # Drop aircraft where there is no clean typecode (50% approx...)
         ac_ref = ac_ref.dropna(subset=['typecode'])
         # Even if each aircraft has a unique icao24 code, some are present several times in the database.
