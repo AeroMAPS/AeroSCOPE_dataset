@@ -7,7 +7,8 @@
 AeroSCOPE is a project that aims to bring together various open data sources on air transport in order to better understand the geographical distribution of air transport.
 More details on data collection and compilation can be found in the article accompanying this work: https://journals.open.tudelft.nl/joas/article/view/7201
 
-AeroSCOPE is licensed under the [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) license. *Please contact us if your use case of the dataset it outside the academic framework !*
+AeroSCOPE is licensed under the [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) license.  
+*Please contact us if your use case of the dataset it outside the academic framework: Although all sources used are open to everyone, the Eurocontrol database is only freely available to academic researchers. It is used in this dataset in a very aggregated way and under several levels of abstraction. As a result, it is not distributed in its original format as specified in the contract of use. As a general rule, we decline any responsibility for any use that is contrary to the terms and conditions of the various sources that are used. In case of commercial use of the database, please contact us in advance.*
 
 
 ## Setup
