@@ -28,7 +28,7 @@ jupyterlab = "^3.6.1"
 voila =  "0.4.0"
 voila-vuetify = "0.6.0"
 openpyxl ="*"
-kaleido="*"
+
 
 
 [build-system]

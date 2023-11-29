@@ -29,14 +29,22 @@ def flights_map_plot(flights_gpb_df, value_watched_flights):
 
     # group by airport
 
-    airport_df = flights_gpb_df.groupby('iata_arrival').agg({
-        'co2': 'sum',
-        'ask': 'sum',
-        'seats': 'sum',
-        #For OS mode
-        'n_flights': 'sum',
-        'arrival_lon': 'first',
-        'arrival_lat': 'first'}).reset_index()
+    if 'n_flights' in flights_gpb_df.columns:
+        airport_df = flights_gpb_df.groupby('iata_arrival').agg({
+            'co2': 'sum',
+            'ask': 'sum',
+            'seats': 'sum',
+            'n_flights': 'sum',
+            'arrival_lon': 'first',
+            'arrival_lat': 'first'}).reset_index()
+    else:
+        airport_df = flights_gpb_df.groupby('iata_arrival').agg({
+            'co2': 'sum',
+            'ask': 'sum',
+            'seats': 'sum',
+            'arrival_lon': 'first',
+            'arrival_lat': 'first'}).reset_index()
+
 
     fig.add_trace(go.Scattergeo(
         lon=airport_df['arrival_lon'],
@@ -244,7 +252,7 @@ def dom_share_pie_flights(flights_df, value_watched_ctry):
     df_group = flights_df.groupby('domestic')[value_watched_ctry].sum().reset_index()
     df_group['domestic'] = df_group['domestic'].replace(0,'International').replace(1,'Domestic')
     fig = px.pie(
-        values=df_group.value_watched_ctry,
+        values=df_group[value_watched_ctry],
         names=df_group.domestic,
         color_discrete_sequence=px.colors.qualitative.T10,
     )

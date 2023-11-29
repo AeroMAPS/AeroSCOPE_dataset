@@ -98,7 +98,7 @@ def formatter(x, pos):
     return str(round(x*100))
 
 
-def distance_cumul_plot_country(flights_df, value_watched_ctry):
+def distance_cumul_plot_country(flights_df):
     sns.set_style("darkgrid")
     # Create a new figure with a single subplot
     fig, ax = plt.subplots(figsize=(10,6))
