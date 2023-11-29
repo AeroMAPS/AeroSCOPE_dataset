@@ -13,7 +13,7 @@ AeroSCOPE is licensed under the [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.e
 ## Setup
 
 It is suggested to use a new [conda](https://docs.conda.io/en/latest/miniconda.html) virtual environment to install the required packages.
-Python 3.10 is recommended, altough older versions may work.
+Python 3.10 is recommended, although older versions may work.
 
 In the new virtual environment, navigate to the project folder. Most installations are done using poetry, except for poetry itself, which can be installed using pip or conda.
 
@@ -40,11 +40,11 @@ It is then analysed and can be explored using a simple user interface.
 ### Simple usage
 
 __Raw database csv file:__ 
-The last version of the processed database is stored at [Final Dataset](https://github.com/AeroMAPS/AeroSCOPE/tree/main/aeroscope/03_routes_schedule/data/final_26_09.csv). 
-Be sure to replace default NaN (such as 'NA') when reading the csv, to avoid mistakingly consider North America and Namibia codes as NaN.
+_**The last version of the processed database is stored on zenodo under the following doi: [10.5281/zenodo.10143773](). Make sure to download v1.0.1.**_  
+Be sure to replace default NaN (such as 'NA') when reading the csv, to avoid mistakingly considering North America and Namibia codes as NaN.
 
 __AeroSCOPE app:__
-To run the simple web app designed to explore the data, one can either visit www.aeromaps.eu/aeroscope or navigate to the 04_app folder using a terminal and run the app using voila.
+To run the simple web app designed to explore the data, one can either visit www.aeromaps.eu/aeroscope (soon) or navigate to the 04_app folder using a terminal and run the app using voila.
 
 ```bash
 cd (path to 04_app) 
