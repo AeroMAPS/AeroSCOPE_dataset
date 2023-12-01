@@ -148,16 +148,17 @@ def distance_share_flights(flights_df, value_watched_ctry):
         x="distance_km",
         weights=value_watched_ctry,
         common_norm=False,
-        element="step",
         multiple='fill',
         hue='acft_class',
         bins=range(0, int(flights_df["distance_km"].max()) + 500, 500),
+        edgecolor='none', 
         alpha=0.6,
         ax=ax
     )
     ax.yaxis.set_major_formatter(formatter)
     ax.set_title("Aircraft class used vs flight distance\nWeighting on:{}".format(value_watched_ctry))
     ax.set_xlabel("Distance (km)")
+    ax.set_xlim(0, int(flights_df["distance_km"].max()) + 500)
     ax.set_ylabel("Aircraft class distribution (%)")
     return fig
 
@@ -171,9 +172,9 @@ def distance_share_dom_int_flights(flights_df, value_watched_ctry):
         x="distance_km",
         weights=value_watched_ctry,
         common_norm=False,
-        element="step",
         multiple='fill',
         hue='domestic',
+        edgecolor='none', 
         bins=range(0, int(flights_df["distance_km"].max()) + 500, 500),
         alpha=0.6,
         ax=ax
@@ -182,6 +183,7 @@ def distance_share_dom_int_flights(flights_df, value_watched_ctry):
     ax.legend(title='Flight Type', labels=['Domestic', 'International'])
     ax.set_title("Flight type vs flight distance\nWeighting on :{}".format(value_watched_ctry))
     ax.set_xlabel("Distance (km)")
+    ax.set_xlim(0, int(flights_df["distance_km"].max()) + 500)
     ax.set_ylabel("Flight type distribution (%)")
     return fig
 
