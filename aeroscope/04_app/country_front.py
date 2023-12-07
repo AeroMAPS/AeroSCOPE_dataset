@@ -7,6 +7,7 @@ from functools import partial
 
 class CountriesTab:
     def __init__(self, aeroscopedataclass):
+        ## define widgets
         self.autocomplete = v.Autocomplete(
                 v_model=[],
                 clearable=True,
