@@ -7,6 +7,10 @@ from functools import partial
 
 
 class CountriesTab:
+    """
+    Handles both Opensky and Compiled data types
+    """
+
     def __init__(self, aeroscopedataclass):
         ## define widgets
         self.autocomplete = v.Autocomplete(
@@ -28,16 +32,26 @@ class CountriesTab:
             class_="ma-2",
         )
 
-        self.value_watched_radio = v.RadioGroup(
-            v_model="co2",  # Set the initial selected value here
-            row=True,
-            children=[
-                v.Radio(label="CO\u2082 (kg)", value="co2"),
-                v.Radio(label="ASK", value="ask"),
-                v.Radio(label="SEATS", value="seats"),
-            ],
-            class_="mb-3",
-        )
+        if aeroscopedataclass.type=='compilation':
+            self.value_watched_radio = v.RadioGroup(
+                v_model="co2",  # Set the initial selected value here
+                row=True,
+                children=[
+                    v.Radio(label="CO\u2082 (kg)", value="co2"),
+                    v.Radio(label="ASK", value="ask"),
+                    v.Radio(label="SEATS", value="seats"),
+                ],
+                class_="mb-3",
+            )
+        else:
+            self.value_watched_radio = v.RadioGroup(
+                v_model="n_flights",  # Set the initial selected value here
+                row=True,
+                children=[
+                    v.Radio(label="FLIGHTS", value="n_flights"),
+                ],
+                class_="mb-3",
+            )
 
         # v-btn-toggle switch between the two main figures
         self.toggle_button_plot1 = v.BtnToggle(
@@ -116,20 +130,24 @@ class CountriesTab:
         self.autocomplete.v_model = list()
 
     def _render_initial_plots(self, dataclass):
+        if dataclass.type=='compilation':
+            init_value='co2'
+        else: #OPENSKY
+            init_value='n_flights'
         with self.output_1:
             fig_ctry_1 = country_level_plots.countries_global_plot(
-                dataclass.country_fixed, "co2"
+                dataclass.country_fixed, init_value
             )
             display(fig_ctry_1)
 
         with self.output_2:
             fig_ctry_2 = country_level_plots.distance_histogramm_plot_country(
-                dataclass.flights_df, "co2"
+                dataclass.flights_df, init_value
             )
             display(fig_ctry_2)
 
         with self.output_3:
-            fig_ctry_3 = country_level_plots.aircraft_pie(dataclass.flights_df, "co2")
+            fig_ctry_3 = country_level_plots.aircraft_pie(dataclass.flights_df, init_value)
             display(fig_ctry_3)
 
     # TODO like flight plot split updates between data and plot
@@ -188,9 +206,14 @@ class CountriesTab:
                     filtered_flights_df, value_watched_ctry
                 )
             elif active_analysis_graph_country == "ecdf":
-                fig_ctry_2 = country_level_plots.distance_cumul_plot_country(
-                    filtered_flights_df
-                )
+                if dataclass.type=='compilation':
+                    fig_ctry_2 = country_level_plots.distance_cumul_plot_country(
+                        filtered_flights_df
+                    )
+                else: #OPENSKY
+                    fig_ctry_2 = country_level_plots.distance_cumul_plot_country_OS(
+                        filtered_flights_df
+                    )
             elif active_analysis_graph_country == "kde_acft":
                 fig_ctry_2 = country_level_plots.distance_share_country(
                     filtered_flights_df, value_watched_ctry

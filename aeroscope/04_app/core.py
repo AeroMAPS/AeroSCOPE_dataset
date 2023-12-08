@@ -11,3 +11,4 @@ class AeroscopeDataClass:
     country_flows: pd.DataFrame
     country_fixed: pd.DataFrame
     flights_df: pd.DataFrame
+    type: str

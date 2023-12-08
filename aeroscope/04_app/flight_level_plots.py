@@ -105,6 +105,100 @@ def flights_map_plot(flights_gpb_df, value_watched_flights):
     return fig
 
 
+def flights_map_plot_OS(flights_gpb_df, value_watched_flights):
+    # Create the scattergeo figure
+    fig = go.Figure()
+
+    meanwidth = flights_gpb_df[value_watched_flights].mean()
+
+    for i in range(len(flights_gpb_df)):
+        fig.add_trace(
+            go.Scattergeo(
+                lon=[
+                    flights_gpb_df["departure_lon"][i],
+                    flights_gpb_df["arrival_lon"][i],
+                ],
+                lat=[
+                    flights_gpb_df["departure_lat"][i],
+                    flights_gpb_df["arrival_lat"][i],
+                ],
+                mode="lines",
+                line=dict(
+                    width=flights_gpb_df[value_watched_flights][i] / (1.5 * meanwidth),
+                    color="#023047",
+                ),
+                opacity=0.8,
+            )
+        )
+
+    # group by airport
+
+    if "n_flights" in flights_gpb_df.columns:
+        airport_df = (
+            flights_gpb_df.groupby("dest")
+            .agg(
+                {
+                    "co2": "sum",
+                    "ask": "sum",
+                    "seats": "sum",
+                    "n_flights": "sum",
+                    "arrival_lon": "first",
+                    "arrival_lat": "first",
+                }
+            )
+            .reset_index()
+        )
+    else:
+        airport_df = (
+            flights_gpb_df.groupby("iata_arrival")
+            .agg(
+                {
+                    "co2": "sum",
+                    "ask": "sum",
+                    "seats": "sum",
+                    "arrival_lon": "first",
+                    "arrival_lat": "first",
+                }
+            )
+            .reset_index()
+        )
+
+    fig.add_trace(
+        go.Scattergeo(
+            lon=airport_df["arrival_lon"],
+            lat=airport_df["arrival_lat"],
+            hoverinfo="text",
+            text=airport_df[value_watched_flights],
+            mode="markers",
+            marker=dict(
+                size=airport_df[value_watched_flights]
+                / (0.01 * airport_df[value_watched_flights].mean()),
+                color="#ffb703",
+                sizemode="area",
+                opacity=0.8,
+                line=dict(width=0.5, color="black"),
+            ),
+            customdata=airport_df["dest"],
+            hovertemplate="Flights to: "
+            + "%{customdata}<br>"
+            + value_watched_flights
+            + ": %{text:.0f}<br>"
+            + "<extra></extra>",
+        )
+    )
+
+    fig.update_geos(showcountries=True)
+    fig.update_layout(
+        showlegend=False,
+        height=800,
+        title="Route values for {}".format(value_watched_flights),
+    )
+    fig.update_layout(
+        margin=dict(l=5, r=5, t=60, b=5)
+    )  # Adjust layout margins and padding
+    return fig
+
+
 def flights_treemap_plot(flights_df, value_watched_flights):
     fig = px.treemap(
         flights_df,
@@ -112,6 +206,39 @@ def flights_treemap_plot(flights_df, value_watched_flights):
             px.Constant("Total currently selected"),
             "iata_departure",
             "iata_arrival",
+            "airline_iata",
+            "acft_icao",
+        ],
+        values=value_watched_flights,
+        color_discrete_sequence=px.colors.qualitative.T10,
+        title="Treemap for {}".format(value_watched_flights),
+    )
+
+    fig.update_layout(margin=dict(l=5, r=5, t=60, b=5))
+    fig.update_traces(
+        marker=dict(cornerradius=5),
+    )
+
+    if value_watched_flights == "co2":
+        fig.update_traces(
+            hovertemplate="Flow=%{id}<br>CO<sub>2</sub>=%{value:.2f} (lg)"
+        )
+    elif value_watched_flights == "ask":
+        fig.update_traces(hovertemplate="Flow=%{id}<br>ASK=%{value:.2f}")
+    elif value_watched_flights == "seats":
+        fig.update_traces(hovertemplate="Flow=%{id}<br>Seats=%{value:.2f}")
+    elif value_watched_flights == "n_flights":
+        fig.update_traces(hovertemplate="Flow=%{id}<br>Flights=%{value:.2f}")
+
+    return fig
+
+def flights_treemap_plot_OS(flights_df, value_watched_flights):
+    fig = px.treemap(
+        flights_df,
+        path=[
+            px.Constant("Total currently selected"),
+            "origin",
+            "dest",
             "airline_iata",
             "acft_icao",
         ],
@@ -215,6 +342,33 @@ def distance_cumul_plot_flights(flights_df):
 
     return fig
 
+def distance_cumul_plot_flights_OS(flights_df):
+    sns.set_style("darkgrid")
+    # Create a new figure with a single subplot
+    fig, ax = plt.subplots(figsize=(10, 6.5))
+    # sns.histplot(flights_df, x='distance_km', weights='seats', label='Seats', element='poly',fill=False, cumulative = True, stat='percent', ax=ax,bins=range(0, int(flights_df["distance_km"].max()) + 50, 50),)
+    # sns.histplot(flights_df, x='distance_km', weights='ask', label= 'ASK', element='poly',fill=False, cumulative = True, stat='percent',ax=ax,bins=range(0, int(flights_df["distance_km"].max()) + 50, 50),)
+    sns.histplot(
+        flights_df,
+        x="distance_km",
+        weights="n_flights",
+        label="Flights",
+        element="poly",
+        fill=False,
+        cumulative=True,
+        stat="percent",
+        ax=ax,
+        bins=range(0, int(flights_df["distance_km"].max()) + 50, 50),
+    )
+
+    ax.legend()
+
+    # Set the title, x-axis label, and y-axis label
+    ax.set_title("Metrics cumulative distribution vs flight distance")
+    ax.set_xlabel("Distance (km)")
+    ax.set_ylabel("Cumulative distribution (%)")
+
+    return fig
 
 def distance_share_flights(flights_df, value_watched_ctry):
     sns.set_style("darkgrid")

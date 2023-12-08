@@ -178,6 +178,32 @@ def distance_cumul_plot_country(flights_df):
 
     return fig
 
+def distance_cumul_plot_country_OS(flights_df):
+    sns.set_style("darkgrid")
+    # Create a new figure with a single subplot
+    fig, ax = plt.subplots(figsize=(10, 6))
+    sns.histplot(
+        flights_df,
+        x="distance_km",
+        weights="n_flights",
+        label="Flights",
+        element="poly",
+        fill=False,
+        cumulative=True,
+        stat="percent",
+        ax=ax,
+        bins=range(0, int(flights_df["distance_km"].max()) + 50, 50),
+    )
+
+    ax.legend()
+
+    # Set the title, x-axis label, and y-axis label
+    ax.set_title("Metrics cumulative distribution vs flight distance.")
+    ax.set_xlabel("Distance (km)")
+    ax.set_ylabel("Cumulative distribution (%)")
+
+    return fig
+
 
 def distance_share_country(flights_df, value_watched_ctry):
     sns.set_style("darkgrid")

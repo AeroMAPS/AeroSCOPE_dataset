@@ -5,9 +5,11 @@ import ipyvuetify as v
 
 from continental_front import ContinentalTab
 from country_front import CountriesTab
-from detailled_front import DetailledTab
+from detailled_front import DetailledTab, DetailledTab_OS
 from passenger_front import PassengerTab
 from aeromaps_front import AeroMAPSTab
+
+
 
 
 # Create the layout
@@ -138,6 +140,7 @@ class UserInterface(v.Card):
                 na_values=["", "NaN"],
                 index_col=0,
             ),
+            type='compilation'
         )
 
     def load_opensky_data(self):
@@ -198,69 +201,103 @@ class UserInterface(v.Card):
                 na_values=["", "NaN"],
                 index_col=0,
             ),
+            type='opensky'
         )
 
     def initialize_tabs(self, aeroscope_data):
-        continental_tab = ContinentalTab(aeroscopedataclass=aeroscope_data)
-        countries_tab = CountriesTab(aeroscopedataclass=aeroscope_data)
-        detailled_tab = DetailledTab(aeroscopedataclass=aeroscope_data)
-        passenger_tab = PassengerTab(aeroscopedataclass=aeroscope_data)
-        aeromaps_tab = AeroMAPSTab(aeroscopedataclass=aeroscope_data)
 
-        self.tabs_layout = v.Tabs(
-            fixed_tabs=True,
-            background_color="#050A30",
-            children=[
-                v.Tab(
-                    children=["Continental Mode"],
-                    style_="color: white;",
-                    active_class="teal--text text--lighten-1",
-                ),
-                v.Tab(
-                    children=["Country Mode"],
-                    style_="color: white;",
-                    active_class="teal--text text--lighten-1",
-                ),
-                # Darken text color for active tab
-                v.Tab(
-                    children=["Detailed Mode"],
-                    style_="color: white;",
-                    active_class="teal--text text--lighten-1",
-                ),
-                # Darken text color for active tab
-                v.Tab(
-                    children=["Passenger Mode"],
-                    style_="color: white;",
-                    active_class="teal--text text--lighten-1",
-                ),
-                # Darken text color for active tab
-                v.Tab(
-                    children=["AeroMAPS Export"],
-                    style_="color: white;",
-                    active_class="teal--text text--lighten-1",
-                ),
-                # Darken text color for active tab
-                v.TabItem(
-                    children=[
-                        v.Container(fluid=True, children=[continental_tab.layout])
-                    ],
-                    style_="background-color: white;",
-                ),
-                v.TabItem(
-                    children=[v.Container(fluid=True, children=[countries_tab.layout])],
-                    style_="background-color: white;",
-                ),
-                v.TabItem(
-                    children=[v.Container(fluid=True, children=[detailled_tab.layout])],
-                    style_="background-color: white;",
-                ),
-                v.TabItem(
-                    children=[v.Container(fluid=True, children=[passenger_tab.layout])],
-                    style_="background-color: white;",
-                ),
-                v.TabItem(
-                    children=[v.Container(fluid=True, children=[aeromaps_tab.layout])],
-                    style_="background-color: white;",
-                ),
-            ],
-        )
+        if aeroscope_data.type=='compilation':
+            continental_tab = ContinentalTab(aeroscopedataclass=aeroscope_data)
+            countries_tab = CountriesTab(aeroscopedataclass=aeroscope_data)
+            detailled_tab = DetailledTab(aeroscopedataclass=aeroscope_data)
+            passenger_tab = PassengerTab(aeroscopedataclass=aeroscope_data)
+            aeromaps_tab = AeroMAPSTab(aeroscopedataclass=aeroscope_data)
+
+            self.tabs_layout = v.Tabs(
+                fixed_tabs=True,
+                background_color="#050A30",
+                children=[
+                    v.Tab(
+                        children=["Continental Mode"],
+                        style_="color: white;",
+                        active_class="teal--text text--lighten-1",
+                    ),
+                    v.Tab(
+                        children=["Country Mode"],
+                        style_="color: white;",
+                        active_class="teal--text text--lighten-1",
+                    ),
+                    # Darken text color for active tab
+                    v.Tab(
+                        children=["Detailed Mode"],
+                        style_="color: white;",
+                        active_class="teal--text text--lighten-1",
+                    ),
+                    # Darken text color for active tab
+                    v.Tab(
+                        children=["Passenger Mode"],
+                        style_="color: white;",
+                        active_class="teal--text text--lighten-1",
+                    ),
+                    # Darken text color for active tab
+                    v.Tab(
+                        children=["AeroMAPS Export"],
+                        style_="color: white;",
+                        active_class="teal--text text--lighten-1",
+                    ),
+                    # Darken text color for active tab
+                    v.TabItem(
+                        children=[
+                            v.Container(fluid=True, children=[continental_tab.layout])
+                        ],
+                        style_="background-color: white;",
+                    ),
+                    v.TabItem(
+                        children=[v.Container(fluid=True, children=[countries_tab.layout])],
+                        style_="background-color: white;",
+                    ),
+                    v.TabItem(
+                        children=[v.Container(fluid=True, children=[detailled_tab.layout])],
+                        style_="background-color: white;",
+                    ),
+                    v.TabItem(
+                        children=[v.Container(fluid=True, children=[passenger_tab.layout])],
+                        style_="background-color: white;",
+                    ),
+                    v.TabItem(
+                        children=[v.Container(fluid=True, children=[aeromaps_tab.layout])],
+                        style_="background-color: white;",
+                    ),
+                ],
+            )
+        elif aeroscope_data.type=='opensky':
+            countries_tab = CountriesTab(aeroscopedataclass=aeroscope_data)
+            detailled_tab = DetailledTab_OS(aeroscopedataclass=aeroscope_data)
+
+            self.tabs_layout = v.Tabs(
+                fixed_tabs=True,
+                background_color="#050A30",
+                children=[
+                    v.Tab(
+                        children=["Country Mode"],
+                        style_="color: white;",
+                        active_class="teal--text text--lighten-1",
+                    ),
+                    # Darken text color for active tab
+                    v.Tab(
+                        children=["Detailed Mode"],
+                        style_="color: white;",
+                        active_class="teal--text text--lighten-1",
+                    ),
+                    v.TabItem(
+                        children=[v.Container(fluid=True, children=[countries_tab.layout])],
+                        style_="background-color: white;",
+                    ),
+                    v.TabItem(
+                        children=[v.Container(fluid=True, children=[detailled_tab.layout])],
+                        style_="background-color: white;",
+                    ),
+                ],
+            )
+
+
