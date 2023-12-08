@@ -108,14 +108,6 @@ class UserInterface(v.Card):
                 na_values=["", "NaN"],
                 index_col=0,
             ),
-            flights_df_conti=pd.read_csv(
-                "./plot_files/flights_df_conti.zip",
-                compression="zip",
-                sep=",",
-                keep_default_na=False,
-                na_values=["", "NaN"],
-                index_col=0,
-            ),
             # read country level data
             country_flows=pd.read_csv(
                 "./plot_files/country_flows.csv",
@@ -169,14 +161,6 @@ class UserInterface(v.Card):
                 na_values=["", "NaN"],
                 index_col=0,
             ),
-            flights_df_conti=pd.read_csv(
-                "./plot_files_os/flights_df_conti.zip",
-                compression="zip",
-                sep=",",
-                keep_default_na=False,
-                na_values=["", "NaN"],
-                index_col=0,
-            ),
             # read country level data
             country_flows=pd.read_csv(
                 "./plot_files_os/country_flows.csv",
@@ -200,6 +184,7 @@ class UserInterface(v.Card):
                 keep_default_na=False,
                 na_values=["", "NaN"],
                 index_col=0,
+                low_memory=False #avoid mixed type warning. Fix the core Pb of unknown coordinates
             ),
             type='opensky'
         )

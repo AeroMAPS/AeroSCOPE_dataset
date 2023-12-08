@@ -61,7 +61,7 @@ class ContinentalTab:
 
         with self.output_3:
             fig_conti_3 = continental_level_plots.distance_histogramm_plot_continent(
-                dataclass.flights_df_conti, "CO2 (Mt)"
+                dataclass.flights_df, "CO2 (Mt)"
             )
             display(fig_conti_3)
 
@@ -75,8 +75,8 @@ class ContinentalTab:
         filtered_df = dataclass.continental_flows[
             dataclass.continental_flows["departure_continent"].isin(filtered_values)
         ].reset_index()
-        filtered_fl_df = dataclass.flights_df_conti[
-            dataclass.flights_df_conti["departure_continent"].isin(filtered_values)
+        filtered_fl_df = dataclass.flights_df[
+            dataclass.flights_df["departure_continent"].isin(filtered_values)
         ].reset_index()
 
         # continental_flows_non_dir[['AV1', 'AV2']] = continental_flows_non_dir['group_col'].copy().apply(lambda x: pd.Series(x))
