@@ -178,6 +178,7 @@ def distance_cumul_plot_country(flights_df):
 
     return fig
 
+
 def distance_cumul_plot_country_OS(flights_df):
     sns.set_style("darkgrid")
     # Create a new figure with a single subplot

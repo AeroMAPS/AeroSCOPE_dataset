@@ -735,6 +735,7 @@ class DetailledTab_OS:
     """
     Specific Opensky variant, too much cases with airport to do a common class with compiled
     """
+
     def __init__(self, aeroscopedataclass):
         self.in_class_flights_df = aeroscopedataclass.flights_df.copy()
 
@@ -910,9 +911,7 @@ class DetailledTab_OS:
             if "level_0" in self.in_class_flights_df.columns:
                 self.in_class_flights_df.drop("level_0", axis=1, inplace=True)
             self.in_class_flights_df = self.in_class_flights_df[
-                self.in_class_flights_df["origin"].isin(
-                    filtered_departure_airport
-                )
+                self.in_class_flights_df["origin"].isin(filtered_departure_airport)
             ].reset_index()
 
         # active arrival filter
@@ -972,9 +971,7 @@ class DetailledTab_OS:
             if "level_0" in self.in_class_flights_df.columns:
                 self.in_class_flights_df.drop("level_0", axis=1, inplace=True)
             self.in_class_flights_df = self.in_class_flights_df[
-                self.in_class_flights_df["origin"].isin(
-                    filtered_departure_airport
-                )
+                self.in_class_flights_df["origin"].isin(filtered_departure_airport)
             ].reset_index()
 
         # active arrival filter
@@ -1034,9 +1031,7 @@ class DetailledTab_OS:
             if "level_0" in self.in_class_flights_df.columns:
                 self.in_class_flights_df.drop("level_0", axis=1, inplace=True)
             self.in_class_flights_df = self.in_class_flights_df[
-                self.in_class_flights_df["origin"].isin(
-                    filtered_departure_airport
-                )
+                self.in_class_flights_df["origin"].isin(filtered_departure_airport)
             ].reset_index()
 
         # active arrival filter
@@ -1096,9 +1091,7 @@ class DetailledTab_OS:
             if "level_0" in self.in_class_flights_df.columns:
                 self.in_class_flights_df.drop("level_0", axis=1, inplace=True)
             self.in_class_flights_df = self.in_class_flights_df[
-                self.in_class_flights_df["origin"].isin(
-                    filtered_departure_airport
-                )
+                self.in_class_flights_df["origin"].isin(filtered_departure_airport)
             ].reset_index()
 
         # active arrival filter
@@ -1155,9 +1148,7 @@ class DetailledTab_OS:
                     # # grouping flighst on and OD basis, and concatenating airline and aircraft information
 
                     flights_df_od = (
-                        self.in_class_flights_df.groupby(
-                            ["origin", "dest"]
-                        )
+                        self.in_class_flights_df.groupby(["origin", "dest"])
                         .agg(
                             {
                                 "acft_icao": ", ".join,
@@ -1453,6 +1444,7 @@ class DetailledTab_OS:
         self.layout = v.Row(
             children=[col_selects_flights, v_divider, col_plots_flights]
         )
+
 
 # Function to remove duplicates from a comma-separated string
 def remove_duplicates(input_str):

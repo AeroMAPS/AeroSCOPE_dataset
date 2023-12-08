@@ -10,8 +10,6 @@ from passenger_front import PassengerTab
 from aeromaps_front import AeroMAPSTab
 
 
-
-
 # Create the layout
 v.theme.dark = False
 
@@ -132,7 +130,7 @@ class UserInterface(v.Card):
                 na_values=["", "NaN"],
                 index_col=0,
             ),
-            type='compilation'
+            type="compilation",
         )
 
     def load_opensky_data(self):
@@ -184,14 +182,13 @@ class UserInterface(v.Card):
                 keep_default_na=False,
                 na_values=["", "NaN"],
                 index_col=0,
-                low_memory=False #avoid mixed type warning. Fix the core Pb of unknown coordinates
+                low_memory=False,  # avoid mixed type warning. Fix the core Pb of unknown coordinates
             ),
-            type='opensky'
+            type="opensky",
         )
 
     def initialize_tabs(self, aeroscope_data):
-
-        if aeroscope_data.type=='compilation':
+        if aeroscope_data.type == "compilation":
             continental_tab = ContinentalTab(aeroscopedataclass=aeroscope_data)
             countries_tab = CountriesTab(aeroscopedataclass=aeroscope_data)
             detailled_tab = DetailledTab(aeroscopedataclass=aeroscope_data)
@@ -238,24 +235,32 @@ class UserInterface(v.Card):
                         style_="background-color: white;",
                     ),
                     v.TabItem(
-                        children=[v.Container(fluid=True, children=[countries_tab.layout])],
+                        children=[
+                            v.Container(fluid=True, children=[countries_tab.layout])
+                        ],
                         style_="background-color: white;",
                     ),
                     v.TabItem(
-                        children=[v.Container(fluid=True, children=[detailled_tab.layout])],
+                        children=[
+                            v.Container(fluid=True, children=[detailled_tab.layout])
+                        ],
                         style_="background-color: white;",
                     ),
                     v.TabItem(
-                        children=[v.Container(fluid=True, children=[passenger_tab.layout])],
+                        children=[
+                            v.Container(fluid=True, children=[passenger_tab.layout])
+                        ],
                         style_="background-color: white;",
                     ),
                     v.TabItem(
-                        children=[v.Container(fluid=True, children=[aeromaps_tab.layout])],
+                        children=[
+                            v.Container(fluid=True, children=[aeromaps_tab.layout])
+                        ],
                         style_="background-color: white;",
                     ),
                 ],
             )
-        elif aeroscope_data.type=='opensky':
+        elif aeroscope_data.type == "opensky":
             countries_tab = CountriesTab(aeroscopedataclass=aeroscope_data)
             detailled_tab = DetailledTab_OS(aeroscopedataclass=aeroscope_data)
 
@@ -275,14 +280,16 @@ class UserInterface(v.Card):
                         active_class="teal--text text--lighten-1",
                     ),
                     v.TabItem(
-                        children=[v.Container(fluid=True, children=[countries_tab.layout])],
+                        children=[
+                            v.Container(fluid=True, children=[countries_tab.layout])
+                        ],
                         style_="background-color: white;",
                     ),
                     v.TabItem(
-                        children=[v.Container(fluid=True, children=[detailled_tab.layout])],
+                        children=[
+                            v.Container(fluid=True, children=[detailled_tab.layout])
+                        ],
                         style_="background-color: white;",
                     ),
                 ],
             )
-
-

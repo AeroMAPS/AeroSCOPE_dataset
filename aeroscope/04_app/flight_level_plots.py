@@ -232,6 +232,7 @@ def flights_treemap_plot(flights_df, value_watched_flights):
 
     return fig
 
+
 def flights_treemap_plot_OS(flights_df, value_watched_flights):
     fig = px.treemap(
         flights_df,
@@ -342,6 +343,7 @@ def distance_cumul_plot_flights(flights_df):
 
     return fig
 
+
 def distance_cumul_plot_flights_OS(flights_df):
     sns.set_style("darkgrid")
     # Create a new figure with a single subplot
@@ -369,6 +371,7 @@ def distance_cumul_plot_flights_OS(flights_df):
     ax.set_ylabel("Cumulative distribution (%)")
 
     return fig
+
 
 def distance_share_flights(flights_df, value_watched_ctry):
     sns.set_style("darkgrid")

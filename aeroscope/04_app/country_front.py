@@ -32,7 +32,7 @@ class CountriesTab:
             class_="ma-2",
         )
 
-        if aeroscopedataclass.type=='compilation':
+        if aeroscopedataclass.type == "compilation":
             self.value_watched_radio = v.RadioGroup(
                 v_model="co2",  # Set the initial selected value here
                 row=True,
@@ -130,10 +130,10 @@ class CountriesTab:
         self.autocomplete.v_model = list()
 
     def _render_initial_plots(self, dataclass):
-        if dataclass.type=='compilation':
-            init_value='co2'
-        else: #OPENSKY
-            init_value='n_flights'
+        if dataclass.type == "compilation":
+            init_value = "co2"
+        else:  # OPENSKY
+            init_value = "n_flights"
         with self.output_1:
             fig_ctry_1 = country_level_plots.countries_global_plot(
                 dataclass.country_fixed, init_value
@@ -147,7 +147,9 @@ class CountriesTab:
             display(fig_ctry_2)
 
         with self.output_3:
-            fig_ctry_3 = country_level_plots.aircraft_pie(dataclass.flights_df, init_value)
+            fig_ctry_3 = country_level_plots.aircraft_pie(
+                dataclass.flights_df, init_value
+            )
             display(fig_ctry_3)
 
     # TODO like flight plot split updates between data and plot
@@ -206,11 +208,11 @@ class CountriesTab:
                     filtered_flights_df, value_watched_ctry
                 )
             elif active_analysis_graph_country == "ecdf":
-                if dataclass.type=='compilation':
+                if dataclass.type == "compilation":
                     fig_ctry_2 = country_level_plots.distance_cumul_plot_country(
                         filtered_flights_df
                     )
-                else: #OPENSKY
+                else:  # OPENSKY
                     fig_ctry_2 = country_level_plots.distance_cumul_plot_country_OS(
                         filtered_flights_df
                     )
