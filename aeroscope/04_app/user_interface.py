@@ -1,4 +1,6 @@
 from datetime import datetime
+
+import pandas as pd
 import ipyvuetify as v
 
 from continental_front import ContinentalTab
@@ -53,10 +55,17 @@ footer_layout = v.Footer(
 
 
 class UserInterface(v.Card):
-    def __init__(self, aeroscope_data, *args, **kwargs):
+    def __init__(self, use_opensky_data = False, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
-        self.initialize_tabs(aeroscope_data)
+        if use_opensky_data:
+            self.load_opensky_data()
+
+        else:
+            self.load_compiled_data()
+
+
+        self.initialize_tabs(self.data)
 
         self.children = [
             title_layout,
@@ -65,6 +74,76 @@ class UserInterface(v.Card):
             v.Divider(vertical=False),
             footer_layout,
         ]
+
+    def load_compiled_data(self):
+        #### Import various plot file. In case the source file is modified, please rerun preprocess.py ####
+
+        ### TODO mieux gérer
+        # import preprocess
+        # preprocess.preprocess(filename="../03_routes_schedule/data/final_16_11.csv")
+
+        from core import AeroscopeDataClass
+
+        self.data = AeroscopeDataClass(
+            # read continental level data
+            continental_flows=pd.read_csv(
+                "./plot_files/continental_flows.csv",
+                sep=",",
+                keep_default_na=False,
+                na_values=["", "NaN"],
+                index_col=0,
+            ),
+            continental_flows_non_dir=pd.read_csv(
+                "./plot_files/continental_flows_non_dir.csv",
+                sep=",",
+                keep_default_na=False,
+                na_values=["", "NaN"],
+                index_col=0,
+            ),
+            conti_scatter=pd.read_csv(
+                "./plot_files/conti_scatter.csv",
+                sep=",",
+                keep_default_na=False,
+                na_values=["", "NaN"],
+                index_col=0,
+            ),
+            flights_df_conti=pd.read_csv(
+                "./plot_files/flights_df_conti.zip",
+                compression="zip",
+                sep=",",
+                keep_default_na=False,
+                na_values=["", "NaN"],
+                index_col=0,
+            ),
+            # read country level data
+            country_flows=pd.read_csv(
+                "./plot_files/country_flows.csv",
+                sep=",",
+                keep_default_na=False,
+                na_values=["", "NaN"],
+                index_col=0,
+            ),
+            country_fixed=pd.read_csv(
+                "./plot_files/country_fixed.csv",
+                sep=",",
+                keep_default_na=False,
+                na_values=["", "NaN"],
+                index_col=0,
+            ),
+            # read flight_level_data
+            flights_df=pd.read_csv(
+                "./plot_files/flights_df.zip",
+                compression="zip",
+                sep=",",
+                keep_default_na=False,
+                na_values=["", "NaN"],
+                index_col=0,
+            ),
+        )
+
+    def laod_opensky_data(self):
+
+        pass
 
     def initialize_tabs(self, aeroscope_data):
 
