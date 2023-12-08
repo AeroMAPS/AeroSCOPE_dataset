@@ -11,7 +11,6 @@ from functools import partial
 
 class DetailledTab:
     def __init__(self, aeroscopedataclass):
-
         self.in_class_flights_df = aeroscopedataclass.flights_df.copy()
 
         ## define widgets
@@ -427,7 +426,6 @@ class DetailledTab:
         active_main_graph_flights = self.toggle_button_plot1.v_model
 
         if len(self.in_class_flights_df) < 20000:
-
             with self.output_1:
                 self.output_1.clear_output(wait=True)
                 if active_main_graph_flights == "map":

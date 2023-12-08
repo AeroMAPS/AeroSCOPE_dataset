@@ -7,7 +7,6 @@ import random
 
 
 def preprocess(filename="../03_routes_schedule/data/final_16_11.csv"):
-
     load_factor = 0.83
     flights_df = pd.read_csv(
         filename, keep_default_na=False, na_values=["", "NaN"], index_col=0

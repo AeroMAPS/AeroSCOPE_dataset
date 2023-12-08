@@ -7,7 +7,6 @@ import random
 
 
 def preprocess():
-
     load_factor = 0.83
     flights_df = pd.read_csv(
         "../04_bis_opensky_standalone/data/os_alone_test.csv",

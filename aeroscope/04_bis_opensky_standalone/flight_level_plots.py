@@ -273,7 +273,6 @@ def aircraft_pie_flights(flights_df, value_watched_flights):
 
 
 def aircraft_user_pie_flights(flights_df, value_watched_flights):
-
     top_airlines = (
         flights_df.groupby("airline_iata")[value_watched_flights].sum().nlargest(10)
     )

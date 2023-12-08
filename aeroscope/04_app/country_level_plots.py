@@ -19,7 +19,6 @@ def countries_map_plot(country_flows, value_watched_ctry):
     ][value_watched_ctry].mean()
 
     for i in range(len(country_flows)):
-
         if country_flows["departure_country"][i] == country_flows["arrival_country"][i]:
             color = "black"
         else:

@@ -15,7 +15,6 @@ import numpy as np
 
 class PassengerTab:
     def __init__(self, aeroscopedataclass):
-
         ## define widgets
 
         # Airport filter
