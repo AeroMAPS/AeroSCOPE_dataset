@@ -12,31 +12,32 @@ from functools import partial
 
 class ContinentalTab:
     def __init__(self, aeroscopedataclass):
-        self.select = v.Select(v_model=['AF', 'AS', 'EU', 'NA', 'SA', 'OC'],
-                               multiple=True,
-                               clearable=True,
-                               chips=True,
-                               items=[
-                                   {'label': 'Africa', 'value': 'AF'},
-                                   {'label': 'Asia', 'value': 'AS'},
-                                   {'label': 'Europe', 'value': 'EU'},
-                                   {'label': 'North America', 'value': 'NA'},
-                                   {'label': 'South America', 'value': 'SA'},
-                                   {'label': 'Oceania', 'value': 'OC'}
-                               ],
-                               item_text='label',
-                               item_value='value'
-                               )
+        self.select = v.Select(
+            v_model=["AF", "AS", "EU", "NA", "SA", "OC"],
+            multiple=True,
+            clearable=True,
+            chips=True,
+            items=[
+                {"label": "Africa", "value": "AF"},
+                {"label": "Asia", "value": "AS"},
+                {"label": "Europe", "value": "EU"},
+                {"label": "North America", "value": "NA"},
+                {"label": "South America", "value": "SA"},
+                {"label": "Oceania", "value": "OC"},
+            ],
+            item_text="label",
+            item_value="value",
+        )
 
         self.value_watched_radio = v.RadioGroup(
-            v_model='CO2 (Mt)',  # Set the initial selected value here
+            v_model="CO2 (Mt)",  # Set the initial selected value here
             row=True,
             children=[
-                v.Radio(label='CO\u2082', value='CO2 (Mt)'),
-                v.Radio(label='ASK', value='ASK (Bn)'),
-                v.Radio(label='SEATS', value='Seats (Mn)'),
+                v.Radio(label="CO\u2082", value="CO2 (Mt)"),
+                v.Radio(label="ASK", value="ASK (Bn)"),
+                v.Radio(label="SEATS", value="Seats (Mn)"),
             ],
-            class_='mb-3'
+            class_="mb-3",
         )
         self.output_1 = Output()
         self.output_2 = Output()
@@ -47,17 +48,21 @@ class ContinentalTab:
 
     def _render_initial_plots(self, dataclass):
         with self.output_1:
-            fig_conti_1 = continental_level_plots.continental_map_plot(dataclass.conti_scatter,
-                                                                       dataclass.continental_flows_non_dir, 'CO2 (Mt)')
+            fig_conti_1 = continental_level_plots.continental_map_plot(
+                dataclass.conti_scatter, dataclass.continental_flows_non_dir, "CO2 (Mt)"
+            )
             display(fig_conti_1)
 
         with self.output_2:
-            fig_conti_2 = continental_level_plots.continental_treemap_plot(dataclass.continental_flows, 'CO2 (Mt)')
+            fig_conti_2 = continental_level_plots.continental_treemap_plot(
+                dataclass.continental_flows, "CO2 (Mt)"
+            )
             display(fig_conti_2)
 
         with self.output_3:
-            fig_conti_3 = continental_level_plots.distance_histogramm_plot_continent(dataclass.flights_df_conti,
-                                                                                     'CO2 (Mt)')
+            fig_conti_3 = continental_level_plots.distance_histogramm_plot_continent(
+                dataclass.flights_df_conti, "CO2 (Mt)"
+            )
             display(fig_conti_3)
 
     def _plots_update(self, change, dataclass):
@@ -65,47 +70,59 @@ class ContinentalTab:
         value_watched_conti = self.value_watched_radio.v_model
 
         filtered_df_depart = dataclass.conti_scatter[
-            dataclass.conti_scatter['departure_continent'].isin(filtered_values)].reset_index()
+            dataclass.conti_scatter["departure_continent"].isin(filtered_values)
+        ].reset_index()
         filtered_df = dataclass.continental_flows[
-            dataclass.continental_flows['departure_continent'].isin(filtered_values)].reset_index()
+            dataclass.continental_flows["departure_continent"].isin(filtered_values)
+        ].reset_index()
         filtered_fl_df = dataclass.flights_df_conti[
-            dataclass.flights_df_conti['departure_continent'].isin(filtered_values)].reset_index()
+            dataclass.flights_df_conti["departure_continent"].isin(filtered_values)
+        ].reset_index()
 
         # continental_flows_non_dir[['AV1', 'AV2']] = continental_flows_non_dir['group_col'].copy().apply(lambda x: pd.Series(x))
         filtered_non_dir = dataclass.continental_flows_non_dir[
-            (dataclass.continental_flows_non_dir.AV1.isin(filtered_values)) | (
-                dataclass.continental_flows_non_dir.AV2.isin(filtered_values))].reset_index()
+            (dataclass.continental_flows_non_dir.AV1.isin(filtered_values))
+            | (dataclass.continental_flows_non_dir.AV2.isin(filtered_values))
+        ].reset_index()
 
         with self.output_1:
             self.output_1.clear_output(wait=True)
-            fig_conti_1 = continental_level_plots.continental_map_plot(filtered_df_depart, filtered_non_dir,
-                                                                       value_watched_conti)
+            fig_conti_1 = continental_level_plots.continental_map_plot(
+                filtered_df_depart, filtered_non_dir, value_watched_conti
+            )
             display(fig_conti_1)
 
         with self.output_2:
             self.output_2.clear_output(wait=True)
-            fig_conti_2 = continental_level_plots.continental_treemap_plot(filtered_df, value_watched_conti)
+            fig_conti_2 = continental_level_plots.continental_treemap_plot(
+                filtered_df, value_watched_conti
+            )
             display(fig_conti_2)
 
         with self.output_3:
             self.output_3.clear_output(wait=True)
-            fig_conti_3 = continental_level_plots.distance_histogramm_plot_continent(filtered_fl_df,
-                                                                                     value_watched_conti)
+            fig_conti_3 = continental_level_plots.distance_histogramm_plot_continent(
+                filtered_fl_df, value_watched_conti
+            )
             display(fig_conti_3)
 
     def _make_connections(self, dataclass):
         # # Connect the event handler to the controls
 
-        self.select.observe(partial(self._plots_update, dataclass=dataclass), names='v_model')
-        self.value_watched_radio.observe(partial(self._plots_update, dataclass=dataclass), names='v_model')
+        self.select.observe(
+            partial(self._plots_update, dataclass=dataclass), names="v_model"
+        )
+        self.value_watched_radio.observe(
+            partial(self._plots_update, dataclass=dataclass), names="v_model"
+        )
 
     def _make_layout(self):
         h_divider = v.Divider(vertical=False)
         v_divider = v.Divider(vertical=True)
         col_selects = v.Col(
-            justify='center',  # Center the components horizontally
+            justify="center",  # Center the components horizontally
             no_gutters=False,
-            cols='3',
+            cols="3",
             # class_='mb-4',  # Add margin at the bottom
             children=[
                 v.Row(
@@ -121,7 +138,7 @@ class ContinentalTab:
                                         self.value_watched_radio,
                                     ]
                                 ),
-                            ]
+                            ],
                         ),
                     ],
                 ),
@@ -135,11 +152,13 @@ class ContinentalTab:
                             children=[
                                 v.CardText(
                                     children=[
-                                        v.CardTitle(children="Select 'departure' continents"),
+                                        v.CardTitle(
+                                            children="Select 'departure' continents"
+                                        ),
                                         self.select,
                                     ]
                                 ),
-                            ]
+                            ],
                         ),
                     ],
                 ),
@@ -147,7 +166,7 @@ class ContinentalTab:
         )
 
         row_mega_map = v.Row(
-            justify='center',
+            justify="center",
             children=[
                 v.Flex(
                     md12=True,
@@ -159,14 +178,14 @@ class ContinentalTab:
                                     elevation=0,
                                     children=[
                                         v.CardText(
-                                            children=[self.output_1,
-                                                      ]
+                                            children=[
+                                                self.output_1,
+                                            ]
                                         ),
-
                                     ],
                                 ),
                             ],
-                            style_="max-width: 100%;"
+                            style_="max-width: 100%;",
                         ),
                     ],
                 ),
@@ -174,7 +193,7 @@ class ContinentalTab:
         )
 
         row_twoplots = v.Row(
-            justify='center',
+            justify="center",
             children=[
                 v.Flex(
                     lg6=True,
@@ -218,27 +237,26 @@ class ContinentalTab:
                 v.Card(
                     outlined=False,
                     elevation=0,
-                    style_='width: 100%',
+                    style_="width: 100%",
                     children=[
                         v.CardText(
                             children=[
-                                'Please wait for the plots to be rendered before changing the indicator or the continents. \n Doing so could break the process. \n If it happens please relaod the page.'],
+                                "Please wait for the plots to be rendered before changing the indicator or the continents. \n Doing so could break the process. \n If it happens please relaod the page."
+                            ],
                             class_="text-center teal--text darken-4",
-                            style_="font-size: 16px;"
+                            style_="font-size: 16px;",
                         ),
-                    ]
+                    ],
                 ),
             ],
         )
 
         col_plots = v.Col(
-            justify='center',  # Center the components horizontally
+            justify="center",  # Center the components horizontally
             no_gutters=False,
             # cols='10',
             # class_='mb-4',  # Add margin at the bottom
-            children=[
-                row_disclaimer_cty, row_mega_map, row_twoplots
-            ],
+            children=[row_disclaimer_cty, row_mega_map, row_twoplots],
         )
 
         self.layout = v.Row(children=[col_selects, v_divider, col_plots])
