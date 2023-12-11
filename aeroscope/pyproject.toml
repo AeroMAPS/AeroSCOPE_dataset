@@ -27,10 +27,13 @@ ipyvuetify = "^1.8.10"
 jupyterlab = "^3.6.1"
 voila =  "0.4.0"
 voila-vuetify = "0.6.0"
-openpyxl ="*"
-kaleido="*"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.lint.dependencies]
+black = { version = "21.9b0", extras = ["jupyter"], allow-prereleases = true } # if version is changed, please change it also in .pre-commit-config.yaml file.
+pylint = "*"
+click = "8.0.3"
