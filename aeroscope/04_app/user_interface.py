@@ -2,12 +2,14 @@ from datetime import datetime
 
 import pandas as pd
 import ipyvuetify as v
+from ipywidgets import Output, HTML
 
 from continental_front import ContinentalTab
 from country_front import CountriesTab
 from detailled_front import DetailledTab, DetailledTab_OS
 from passenger_front import PassengerTab
 from aeromaps_front import AeroMAPSTab
+from IPython.display import display
 
 
 # Create the layout
@@ -17,12 +19,28 @@ v_img = v.Img(cover=True, max_width="25%", src="logo/aeroscope.png", class_="mx-
 
 divider = v.Divider(vertical=True)
 
+
+source_radio = v.RadioGroup(
+            v_model='compilation',
+            label='Data source:',
+            class_="text-center mt-6",
+            row=True,
+            children=[
+                v.Radio(label='Compilation', value='compilation', mandatory=True),
+                v.Radio(label='OpenSky', value='opensky'),
+            ]
+        )
+
 title_layout = v.AppBar(
     app=True,
     color="white",
+    align_center=True,
     children=[
+        source_radio,
+        ### SPACER thing is very cheap, better way to center title???
         v.Spacer(),
         v.ToolbarTitle(children=[v_img]),
+        v.Spacer(),
         v.Spacer(),
         v.Btn(
             icon=True,
@@ -39,6 +57,7 @@ title_layout = v.AppBar(
     ],
 )
 
+
 footer_layout = v.Footer(
     class_=" text-center d-flex flex-column",
     style_="background-color: white;",
@@ -54,7 +73,7 @@ footer_layout = v.Footer(
 )
 
 
-class UserInterface(v.Card):
+class Simulator(v.Card):
     def __init__(self, use_opensky_data=False, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
@@ -67,11 +86,7 @@ class UserInterface(v.Card):
         self.initialize_tabs(self.data)
 
         self.children = [
-            title_layout,
-            v.Spacer(),
             self.tabs_layout,
-            v.Divider(vertical=False),
-            footer_layout,
         ]
 
     def load_compiled_data(self):
@@ -293,3 +308,54 @@ class UserInterface(v.Card):
                     ),
                 ],
             )
+
+
+
+class UserInterface():
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+        self.compiled_simulator = Simulator(
+            use_opensky_data=False,
+            class_="mt-9 pa-0",
+            # id='inspire',
+            style_="background-color: white; pa-0 ma-0;",  # Set the desired background color and padding here
+        )
+
+        self.opensky_simulator = Simulator(
+            use_opensky_data=True,
+            class_="mt-9 pa-0",
+            # id='inspire',
+            style_="background-color: white; pa-0 ma-0;",  # Set the desired background color and padding here
+        )
+        self.output_simulator = Output()
+        #
+        with self.output_simulator:
+            display(
+                self.compiled_simulator
+            )
+
+        self.app = v.App(
+            class_="mt-0 pa-0",
+            style_="background-color: white; pa-0 ma-0;",  # Set the desired background color and padding here
+            children=[
+                title_layout,
+                self.output_simulator,
+                v.Divider(vertical=False),
+                footer_layout]
+        )
+
+        source_radio.observe(self._select_mode, names='v_model')
+
+
+    def _select_mode(self, change=None):
+        with self.output_simulator:
+            source=source_radio.v_model
+            self.output_simulator.clear_output()
+            if source == "compilation":
+                display(self.compiled_simulator)
+            else:
+                display(self.opensky_simulator)
+
+
+
