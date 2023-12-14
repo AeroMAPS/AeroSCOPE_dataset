@@ -6,13 +6,14 @@ import pandas as pd
 import random
 
 
-def preprocess(filename="../03_routes_schedule/data/final_16_11.csv"):
+def preprocess(filename="../03_routes_schedule/data/final_12_12.csv"):
     load_factor = 0.83
     flights_df = pd.read_csv(
         filename, keep_default_na=False, na_values=["", "NaN"], index_col=0
     ).dropna(subset=["departure_lon", "arrival_lon"])
     flights_df["acft_icao"] = flights_df["acft_icao"].fillna("Unknown Aircraft")
     flights_df["airline_iata"] = flights_df["airline_iata"].fillna("Unknown Airline")
+    flights_df["acft_class"] = flights_df["acft_class"].fillna("Unknown Aircraft")
     flights_df["CO2 (Mt)"] = flights_df["co2"] / 1e9
     flights_df["ASK (Bn)"] = flights_df["ask"] / 1e9
     flights_df["Seats (Mn)"] = flights_df["seats"] / 1e6

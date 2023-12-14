@@ -21,15 +21,15 @@ divider = v.Divider(vertical=True)
 
 
 source_radio = v.RadioGroup(
-            v_model='compilation',
-            label='Data source:',
-            class_="text-center mt-6",
-            row=True,
-            children=[
-                v.Radio(label='Compilation', value='compilation', mandatory=True),
-                v.Radio(label='OpenSky', value='opensky'),
-            ]
-        )
+    v_model="compilation",
+    label="Data source:",
+    class_="text-center mt-6",
+    row=True,
+    children=[
+        v.Radio(label="Compilation", value="compilation", mandatory=True),
+        v.Radio(label="OpenSky", value="opensky"),
+    ],
+)
 
 title_layout = v.AppBar(
     app=True,
@@ -310,8 +310,7 @@ class Simulator(v.Card):
             )
 
 
-
-class UserInterface():
+class UserInterface:
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
@@ -331,9 +330,7 @@ class UserInterface():
         self.output_simulator = Output()
         #
         with self.output_simulator:
-            display(
-                self.compiled_simulator
-            )
+            display(self.compiled_simulator)
 
         self.app = v.App(
             class_="mt-0 pa-0",
@@ -342,20 +339,17 @@ class UserInterface():
                 title_layout,
                 self.output_simulator,
                 v.Divider(vertical=False),
-                footer_layout]
+                footer_layout,
+            ],
         )
 
-        source_radio.observe(self._select_mode, names='v_model')
-
+        source_radio.observe(self._select_mode, names="v_model")
 
     def _select_mode(self, change=None):
         with self.output_simulator:
-            source=source_radio.v_model
+            source = source_radio.v_model
             self.output_simulator.clear_output()
             if source == "compilation":
                 display(self.compiled_simulator)
             else:
                 display(self.opensky_simulator)
-
-
-
