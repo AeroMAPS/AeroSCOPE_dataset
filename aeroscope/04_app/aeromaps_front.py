@@ -952,7 +952,7 @@ class AeroMAPSTab:
             cols="12",
             children=[
                 v.CardTitle(
-                    children="Summary table for AeroMAPS sceanrio calibration",
+                    children="Summary table for AeroMAPS scenario calibration",
                     class_="text-h3 d-flex align-center justify-center",
                 ),
                 v.Row(

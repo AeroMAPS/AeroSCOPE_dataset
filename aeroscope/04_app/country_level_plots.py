@@ -331,7 +331,7 @@ def countries_treemap_plot(country_flows, value_watched_ctry):
 
 
 #### Deprecated version, too slow
-# def distance_histogramm_plot_country(flights_df, value_watched_ctry):
+# def distance_histogram_plot_country(flights_df, value_watched_ctry):
 #     fig = px.histogram(
 #         flights_df,
 #         x="distance_km",
@@ -367,7 +367,7 @@ def countries_treemap_plot(country_flows, value_watched_ctry):
 #     return fig
 
 
-def distance_histogramm_plot_country(flights_df, value_watched_ctry):
+def distance_histogram_plot_country(flights_df, value_watched_ctry):
     sns.set_style("darkgrid")
 
     fig, ax = plt.subplots(figsize=(10, 6))

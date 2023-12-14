@@ -267,7 +267,7 @@ def flights_treemap_plot_OS(flights_df, value_watched_flights):
     return fig
 
 
-def distance_histogramm_plot_flights(flights_df, value_watched_ctry):
+def distance_histogram_plot_flights(flights_df, value_watched_ctry):
     sns.set_style("darkgrid")
 
     fig, ax = plt.subplots(figsize=(10, 6.5))

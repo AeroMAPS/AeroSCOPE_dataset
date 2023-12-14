@@ -66,7 +66,7 @@ class CountriesTab:
         self.toggle_button_plot2 = v.BtnToggle(
             v_model="hist",
             children=[
-                v.Btn(value="hist", children=["Histogramm"]),
+                v.Btn(value="hist", children=["Histogram"]),
                 v.Btn(value="ecdf", children=["Cumulative"]),
                 v.Btn(value="kde_acft", children=["Aircraft type"]),
                 v.Btn(value="kde_dom", children=["Flight Type"]),
@@ -141,7 +141,7 @@ class CountriesTab:
             display(fig_ctry_1)
 
         with self.output_2:
-            fig_ctry_2 = country_level_plots.distance_histogramm_plot_country(
+            fig_ctry_2 = country_level_plots.distance_histogram_plot_country(
                 dataclass.flights_df, init_value
             )
             display(fig_ctry_2)
@@ -204,7 +204,7 @@ class CountriesTab:
         with self.output_2:
             self.output_2.clear_output(wait=True)
             if active_analysis_graph_country == "hist":
-                fig_ctry_2 = country_level_plots.distance_histogramm_plot_country(
+                fig_ctry_2 = country_level_plots.distance_histogram_plot_country(
                     filtered_flights_df, value_watched_ctry
                 )
             elif active_analysis_graph_country == "ecdf":

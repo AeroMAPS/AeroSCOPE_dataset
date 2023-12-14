@@ -60,7 +60,7 @@ class ContinentalTab:
             display(fig_conti_2)
 
         with self.output_3:
-            fig_conti_3 = continental_level_plots.distance_histogramm_plot_continent(
+            fig_conti_3 = continental_level_plots.distance_histogram_plot_continent(
                 dataclass.flights_df, "CO2 (Mt)"
             )
             display(fig_conti_3)
@@ -101,7 +101,7 @@ class ContinentalTab:
 
         with self.output_3:
             self.output_3.clear_output(wait=True)
-            fig_conti_3 = continental_level_plots.distance_histogramm_plot_continent(
+            fig_conti_3 = continental_level_plots.distance_histogram_plot_continent(
                 filtered_fl_df, value_watched_conti
             )
             display(fig_conti_3)

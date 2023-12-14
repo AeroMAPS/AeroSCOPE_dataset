@@ -87,7 +87,7 @@ class DetailledTab:
         self.toggle_button_plot2 = v.BtnToggle(
             v_model="hist",
             children=[
-                v.Btn(value="hist", children=["Histogramm"]),
+                v.Btn(value="hist", children=["Histogram"]),
                 v.Btn(value="ecdf", children=["Cumulative"]),
                 v.Btn(value="kde_acft", children=["Aircraft type"]),
                 v.Btn(value="kde_dom", children=["Flight Type"]),
@@ -162,7 +162,7 @@ class DetailledTab:
             print("Too much data selected for flight map rendering")
 
         with self.output_2:
-            fig_flights_2 = flight_level_plots.distance_histogramm_plot_flights(
+            fig_flights_2 = flight_level_plots.distance_histogram_plot_flights(
                 dataclass.flights_df, "co2"
             )
             display(fig_flights_2)
@@ -480,7 +480,7 @@ class DetailledTab:
         with self.output_2:
             self.output_2.clear_output(wait=True)
             if active_analysis_graph_flights == "hist":
-                fig_flights_2 = flight_level_plots.distance_histogramm_plot_flights(
+                fig_flights_2 = flight_level_plots.distance_histogram_plot_flights(
                     self.in_class_flights_df, value_watched_flights
                 )
             elif active_analysis_graph_flights == "ecdf":
@@ -811,7 +811,7 @@ class DetailledTab_OS:
         self.toggle_button_plot2 = v.BtnToggle(
             v_model="hist",
             children=[
-                v.Btn(value="hist", children=["Histogramm"]),
+                v.Btn(value="hist", children=["Histogram"]),
                 v.Btn(value="ecdf", children=["Cumulative"]),
                 v.Btn(value="kde_acft", children=["Aircraft type"]),
                 v.Btn(value="kde_dom", children=["Flight Type"]),
@@ -886,7 +886,7 @@ class DetailledTab_OS:
             print("Too much data selected for flight map rendering")
 
         with self.output_2:
-            fig_flights_2 = flight_level_plots.distance_histogramm_plot_flights(
+            fig_flights_2 = flight_level_plots.distance_histogram_plot_flights(
                 dataclass.flights_df, "n_flights"
             )
             display(fig_flights_2)
@@ -1195,7 +1195,7 @@ class DetailledTab_OS:
         with self.output_2:
             self.output_2.clear_output(wait=True)
             if active_analysis_graph_flights == "hist":
-                fig_flights_2 = flight_level_plots.distance_histogramm_plot_flights(
+                fig_flights_2 = flight_level_plots.distance_histogram_plot_flights(
                     self.in_class_flights_df, value_watched_flights
                 )
             elif active_analysis_graph_flights == "ecdf":

@@ -76,7 +76,7 @@ def continental_treemap_plot(continental_flows, value_watched_conti):
 
 ### plotly histogramm deprecated, too slow
 
-# def distance_histogramm_plot_continent(flights_df_conti, value_watched_conti):
+# def distance_histogram_plot_continent(flights_df_conti, value_watched_conti):
 #     if len(flights_df_conti)>0:
 #         fig = px.histogram(
 #             flights_df_conti,
@@ -129,7 +129,7 @@ def continental_treemap_plot(continental_flows, value_watched_conti):
 #         return('Please select at least one continent!')
 
 
-def distance_histogramm_plot_continent(flights_df_conti, value_watched_conti):
+def distance_histogram_plot_continent(flights_df_conti, value_watched_conti):
     plt.ioff()
     if len(flights_df_conti) > 0:
         sns.set_style("darkgrid")
