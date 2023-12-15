@@ -304,9 +304,6 @@ def preprocess(filename="../03_routes_schedule/data/final_12_12.csv"):
     continental_flows.to_csv("./plot_files/continental_flows.csv")
     continental_flows_non_dir.to_csv("./plot_files/continental_flows_non_dir.csv")
     conti_scatter.to_csv("./plot_files/conti_scatter.csv")
-    flights_df_conti.to_csv(
-        "./plot_files/flights_df_conti.zip", compression="zip"
-    )  # Remove? Note usefull, same use as flightsdf afterwards !
 
     # save country level data
     country_flows.to_csv("./plot_files/country_flows.csv")

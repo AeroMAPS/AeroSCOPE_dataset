@@ -2,7 +2,7 @@ from datetime import datetime
 
 import pandas as pd
 import ipyvuetify as v
-from ipywidgets import Output, HTML
+from ipywidgets import Output
 
 from continental_front import ContinentalTab
 from country_front import CountriesTab
