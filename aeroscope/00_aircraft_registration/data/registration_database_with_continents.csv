@@ -1,0 +1,241 @@
+,Registration prefix,Country,Continents
+0,YA,Afghanistan,Asia
+1,ZA,Albania,Europe
+2,7T,Algeria,Africa
+3,C3,Andorra,Europe
+4,D2,Angola,Africa
+5,VP-A,Anguilla,North America
+6,V2,Antigua and Barbuda,North America
+7,LV,Argentina,South America
+8,LQ,Argentina,South America
+9,EK,Armenia,Asia
+10,P4,Aruba,South America
+11,VH,Australia,Oceania
+12,OE,Austria,Europe
+13,4K,Azerbaijan,Asia
+14,C6,Bahamas,North America
+15,A9C,Bahrain,Asia
+16,S2,Bangladesh,Asia
+17,8P,Barbados,North America
+18,EW,Belarus,Europe
+19,OO,Belgium,Europe
+20,V3,Belize,North America
+21,TY,Benin,Africa
+22,VP-B,Bermuda,North America
+23,VQ-B,Bermuda,North America
+24,A5,Bhutan,Asia
+25,CP,Bolivia,South America
+26,E7,Bosnia and Herzegovina,Europe
+27,A2,Botswana,Africa
+28,PP,Brazil,South America
+29,PR,Brazil,South America
+30,PS,Brazil,South America
+31,PT,Brazil,South America
+32,PU,Brazil,South America
+33,VP-L,British Virgin Islands,North America
+34,V8,Brunei,Asia
+35,LZ,Bulgaria,Europe
+36,XT,Burkina Faso,Africa
+37,9U,Burundi,Africa
+38,XU,Cambodia,Asia
+39,TJ,Cameroon,Africa
+40,C,Canada,North America
+41,D4,Cape Verde,Africa
+42,VP-C,Cayman Islands,North America
+43,VQ-C,Cayman Islands,North America
+44,TL,Central African Republic,Africa
+45,TT,Chad,Africa
+46,CC,Chile,South America
+47,B,Taiwan,Asia
+48,HJ,Colombia,South America
+49,HK,Colombia,South America
+50,D6,Comoros,Africa
+51,TN,Congo - Republic of,Africa
+52,9S,Congo - Democratic Republic of,Africa
+53,9T,Congo - Democratic Republic of,Africa
+54,E5,Cook Islands,Oceania
+55,TI,Costa Rica,North America
+56,9A,Croatia,Europe
+57,CU,Cuba,North America
+58,5B,Cyprus,Europe
+59,OK,Czech Republic,Europe
+60,OY,Denmark,Europe
+61,J2,Djibouti,Africa
+62,J7,Dominica,North America
+63,HI,Dominican Republic,North America
+64,4W,East Timor,Asia
+65,HC,Ecuador,South America
+66,SU,Egypt,Africa
+67,YS,El Salvador,North America
+68,3C,Equatorial Guinea,Africa
+69,E3,Eritrea,Africa
+70,ES,Estonia,Europe
+71,3DC,Eswatini,Africa
+72,ET,Ethiopia,Africa
+73,VP-F,Falkland Islands,South America
+74,DQ,Fiji,Oceania
+75,OH,Finland,Europe
+76,F,France,Europe
+77,F-O,Réunion,Africa
+78,TR,Gabon,Africa
+79,C5,Gambia,Africa
+80,4L,Georgia,Europe
+81,D,Germany,Europe
+82,9G,Ghana,Africa
+83,9GR,Ghana,Africa
+84,VP-G,Gibraltar,Europe
+85,SX,Greece,Europe
+86,J3,Grenada,North America
+87,TG,Guatemala,North America
+88,2,Guernsey,Europe
+89,3X,Guinea,Africa
+90,J5,Guinea-Bissau,Africa
+91,8R,Guyana,South America
+92,HH,Haiti,North America
+93,HR,Honduras,North America
+94,B-H,Hong Kong,Asia
+95,B-K,Hong Kong,Asia
+96,B-L,Hong Kong,Asia
+97,HA,Hungary,Europe
+98,TF,Iceland,Europe
+99,VT,India,Asia
+100,PK,Indonesia,Asia
+101,EP,Iran,Asia
+102,YI,Iraq,Asia
+103,EI,Ireland,Europe
+104,EJ,Ireland,Europe
+105,M,Isle of Man,Europe
+106,4X,Israel,Asia
+107,I,Italy,Europe
+108,TU,Ivory Coast,Africa
+109,6Y,Jamaica,North America
+110,JA,Japan,Asia
+111,ZJ,Jersey,Europe
+112,JY,Jordan,Asia
+113,4YB,Jordan,Asia
+114,UP,Kazakhstan,Asia
+115,5Y,Kenya,Africa
+116,T3,Kiribati,Oceania
+117,Z6,Kosovo,Europe
+118,9K,Kuwait,Asia
+119,EX,Kyrgyzstan,Asia
+120,RDPL,Laos,Asia
+121,YL,Latvia,Europe
+122,OD,Lebanon,Asia
+123,7P,Lesotho,Africa
+124,A8,Liberia,Africa
+125,5A,Libya,Africa
+126,HB,Switzerland,Europe
+127,LY,Lithuania,Europe
+128,LX,Luxembourg,Europe
+129,B-M,Macau,Asia
+130,5R,Madagascar,Africa
+131,7Q,Malawi,Africa
+132,9M,Malaysia,Asia
+133,8Q,Maldives,Asia
+134,TZ,Mali,Africa
+135,9H,Malta,Europe
+136,V7,Marshall Islands,Oceania
+137,5T,Mauritania,Africa
+138,3B,Mauritius,Africa
+139,XA,Mexico,North America
+140,XB,Mexico,North America
+141,XC,Mexico,North America
+142,V6,Micronesia,Oceania
+143,ER,Moldova,Europe
+144,3A,Monaco,Europe
+145,JU,Mongolia,Asia
+146,4O,Montenegro,Europe
+147,VP-M,Montserrat,North America
+148,CN,Morocco,Africa
+149,C9,Mozambique,Africa
+150,XY,Myanmar,Asia
+151,XZ,Myanmar,Asia
+152,V5,Namibia,Africa
+153,C2,Nauru,Oceania
+154,9N,Nepal,Asia
+155,PH,Netherlands,Europe
+156,PJ,Netherlands Antilles,North America
+157,ZK,New Zealand,Oceania
+158,ZL,New Zealand,Oceania
+159,ZM,New Zealand,Oceania
+160,YN,Nicaragua,North America
+161,5U,Niger,Africa
+162,5N,Nigeria,Africa
+163,P,North Korea,Asia
+164,Z3,North Macedonia,Europe
+165,LN,Norway,Europe
+166,A4O,Oman,Asia
+167,AP,Pakistan,Asia
+168,SU-Y,Palestine,Asia
+169,E4,Palestine,Asia
+170,HP,Panama,North America
+171,P2,Papua New Guinea,Oceania
+172,ZP,Paraguay,South America
+173,OB,Peru,South America
+174,RP,Philippines,Asia
+175,SP,Poland,Europe
+176,SN,Poland,Europe
+177,CR,Portugal,Europe
+178,CS,Portugal,Europe
+179,A7,Qatar,Asia
+180,YR,Romania,Europe
+181,RA,Russia,Europe
+182,RF,Russia,Europe
+183,9XR,Rwanda,Africa
+184,VQ-H,Saint Helena/Ascension,Africa
+185,V4,Saint Kitts and Nevis,North America
+186,J6,Saint Lucia,North America
+187,J8,Saint Vincent and the Grenadines,North America
+188,5W,Samoa,Oceania
+189,T7,San Marino,Europe
+190,S9,São Tomé and Príncipe,Africa
+191,HZ,Saudi Arabia,Asia
+192,6V,Senegal,Africa
+193,6W,Senegal,Africa
+194,YU,Serbia,Europe
+195,S7,Seychelles,Africa
+196,9L,Sierra Leone,Africa
+197,9V,Singapore,Asia
+198,OM,Slovakia,Europe
+199,S5,Slovenia,Europe
+200,H4,Solomon Islands,Oceania
+201,6O,Somalia,Africa
+202,ZS,South Africa,Africa
+203,ZT,South Africa,Africa
+204,ZU,South Africa,Africa
+205,HL,South Korea,Asia
+206,Z8,South Sudan,Africa
+207,EC,Spain,Europe
+208,EM,Spain,Europe
+209,4R,Sri Lanka,Asia
+210,ST,Sudan,Africa
+211,PZ,Suriname,South America
+212,SE,Sweden,Europe
+213,YK,Syria,Asia
+214,EY,Tajikistan,Asia
+215,5H,Tanzania,Africa
+216,HS,Thailand,Asia
+217,5V,Togo,Africa
+218,A3,Tonga,Oceania
+219,9Y,Trinidad and Tobago,North America
+220,TS,Tunisia,Africa
+221,TC,Turkey,Europe
+222,EZ,Turkmenistan,Asia
+223,VQ-T,Turks and Caicos,North America
+224,T2,Tuvalu,Oceania
+225,5X,Uganda,Africa
+226,UR,Ukraine,Europe
+227,A6,United Arab Emirates,Asia
+228,DU,United Arab Emirates,Asia
+229,G,United Kingdom,Europe
+230,4U,United Nations,International
+231,N,United States,North America
+232,CX,Uruguay,South America
+233,UK,Uzbekistan,Asia
+234,YJ,Vanuatu,Oceania
+235,YV,Venezuela,South America
+236,VN,Vietnam,Asia
+237,7O,Yemen,Asia
+238,9J,Zambia,Africa
+239,Z,Zimbabwe,Africa

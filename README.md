@@ -7,13 +7,14 @@
 AeroSCOPE is a project that aims to bring together various open data sources on air transport in order to better understand the geographical distribution of air transport.
 More details on data collection and compilation can be found in the article accompanying this work: https://journals.open.tudelft.nl/joas/article/view/7201
 
-AeroSCOPE is licensed under the [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
+AeroSCOPE is licensed under the [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) license.  
+*Please contact us if your use case of the dataset it outside the academic framework: Although all sources used are open to everyone, the Eurocontrol database is only freely available to academic researchers. It is used in this dataset in a very aggregated way and under several levels of abstraction. As a result, it is not distributed in its original format as specified in the contract of use. As a general rule, we decline any responsibility for any use that is contrary to the terms and conditions of the various sources that are used. In case of commercial use of the database, please contact us in advance.*
 
 
 ## Setup
 
 It is suggested to use a new [conda](https://docs.conda.io/en/latest/miniconda.html) virtual environment to install the required packages.
-Python 3.10 is recommended, altough older versions may work.
+Python 3.10 is recommended, although older versions may work.
 
 In the new virtual environment, navigate to the project folder. Most installations are done using poetry, except for poetry itself, which can be installed using pip or conda.
 
@@ -40,11 +41,11 @@ It is then analysed and can be explored using a simple user interface.
 ### Simple usage
 
 __Raw database csv file:__ 
-The last version of the processed database is stored at [Final Dataset](https://github.com/AeroMAPS/AeroSCOPE/tree/main/aeroscope/03_routes_schedule/data/final_26_09.csv). 
-Be sure to replace default NaN (such as 'NA') when reading the csv, to avoid mistakingly consider North America and Namibia codes as NaN.
+_**The last version of the processed database is stored on zenodo under the following doi: [10.5281/zenodo.10143773](). Make sure to download v1.0.1.**_  
+Be sure to replace default NaN (such as 'NA') when reading the csv, to avoid mistakingly considering North America and Namibia codes as NaN.
 
 __AeroSCOPE app:__
-To run the simple web app designed to explore the data, one can either visit www.aeromaps.eu/aeroscope or navigate to the 04_app folder using a terminal and run the app using voila.
+To run the simple web app designed to explore the data, one can either visit www.aeromaps.eu/aeroscope (soon) or navigate to the 04_app folder using a terminal and run the app using voila.
 
 ```bash
 cd (path to 04_app) 
