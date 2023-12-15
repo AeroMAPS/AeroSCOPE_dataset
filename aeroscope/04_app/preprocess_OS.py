@@ -6,10 +6,10 @@ import pandas as pd
 import random
 
 
-def preprocess():
+def preprocess(filename="../01_to_03_bis_opensky_only/data/os_alone_test.csv"):
     load_factor = 0.83
     flights_df = pd.read_csv(
-        "../01_to_03_bis_opensky_only/data/os_alone_test.csv",
+        filename,
         keep_default_na=False,
         na_values=["", "NaN"],
         index_col=0,
