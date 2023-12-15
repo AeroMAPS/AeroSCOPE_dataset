@@ -11,3 +11,10 @@
 /aeroscope/02_airport_features/data/kontur_population.gpkg
 /aeroscope/02_airport_features/data/kontour_400.csv
 /aeroscope/03_routes_schedule/data/ectrl_to_prod_ipynb.csv
+
+# Temporary and binary files
+*.pyc
+__pycache__/*
+
+# Build and docs folder/files
+.idea/*
