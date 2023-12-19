@@ -11,7 +11,7 @@ AeroSCOPE is licensed under the [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.e
 *Please contact us if your use case of the dataset it outside the academic framework: Although all sources used are open to everyone, the Eurocontrol database is only freely available to academic researchers. It is used in this dataset in a very aggregated way and under several levels of abstraction. As a result, it is not distributed in its original format as specified in the contract of use. As a general rule, we decline any responsibility for any use that is contrary to the terms and conditions of the various sources that are used. In case of commercial use of the database, please contact us in advance.*
 
 
-## Setup
+## Setup - full code
 
 It is suggested to use a new [conda](https://docs.conda.io/en/latest/miniconda.html) virtual environment to install the required packages.
 Python 3.10 is recommended, although older versions may work.
@@ -28,8 +28,8 @@ poetry install
 ## Usage
 AeroSCOPE can be used in two different ways.
 
-* Simple usage: just to use the graphical interface or to download the final database, no external input is required.
-* Advanced usage: to run all data collection and processing notebooks. External data inputs that are too large to be stored on git or whose distribution is restricted are required.
+* Simple usage: just to use the graphical interface or to download the final database, no external input is required. This mode is described in this mode is described in https://github.com/AeroMAPS/AeroSCOPE_dataset. 
+* Advanced usage: to run all data collection and processing notebooks. External data inputs that are too large to be stored on git or whose distribution is restricted are required. The previous GUI is used as a package in this "advanced" mode.
 
 Please read the dedicated paper to understand the global data collection and aggregation process.  
 The idea behind the project is to collect all open source air traffic data to build an extended air traffic route database for a given year, 2019.  
@@ -40,16 +40,16 @@ It is then analysed and can be explored using a simple user interface.
 
 ### Simple usage
 
-__Raw database csv file:__ 
-_**The last version of the processed database is stored on zenodo under the following doi: [10.5281/zenodo.10143773](). Make sure to download v1.0.1.**_  
-Be sure to replace default NaN (such as 'NA') when reading the csv, to avoid mistakingly considering North America and Namibia codes as NaN.
-
 __AeroSCOPE app:__
-To run the simple web app designed to explore the data, one can either visit www.aeromaps.eu/aeroscope (soon) or navigate to the 04_app folder using a terminal and run the app using voila.
+To run the simple web app designed to explore the data, one can either visit www.aeromaps.eu/aeroscope (soon) or navigate to the 04_app folder using a terminal and run the app using voila. (TO UPDATE)
+
+__Raw database csv file:__ 
+_**If you simply want to access the compiled database; The last version of the processed database is stored on zenodo under the following doi: [10.5281/zenodo.10143773](). Make sure to download v1.0.1.**_  
+Be sure to replace default NaN (such as 'NA') when reading the csv, to avoid mistakingly considering North America and Namibia codes as NaN.
 
 ```bash
 cd (path to 04_app) 
-voila AeroSCOPE.ipynb
+voila AeroSCOPE.ipynb 
 ```
 
 ### Adavanced usage
@@ -77,7 +77,7 @@ Most input files are included in the repository, excepted:
 - [03_routes_product.ipynb](https://github.com/AeroMAPS/AeroSCOPE/tree/main/aeroscope/03_routes_schedule/03_routes_product.ipynb) is the 'production' dataset creation notebook. It is similar in many ways to the first notebook of the folder but follows a different aggregation logic (not built on wikipedia database anymore). Airport passenger traffic information is used to scale estimated routes to minimize airport-level error.
 - [04_final_testing.ipynb](https://github.com/AeroMAPS/AeroSCOPE/tree/main/aeroscope/03_routes_schedule/04_final_testing.ipynb) is used to perform tests at different levels (airport, route, country, flows), using various comparison sources detailled in the notebook. **Do not run this notebook withouth having OAG data. The dataset evaluation is presented as the notebbok output. Running it would clear those outputs.**
 
-The fourth folder ([04_app](https://github.com/AeroMAPS/AeroSCOPE/tree/main/aeroscope/04_app)) contains the app notebook, that **is designed to run with *voila*, not as a standard notebook**. Several .py files used for plots. The preprocess.py file should be run if the source file is modified to adequately modify the processd data storage file , used for a faster *voila* execution.
+The fourth folder ([04_app](https://github.com/AeroMAPS/AeroSCOPE/tree/main/aeroscope/04_app)) contains the app notebook, that **is designed to run with *voila*, not as a standard notebook**. Several .py files used for plots. The preprocess.py file should be run if the source file is modified to adequately modify the processd data storage file , used for a faster *voila* execution. (TO UPDATE once package deployed)
   
 ## Authors
 
