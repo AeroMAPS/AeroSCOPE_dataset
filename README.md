@@ -28,7 +28,7 @@ poetry install
 ## Usage
 AeroSCOPE can be used in two different ways.
 
-* Simple usage: just to use the graphical interface or to download the final database, no external input is required. This mode is described in this mode is described in https://github.com/AeroMAPS/AeroSCOPE_dataset. 
+* Simple usage: just to use the graphical interface or to download the final database, no external input is required. This mode is described in this mode is described in https://github.com/AeroMAPS/AeroSCOPE. 
 * Advanced usage: to run all data collection and processing notebooks. External data inputs that are too large to be stored on git or whose distribution is restricted are required. The previous GUI is used as a package in this "advanced" mode.
 
 Please read the dedicated paper to understand the global data collection and aggregation process.  
