@@ -6,7 +6,7 @@ import pandas as pd
 import random
 
 
-def preprocess(filename="../01_to_03_bis_opensky_only/data/os_alone_test.csv"):
+def preprocess(filename="../01_to_03_bis_opensky_only/data/os_alone.csv"):
     load_factor = 0.83
     flights_df = pd.read_csv(
         filename,
@@ -153,8 +153,8 @@ def preprocess(filename="../01_to_03_bis_opensky_only/data/os_alone_test.csv"):
         "SA": {"lat": -21.0002179, "lon": -61.0006565},
         "OC": {"lat": -12.7725835, "lon": 173.7741688},
         "AN": {"lat": -79.4063075, "lon": 0.3149312},
-        "Unknown Destination": {"lat": -44, "lon": 69},
-        "Unknown Origin": {"lat": -44, "lon": 79},
+        "Unknown": {"lat": -44, "lon": 69},
+        "Unknown": {"lat": -44, "lon": 79},
     }
 
     continental_flows["dep_lon"] = continental_flows.apply(
