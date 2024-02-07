@@ -123,9 +123,9 @@ def sample_plane_owner(
                 ] += country_of_registration_with_count[country]
 
             else:
-                continent_of_registration_with_count[
-                    continent
-                ] = country_of_registration_with_count[country]
+                continent_of_registration_with_count[continent] = (
+                    country_of_registration_with_count[country]
+                )
 
         return continent_of_registration_with_count
 

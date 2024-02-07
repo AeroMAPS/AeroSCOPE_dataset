@@ -71,18 +71,18 @@ if __name__ == "__main__":
         # Most simple case, there is only one registration in the cell, this can be checked by
         # seeing whether or not there is a space in the cell
         if len(curated_registration_prefix.split(" ")) == 1:
-            combination_dict[
-                curated_registration_prefix.replace("\n", "")
-            ] = country_name
+            combination_dict[curated_registration_prefix.replace("\n", "")] = (
+                country_name
+            )
             treated_line += 1
 
         else:
             # Now we treat the case where there are multiple prefix separated with commas
             if len(curated_registration_prefix.split(",")) != 1:
                 for prefix in curated_registration_prefix.split(","):
-                    combination_dict[
-                        prefix.replace(" ", "").replace("\n", "")
-                    ] = country_name
+                    combination_dict[prefix.replace(" ", "").replace("\n", "")] = (
+                        country_name
+                    )
                 treated_line += 1
 
             # There are also cases where we have a "See [Country]" which we will not treat as
@@ -93,9 +93,9 @@ if __name__ == "__main__":
                 treated_line += 1
 
             elif len(curated_registration_prefix.split(" - ")) != 1:
-                combination_dict[
-                    curated_registration_prefix.split(" - ")[0]
-                ] = country_name
+                combination_dict[curated_registration_prefix.split(" - ")[0]] = (
+                    country_name
+                )
                 treated_line += 1
 
     # We now have a curated dictionary where each entry is a prefix which we can associate a
