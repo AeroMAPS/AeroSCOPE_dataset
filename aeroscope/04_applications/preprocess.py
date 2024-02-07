@@ -11,13 +11,15 @@ def preprocess(filename="../03_routes_schedule/data/final_12_12.csv"):
     flights_df = pd.read_csv(
         filename, keep_default_na=False, na_values=["", "NaN"], index_col=0
     ).dropna(subset=["departure_lon", "arrival_lon"])
+
+    flights_df.rename(columns={'co2':'CO2 (kg)', 'seats':'Seats', 'ask': 'ASK'}, inplace=True)
     flights_df["acft_icao"] = flights_df["acft_icao"].fillna("Unknown Aircraft")
     flights_df["airline_iata"] = flights_df["airline_iata"].fillna("Unknown Airline")
     flights_df["acft_class"] = flights_df["acft_class"].fillna("Unknown Aircraft")
-    flights_df["CO2 (Mt)"] = flights_df["co2"] / 1e9
-    flights_df["ASK (Bn)"] = flights_df["ask"] / 1e9
-    flights_df["Seats (Mn)"] = flights_df["seats"] / 1e6
-    flights_df["CO2 Ppax"] = flights_df["co2"] / (flights_df["seats"] * load_factor)
+    flights_df["CO2 (Mt)"] = flights_df["CO2 (kg)"] / 1e9
+    flights_df["ASK (Bn)"] = flights_df["ASK"] / 1e9
+    flights_df["Seats (Mn)"] = flights_df["Seats"] / 1e6
+    flights_df["CO2 Ppax"] = flights_df["CO2 (kg)"] / (flights_df["Seats"] * load_factor)
 
     ### Aestethics
     continent_codes = {
@@ -107,7 +109,7 @@ def preprocess(filename="../03_routes_schedule/data/final_12_12.csv"):
                 "arrival_continent",
                 "arrival_continent_name",
             ]
-        )[["seats", "ask", "fuel_burn", "co2", "CO2 (Mt)", "ASK (Bn)", "Seats (Mn)"]]
+        )[["Seats", "ASK", "fuel_burn", "CO2 (kg)", "CO2 (Mt)", "ASK (Bn)", "Seats (Mn)"]]
         .sum()
         .reset_index()
     )
@@ -115,7 +117,7 @@ def preprocess(filename="../03_routes_schedule/data/final_12_12.csv"):
     # Groupping flights without the directions
     continental_flows_non_dir = (
         flights_df_conti.groupby(["group_col"])[
-            ["seats", "ask", "fuel_burn", "co2", "CO2 (Mt)", "ASK (Bn)", "Seats (Mn)"]
+            ["Seats", "ASK", "fuel_burn", "CO2 (kg)", "CO2 (Mt)", "ASK (Bn)", "Seats (Mn)"]
         ]
         .sum()
         .reset_index()
@@ -176,7 +178,7 @@ def preprocess(filename="../03_routes_schedule/data/final_12_12.csv"):
                 "dep_lon",
                 "dep_lat",
             ]
-        )[["seats", "ask", "fuel_burn", "co2", "CO2 (Mt)", "ASK (Bn)", "Seats (Mn)"]]
+        )[["Seats", "ASK", "fuel_burn", "CO2 (kg)", "CO2 (Mt)", "ASK (Bn)", "Seats (Mn)"]]
         .sum()
         .reset_index()
     )
@@ -192,7 +194,7 @@ def preprocess(filename="../03_routes_schedule/data/final_12_12.csv"):
                 "departure_ISO3",
                 "arrival_ISO3",
             ]
-        )[["seats", "ask", "fuel_burn", "co2", "CO2 (Mt)", "ASK (Bn)", "Seats (Mn)"]]
+        )[["Seats", "ASK", "fuel_burn", "CO2 (kg)", "CO2 (Mt)", "ASK (Bn)", "Seats (Mn)"]]
         .sum()
         .reset_index()
     )
@@ -203,10 +205,10 @@ def preprocess(filename="../03_routes_schedule/data/final_12_12.csv"):
         )
         .agg(
             {
-                "seats": "sum",
-                "ask": "sum",
+                "Seats": "sum",
+                "ASK": "sum",
                 "fuel_burn": "sum",
-                "co2": "sum",
+                "CO2 (kg)": "sum",
                 "CO2 (Mt)": "sum",
                 "ASK (Bn)": "sum",
                 "Seats (Mn)": "sum",

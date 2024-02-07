@@ -14,12 +14,13 @@ def preprocess(filename="../01_to_03_bis_opensky_only/data/os_alone.csv"):
         na_values=["", "NaN"],
         index_col=0,
     ).dropna(subset=["departure_lon", "arrival_lon"])
+    flights_df.rename(columns={'co2': 'CO2 (kg)', 'seats': 'Seats', 'ask': 'ASK'}, inplace=True)
     flights_df["acft_icao"] = flights_df["acft_icao"].fillna("Unknown Aircraft")
     flights_df["airline_iata"] = flights_df["airline_iata"].fillna("Unknown Airline")
-    flights_df["CO2 (Mt)"] = flights_df["co2"] / 1e9
-    flights_df["ASK (Bn)"] = flights_df["ask"] / 1e9
-    flights_df["Seats (Mn)"] = flights_df["seats"] / 1e6
-    flights_df["CO2 Ppax"] = flights_df["co2"] / (flights_df["seats"] * load_factor)
+    flights_df["CO2 (Mt)"] = flights_df["CO2 (kg)"] / 1e9
+    flights_df["ASK (Bn)"] = flights_df["ASK"] / 1e9
+    flights_df["Seats (Mn)"] = flights_df["Seats"] / 1e6
+    flights_df["CO2 Ppax"] = flights_df["CO2 (kg)"] / (flights_df["Seats"] * load_factor)
 
     ### Aestethics
     continent_codes = {
@@ -111,10 +112,10 @@ def preprocess(filename="../01_to_03_bis_opensky_only/data/os_alone.csv"):
             ]
         )[
             [
-                "seats",
-                "ask",
+                "Seats",
+                "ASK",
                 "fuel_burn",
-                "co2",
+                "CO2 (kg)",
                 "n_flights",
                 "CO2 (Mt)",
                 "ASK (Bn)",
@@ -129,10 +130,10 @@ def preprocess(filename="../01_to_03_bis_opensky_only/data/os_alone.csv"):
     continental_flows_non_dir = (
         flights_df_conti.groupby(["group_col"])[
             [
-                "seats",
-                "ask",
+                "Seats",
+                "ASK",
                 "fuel_burn",
-                "co2",
+                "CO2 (kg)",
                 "n_flights",
                 "CO2 (Mt)",
                 "ASK (Bn)",
@@ -202,10 +203,10 @@ def preprocess(filename="../01_to_03_bis_opensky_only/data/os_alone.csv"):
             ]
         )[
             [
-                "seats",
-                "ask",
+                "Seats",
+                "ASK",
                 "fuel_burn",
-                "co2",
+                "CO2 (kg)",
                 "n_flights",
                 "CO2 (Mt)",
                 "ASK (Bn)",
@@ -229,10 +230,10 @@ def preprocess(filename="../01_to_03_bis_opensky_only/data/os_alone.csv"):
             ]
         )[
             [
-                "seats",
-                "ask",
+                "Seats",
+                "ASK",
                 "fuel_burn",
-                "co2",
+                "CO2 (kg)",
                 "n_flights",
                 "CO2 (Mt)",
                 "ASK (Bn)",
@@ -249,10 +250,10 @@ def preprocess(filename="../01_to_03_bis_opensky_only/data/os_alone.csv"):
         )
         .agg(
             {
-                "seats": "sum",
-                "ask": "sum",
+                "Seats": "sum",
+                "ASK": "sum",
                 "fuel_burn": "sum",
-                "co2": "sum",
+                "CO2 (kg)": "sum",
                 "n_flights": "sum",
                 "CO2 (Mt)": "sum",
                 "ASK (Bn)": "sum",
