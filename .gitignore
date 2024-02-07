@@ -18,3 +18,7 @@ __pycache__/*
 
 # Build and docs folder/files
 .idea/*
+/aeroscope/04_applications/old_frontend/*
+/aeroscope/04_applications/outcmaes/*
+*.pdf
+*.png
